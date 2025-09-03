@@ -12,7 +12,6 @@ export default class DefaultContext implements Context {
 
     // Operations - List focuses.
     async listFocuses(settings?: ContextFocusConfigListSettings): Promise<ContextFocusConfigListResult> {
-        const focusConfigs = config.focuses;
-        return { focusConfigs };
+        return { focusConfigs: this.config.focuses };
     }
 }

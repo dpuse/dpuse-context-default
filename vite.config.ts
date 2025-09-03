@@ -9,7 +9,7 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve('src/index.ts'),
-            name: 'DataposFileStoreEmulatorConnector',
+            name: 'DataPosDefaultContext',
             formats: ['es'],
             fileName: (format: string) => `${config.id}.${format}.js`
         },

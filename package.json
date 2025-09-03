@@ -3,12 +3,13 @@
     "license": "MIT",
     "private": true,
     "type": "module",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "peerDependencies": {
-        "@datapos/datapos-development": "^0.3.17",
+        "@datapos/datapos-shared": "^0.3.22",
         "nanoid": "^5.1.5"
     },
     "devDependencies": {
+        "@datapos/datapos-development": "^0.3.17",
         "@eslint/js": "^9.28.0",
         "@types/node": "^22.15.30",
         "eslint": "^9.28.0",
@@ -28,9 +29,9 @@
         "lint": "npx eslint src/**/*.ts",
         "release": "npm run syncWithGitHub && npm run build && npm run uploadModuleToR2 && npm run uploadModuleConfig",
         "syncWithGitHub": "npm run bumpVersion && npm run buildConfig && node -e \"import('@datapos/datapos-development').then(m => m.syncWithGitHub())\"",
-        "updateDependencies": "npm run updateDevelopment && npm run updateShareCore",
+        "updateDependencies": "npm run updateDevelopment && npm run updateShared",
         "updateDevelopment": "npm install --save-dev @datapos/datapos-development@latest",
-        "updateShareCore": "npm install @datapos/datapos-share-core@latest",
+        "updateShared": "npm install @datapos/datapos-shared@latest",
         "uploadModuleConfig": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleConfig())\"",
         "uploadModuleToR2": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleToR2('datapos-connector-file-store-emulator.es.js', 'datapos-engine-eu/connectors/datapos-connector-file-store-emulator.es.js'))\""
     }

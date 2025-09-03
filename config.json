@@ -9,5 +9,177 @@
     "logo": "<svg viewBox=\"0 0 327.132 351\" xmlns=\"http://www.w3.org/2000/svg\"><path style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(107, 114, 128);\" paint-order=\"stroke\" d=\"M 177.964 68.927 L 177.964 310.886 L 109.043 310.886 C 70.969 310.886 40.119 280.034 40.119 241.962 C 40.119 203.92 70.969 173.07 109.043 173.07 L 116.855 172.822 L 116.855 132.951 L 109.043 132.951 C 48.831 132.951 0 181.75 0 241.962 C 0 302.203 48.831 351.005 109.043 351.005 L 218.083 351.005 L 218.083 218.053 L 225.896 209.943 L 225.896 185.351 L 218.083 177.933 L 218.083 68.927 L 177.964 68.927 Z\" stroke-linecap=\"round\"/><path style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(100, 147, 191);\" paint-order=\"stroke\" d=\"M 218.084 0 L 109.041 0 L 109.041 282.078 L 149.16 282.078 L 149.16 40.119 L 218.084 40.119 C 256.158 40.119 287.007 70.969 287.007 109.043 C 287.007 147.085 256.158 177.932 218.084 177.932 L 218.084 218.054 C 278.293 218.054 327.127 169.252 327.127 109.043 C 327.127 48.802 278.293 0 218.084 0\" stroke-linecap=\"round\"/></svg>",
     "logoDark": "<svg viewBox=\"0 0 327.132 351\" xmlns=\"http://www.w3.org/2000/svg\"><path style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(107, 114, 128);\" paint-order=\"stroke\" d=\"M 177.964 68.927 L 177.964 310.886 L 109.043 310.886 C 70.969 310.886 40.119 280.034 40.119 241.962 C 40.119 203.92 70.969 173.07 109.043 173.07 L 116.855 172.822 L 116.855 132.951 L 109.043 132.951 C 48.831 132.951 0 181.75 0 241.962 C 0 302.203 48.831 351.005 109.043 351.005 L 218.083 351.005 L 218.083 218.053 L 225.896 209.943 L 225.896 185.351 L 218.083 177.933 L 218.083 68.927 L 177.964 68.927 Z\" stroke-linecap=\"round\"/><path style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(100, 147, 191);\" paint-order=\"stroke\" d=\"M 218.084 0 L 109.041 0 L 109.041 282.078 L 149.16 282.078 L 149.16 40.119 L 218.084 40.119 C 256.158 40.119 287.007 70.969 287.007 109.043 C 287.007 147.085 256.158 177.932 218.084 177.932 L 218.084 218.054 C 278.293 218.054 327.127 169.252 327.127 109.043 C 327.127 48.802 278.293 0 218.084 0\" stroke-linecap=\"round\"/></svg>",
     "statusId": "alpha",
-    "version": "0.0.5"
+    "typeId": "context",
+    "version": "0.0.6",
+    "focuses": [
+        {
+            "id": "core",
+            "label": {
+                "en-gb": "Core"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 1,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "acctBudg",
+            "label": {
+                "en-gb": "Accounting & Budgeting"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 2,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "custSvc",
+            "label": {
+                "en-gb": "Customer Service"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 3,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "hr",
+            "label": {
+                "en-gb": "Human Resources"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 4,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "infoMgmt",
+            "label": {
+                "en-gb": "Information Management"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 5,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "invMgmt",
+            "label": {
+                "en-gb": "Inventory Management"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 6,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "ordMgmt",
+            "label": {
+                "en-gb": "Order Management"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 7,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "rd",
+            "label": {
+                "en-gb": "Research & Development"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 8,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "salesMgmt",
+            "label": {
+                "en-gb": "Sales Management"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 9,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "ship",
+            "label": {
+                "en-gb": "Shipment"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 10,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "socNet",
+            "label": {
+                "en-gb": "Social Networking"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 11,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "wrkEff",
+            "label": {
+                "en-gb": "Work Effort"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 12,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        },
+        {
+            "id": "global",
+            "label": {
+                "en-gb": "Global"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 13,
+            "modelRefs": [],
+            "statusId": "alpha",
+            "typeId": "focus"
+        }
+    ]
 }

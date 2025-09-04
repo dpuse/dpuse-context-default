@@ -1,0 +1,30 @@
+{
+    "id": "core",
+    "label": { "en-gb": "Core" },
+    "description": { "en-gb": "..." },
+    "diagramURL": "",
+    "dimensionGroups": [],
+    "entityGroups": [
+        {
+            "id": "org",
+            "label": { "en-gb": "Organisation" },
+            "description": { "en-gb": "..." },
+            "entities": [
+                { "id": "org", "label": { "en-gb": "Organisation" } },
+                { "id": "orgUnit", "label": { "en-gb": "Organisational Unit" } }
+            ]
+        },
+        {
+            "id": "per",
+            "label": { "en-gb": "Person" },
+            "description": { "en-gb": "..." },
+            "entities": [
+                { "id": "per", "label": { "en-gb": "Person" } },
+                { "id": "perLang", "label": { "en-gb": "Person Language" } },
+                { "id": "perNat", "label": { "en-gb": "Person Nationality" } }
+            ]
+        }
+    ],
+    "secondaryMeasureGroups": [],
+    "viewGroups": []
+}

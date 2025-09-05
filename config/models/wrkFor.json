@@ -1,0 +1,40 @@
+{
+    "id": "wrkFor",
+    "label": { "en-gb": "Workforce" },
+    "description": { "en-gb": "..." },
+    "diagramURL": "",
+    "dimensionGroups": [
+        {
+            "id": "emp",
+            "label": { "en-gb": "Employment" },
+            "description": { "en-gb": "..." },
+            "dimensions": [
+                { "id": "cstCtr", "label": { "en-gb": "Cost Center" } },
+                { "id": "empSts", "label": { "en-gb": "Employment Status" } },
+                { "id": "empTyp", "label": { "en-gb": "Employment Type" } },
+                { "id": "jobTen", "label": { "en-gb": "Job Tenure" } },
+                { "id": "loc", "label": { "en-gb": "Location" } },
+                { "id": "locTen", "label": { "en-gb": "Location Tenure" } },
+                { "id": "orgTen", "label": { "en-gb": "Organisation Tenure" } },
+                { "id": "orgUnit", "label": { "en-gb": "Organisational Unit" } },
+                { "id": "orgUnitTen", "label": { "en-gb": "Organisational Unit Tenure" } },
+                { "id": "payAmt", "label": { "en-gb": "Payment Amount" } },
+                { "id": "payGrd", "label": { "en-gb": "Payment Grade" } },
+                { "id": "posTen", "label": { "en-gb": "Position Tenure" } },
+                { "id": "rptTo", "label": { "en-gb": "Reports To" } },
+                { "id": "rptToTen", "label": { "en-gb": "Reports To  Tenure" } },
+                { "id": "stdWrkHrs", "label": { "en-gb": "Standard Working Hours" } }
+            ]
+        }
+    ],
+    "entityGroups": [
+        {
+            "id": "per",
+            "label": { "en-gb": "Person" },
+            "description": { "en-gb": "..." },
+            "entities": [{ "id": "perEmp", "label": { "en-gb": "Person Employment" } }]
+        }
+    ],
+    "secondaryMeasureGroups": [],
+    "viewGroups": []
+}

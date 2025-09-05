@@ -24,7 +24,7 @@
                 { "id": "bioPhysAb", "label": { "en-gb": "Physical Ability" } },
                 { "id": "bioResLoc", "label": { "en-gb": "Residential Location" } },
                 { "id": "bioResNat", "label": { "en-gb": "Residential Nationality" } },
-                { "id": "bioBexOri", "label": { "en-gb": "Sexual Orientation" } },
+                { "id": "bioSexOri", "label": { "en-gb": "Sexual Orientation" } },
                 { "id": "bioVetSts", "label": { "en-gb": "Veteran Status" } }
             ]
         },

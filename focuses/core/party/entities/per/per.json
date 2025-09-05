@@ -1,0 +1,56 @@
+{
+    "id": "per",
+    "label": { "en-gb": "Person" },
+    "labelPlural": { "en-gb": "People" },
+    "description": { "en-gb": "..." },
+    "dataItems": [
+        { "id": "entId", "label": { "en-gb": "Entity Id" }, "type": "string", "description": { "en-gb": "The unique identifier assigned to the person." } },
+        {
+            "id": "evtMom",
+            "label": { "en-gb": "Event Moment" },
+            "type": "moment",
+            "description": { "en-gb": "The effective moment of the event. See the events for an explanation of how the effective moment is interpreted for each event." }
+        },
+        {
+            "id": "evtSeq",
+            "label": { "en-gb": "Event Sequence" },
+            "type": "number",
+            "description": {
+                "en-gb": "The sequence of the event within the moment. If multiple events occur at the same moment, then we can use this data item to define the sequence."
+            }
+        },
+        {
+            "id": "evtId",
+            "label": { "en-gb": "Event Id" },
+            "type": "string",
+            "description": { "en-gb": "The event identifier. See the events for a list of acceptable identifiers." }
+        },
+        { "id": "famNames", "label": { "en-gb": "Family Names" }, "type": "string", "description": { "en-gb": "The person's family names." } },
+        { "id": "givNames", "label": { "en-gb": "Given Names" }, "type": "string", "description": { "en-gb": "The person's given names." } },
+        { "id": "age", "label": { "en-gb": "Age" }, "type": "formula", "formula": "ageYear(bthDte,evtMom)" },
+        { "id": "bthDte", "label": { "en-gb": "Birth Date" }, "type": "date" },
+        { "id": "ctryBthId", "label": { "en-gb": "Country of Birth Id" }, "type": "id" },
+        { "id": "eduLvlId", "label": { "en-gb": "Education Level Id" }, "type": "id" },
+        { "id": "ethGrpId", "label": { "en-gb": "Ethnic Group Id" }, "type": "id" },
+        { "id": "genId", "label": { "en-gb": "Gender Id" }, "type": "formula", "formula": "year(bthDte)" },
+        { "id": "gdrId", "label": { "en-gb": "Generation Id" }, "type": "id" },
+        { "id": "homeLocId", "label": { "en-gb": "Home Location Id" }, "type": "id" },
+        { "id": "langPrefId", "type": "id" },
+        { "id": "marStsId", "type": "id" },
+        { "id": "minId", "type": "id" },
+        { "id": "physAbId", "type": "id" },
+        { "id": "resLocId", "type": "id" },
+        { "id": "resNatId", "type": "id" },
+        { "id": "sexOriId", "type": "id" },
+        { "id": "vetStsId", "type": "id" }
+    ],
+    "events": [
+        { "id": "brn", "label": "Born", "typeId": "Activation", "description": { "en-gb": "The moment the person was born." } },
+        { "id": "rec", "label": "Recognised", "typeId": "Recognition", "description": { "en-gb": "The moment the person was recognised." } },
+        { "id": "upd", "label": "Updated", "typeId": "Modification", "description": { "en-gb": "The moment from which the modification applied." } },
+        { "id": "der", "label": "Derecognised", "typeId": "Derecognition", "description": { "en-gb": "The moment from which the person was no longer recognised." } },
+        { "id": "dec", "label": "Deceased", "typeId": "Closing", "description": { "en-gb": "The moment from which the person was no longer alive." } },
+        { "id": "del", "label": "Deleted", "typeId": "Deletion", "description": { "en-gb": "The moment from which the person entity was deleted." } }
+    ],
+    "primaryMeasures": []
+}

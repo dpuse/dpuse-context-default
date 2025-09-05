@@ -1,0 +1,62 @@
+{
+    "id": "gen",
+    "label": { "en-gb": "Generation" },
+    "labelPlural": { "en-gb": "Generations" },
+    "description": {
+        "en-gb": [
+            "This dimension categorises people based on their membership of a cohort of individuals who were born at the same time. A standard generation hierarchy is as follows:",
+            "This dimension categorises people based on their membership of a cohort of individuals who were born at the same time. A standard generation hierarchy is as follows:"
+        ]
+    },
+    "hierarchies": [
+        {
+            "id": "def",
+            "label": { "en-gb": "Default" },
+            "description": { "en-gb": "..." },
+            "type": null,
+            "levels": [],
+            "items": [
+                {
+                    "id": "1927-",
+                    "label": { "en-gb": "Greatest Generation" },
+                    "description": { "en-gb": "Grew up during the Great Depression and fought in WWII." }
+                },
+                {
+                    "id": "1928-1945",
+                    "label": { "en-gb": "Silent Generation" },
+                    "description": { "en-gb": "Children of the Great Depression & WWII" },
+                    "items": []
+                },
+                {
+                    "id": "1946-1964",
+                    "label": { "en-gb": "Baby Boomers" },
+                    "description": { "en-gb": "Post-WWII baby boom, pre-digital era" },
+                    "items": []
+                },
+                {
+                    "id": "1965-1980",
+                    "label": { "en-gb": "Generation X" },
+                    "description": { "en-gb": "Cold War, rise of PCs, 'latchkey kids'" },
+                    "items": []
+                },
+                {
+                    "id": "1981-1996",
+                    "label": { "en-gb": "Millennials (Gen Y)" },
+                    "description": { "en-gb": "Grew up with internet, early adulthood during Great Recession" },
+                    "items": []
+                },
+                {
+                    "id": "1997-2012",
+                    "label": { "en-gb": "Generation Z" },
+                    "description": { "en-gb": "Digital natives, social media generation" },
+                    "items": []
+                },
+                {
+                    "id": "2013+",
+                    "label": { "en-gb": "Generation Alpha" },
+                    "description": { "en-gb": "Current youngest cohort, born fully into mobile/AI world" }
+                }
+            ]
+        }
+    ]
+}

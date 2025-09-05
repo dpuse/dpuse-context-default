@@ -14,7 +14,7 @@
             "label": { "en-gb": "Default" },
             "description": { "en-gb": "..." },
             "type": null,
-            "levels": [],
+            "levels": [{ "id": "10Yr" }, { "id": "5Yr" }],
             "items": [
                 {
                     "id": "0-9",
@@ -101,6 +101,78 @@
                     ]
                 },
                 { "id": "120+" },
+                { "id": "#", "label": { "en-gb": "Not Applicable" } },
+                { "id": "_", "label": { "en-gb": "Not Provided" } },
+                { "id": "?", "label": { "en-gb": "Unknown" } }
+            ]
+        },
+        {
+            "id": "edu",
+            "label": { "en-gb": "Education" },
+            "description": { "en-gb": "Education-specific brackets. See: https://chatgpt.com/c/68baa209-e514-8321-9f44-a880cd80087e" },
+            "type": null,
+            "levels": [],
+            "items": [
+                { "id": "0-4", "label": { "en-gb": "Early Childhood" }, "items": [{ "id": 0 }, { "id": 1 }, { "id": 2 }, { "id": 3 }, { "id": 4 }] },
+                { "id": "5-11", "label": { "en-gb": "Primary School" }, "items": [{ "id": 5 }, { "id": 6 }, { "id": 7 }, { "id": 8 }, { "id": 9 }, { "id": 10 }, { "id": 11 }] },
+                { "id": "12-17", "label": { "en-gb": "Secondary School" }, "items": [{ "id": 12 }, { "id": 13 }, { "id": 14 }, { "id": 15 }, { "id": 16 }, { "id": 17 }] },
+                { "id": "18-22", "label": { "en-gb": "College Age" }, "items": [{ "id": 18 }, { "id": 19 }, { "id": 20 }, { "id": 21 }, { "id": 22 }] },
+                {
+                    "id": "23-29",
+                    "label": { "en-gb": "Postgraduate/Early Career" },
+                    "items": [{ "id": 23 }, { "id": 24 }, { "id": 25 }, { "id": 26 }, { "id": 27 }, { "id": 28 }, { "id": 29 }]
+                },
+                { "id": "30+", "label": { "en-gb": "Adult Learner" } },
+                { "id": "#", "label": { "en-gb": "Not Applicable" } },
+                { "id": "_", "label": { "en-gb": "Not Provided" } },
+                { "id": "?", "label": { "en-gb": "Unknown" } }
+            ]
+        },
+        {
+            "id": "finSrv",
+            "label": { "en-gb": "Financial Services" },
+            "description": { "en-gb": "Linked to typical financial needs and risk profiles. See: https://chatgpt.com/c/68baa209-e514-8321-9f44-a880cd80087e" },
+            "type": null,
+            "levels": [],
+            "items": [
+                { "id": "#", "label": { "en-gb": "Not Applicable" } },
+                { "id": "_", "label": { "en-gb": "Not Provided" } },
+                { "id": "?", "label": { "en-gb": "Unknown" } }
+            ]
+        },
+        {
+            "id": "hlthCare",
+            "label": { "en-gb": "Healthcare / Public Health" },
+            "description": {
+                "en-gb": "Standardized for epidemiology and reporting. Matches WHO/CDC reporting brackets. See: https://chatgpt.com/c/68baa209-e514-8321-9f44-a880cd80087e"
+            },
+            "type": null,
+            "levels": [],
+            "items": [
+                { "id": "#", "label": { "en-gb": "Not Applicable" } },
+                { "id": "_", "label": { "en-gb": "Not Provided" } },
+                { "id": "?", "label": { "en-gb": "Unknown" } }
+            ]
+        },
+        {
+            "id": "medAdv",
+            "label": { "en-gb": "Media / Advertising (Nielsen, Comscore)" },
+            "description": { "en-gb": "Used for audience measurement. See: https://chatgpt.com/c/68baa209-e514-8321-9f44-a880cd80087e" },
+            "type": null,
+            "levels": [],
+            "items": [
+                { "id": "#", "label": { "en-gb": "Not Applicable" } },
+                { "id": "_", "label": { "en-gb": "Not Provided" } },
+                { "id": "?", "label": { "en-gb": "Unknown" } }
+            ]
+        },
+        {
+            "id": "mktRet",
+            "label": { "en-gb": "Marketing / Retail" },
+            "description": { "en-gb": "Focuses on life stages and buying behavior. See: https://chatgpt.com/c/68baa209-e514-8321-9f44-a880cd80087e" },
+            "type": null,
+            "levels": [],
+            "items": [
                 { "id": "#", "label": { "en-gb": "Not Applicable" } },
                 { "id": "_", "label": { "en-gb": "Not Provided" } },
                 { "id": "?", "label": { "en-gb": "Unknown" } }

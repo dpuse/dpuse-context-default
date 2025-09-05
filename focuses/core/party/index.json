@@ -1,0 +1,86 @@
+{
+    "id": "party",
+    "label": { "en-gb": "Party" },
+    "description": { "en-gb": "..." },
+    "diagramURL": "",
+    "dimensionGroups": [
+        {
+            "id": "bio",
+            "label": { "en-gb": "Biographical" },
+            "description": { "en-gb": "..." },
+            "dimensions": [
+                { "id": "bioAge", "label": { "en-gb": "Age" } },
+                { "id": "bioCtryBth", "label": { "en-gb": "Country of Birth" } },
+                { "id": "bioEduLvl", "label": { "en-gb": "Education Level" } },
+                { "id": "bioEthGrp", "label": { "en-gb": "Ethnic Group" } },
+                { "id": "bioGdr", "label": { "en-gb": "Gender" } },
+                { "id": "bioGen", "label": { "en-gb": "Generation" } },
+                { "id": "bioHomeLoc", "label": { "en-gb": "Home Location" } },
+                { "id": "bioLangPref", "label": { "en-gb": "Language (Preferred)" } },
+                { "id": "bioLang", "label": { "en-gb": "Language" } },
+                { "id": "bioMarSts", "label": { "en-gb": "Marital Status" } },
+                { "id": "bioMin", "label": { "en-gb": "Minority" } },
+                { "id": "bioNat", "label": { "en-gb": "Nationality" } },
+                { "id": "bioPhysAb", "label": { "en-gb": "Physical Ability" } },
+                { "id": "bioResLoc", "label": { "en-gb": "Residential Location" } },
+                { "id": "bioResNat", "label": { "en-gb": "Residential Nationality" } },
+                { "id": "bioBexOri", "label": { "en-gb": "Sexual Orientation" } },
+                { "id": "bioVetSts", "label": { "en-gb": "Veteran Status" } }
+            ]
+        },
+        {
+            "id": "loc",
+            "label": { "en-gb": "Location" },
+            "description": { "en-gb": "..." },
+            "dimensions": [
+                { "id": "locCont", "label": { "en-gb": "Continent" } },
+                { "id": "locCtry", "label": { "en-gb": "Country" } },
+                { "id": "locReg", "label": { "en-gb": "Region" } },
+                { "id": "locSubReg", "label": { "en-gb": "Subregion" } },
+                { "id": "locCty", "label": { "en-gb": "City" } },
+                { "id": "locSubCty", "label": { "en-gb": "Suburb" } },
+                { "id": "locPstCde", "label": { "en-gb": "Postal Code" } },
+                { "id": "locTimZne", "label": { "en-gb": "Time Zone" } },
+                { "id": "locUrb", "label": { "en-gb": "Urbanicity" } }
+            ]
+        },
+        {
+            "id": "org",
+            "label": { "en-gb": "Organisation" },
+            "description": { "en-gb": "..." },
+            "dimensions": [
+                { "id": "orgTyp", "label": { "en-gb": "Organisation Type" } },
+                { "id": "orgUnitTyp", "label": { "en-gb": "Organisational Unit Type" } }
+            ]
+        }
+    ],
+    "entityGroups": [
+        {
+            "id": "loc",
+            "label": { "en-gb": "Location" },
+            "description": { "en-gb": "..." },
+            "entities": [{ "id": "loc", "label": { "en-gb": "Location" } }]
+        },
+        {
+            "id": "org",
+            "label": { "en-gb": "Organisation" },
+            "description": { "en-gb": "..." },
+            "entities": [
+                { "id": "org", "label": { "en-gb": "Organisation" } },
+                { "id": "orgUnit", "label": { "en-gb": "Organisational Unit" } }
+            ]
+        },
+        {
+            "id": "per",
+            "label": { "en-gb": "Person" },
+            "description": { "en-gb": "..." },
+            "entities": [
+                { "id": "per", "label": { "en-gb": "Person" } },
+                { "id": "perLang", "label": { "en-gb": "Person Language" } },
+                { "id": "perNat", "label": { "en-gb": "Person Nationality" } }
+            ]
+        }
+    ],
+    "secondaryMeasureGroups": [],
+    "viewGroups": []
+}

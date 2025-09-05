@@ -1,5 +1,5 @@
 {
-    "id": "ageYr",
+    "id": "age",
     "label": { "en-gb": "Age" },
     "labelPlural": { "en-gb": "Ages" },
     "description": {
@@ -14,7 +14,10 @@
             "label": { "en-gb": "Default" },
             "description": { "en-gb": "..." },
             "type": null,
-            "levels": [{ "id": "10Yr" }, { "id": "5Yr" }],
+            "levels": [
+                { "id": "10Yr", "label": { "en-gb": "10 Year Intervals" } },
+                { "id": "5Yr", "label": { "en-gb": "5 Year Intervals" } }
+            ],
             "items": [
                 {
                     "id": "0-9",

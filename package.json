@@ -3,7 +3,7 @@
     "license": "MIT",
     "private": true,
     "type": "module",
-    "version": "0.0.18",
+    "version": "0.0.19",
     "peerDependencies": {
         "@datapos/datapos-shared": "^0.3.24",
         "nanoid": "^5.1.5"
@@ -12,6 +12,7 @@
         "@datapos/datapos-development": "^0.3.17",
         "@eslint/js": "^9.28.0",
         "@types/node": "^22.15.30",
+        "dotenv": "^17.2.2",
         "eslint": "^9.28.0",
         "globals": "^16.2.0",
         "prettier": "^3.5.3",
@@ -28,7 +29,9 @@
         "format": "prettier --write *.ts",
         "lint": "npx eslint src/**/*.ts",
         "release": "npm run syncWithGitHub && npm run build && npm run uploadModuleToR2 && npm run uploadModuleConfig",
-        "retrieveCountryData": "ts-node src/runRetrieveCountries.ts",
+        "retrieveCountryDataFromCountrylayer": "node ./helpers/retrieveCountryDataFromCountrylayer.js",
+        "retrieveCountryDataFromCountryRest": "node ./helpers/retrieveCountryDataFromCountryRest.js",
+        "buildCountryDimensions": "node ./helpers/buildCountryDimensions.js",
         "syncWithGitHub": "npm run bumpVersion && npm run buildConfig && node -e \"import('@datapos/datapos-development').then(m => m.syncWithGitHub())\"",
         "updateDependencies": "npm run updateDevelopment && npm run updateShared",
         "updateDevelopment": "npm install --save-dev @datapos/datapos-development@latest",

@@ -33,21 +33,3 @@ export default class DefaultContext implements Context {
     // Operations
     async retrieveEntity() {}
 }
-
-export async function retrieveCountries() {
-    console.log(1111, 1234);
-    return;
-    // const headersList = {};
-
-    // const response = await fetch(`https://api.countrylayer.com/v2/all?access_key=${import.meta.env.VITE_COUNRTYLAYER_ACCESS_KEY}`, {
-    //     method: 'GET',
-    //     headers: headersList
-    // });
-
-    // const data = await response.text();
-    // console.log(data);
-}
-
-export function retrieveLanguages() {}
-
-export function retrieveNationalities() {}

@@ -3,7 +3,7 @@
     "license": "MIT",
     "private": true,
     "type": "module",
-    "version": "0.0.17",
+    "version": "0.0.18",
     "peerDependencies": {
         "@datapos/datapos-shared": "^0.3.24",
         "nanoid": "^5.1.5"
@@ -28,6 +28,7 @@
         "format": "prettier --write *.ts",
         "lint": "npx eslint src/**/*.ts",
         "release": "npm run syncWithGitHub && npm run build && npm run uploadModuleToR2 && npm run uploadModuleConfig",
+        "retrieveCountryData": "ts-node src/runRetrieveCountries.ts",
         "syncWithGitHub": "npm run bumpVersion && npm run buildConfig && node -e \"import('@datapos/datapos-development').then(m => m.syncWithGitHub())\"",
         "updateDependencies": "npm run updateDevelopment && npm run updateShared",
         "updateDevelopment": "npm install --save-dev @datapos/datapos-development@latest",

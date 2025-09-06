@@ -3,7 +3,7 @@
     "license": "MIT",
     "private": true,
     "type": "module",
-    "version": "0.0.19",
+    "version": "0.0.20",
     "peerDependencies": {
         "@datapos/datapos-shared": "^0.3.24",
         "nanoid": "^5.1.5"

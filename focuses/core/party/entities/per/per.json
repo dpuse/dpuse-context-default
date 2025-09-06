@@ -27,22 +27,23 @@
         },
         { "id": "famNames", "label": { "en-gb": "Family Names" }, "type": "string", "description": { "en-gb": "The person's family names." } },
         { "id": "givNames", "label": { "en-gb": "Given Names" }, "type": "string", "description": { "en-gb": "The person's given names." } },
-        { "id": "age", "label": { "en-gb": "Age" }, "type": "formula", "formula": "ageYear(bthDte,evtMom)" },
-        { "id": "bthDte", "label": { "en-gb": "Birth Date" }, "type": "date" },
-        { "id": "ctryBthId", "label": { "en-gb": "Country of Birth Id" }, "type": "id" },
-        { "id": "eduLvlId", "label": { "en-gb": "Education Level Id" }, "type": "id" },
-        { "id": "ethGrpId", "label": { "en-gb": "Ethnic Group Id" }, "type": "id" },
-        { "id": "genId", "label": { "en-gb": "Gender Id" }, "type": "formula", "formula": "year(bthDte)" },
-        { "id": "gdrId", "label": { "en-gb": "Generation Id" }, "type": "id" },
-        { "id": "homeLocId", "label": { "en-gb": "Home Location Id" }, "type": "id" },
-        { "id": "langPrefId", "type": "id" },
-        { "id": "marStsId", "type": "id" },
-        { "id": "minId", "type": "id" },
-        { "id": "physAbId", "type": "id" },
-        { "id": "resLocId", "type": "id" },
-        { "id": "resNatId", "type": "id" },
-        { "id": "sexOriId", "type": "id" },
-        { "id": "vetStsId", "type": "id" }
+        { "id": "bthDate", "label": { "en-gb": "Date of Birth" }, "type": "day(first('brn'))" },
+        { "id": "dthDate", "label": { "en-gb": "Date of Death" }, "type": "day(first('dec'))" },
+        { "id": "age", "type": "lookup('bioAge', ageYear(bthDate))" },
+        { "id": "ctryBthId", "type": "lookup('ctry')" },
+        { "id": "eduLvl", "type": "lookup('bioEduLvl')" },
+        { "id": "ethGrp", "type": "lookup('bioEthGrp')" },
+        { "id": "gen", "type": "lookup('bioGen', year(bthDate))" },
+        { "id": "gdr", "type": "lookup('bioGdr')" },
+        { "id": "homeLoc", "label": { "en-gb": "Home Location" }, "type": "lookup('loc.loc')" },
+        { "id": "langPref", "type": "lookup('lang')" },
+        { "id": "marSts", "type": "lookup('bioMarSts')" },
+        { "id": "min", "type": "lookup('bioMin')" },
+        { "id": "physAb", "type": "lookup('bioPhyAb')" },
+        { "id": "resLoc", "label": { "en-gb": "Residential Location" }, "type": "lookup('loc.loc')" },
+        { "id": "resNat", "label": { "en-gb": "Residential Nationality" }, "type": "lookup('nat')" },
+        { "id": "sexOri", "type": "lookup('bioSexOri')" },
+        { "id": "vetSts", "type": "lookup('bioVetSts')" }
     ],
     "events": [
         { "id": "brn", "label": { "en-gb": "Born" }, "typeId": "activation", "description": { "en-gb": "The moment the person was born." } },
@@ -53,15 +54,23 @@
         { "id": "del", "label": { "en-gb": "Deleted" }, "typeId": "deletion", "description": { "en-gb": "The moment from which the person entity was deleted." } }
     ],
     "primaryMeasures": [
-        { "label": { "en-gb": "Person Opening Count" }, "description": { "en-gb": "The number of people present at the opening moment of a reporting period." } },
-        { "label": { "en-gb": "Person In Count" }, "description": { "en-gb": "The number of people recognised within a reporting period." } },
-        { "label": { "en-gb": "Person Starting In Count" }, "description": { "en-gb": "The number of people recognised at the first moment of a reporting period." } },
-        { "label": { "en-gb": "Person Starting Count" }, "description": { "en-gb": "The number of people present at the start of a reporting period." } },
-        { "label": { "en-gb": "Person During Count" }, "description": { "en-gb": "The number of people present at any moment within the reporting period." } },
-        { "label": { "en-gb": "Person Weighted Count" }, "description": { "en-gb": "The weighted number of people present within a reporting period." } },
-        { "label": { "en-gb": "Person Out Count" }, "description": { "en-gb": "The number of people derecognised within a reporting period." } },
-        { "label": { "en-gb": "Person Ending Out Count" }, "description": { "en-gb": "The number of people derecognised at the last moment of a reporting period." } },
-        { "label": { "en-gb": "Person Ending Count" }, "description": { "en-gb": "The number of people present at the end of a reporting period." } },
-        { "label": { "en-gb": "Person Closing Count" }, "description": { "en-gb": "The number of people present at the closing moment of a reporting period." } }
+        { "id": "opnCnt", "label": { "en-gb": "Person Opening Count" }, "description": { "en-gb": "The number of people present at the opening moment of a reporting period." } },
+        { "id": "strCnt", "label": { "en-gb": "Person Starting Count" }, "description": { "en-gb": "The number of people present at the start of a reporting period." } },
+        {
+            "id": "strInCnt",
+            "label": { "en-gb": "Person Starting In Count" },
+            "description": { "en-gb": "The number of people recognised at the first moment of a reporting period." }
+        },
+        { "id": "durInCnt", "label": { "en-gb": "Person During In Count" }, "description": { "en-gb": "The number of people recognised during a reporting period." } },
+        { "id": "durCnt", "label": { "en-gb": "Person During Count" }, "description": { "en-gb": "The number of people present at any moment within the reporting period." } },
+        { "id": "wtdCnt", "label": { "en-gb": "Person Weighted Count" }, "description": { "en-gb": "The weighted number of people present within a reporting period." } },
+        { "id": "durOutCnt", "label": { "en-gb": "Person During Out Count" }, "description": { "en-gb": "The number of people derecognised during a reporting period." } },
+        {
+            "id": "endOutCnt",
+            "label": { "en-gb": "Person Ending Out Count" },
+            "description": { "en-gb": "The number of people derecognised at the last moment of a reporting period." }
+        },
+        { "id": "endCnt", "label": { "en-gb": "Person Ending Count" }, "description": { "en-gb": "The number of people present at the end of a reporting period." } },
+        { "id": "clsCnt", "label": { "en-gb": "Person Closing Count" }, "description": { "en-gb": "The number of people present at the closing moment of a reporting period." } }
     ]
 }

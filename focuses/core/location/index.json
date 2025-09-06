@@ -1,0 +1,34 @@
+{
+    "id": "location",
+    "label": { "en-gb": "Location" },
+    "description": { "en-gb": "..." },
+    "diagramURL": "",
+    "dimensionGroups": [
+        {
+            "id": "loc",
+            "label": { "en-gb": "Location" },
+            "description": { "en-gb": "..." },
+            "dimensions": [
+                { "id": "locCont", "label": { "en-gb": "Continents" } },
+                { "id": "locCtry", "label": { "en-gb": "Country" } },
+                { "id": "locReg", "label": { "en-gb": "Region" } },
+                { "id": "locSubReg", "label": { "en-gb": "Subregion" } },
+                { "id": "locCty", "label": { "en-gb": "City" } },
+                { "id": "locSubCty", "label": { "en-gb": "Suburb" } },
+                { "id": "locPstCde", "label": { "en-gb": "Postal Code" } },
+                { "id": "locTimZne", "label": { "en-gb": "Time Zone" } },
+                { "id": "locUrb", "label": { "en-gb": "Urbanicity" } }
+            ]
+        }
+    ],
+    "entityGroups": [
+        {
+            "id": "loc",
+            "label": { "en-gb": "Location" },
+            "description": { "en-gb": "..." },
+            "entities": [{ "id": "loc", "label": { "en-gb": "Location" } }]
+        }
+    ],
+    "secondaryMeasureGroups": [],
+    "viewGroups": []
+}

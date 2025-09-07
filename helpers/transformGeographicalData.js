@@ -1,12 +1,12 @@
 import fs from 'fs/promises';
 import geoDivisions from './data/geoDivisions.json' with { type: 'json' };
 import geoSubDivisions from './data/geoSubDivisions.json' with { type: 'json' };
-import languages from './languages.json' with { type: 'json' };
+import languages from './data/retrievals/language-codes-full.json' with { type: 'json' };
 
 async function buildDimensions() {
-    const countryDataIndependent = await fs.readFile('./helpers/countryDataFromCountryRestIndependent.json', 'utf-8');
+    const countryDataIndependent = await fs.readFile('./helpers/data/retrievals/countryDataFromCountryRestIndependent.json', 'utf-8');
     const countriesIndependent = JSON.parse(countryDataIndependent);
-    const countryDataDependent = await fs.readFile('./helpers/countryDataFromCountryRestDependent.json', 'utf-8');
+    const countryDataDependent = await fs.readFile('./helpers/data/retrievals/countryDataFromCountryRestDependent.json', 'utf-8');
     const countriesDependent = JSON.parse(countryDataDependent);
     const countries = [...countriesIndependent, ...countriesDependent];
     countries.sort((left, right) => left.cca2.localeCompare(right.cca2));

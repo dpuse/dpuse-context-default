@@ -1,0 +1,33 @@
+{
+    "id": "geographical",
+    "label": { "en-gb": "Geographical" },
+    "description": { "en-gb": "..." },
+    "diagramURL": "",
+    "dimensionGroups": [
+        {
+            "id": "geo",
+            "label": { "en-gb": "Geographical" },
+            "description": { "en-gb": "..." },
+            "dimensions": [
+                { "id": "locCtry", "label": { "en-gb": "Country" } },
+                { "id": "locReg", "label": { "en-gb": "Region" } },
+                { "id": "locSubReg", "label": { "en-gb": "Subregion" } },
+                { "id": "locCity", "label": { "en-gb": "City" } },
+                { "id": "locSubCity", "label": { "en-gb": "Suburb" } },
+                { "id": "locPstCde", "label": { "en-gb": "Postal Code" } },
+                { "id": "locTimZne", "label": { "en-gb": "Time Zone" } },
+                { "id": "locUrb", "label": { "en-gb": "Urbanicity" } }
+            ]
+        }
+    ],
+    "entityGroups": [
+        {
+            "id": "geo",
+            "label": { "en-gb": "Geographical" },
+            "description": { "en-gb": "..." },
+            "entities": [{ "id": "geo", "label": { "en-gb": "Geographical" } }]
+        }
+    ],
+    "secondaryMeasureGroups": [],
+    "viewGroups": []
+}

@@ -15,7 +15,7 @@
             "description": { "en-gb": "..." },
             "type": null,
             "levels": [],
-            "items": [
+            "children": [
                 { "id": "f", "label": { "en-gb": "Female" } },
                 { "id": "m", "label": { "en-gb": "Male" } },
                 { "id": "nb", "label": { "en-gb": "Nonbinary" } },

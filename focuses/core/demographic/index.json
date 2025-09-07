@@ -11,22 +11,6 @@
             "dimensions": [{ "id": "lang", "label": { "en-gb": "Language" } }]
         },
         {
-            "id": "loc",
-            "label": { "en-gb": "Location" },
-            "description": { "en-gb": "..." },
-            "dimensions": [
-                { "id": "locCont", "label": { "en-gb": "Continent" } },
-                { "id": "locCtry", "label": { "en-gb": "Country" } },
-                { "id": "locReg", "label": { "en-gb": "Region" } },
-                { "id": "locSubReg", "label": { "en-gb": "Subregion" } },
-                { "id": "locCity", "label": { "en-gb": "City" } },
-                { "id": "locSubCity", "label": { "en-gb": "Suburb" } },
-                { "id": "locPstCde", "label": { "en-gb": "Postal Code" } },
-                { "id": "locTimZne", "label": { "en-gb": "Time Zone" } },
-                { "id": "locUrb", "label": { "en-gb": "Urbanicity" } }
-            ]
-        },
-        {
             "id": "nat",
             "label": { "en-gb": "Nationality" },
             "description": { "en-gb": "..." },
@@ -39,12 +23,6 @@
             "label": { "en-gb": "Language" },
             "description": { "en-gb": "..." },
             "entities": [{ "id": "lang", "label": { "en-gb": "Language" } }]
-        },
-        {
-            "id": "loc",
-            "label": { "en-gb": "Location" },
-            "description": { "en-gb": "..." },
-            "entities": [{ "id": "loc", "label": { "en-gb": "Location" } }]
         },
         {
             "id": "nat",

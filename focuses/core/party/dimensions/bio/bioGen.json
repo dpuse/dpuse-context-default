@@ -15,7 +15,7 @@
             "description": { "en-gb": "..." },
             "type": null,
             "levels": [],
-            "items": [
+            "children": [
                 {
                     "id": "1927-",
                     "label": { "en-gb": "Greatest Generation" },
@@ -25,31 +25,31 @@
                     "id": "1928-1945",
                     "label": { "en-gb": "Silent Generation" },
                     "description": { "en-gb": "Children of the Great Depression & WWII" },
-                    "items": []
+                    "children": []
                 },
                 {
                     "id": "1946-1964",
                     "label": { "en-gb": "Baby Boomers" },
                     "description": { "en-gb": "Post-WWII baby boom, pre-digital era" },
-                    "items": []
+                    "children": []
                 },
                 {
                     "id": "1965-1980",
                     "label": { "en-gb": "Generation X" },
                     "description": { "en-gb": "Cold War, rise of PCs, 'latchkey kids'" },
-                    "items": []
+                    "children": []
                 },
                 {
                     "id": "1981-1996",
                     "label": { "en-gb": "Millennials (Gen Y)" },
                     "description": { "en-gb": "Grew up with internet, early adulthood during Great Recession" },
-                    "items": []
+                    "children": []
                 },
                 {
                     "id": "1997-2012",
                     "label": { "en-gb": "Generation Z" },
                     "description": { "en-gb": "Digital natives, social media generation" },
-                    "items": []
+                    "children": []
                 },
                 {
                     "id": "2013+",

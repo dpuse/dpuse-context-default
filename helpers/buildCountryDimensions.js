@@ -14,7 +14,7 @@ async function buildDimensions() {
     console.log('Country count______________:', countries.length);
     console.log('\nFirst country______________:', countries[0]);
 
-    const locCtry = [];
+    const geoCtry = [];
     const continents = {};
     const currencies = {};
     const regions = {};
@@ -44,7 +44,7 @@ async function buildDimensions() {
             labelOfficial[localeCode] = translation.official;
         }
 
-        locCtry.push({
+        geoCtry.push({
             id: country.cca2,
             label: sortedLabel,
             labelOfficial: sortedLabelOfficial,
@@ -59,7 +59,7 @@ async function buildDimensions() {
         if (country.continents.length > 1) console.log('MULTIPLE CONTINENTS:', country.name.common, ',', country.continents);
         if (country.capital?.length > 1) console.log('MULTIPLE CAPITALS__:', country.name.common, ',', country.capital);
     }
-    await fs.writeFile('./helpers/locCtry.json', JSON.stringify(locCtry, null, 4), 'utf-8');
+    await fs.writeFile('./helpers/geoCtry.json', JSON.stringify(geoCtry, null, 4), 'utf-8');
 
     const sortedContinents = Object.fromEntries(Object.entries(continents).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
     console.log('CONTINENTS_________:', sortedContinents);

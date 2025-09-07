@@ -9,14 +9,15 @@
             "label": { "en-gb": "Geographical" },
             "description": { "en-gb": "..." },
             "dimensions": [
-                { "id": "locCtry", "label": { "en-gb": "Country" } },
-                { "id": "locReg", "label": { "en-gb": "Region" } },
-                { "id": "locSubReg", "label": { "en-gb": "Subregion" } },
-                { "id": "locCity", "label": { "en-gb": "City" } },
-                { "id": "locSubCity", "label": { "en-gb": "Suburb" } },
-                { "id": "locPstCde", "label": { "en-gb": "Postal Code" } },
-                { "id": "locTimZne", "label": { "en-gb": "Time Zone" } },
-                { "id": "locUrb", "label": { "en-gb": "Urbanicity" } }
+                { "id": "geoDiv", "label": { "en-gb": "Division" } },
+                { "id": "geoSubDiv", "label": { "en-gb": "Subdivision" } },
+                { "id": "geoCtry", "label": { "en-gb": "Country" } },
+                { "id": "geoCtryDiv", "label": { "en-gb": "Country Division" } },
+                { "id": "geoCtryPstCode", "label": { "en-gb": "Postal Code" } },
+                { "id": "geoCity", "label": { "en-gb": "City" } },
+                { "id": "geoCityDiv", "label": { "en-gb": "City Division" } },
+                { "id": "geoTimeZone", "label": { "en-gb": "Time Zone" } },
+                { "id": "geoUrb", "label": { "en-gb": "Urbanicity" } }
             ]
         }
     ],

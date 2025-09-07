@@ -1,0 +1,9 @@
+[
+    { "id": "af", "label": { "en": "Africa" } },
+    { "id": "an", "label": { "en": "Antarctica" } },
+    { "id": "as", "label": { "en": "Asia" } },
+    { "id": "eu", "label": { "en": "Europe" } },
+    { "id": "na", "label": { "en": "North America" } },
+    { "id": "oc", "label": { "en": "Oceania" } },
+    { "id": "sa", "label": { "en": "South America" } }
+]

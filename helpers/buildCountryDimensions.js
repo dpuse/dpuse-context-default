@@ -1,4 +1,6 @@
 import fs from 'fs/promises';
+import geoDivisions from './data/geoDivisions.json' with { type: 'json' };
+import geoSubDivisions from './data/geoSubDivisions.json' with { type: 'json' };
 import languages from './languages.json' with { type: 'json' };
 
 async function buildDimensions() {
@@ -12,14 +14,11 @@ async function buildDimensions() {
     console.log('Country count (Independent):', countriesIndependent.length);
     console.log('Country count (Dependent)__:', countriesDependent.length);
     console.log('Country count______________:', countries.length);
-    console.log('\nFirst country______________:', countries[0]);
+    // console.log('\nFirst country______________:', countries[0]);
 
-    const geoCtry = [];
-    const continents = {};
-    const currencies = {};
-    const regions = {};
-    const subRegions = {};
-    const timeZones = {};
+    const geoCountries = [];
+    // const currencies = {};
+    // const timeZones = {};
     for (const country of countries) {
         const label = { en: country.name.common };
         const labelOfficial = { en: country.name.official };
@@ -32,11 +31,12 @@ async function buildDimensions() {
         const sortedLabel = Object.fromEntries(Object.entries(label).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
         const sortedLabelOfficial = Object.fromEntries(Object.entries(labelOfficial).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
 
-        for (const continent of country.continents) continents[continent] = (continents[continent] || 0) + 1;
-        for (const [key, currency] of Object.entries(country.currencies || {})) currencies[key] = (currencies[key] || 0) + 1;
-        for (const timezone of country.timezones) timeZones[timezone] = (timeZones[timezone] || 0) + 1;
-        regions[country.region] = (regions[country.region] || 0) + 1;
-        if (country.subregion) subRegions[`${country.region}|${country.subregion}`] = (subRegions[`${country.region}|${country.subregion}`] || 0) + 1;
+        const geoDivision = geoDivisions.find((geoDivision) => geoDivision.label.en === country.region);
+        const geoSubDivision = geoSubDivisions.find((geoSubDivision) => geoSubDivision.label.en === country.subregion);
+
+        // for (const [key, currency] of Object.entries(country.currencies || {})) currencies[key] = (currencies[key] || 0) + 1;
+        // for (const timezone of country.timezones) timeZones[timezone] = (timeZones[timezone] || 0) + 1;
+
         for (const [key, translation] of Object.entries(country.translations)) {
             const localeCode = lookupLocaleCode(key);
             if (!localeCode) continue;
@@ -44,37 +44,28 @@ async function buildDimensions() {
             labelOfficial[localeCode] = translation.official;
         }
 
-        geoCtry.push({
-            id: country.cca2,
+        geoCountries.push({
+            id: String(country.cca2).toLocaleLowerCase('en'),
             label: sortedLabel,
             labelOfficial: sortedLabelOfficial,
             capitals: country.capital,
             continents: country.continents,
             currencies: country.currencies,
             independent: country.independent,
-            region: country.region,
-            subRegion: country.subregion,
+            divisionId: geoDivision.id,
+            subDivisionId: geoSubDivision?.id,
             timeZones: country.timezones
         });
         if (country.continents.length > 1) console.log('MULTIPLE CONTINENTS:', country.name.common, ',', country.continents);
         if (country.capital?.length > 1) console.log('MULTIPLE CAPITALS__:', country.name.common, ',', country.capital);
     }
-    await fs.writeFile('./helpers/geoCtry.json', JSON.stringify(geoCtry, null, 4), 'utf-8');
+    await fs.writeFile('./helpers/data/geoCountries.json', JSON.stringify(geoCountries, null, 4), 'utf-8');
 
-    const sortedContinents = Object.fromEntries(Object.entries(continents).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
-    console.log('CONTINENTS_________:', sortedContinents);
+    // const sortedCurrencies = Object.fromEntries(Object.entries(currencies).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
+    // console.log('CURRENCIES_________:', sortedCurrencies);
 
-    const sortedCurrencies = Object.fromEntries(Object.entries(currencies).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
-    console.log('CURRENCIES_________:', sortedCurrencies);
-
-    const sortedRegions = Object.fromEntries(Object.entries(regions).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
-    console.log('REGIONS____________:', sortedRegions);
-
-    const sortedSubRegions = Object.fromEntries(Object.entries(subRegions).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
-    console.log('SUB-REGIONS________:', sortedSubRegions);
-
-    const sortedTimeZones = Object.fromEntries(Object.entries(timeZones).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
-    console.log('TIME_ZONES_________:', sortedTimeZones);
+    // const sortedTimeZones = Object.fromEntries(Object.entries(timeZones).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
+    // console.log('TIME_ZONES_________:', sortedTimeZones);
 }
 
 function lookupLocaleCode(key) {
@@ -84,7 +75,7 @@ function lookupLocaleCode(key) {
     const alpha3TMatch = languages.find((item) => item['alpha3-t'] === key);
     if (alpha3TMatch) return alpha3TMatch.alpha2;
 
-    console.log('MISSING LOCALE_____', key);
+    console.log('MISSING LOCALE_____:', key);
     return undefined;
 }
 

@@ -1,6 +1,6 @@
 [
     {
-        "id": "AD",
+        "id": "ad",
         "label": {
             "ar": "أندورا",
             "br": "Andorra",
@@ -72,14 +72,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eus",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "AE",
+        "id": "ae",
         "label": {
             "ar": "دولة الإمارات العربية المتحدة",
             "br": "Emirelezhioù Arab Unanet",
@@ -151,14 +151,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+04:00"
         ]
     },
     {
-        "id": "AF",
+        "id": "af",
         "label": {
             "ar": "أفغانستان",
             "br": "Afghanistan",
@@ -230,14 +230,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Southern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ass",
         "timeZones": [
             "UTC+04:30"
         ]
     },
     {
-        "id": "AG",
+        "id": "ag",
         "label": {
             "ar": "أنتيغوا وباربودا",
             "br": "Antigua ha Barbuda",
@@ -309,14 +309,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "AI",
+        "id": "ai",
         "label": {
             "ar": "أنغويلا",
             "br": "Anguilla",
@@ -388,14 +388,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "AL",
+        "id": "al",
         "label": {
             "ar": "ألبانيا",
             "br": "Albania",
@@ -467,14 +467,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southeast Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euse",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "AM",
+        "id": "am",
         "label": {
             "ar": "أرمينيا",
             "br": "Armenia",
@@ -546,14 +546,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+04:00"
         ]
     },
     {
-        "id": "AO",
+        "id": "ao",
         "label": {
             "ar": "جمهورية أنغولا",
             "br": "Angola",
@@ -625,14 +625,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Middle Africa",
+        "divisionId": "af",
+        "subDivisionId": "afm",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "AQ",
+        "id": "aq",
         "label": {
             "ar": "أنتارتيكا",
             "br": "Antarktika",
@@ -695,7 +695,7 @@
             "Antarctica"
         ],
         "independent": false,
-        "region": "Antarctic",
+        "divisionId": "an",
         "timeZones": [
             "UTC-03:00",
             "UTC+03:00",
@@ -708,7 +708,7 @@
         ]
     },
     {
-        "id": "AR",
+        "id": "ar",
         "label": {
             "ar": "الأرجنتين",
             "br": "Arc'hantina",
@@ -780,14 +780,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-03:00"
         ]
     },
     {
-        "id": "AS",
+        "id": "as",
         "label": {
             "ar": "ساموا الأمريكية",
             "br": "Samoa Amerikan",
@@ -859,14 +859,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Polynesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocpl",
         "timeZones": [
             "UTC-11:00"
         ]
     },
     {
-        "id": "AT",
+        "id": "at",
         "label": {
             "ar": "النمسا",
             "br": "Aostria",
@@ -938,14 +938,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Central Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euc",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "AU",
+        "id": "au",
         "label": {
             "ar": "أستراليا",
             "br": "Aostralia",
@@ -1017,8 +1017,8 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Australia and New Zealand",
+        "divisionId": "oc",
+        "subDivisionId": "ocanz",
         "timeZones": [
             "UTC+05:00",
             "UTC+06:30",
@@ -1031,7 +1031,7 @@
         ]
     },
     {
-        "id": "AW",
+        "id": "aw",
         "label": {
             "ar": "أروبا",
             "br": "Aruba",
@@ -1103,14 +1103,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "AX",
+        "id": "ax",
         "label": {
             "ar": "جزر أولاند",
             "br": "Åland",
@@ -1182,14 +1182,14 @@
             }
         },
         "independent": false,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "AZ",
+        "id": "az",
         "label": {
             "ar": "أذربيجان",
             "br": "Azerbaidjan",
@@ -1262,14 +1262,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+04:00"
         ]
     },
     {
-        "id": "BA",
+        "id": "ba",
         "label": {
             "ar": "البوسنة والهرسك",
             "br": "Bosnia-ha-Herzegovina",
@@ -1341,14 +1341,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southeast Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euse",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "BB",
+        "id": "bb",
         "label": {
             "ar": "باربادوس",
             "br": "Barbados",
@@ -1420,14 +1420,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "BD",
+        "id": "bd",
         "label": {
             "ar": "بنغلاديش",
             "br": "Bangladesh",
@@ -1499,14 +1499,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Southern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ass",
         "timeZones": [
             "UTC+06:00"
         ]
     },
     {
-        "id": "BE",
+        "id": "be",
         "label": {
             "ar": "بلجيكا",
             "br": "Belgia",
@@ -1578,14 +1578,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Western Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euw",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "BF",
+        "id": "bf",
         "label": {
             "ar": "بوركينا فاسو",
             "br": "Burkina Faso",
@@ -1657,14 +1657,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "BG",
+        "id": "bg",
         "label": {
             "ar": "بلغاريا",
             "br": "Bulgaria",
@@ -1736,14 +1736,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southeast Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euse",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "BH",
+        "id": "bh",
         "label": {
             "ar": "‏البحرين",
             "br": "Bahrein",
@@ -1815,14 +1815,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "BI",
+        "id": "bi",
         "label": {
             "ar": "بوروندي",
             "br": "Burundi",
@@ -1894,14 +1894,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "BJ",
+        "id": "bj",
         "label": {
             "ar": "بنين",
             "br": "Benin",
@@ -1973,14 +1973,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "BL",
+        "id": "bl",
         "label": {
             "ar": "سان بارتليمي",
             "br": "Saint-Barthélemy",
@@ -2052,14 +2052,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "BM",
+        "id": "bm",
         "label": {
             "ar": "برمودا",
             "br": "Bermuda",
@@ -2131,14 +2131,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "North America",
+        "divisionId": "am",
+        "subDivisionId": "amna",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "BN",
+        "id": "bn",
         "label": {
             "ar": "بروناي",
             "br": "Brunei",
@@ -2214,14 +2214,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "asse",
         "timeZones": [
             "UTC+08:00"
         ]
     },
     {
-        "id": "BO",
+        "id": "bo",
         "label": {
             "ar": "بوليفيا",
             "br": "Bolivia",
@@ -2293,14 +2293,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "BQ",
+        "id": "bq",
         "label": {
             "ar": "الجزر الكاريبية الهولندية",
             "br": "Bonaire, Sint Eustatius ha Saba",
@@ -2372,14 +2372,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "BR",
+        "id": "br",
         "label": {
             "ar": "البرازيل",
             "br": "Brazil",
@@ -2451,8 +2451,8 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-05:00",
             "UTC-04:00",
@@ -2461,7 +2461,7 @@
         ]
     },
     {
-        "id": "BS",
+        "id": "bs",
         "label": {
             "ar": "باهاماس",
             "br": "Bahamas",
@@ -2537,14 +2537,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-05:00"
         ]
     },
     {
-        "id": "BT",
+        "id": "bt",
         "label": {
             "ar": "بوتان",
             "br": "Bhoutan",
@@ -2620,14 +2620,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Southern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ass",
         "timeZones": [
             "UTC+06:00"
         ]
     },
     {
-        "id": "BV",
+        "id": "bv",
         "label": {
             "ar": "جزر بوفيه",
             "br": "Enez Bouvet",
@@ -2690,13 +2690,13 @@
             "Antarctica"
         ],
         "independent": false,
-        "region": "Antarctic",
+        "divisionId": "an",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "BW",
+        "id": "bw",
         "label": {
             "ar": "بوتسوانا",
             "br": "Botswana",
@@ -2768,14 +2768,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Southern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afs",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "BY",
+        "id": "by",
         "label": {
             "ar": "بيلاروسيا",
             "br": "Belarus",
@@ -2847,14 +2847,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Eastern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eue",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "BZ",
+        "id": "bz",
         "label": {
             "ar": "بليز",
             "br": "Belize",
@@ -2926,14 +2926,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Central America",
+        "divisionId": "am",
+        "subDivisionId": "amca",
         "timeZones": [
             "UTC-06:00"
         ]
     },
     {
-        "id": "CA",
+        "id": "ca",
         "label": {
             "ar": "كندا",
             "br": "Kanada",
@@ -3005,8 +3005,8 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "North America",
+        "divisionId": "am",
+        "subDivisionId": "amna",
         "timeZones": [
             "UTC-08:00",
             "UTC-07:00",
@@ -3017,7 +3017,7 @@
         ]
     },
     {
-        "id": "CC",
+        "id": "cc",
         "label": {
             "ar": "جزر كوكوس",
             "br": "Inizi Cocos (Keeling)",
@@ -3089,14 +3089,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Australia and New Zealand",
+        "divisionId": "oc",
+        "subDivisionId": "ocanz",
         "timeZones": [
             "UTC+06:30"
         ]
     },
     {
-        "id": "CD",
+        "id": "cd",
         "label": {
             "ar": "الكونغو",
             "br": "Kongo-Kinshasa",
@@ -3168,15 +3168,15 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Middle Africa",
+        "divisionId": "af",
+        "subDivisionId": "afm",
         "timeZones": [
             "UTC+01:00",
             "UTC+02:00"
         ]
     },
     {
-        "id": "CF",
+        "id": "cf",
         "label": {
             "ar": "جمهورية أفريقيا الوسطى",
             "br": "Republik Kreizafrikan",
@@ -3248,14 +3248,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Middle Africa",
+        "divisionId": "af",
+        "subDivisionId": "afm",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "CG",
+        "id": "cg",
         "label": {
             "ar": "جمهورية الكونفو",
             "br": "Kongo-Brazzaville",
@@ -3327,14 +3327,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Middle Africa",
+        "divisionId": "af",
+        "subDivisionId": "afm",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "CH",
+        "id": "ch",
         "label": {
             "ar": "سويسرا",
             "br": "Suis",
@@ -3406,14 +3406,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Western Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euw",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "CI",
+        "id": "ci",
         "label": {
             "ar": "ساحل العاج",
             "br": "Aod an Olifant",
@@ -3485,14 +3485,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "CK",
+        "id": "ck",
         "label": {
             "ar": "جزر كوك",
             "br": "Inizi Cook",
@@ -3568,14 +3568,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Polynesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocpl",
         "timeZones": [
             "UTC-10:00"
         ]
     },
     {
-        "id": "CL",
+        "id": "cl",
         "label": {
             "ar": "تشيلي",
             "br": "Chile",
@@ -3647,15 +3647,15 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-06:00",
             "UTC-04:00"
         ]
     },
     {
-        "id": "CM",
+        "id": "cm",
         "label": {
             "ar": "الكاميرون",
             "br": "Kameroun",
@@ -3727,14 +3727,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Middle Africa",
+        "divisionId": "af",
+        "subDivisionId": "afm",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "CN",
+        "id": "cn",
         "label": {
             "ar": "الصين",
             "br": "Sina",
@@ -3804,14 +3804,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ase",
         "timeZones": [
             "UTC+08:00"
         ]
     },
     {
-        "id": "CO",
+        "id": "co",
         "label": {
             "ar": "كولومبيا",
             "br": "Kolombia",
@@ -3883,14 +3883,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-05:00"
         ]
     },
     {
-        "id": "CR",
+        "id": "cr",
         "label": {
             "ar": "كوستاريكا",
             "br": "Costa Rica",
@@ -3962,14 +3962,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Central America",
+        "divisionId": "am",
+        "subDivisionId": "amca",
         "timeZones": [
             "UTC-06:00"
         ]
     },
     {
-        "id": "CU",
+        "id": "cu",
         "label": {
             "ar": "كوبا",
             "br": "Kuba",
@@ -4045,14 +4045,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-05:00"
         ]
     },
     {
-        "id": "CV",
+        "id": "cv",
         "label": {
             "ar": "كابو فيردي",
             "br": "Kab Glas",
@@ -4124,14 +4124,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC-01:00"
         ]
     },
     {
-        "id": "CW",
+        "id": "cw",
         "label": {
             "ar": "كوراساو",
             "br": "Curaçao",
@@ -4199,14 +4199,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "CX",
+        "id": "cx",
         "label": {
             "ar": "جزيرة كريسماس",
             "br": "Enez Christmas",
@@ -4278,14 +4278,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Australia and New Zealand",
+        "divisionId": "oc",
+        "subDivisionId": "ocanz",
         "timeZones": [
             "UTC+07:00"
         ]
     },
     {
-        "id": "CY",
+        "id": "cy",
         "label": {
             "ar": "قبرص",
             "br": "Kiprenez",
@@ -4357,14 +4357,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eus",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "CZ",
+        "id": "cz",
         "label": {
             "ar": "التشيك",
             "br": "Tchekia",
@@ -4436,14 +4436,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Central Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euc",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "DE",
+        "id": "de",
         "label": {
             "ar": "ألمانيا",
             "br": "Alamagn",
@@ -4515,14 +4515,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Western Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euw",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "DJ",
+        "id": "dj",
         "label": {
             "ar": "جيبوتي",
             "br": "Djibouti",
@@ -4594,14 +4594,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "DK",
+        "id": "dk",
         "label": {
             "ar": "الدنمارك",
             "br": "Danmark",
@@ -4673,8 +4673,8 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC-04:00",
             "UTC-03:00",
@@ -4684,7 +4684,7 @@
         ]
     },
     {
-        "id": "DM",
+        "id": "dm",
         "label": {
             "ar": "دومينيكا",
             "br": "Dominika",
@@ -4756,14 +4756,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "DO",
+        "id": "do",
         "label": {
             "ar": "جمهورية الدومينيكان",
             "br": "Republik Dominikan",
@@ -4835,14 +4835,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "DZ",
+        "id": "dz",
         "label": {
             "ar": "الجزائر",
             "br": "Aljeria",
@@ -4914,14 +4914,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Northern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afn",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "EC",
+        "id": "ec",
         "label": {
             "ar": "الإكوادور",
             "br": "Ecuador",
@@ -4993,15 +4993,15 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-06:00",
             "UTC-05:00"
         ]
     },
     {
-        "id": "EE",
+        "id": "ee",
         "label": {
             "ar": "إستونيا",
             "br": "Estonia",
@@ -5073,14 +5073,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "EG",
+        "id": "eg",
         "label": {
             "ar": "مصر",
             "br": "Egipt",
@@ -5152,14 +5152,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Northern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afn",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "EH",
+        "id": "eh",
         "label": {
             "ar": "الصحراء الغربية",
             "br": "Sahara ar C'hornôg",
@@ -5239,14 +5239,14 @@
             }
         },
         "independent": false,
-        "region": "Africa",
-        "subRegion": "Northern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afn",
         "timeZones": [
             "UTC+00:00"
         ]
     },
     {
-        "id": "ER",
+        "id": "er",
         "label": {
             "ar": "إريتريا",
             "br": "Eritrea",
@@ -5318,14 +5318,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "ES",
+        "id": "es",
         "label": {
             "ar": "إسبانيا",
             "br": "Spagn",
@@ -5397,15 +5397,15 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eus",
         "timeZones": [
             "UTC",
             "UTC+01:00"
         ]
     },
     {
-        "id": "ET",
+        "id": "et",
         "label": {
             "ar": "إثيوبيا",
             "br": "Etiopia",
@@ -5477,14 +5477,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "FI",
+        "id": "fi",
         "label": {
             "ar": "فنلندا",
             "br": "Finland",
@@ -5556,14 +5556,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "FJ",
+        "id": "fj",
         "label": {
             "ar": "فيجي",
             "br": "Fidji",
@@ -5635,14 +5635,14 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Melanesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocml",
         "timeZones": [
             "UTC+12:00"
         ]
     },
     {
-        "id": "FK",
+        "id": "fk",
         "label": {
             "ar": "جزر فوكلاند",
             "br": "Inizi Maloù",
@@ -5714,14 +5714,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "FM",
+        "id": "fm",
         "label": {
             "ar": "ميكرونيسيا",
             "br": "Mikronezia",
@@ -5793,15 +5793,15 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Micronesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocmc",
         "timeZones": [
             "UTC+10:00",
             "UTC+11:00"
         ]
     },
     {
-        "id": "FO",
+        "id": "fo",
         "label": {
             "ar": "جزر فارو",
             "br": "Inizi Faero",
@@ -5877,14 +5877,14 @@
             }
         },
         "independent": false,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+00:00"
         ]
     },
     {
-        "id": "FR",
+        "id": "fr",
         "label": {
             "ar": "فرنسا",
             "br": "Frañs",
@@ -5956,8 +5956,8 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Western Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euw",
         "timeZones": [
             "UTC-10:00",
             "UTC-09:30",
@@ -5976,7 +5976,7 @@
         ]
     },
     {
-        "id": "GA",
+        "id": "ga",
         "label": {
             "ar": "الغابون",
             "br": "Gabon",
@@ -6048,14 +6048,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Middle Africa",
+        "divisionId": "af",
+        "subDivisionId": "afm",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "GB",
+        "id": "gb",
         "label": {
             "ar": "المملكة المتحدة",
             "br": "Rouantelezh-Unanet",
@@ -6127,8 +6127,8 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC-08:00",
             "UTC-05:00",
@@ -6142,7 +6142,7 @@
         ]
     },
     {
-        "id": "GD",
+        "id": "gd",
         "label": {
             "ar": "غرينادا",
             "br": "Grenada",
@@ -6214,14 +6214,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "GE",
+        "id": "ge",
         "label": {
             "ar": "جورجيا",
             "br": "Jorjia",
@@ -6293,14 +6293,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+04:00"
         ]
     },
     {
-        "id": "GF",
+        "id": "gf",
         "label": {
             "ar": "غويانا",
             "br": "Gwiana C'hall",
@@ -6372,14 +6372,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-03:00"
         ]
     },
     {
-        "id": "GG",
+        "id": "gg",
         "label": {
             "ar": "غيرنزي",
             "br": "Gwernenez",
@@ -6455,14 +6455,14 @@
             }
         },
         "independent": false,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+00:00"
         ]
     },
     {
-        "id": "GH",
+        "id": "gh",
         "label": {
             "ar": "غانا",
             "br": "Ghana",
@@ -6534,14 +6534,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "GI",
+        "id": "gi",
         "label": {
             "ar": "جبل طارق",
             "br": "Jibraltar",
@@ -6613,14 +6613,14 @@
             }
         },
         "independent": false,
-        "region": "Europe",
-        "subRegion": "Southern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eus",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "GL",
+        "id": "gl",
         "label": {
             "ar": "جرينلاند",
             "br": "Greunland",
@@ -6692,8 +6692,8 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "North America",
+        "divisionId": "am",
+        "subDivisionId": "amna",
         "timeZones": [
             "UTC-04:00",
             "UTC-03:00",
@@ -6702,7 +6702,7 @@
         ]
     },
     {
-        "id": "GM",
+        "id": "gm",
         "label": {
             "ar": "غامبيا",
             "br": "Gambia",
@@ -6774,14 +6774,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC+00:00"
         ]
     },
     {
-        "id": "GN",
+        "id": "gn",
         "label": {
             "ar": "غينيا",
             "br": "Ginea",
@@ -6853,14 +6853,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "GP",
+        "id": "gp",
         "label": {
             "ar": "غوادلوب",
             "br": "Gwadeloup",
@@ -6932,14 +6932,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "GQ",
+        "id": "gq",
         "label": {
             "ar": "غينيا الاستوائية",
             "br": "Ginea ar C'heheder",
@@ -7011,14 +7011,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Middle Africa",
+        "divisionId": "af",
+        "subDivisionId": "afm",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "GR",
+        "id": "gr",
         "label": {
             "ar": "اليونان",
             "br": "Gres",
@@ -7090,14 +7090,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eus",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "GS",
+        "id": "gs",
         "label": {
             "ar": "جورجيا الجنوبية",
             "br": "Georgia ar Su hag Inizi Sandwich ar Su",
@@ -7169,13 +7169,13 @@
             }
         },
         "independent": false,
-        "region": "Antarctic",
+        "divisionId": "an",
         "timeZones": [
             "UTC-02:00"
         ]
     },
     {
-        "id": "GT",
+        "id": "gt",
         "label": {
             "ar": "غواتيمالا",
             "br": "Guatemala",
@@ -7247,14 +7247,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Central America",
+        "divisionId": "am",
+        "subDivisionId": "amca",
         "timeZones": [
             "UTC-06:00"
         ]
     },
     {
-        "id": "GU",
+        "id": "gu",
         "label": {
             "ar": "غوام",
             "br": "Guam",
@@ -7326,14 +7326,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Micronesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocmc",
         "timeZones": [
             "UTC+10:00"
         ]
     },
     {
-        "id": "GW",
+        "id": "gw",
         "label": {
             "ar": "غينيا بيساو",
             "br": "Ginea-Bissau",
@@ -7405,14 +7405,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "GY",
+        "id": "gy",
         "label": {
             "ar": "غيانا",
             "br": "Guyana",
@@ -7484,14 +7484,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "HK",
+        "id": "hk",
         "label": {
             "ar": "هونغ كونغ",
             "br": "Hong Kong",
@@ -7561,14 +7561,14 @@
             }
         },
         "independent": false,
-        "region": "Asia",
-        "subRegion": "Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ase",
         "timeZones": [
             "UTC+08:00"
         ]
     },
     {
-        "id": "HM",
+        "id": "hm",
         "label": {
             "ar": "جزيرة هيرد وجزر ماكدونالد",
             "br": "Inizi Heard ha McDonald",
@@ -7631,13 +7631,13 @@
             "Antarctica"
         ],
         "independent": false,
-        "region": "Antarctic",
+        "divisionId": "an",
         "timeZones": [
             "UTC+05:00"
         ]
     },
     {
-        "id": "HN",
+        "id": "hn",
         "label": {
             "ar": "هندوراس",
             "br": "Honduras",
@@ -7709,14 +7709,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Central America",
+        "divisionId": "am",
+        "subDivisionId": "amca",
         "timeZones": [
             "UTC-06:00"
         ]
     },
     {
-        "id": "HR",
+        "id": "hr",
         "label": {
             "ar": "كرواتيا",
             "br": "Kroatia",
@@ -7788,14 +7788,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southeast Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euse",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "HT",
+        "id": "ht",
         "label": {
             "ar": "هايتي",
             "br": "Haiti",
@@ -7867,14 +7867,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-05:00"
         ]
     },
     {
-        "id": "HU",
+        "id": "hu",
         "label": {
             "ar": "المجر",
             "br": "Hungaria",
@@ -7946,14 +7946,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Central Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euc",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "ID",
+        "id": "id",
         "label": {
             "ar": "إندونيسيا",
             "br": "Indonezia",
@@ -8025,8 +8025,8 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "asse",
         "timeZones": [
             "UTC+07:00",
             "UTC+08:00",
@@ -8034,7 +8034,7 @@
         ]
     },
     {
-        "id": "IE",
+        "id": "ie",
         "label": {
             "ar": "أيرلندا",
             "br": "Iwerzhon",
@@ -8106,14 +8106,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "IL",
+        "id": "il",
         "label": {
             "ar": "إسرائيل",
             "br": "Israel",
@@ -8183,14 +8183,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "IM",
+        "id": "im",
         "label": {
             "ar": "جزيرة مان",
             "br": "Enez Vanav",
@@ -8266,14 +8266,14 @@
             }
         },
         "independent": false,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+00:00"
         ]
     },
     {
-        "id": "IN",
+        "id": "in",
         "label": {
             "ar": "الهند",
             "br": "India",
@@ -8345,14 +8345,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Southern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ass",
         "timeZones": [
             "UTC+05:30"
         ]
     },
     {
-        "id": "IO",
+        "id": "io",
         "label": {
             "ar": "إقليم المحيط الهندي البريطاني",
             "br": "Tiriad breizhveurat Meurvor Indez",
@@ -8424,14 +8424,14 @@
             }
         },
         "independent": false,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+06:00"
         ]
     },
     {
-        "id": "IQ",
+        "id": "iq",
         "label": {
             "ar": "العراق",
             "br": "Irak",
@@ -8503,14 +8503,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "IR",
+        "id": "ir",
         "label": {
             "ar": "إيران",
             "br": "Iran",
@@ -8580,14 +8580,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Southern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ass",
         "timeZones": [
             "UTC+03:30"
         ]
     },
     {
-        "id": "IS",
+        "id": "is",
         "label": {
             "ar": "آيسلندا",
             "br": "Island",
@@ -8659,14 +8659,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "IT",
+        "id": "it",
         "label": {
             "ar": "إيطاليا",
             "br": "Italia",
@@ -8738,14 +8738,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eus",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "JE",
+        "id": "je",
         "label": {
             "ar": "جيرزي",
             "br": "Jerzenez",
@@ -8821,14 +8821,14 @@
             }
         },
         "independent": false,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "JM",
+        "id": "jm",
         "label": {
             "ar": "جامايكا",
             "br": "Jamaika",
@@ -8900,14 +8900,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-05:00"
         ]
     },
     {
-        "id": "JO",
+        "id": "jo",
         "label": {
             "ar": "الأردن",
             "br": "Jordania",
@@ -8979,14 +8979,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "JP",
+        "id": "jp",
         "label": {
             "ar": "اليابان",
             "br": "Japan",
@@ -9058,14 +9058,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ase",
         "timeZones": [
             "UTC+09:00"
         ]
     },
     {
-        "id": "KE",
+        "id": "ke",
         "label": {
             "ar": "كينيا",
             "br": "Kenya",
@@ -9137,14 +9137,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "KG",
+        "id": "kg",
         "label": {
             "ar": "قيرغيزستان",
             "br": "Kirgizstan",
@@ -9216,14 +9216,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Central Asia",
+        "divisionId": "as",
+        "subDivisionId": "ascb",
         "timeZones": [
             "UTC+06:00"
         ]
     },
     {
-        "id": "KH",
+        "id": "kh",
         "label": {
             "ar": "كمبوديا",
             "br": "Kambodja",
@@ -9299,14 +9299,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "asse",
         "timeZones": [
             "UTC+07:00"
         ]
     },
     {
-        "id": "KI",
+        "id": "ki",
         "label": {
             "ar": "كيريباتي",
             "br": "Kiribati",
@@ -9382,8 +9382,8 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Micronesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocmc",
         "timeZones": [
             "UTC+12:00",
             "UTC+13:00",
@@ -9391,7 +9391,7 @@
         ]
     },
     {
-        "id": "KM",
+        "id": "km",
         "label": {
             "ar": "جزر القمر",
             "br": "Komorez",
@@ -9463,14 +9463,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "KN",
+        "id": "kn",
         "label": {
             "ar": "سانت كيتس ونيفيس",
             "br": "Saint Kitts ha Nevis",
@@ -9542,14 +9542,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "KP",
+        "id": "kp",
         "label": {
             "ar": "كوريا الشمالية",
             "br": "Korea an Norzh",
@@ -9621,14 +9621,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ase",
         "timeZones": [
             "UTC+09:00"
         ]
     },
     {
-        "id": "KR",
+        "id": "kr",
         "label": {
             "ar": "كوريا الجنوبية",
             "br": "Korea ar Su",
@@ -9700,14 +9700,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ase",
         "timeZones": [
             "UTC+09:00"
         ]
     },
     {
-        "id": "KW",
+        "id": "kw",
         "label": {
             "ar": "الكويت",
             "br": "Koweit",
@@ -9779,14 +9779,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "KY",
+        "id": "ky",
         "label": {
             "ar": "جزر كايمان",
             "br": "Inizi Cayman",
@@ -9858,14 +9858,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-05:00"
         ]
     },
     {
-        "id": "KZ",
+        "id": "kz",
         "label": {
             "ar": "كازاخستان",
             "br": "Kazakstan",
@@ -9937,15 +9937,15 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Central Asia",
+        "divisionId": "as",
+        "subDivisionId": "ascb",
         "timeZones": [
             "UTC+05:00",
             "UTC+06:00"
         ]
     },
     {
-        "id": "LA",
+        "id": "la",
         "label": {
             "ar": "لاوس",
             "br": "Laos",
@@ -10017,14 +10017,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "asse",
         "timeZones": [
             "UTC+07:00"
         ]
     },
     {
-        "id": "LB",
+        "id": "lb",
         "label": {
             "ar": "لبنان",
             "br": "Liban",
@@ -10096,14 +10096,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "LC",
+        "id": "lc",
         "label": {
             "ar": "سانت لوسيا",
             "br": "Santez-Lusia",
@@ -10175,14 +10175,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "LI",
+        "id": "li",
         "label": {
             "ar": "ليختنشتاين",
             "br": "Liechtenstein",
@@ -10254,14 +10254,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Western Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euw",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "LK",
+        "id": "lk",
         "label": {
             "ar": "سريلانكا",
             "br": "Sri Lanka",
@@ -10333,14 +10333,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Southern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ass",
         "timeZones": [
             "UTC+05:30"
         ]
     },
     {
-        "id": "LR",
+        "id": "lr",
         "label": {
             "ar": "ليبيريا",
             "br": "Liberia",
@@ -10412,14 +10412,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "LS",
+        "id": "ls",
         "label": {
             "ar": "ليسوتو",
             "br": "Lesotho",
@@ -10495,14 +10495,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Southern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afs",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "LT",
+        "id": "lt",
         "label": {
             "ar": "ليتوانيا",
             "br": "Lituania",
@@ -10574,14 +10574,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "LU",
+        "id": "lu",
         "label": {
             "ar": "لوكسمبورغ",
             "br": "Luksembourg",
@@ -10653,14 +10653,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Western Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euw",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "LV",
+        "id": "lv",
         "label": {
             "ar": "لاتفيا",
             "br": "Latvia",
@@ -10732,14 +10732,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "LY",
+        "id": "ly",
         "label": {
             "ar": "‏ليبيا",
             "br": "Libia",
@@ -10811,14 +10811,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Northern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afn",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "MA",
+        "id": "ma",
         "label": {
             "ar": "المغرب",
             "br": "Maroko",
@@ -10890,14 +10890,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Northern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afn",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "MC",
+        "id": "mc",
         "label": {
             "ar": "موناكو",
             "br": "Monako",
@@ -10969,14 +10969,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Western Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euw",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "MD",
+        "id": "md",
         "label": {
             "ar": "مولدوڤا",
             "br": "Moldova",
@@ -11048,14 +11048,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Eastern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eue",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "ME",
+        "id": "me",
         "label": {
             "ar": "الجبل الاسود",
             "br": "Montenegro",
@@ -11127,14 +11127,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southeast Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euse",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "MF",
+        "id": "mf",
         "label": {
             "ar": "سانت مارتن",
             "br": "Saint-Martin",
@@ -11206,14 +11206,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "MG",
+        "id": "mg",
         "label": {
             "ar": "مدغشقر",
             "br": "Madagaskar",
@@ -11285,14 +11285,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "MH",
+        "id": "mh",
         "label": {
             "ar": "جزر مارشال",
             "br": "Inizi Marshall",
@@ -11364,14 +11364,14 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Micronesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocmc",
         "timeZones": [
             "UTC+12:00"
         ]
     },
     {
-        "id": "MK",
+        "id": "mk",
         "label": {
             "ar": "شمال مقدونيا",
             "br": "Makedonia an Norzh",
@@ -11443,14 +11443,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southeast Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euse",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "ML",
+        "id": "ml",
         "label": {
             "ar": "مالي",
             "br": "Mali",
@@ -11522,14 +11522,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "MM",
+        "id": "mm",
         "label": {
             "ar": "ميانمار",
             "br": "Myanmar",
@@ -11601,14 +11601,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "asse",
         "timeZones": [
             "UTC+06:30"
         ]
     },
     {
-        "id": "MN",
+        "id": "mn",
         "label": {
             "ar": "منغوليا",
             "br": "Mongolia",
@@ -11680,15 +11680,15 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ase",
         "timeZones": [
             "UTC+07:00",
             "UTC+08:00"
         ]
     },
     {
-        "id": "MO",
+        "id": "mo",
         "label": {
             "ar": "ماكاو",
             "br": "Makao",
@@ -11755,14 +11755,14 @@
             }
         },
         "independent": false,
-        "region": "Asia",
-        "subRegion": "Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ase",
         "timeZones": [
             "UTC+08:00"
         ]
     },
     {
-        "id": "MP",
+        "id": "mp",
         "label": {
             "ar": "جزر ماريانا الشمالية",
             "br": "Inizi Mariana an Norzh",
@@ -11834,14 +11834,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Micronesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocmc",
         "timeZones": [
             "UTC+10:00"
         ]
     },
     {
-        "id": "MQ",
+        "id": "mq",
         "label": {
             "ar": "مارتينيك",
             "br": "Martinik",
@@ -11913,14 +11913,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "MR",
+        "id": "mr",
         "label": {
             "ar": "موريتانيا",
             "br": "Maouritania",
@@ -11992,14 +11992,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "MS",
+        "id": "ms",
         "label": {
             "ar": "مونتسرات",
             "br": "Montserrat",
@@ -12071,14 +12071,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "MT",
+        "id": "mt",
         "label": {
             "ar": "مالطا",
             "br": "Malta",
@@ -12150,14 +12150,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eus",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "MU",
+        "id": "mu",
         "label": {
             "ar": "موريشيوس",
             "br": "Moris",
@@ -12229,14 +12229,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+04:00"
         ]
     },
     {
-        "id": "MV",
+        "id": "mv",
         "label": {
             "ar": "المالديف",
             "br": "Maldivez",
@@ -12308,14 +12308,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Southern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ass",
         "timeZones": [
             "UTC+05:00"
         ]
     },
     {
-        "id": "MW",
+        "id": "mw",
         "label": {
             "ar": "مالاوي",
             "br": "Malawi",
@@ -12387,14 +12387,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "MX",
+        "id": "mx",
         "label": {
             "ar": "المسكيك",
             "br": "Mec'hiko",
@@ -12466,8 +12466,8 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "North America",
+        "divisionId": "am",
+        "subDivisionId": "amna",
         "timeZones": [
             "UTC-08:00",
             "UTC-07:00",
@@ -12475,7 +12475,7 @@
         ]
     },
     {
-        "id": "MY",
+        "id": "my",
         "label": {
             "ar": "ماليزيا",
             "br": "Malaysia",
@@ -12547,14 +12547,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "asse",
         "timeZones": [
             "UTC+08:00"
         ]
     },
     {
-        "id": "MZ",
+        "id": "mz",
         "label": {
             "ar": "موزمبيق",
             "br": "Mozambik",
@@ -12626,14 +12626,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "NA",
+        "id": "na",
         "label": {
             "ar": "ناميبيا",
             "br": "Namibia",
@@ -12709,14 +12709,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Southern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afs",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "NC",
+        "id": "nc",
         "label": {
             "ar": "كاليدونيا الجديدة",
             "br": "Kaledonia-Nevez",
@@ -12788,14 +12788,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Melanesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocml",
         "timeZones": [
             "UTC+11:00"
         ]
     },
     {
-        "id": "NE",
+        "id": "ne",
         "label": {
             "ar": "النيجر",
             "br": "Niger",
@@ -12867,14 +12867,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "NF",
+        "id": "nf",
         "label": {
             "ar": "جزيرة نورفولك",
             "br": "Enez Norfolk",
@@ -12946,14 +12946,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Australia and New Zealand",
+        "divisionId": "oc",
+        "subDivisionId": "ocanz",
         "timeZones": [
             "UTC+11:30"
         ]
     },
     {
-        "id": "NG",
+        "id": "ng",
         "label": {
             "ar": "نيجيريا",
             "br": "Nigeria",
@@ -13025,14 +13025,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "NI",
+        "id": "ni",
         "label": {
             "ar": "نيكاراغوا",
             "br": "Nicaragua",
@@ -13104,14 +13104,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Central America",
+        "divisionId": "am",
+        "subDivisionId": "amca",
         "timeZones": [
             "UTC-06:00"
         ]
     },
     {
-        "id": "NL",
+        "id": "nl",
         "label": {
             "ar": "هولندا",
             "br": "Izelvroioù",
@@ -13183,14 +13183,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Western Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euw",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "NO",
+        "id": "no",
         "label": {
             "ar": "النرويج",
             "br": "Norvegia",
@@ -13262,14 +13262,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "NP",
+        "id": "np",
         "label": {
             "ar": "نيبال",
             "br": "Nepal",
@@ -13341,14 +13341,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Southern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ass",
         "timeZones": [
             "UTC+05:45"
         ]
     },
     {
-        "id": "NR",
+        "id": "nr",
         "label": {
             "ar": "ناورو",
             "br": "Nauru",
@@ -13420,14 +13420,14 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Micronesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocmc",
         "timeZones": [
             "UTC+12:00"
         ]
     },
     {
-        "id": "NU",
+        "id": "nu",
         "label": {
             "ar": "نييوي",
             "br": "Niue",
@@ -13499,14 +13499,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Polynesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocpl",
         "timeZones": [
             "UTC-11:00"
         ]
     },
     {
-        "id": "NZ",
+        "id": "nz",
         "label": {
             "ar": "نيوزيلندا",
             "br": "Zeland-Nevez",
@@ -13578,8 +13578,8 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Australia and New Zealand",
+        "divisionId": "oc",
+        "subDivisionId": "ocanz",
         "timeZones": [
             "UTC-11:00",
             "UTC-10:00",
@@ -13589,7 +13589,7 @@
         ]
     },
     {
-        "id": "OM",
+        "id": "om",
         "label": {
             "ar": "عمان",
             "br": "Oman",
@@ -13661,14 +13661,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+04:00"
         ]
     },
     {
-        "id": "PA",
+        "id": "pa",
         "label": {
             "ar": "بنما",
             "br": "Panama",
@@ -13744,14 +13744,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Central America",
+        "divisionId": "am",
+        "subDivisionId": "amca",
         "timeZones": [
             "UTC-05:00"
         ]
     },
     {
-        "id": "PE",
+        "id": "pe",
         "label": {
             "ar": "بيرو",
             "br": "Perou",
@@ -13823,14 +13823,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-05:00"
         ]
     },
     {
-        "id": "PF",
+        "id": "pf",
         "label": {
             "ar": "بولينزيا الفرنسية",
             "br": "Polinezia C'hall",
@@ -13902,8 +13902,8 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Polynesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocpl",
         "timeZones": [
             "UTC-10:00",
             "UTC-09:30",
@@ -13911,7 +13911,7 @@
         ]
     },
     {
-        "id": "PG",
+        "id": "pg",
         "label": {
             "ar": "بابوا غينيا الجديدة",
             "br": "Papoua-Ginea Nevez",
@@ -13983,14 +13983,14 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Melanesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocml",
         "timeZones": [
             "UTC+10:00"
         ]
     },
     {
-        "id": "PH",
+        "id": "ph",
         "label": {
             "ar": "الفلبين",
             "br": "Filipinez",
@@ -14062,14 +14062,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "asse",
         "timeZones": [
             "UTC+08:00"
         ]
     },
     {
-        "id": "PK",
+        "id": "pk",
         "label": {
             "ar": "باكستان",
             "br": "Pakistan",
@@ -14141,14 +14141,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Southern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ass",
         "timeZones": [
             "UTC+05:00"
         ]
     },
     {
-        "id": "PL",
+        "id": "pl",
         "label": {
             "ar": "بولندا",
             "br": "Polonia",
@@ -14220,14 +14220,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Central Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euc",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "PM",
+        "id": "pm",
         "label": {
             "ar": "سان بيير وميكلون",
             "br": "Sant-Pêr-ha-Mikelon",
@@ -14299,14 +14299,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "North America",
+        "divisionId": "am",
+        "subDivisionId": "amna",
         "timeZones": [
             "UTC-03:00"
         ]
     },
     {
-        "id": "PN",
+        "id": "pn",
         "label": {
             "ar": "جزر بيتكيرن",
             "br": "Inizi Pitcairn",
@@ -14378,14 +14378,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Polynesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocpl",
         "timeZones": [
             "UTC-08:00"
         ]
     },
     {
-        "id": "PR",
+        "id": "pr",
         "label": {
             "ar": "بويرتوريكو",
             "br": "Puerto Rico",
@@ -14457,14 +14457,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "PS",
+        "id": "ps",
         "label": {
             "ar": "فلسطين",
             "br": "Palestina",
@@ -14545,14 +14545,14 @@
             }
         },
         "independent": false,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "PT",
+        "id": "pt",
         "label": {
             "ar": "البرتغال",
             "br": "Portugal",
@@ -14624,15 +14624,15 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eus",
         "timeZones": [
             "UTC-01:00",
             "UTC"
         ]
     },
     {
-        "id": "PW",
+        "id": "pw",
         "label": {
             "ar": "بالاو",
             "br": "Palau",
@@ -14704,14 +14704,14 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Micronesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocmc",
         "timeZones": [
             "UTC+09:00"
         ]
     },
     {
-        "id": "PY",
+        "id": "py",
         "label": {
             "ar": "باراغواي",
             "br": "Paraguay",
@@ -14783,14 +14783,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "QA",
+        "id": "qa",
         "label": {
             "ar": "قطر",
             "br": "Katar",
@@ -14862,14 +14862,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "RE",
+        "id": "re",
         "label": {
             "ar": "لا ريونيون",
             "br": "Reünion",
@@ -14941,14 +14941,14 @@
             }
         },
         "independent": false,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+04:00"
         ]
     },
     {
-        "id": "RO",
+        "id": "ro",
         "label": {
             "ar": "رومانيا",
             "br": "Roumania",
@@ -15020,14 +15020,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southeast Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euse",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "RS",
+        "id": "rs",
         "label": {
             "ar": "صيربيا",
             "br": "Serbia",
@@ -15099,14 +15099,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southeast Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euse",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "RU",
+        "id": "ru",
         "label": {
             "ar": "روسيا",
             "br": "Rusia",
@@ -15179,8 +15179,8 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Eastern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eue",
         "timeZones": [
             "UTC+03:00",
             "UTC+04:00",
@@ -15194,7 +15194,7 @@
         ]
     },
     {
-        "id": "RW",
+        "id": "rw",
         "label": {
             "ar": "رواندا",
             "br": "Rwanda",
@@ -15266,14 +15266,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "SA",
+        "id": "sa",
         "label": {
             "ar": "السعودية",
             "br": "Arabia Saoudat",
@@ -15345,14 +15345,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "SB",
+        "id": "sb",
         "label": {
             "ar": "جزر سليمان",
             "br": "Inizi Salomon",
@@ -15424,14 +15424,14 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Melanesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocml",
         "timeZones": [
             "UTC+11:00"
         ]
     },
     {
-        "id": "SC",
+        "id": "sc",
         "label": {
             "ar": "سيشل",
             "br": "Sechelez",
@@ -15503,14 +15503,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+04:00"
         ]
     },
     {
-        "id": "SD",
+        "id": "sd",
         "label": {
             "ar": "السودان",
             "br": "Soudan",
@@ -15582,14 +15582,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Northern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afn",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "SE",
+        "id": "se",
         "label": {
             "ar": "السويد",
             "br": "Sveden",
@@ -15661,14 +15661,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "SG",
+        "id": "sg",
         "label": {
             "ar": "سنغافورة",
             "br": "Singapour",
@@ -15738,14 +15738,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "asse",
         "timeZones": [
             "UTC+08:00"
         ]
     },
     {
-        "id": "SH",
+        "id": "sh",
         "label": {
             "ar": "سانت هيلينا وأسينشين وتريستان دا كونا",
             "br": "Saint Helena, Ascension ha Tristan da Cunha",
@@ -15821,14 +15821,14 @@
             }
         },
         "independent": false,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC+00:00"
         ]
     },
     {
-        "id": "SI",
+        "id": "si",
         "label": {
             "ar": "سلوفينيا",
             "br": "Slovenia",
@@ -15900,14 +15900,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Central Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euc",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "SJ",
+        "id": "sj",
         "label": {
             "ar": "سفالبارد ويان ماين",
             "br": "Svalbard ha Jan Mayen",
@@ -15979,14 +15979,14 @@
             }
         },
         "independent": false,
-        "region": "Europe",
-        "subRegion": "Northern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eun",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "SK",
+        "id": "sk",
         "label": {
             "ar": "سلوفاكيا",
             "br": "Slovakia",
@@ -16058,14 +16058,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Central Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euc",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "SL",
+        "id": "sl",
         "label": {
             "ar": "سيراليون",
             "br": "Sierra Leone",
@@ -16137,14 +16137,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "SM",
+        "id": "sm",
         "label": {
             "ar": "سان مارينو",
             "br": "San Marino",
@@ -16216,14 +16216,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eus",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "SN",
+        "id": "sn",
         "label": {
             "ar": "السنغال",
             "br": "Senegal",
@@ -16295,14 +16295,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "SO",
+        "id": "so",
         "label": {
             "ar": "الصومال",
             "br": "Somalia",
@@ -16374,14 +16374,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "SR",
+        "id": "sr",
         "label": {
             "ar": "سورينام",
             "br": "Surinam",
@@ -16453,14 +16453,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-03:00"
         ]
     },
     {
-        "id": "SS",
+        "id": "ss",
         "label": {
             "ar": "جنوب السودان",
             "br": "Soudan ar Su",
@@ -16532,14 +16532,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Middle Africa",
+        "divisionId": "af",
+        "subDivisionId": "afm",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "ST",
+        "id": "st",
         "label": {
             "ar": "ساو تومي وبرينسيب",
             "br": "São Tomé ha Príncipe",
@@ -16611,14 +16611,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Middle Africa",
+        "divisionId": "af",
+        "subDivisionId": "afm",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "SV",
+        "id": "sv",
         "label": {
             "ar": "السلفادور",
             "br": "El Salvador",
@@ -16690,14 +16690,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Central America",
+        "divisionId": "am",
+        "subDivisionId": "amca",
         "timeZones": [
             "UTC-06:00"
         ]
     },
     {
-        "id": "SX",
+        "id": "sx",
         "label": {
             "ar": "سينت مارتن",
             "br": "Sint Maarten",
@@ -16769,14 +16769,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "SY",
+        "id": "sy",
         "label": {
             "ar": "سوريا",
             "br": "Siria",
@@ -16848,14 +16848,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "SZ",
+        "id": "sz",
         "label": {
             "ar": "إسواتيني",
             "br": "Eswatini",
@@ -16931,14 +16931,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Southern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afs",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "TC",
+        "id": "tc",
         "label": {
             "ar": "جزر توركس وكايكوس",
             "br": "Inizi Turks ha Caicos",
@@ -17010,14 +17010,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "TD",
+        "id": "td",
         "label": {
             "ar": "تشاد",
             "br": "Tchad",
@@ -17089,14 +17089,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Middle Africa",
+        "divisionId": "af",
+        "subDivisionId": "afm",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "TF",
+        "id": "tf",
         "label": {
             "ar": "أراض فرنسية جنوبية وأنتارتيكية",
             "br": "Douaroù Aostral hag Antarktikel Frañs",
@@ -17168,13 +17168,13 @@
             }
         },
         "independent": false,
-        "region": "Antarctic",
+        "divisionId": "an",
         "timeZones": [
             "UTC+05:00"
         ]
     },
     {
-        "id": "TG",
+        "id": "tg",
         "label": {
             "ar": "توغو",
             "br": "Togo",
@@ -17246,14 +17246,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Western Africa",
+        "divisionId": "af",
+        "subDivisionId": "afw",
         "timeZones": [
             "UTC"
         ]
     },
     {
-        "id": "TH",
+        "id": "th",
         "label": {
             "ar": "تايلند",
             "br": "Thailand",
@@ -17325,14 +17325,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "asse",
         "timeZones": [
             "UTC+07:00"
         ]
     },
     {
-        "id": "TJ",
+        "id": "tj",
         "label": {
             "ar": "طاجيكستان",
             "br": "Tadjikistan",
@@ -17404,14 +17404,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Central Asia",
+        "divisionId": "as",
+        "subDivisionId": "ascb",
         "timeZones": [
             "UTC+05:00"
         ]
     },
     {
-        "id": "TK",
+        "id": "tk",
         "label": {
             "ar": "توكيلاو",
             "br": "Tokelau",
@@ -17483,14 +17483,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Polynesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocpl",
         "timeZones": [
             "UTC+13:00"
         ]
     },
     {
-        "id": "TL",
+        "id": "tl",
         "label": {
             "ar": "تيمور الشرقية",
             "br": "Timor ar Reter",
@@ -17562,14 +17562,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "asse",
         "timeZones": [
             "UTC+09:00"
         ]
     },
     {
-        "id": "TM",
+        "id": "tm",
         "label": {
             "ar": "تركمانستان",
             "br": "Turkmenistan",
@@ -17641,14 +17641,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Central Asia",
+        "divisionId": "as",
+        "subDivisionId": "ascb",
         "timeZones": [
             "UTC+05:00"
         ]
     },
     {
-        "id": "TN",
+        "id": "tn",
         "label": {
             "ar": "تونس",
             "br": "Tunizia",
@@ -17720,14 +17720,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Northern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afn",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "TO",
+        "id": "to",
         "label": {
             "ar": "تونغا",
             "br": "Tonga",
@@ -17799,14 +17799,14 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Polynesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocpl",
         "timeZones": [
             "UTC+13:00"
         ]
     },
     {
-        "id": "TR",
+        "id": "tr",
         "label": {
             "ar": "تركيا",
             "br": "Turkia",
@@ -17879,14 +17879,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "TT",
+        "id": "tt",
         "label": {
             "ar": "ترينيداد وتوباغو",
             "br": "Trinidad ha Tobago",
@@ -17958,14 +17958,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "TV",
+        "id": "tv",
         "label": {
             "ar": "توفالو",
             "br": "Tuvalu",
@@ -18041,14 +18041,14 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Polynesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocpl",
         "timeZones": [
             "UTC+12:00"
         ]
     },
     {
-        "id": "TW",
+        "id": "tw",
         "label": {
             "ar": "تايوان",
             "br": "Taiwan",
@@ -18118,14 +18118,14 @@
             }
         },
         "independent": false,
-        "region": "Asia",
-        "subRegion": "Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "ase",
         "timeZones": [
             "UTC+08:00"
         ]
     },
     {
-        "id": "TZ",
+        "id": "tz",
         "label": {
             "ar": "تنزانيا",
             "br": "Tanzania",
@@ -18197,14 +18197,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "UA",
+        "id": "ua",
         "label": {
             "ar": "أوكرانيا",
             "br": "Ukraina",
@@ -18276,14 +18276,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Eastern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eue",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "UG",
+        "id": "ug",
         "label": {
             "ar": "أوغندا",
             "br": "Ouganda",
@@ -18355,14 +18355,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "UM",
+        "id": "um",
         "label": {
             "ar": "جزر الولايات المتحدة الصغيرة النائية",
             "br": "Inizi Minor A-bell Stadoù-Unanet",
@@ -18434,8 +18434,8 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "North America",
+        "divisionId": "am",
+        "subDivisionId": "amna",
         "timeZones": [
             "UTC-11:00",
             "UTC-10:00",
@@ -18443,7 +18443,7 @@
         ]
     },
     {
-        "id": "US",
+        "id": "us",
         "label": {
             "ar": "الولايات المتحدة",
             "br": "Stadoù-Unanet",
@@ -18515,8 +18515,8 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "North America",
+        "divisionId": "am",
+        "subDivisionId": "amna",
         "timeZones": [
             "UTC-12:00",
             "UTC-11:00",
@@ -18532,7 +18532,7 @@
         ]
     },
     {
-        "id": "UY",
+        "id": "uy",
         "label": {
             "ar": "الأوروغواي",
             "br": "Uruguay",
@@ -18604,14 +18604,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-03:00"
         ]
     },
     {
-        "id": "UZ",
+        "id": "uz",
         "label": {
             "ar": "أوزباكستان",
             "br": "Ouzbekistan",
@@ -18683,14 +18683,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Central Asia",
+        "divisionId": "as",
+        "subDivisionId": "ascb",
         "timeZones": [
             "UTC+05:00"
         ]
     },
     {
-        "id": "VA",
+        "id": "va",
         "label": {
             "ar": "مدينة الفاتيكان",
             "br": "Vatikan",
@@ -18762,14 +18762,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southern Europe",
+        "divisionId": "eu",
+        "subDivisionId": "eus",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "VC",
+        "id": "vc",
         "label": {
             "ar": "سانت فينسنت والغرينادين",
             "br": "Sant-Visant hag ar Grenadinez",
@@ -18841,14 +18841,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "VE",
+        "id": "ve",
         "label": {
             "ar": "فنزويلا",
             "br": "Venezuela",
@@ -18920,14 +18920,14 @@
             }
         },
         "independent": true,
-        "region": "Americas",
-        "subRegion": "South America",
+        "divisionId": "am",
+        "subDivisionId": "amsa",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "VG",
+        "id": "vg",
         "label": {
             "ar": "جزر العذراء",
             "br": "Inizi Gwerc'h Breizhveurat",
@@ -18999,14 +18999,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "VI",
+        "id": "vi",
         "label": {
             "ar": "جزر العذراء الامريكية",
             "br": "Inizi Gwerc'h ar Stadoù-Unanet",
@@ -19078,14 +19078,14 @@
             }
         },
         "independent": false,
-        "region": "Americas",
-        "subRegion": "Caribbean",
+        "divisionId": "am",
+        "subDivisionId": "amc",
         "timeZones": [
             "UTC-04:00"
         ]
     },
     {
-        "id": "VN",
+        "id": "vn",
         "label": {
             "ar": "فيتنام",
             "br": "Viêt Nam",
@@ -19157,14 +19157,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
+        "divisionId": "as",
+        "subDivisionId": "asse",
         "timeZones": [
             "UTC+07:00"
         ]
     },
     {
-        "id": "VU",
+        "id": "vu",
         "label": {
             "ar": "فانواتو",
             "br": "Vanuatu",
@@ -19236,14 +19236,14 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Melanesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocml",
         "timeZones": [
             "UTC+11:00"
         ]
     },
     {
-        "id": "WF",
+        "id": "wf",
         "label": {
             "ar": "واليس وفوتونا",
             "br": "Wallis ha Futuna",
@@ -19315,14 +19315,14 @@
             }
         },
         "independent": false,
-        "region": "Oceania",
-        "subRegion": "Polynesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocpl",
         "timeZones": [
             "UTC+12:00"
         ]
     },
     {
-        "id": "WS",
+        "id": "ws",
         "label": {
             "ar": "ساموا",
             "br": "Samoa",
@@ -19394,14 +19394,14 @@
             }
         },
         "independent": true,
-        "region": "Oceania",
-        "subRegion": "Polynesia",
+        "divisionId": "oc",
+        "subDivisionId": "ocpl",
         "timeZones": [
             "UTC+13:00"
         ]
     },
     {
-        "id": "XK",
+        "id": "xk",
         "label": {
             "ar": "كوسوفو",
             "br": "Kosovo",
@@ -19471,14 +19471,14 @@
             }
         },
         "independent": true,
-        "region": "Europe",
-        "subRegion": "Southeast Europe",
+        "divisionId": "eu",
+        "subDivisionId": "euse",
         "timeZones": [
             "UTC+01:00"
         ]
     },
     {
-        "id": "YE",
+        "id": "ye",
         "label": {
             "ar": "اليمن",
             "br": "Yemen",
@@ -19550,14 +19550,14 @@
             }
         },
         "independent": true,
-        "region": "Asia",
-        "subRegion": "Western Asia",
+        "divisionId": "as",
+        "subDivisionId": "asw",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "YT",
+        "id": "yt",
         "label": {
             "ar": "مايوت",
             "br": "Mayotte",
@@ -19629,14 +19629,14 @@
             }
         },
         "independent": false,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+03:00"
         ]
     },
     {
-        "id": "ZA",
+        "id": "za",
         "label": {
             "ar": "جنوب أفريقيا",
             "br": "Suafrika",
@@ -19710,14 +19710,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Southern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afs",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "ZM",
+        "id": "zm",
         "label": {
             "ar": "زامبيا",
             "br": "Zambia",
@@ -19789,14 +19789,14 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Eastern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afe",
         "timeZones": [
             "UTC+02:00"
         ]
     },
     {
-        "id": "ZW",
+        "id": "zw",
         "label": {
             "ar": "زيمبابوي",
             "br": "Zimbabwe",
@@ -19868,8 +19868,8 @@
             }
         },
         "independent": true,
-        "region": "Africa",
-        "subRegion": "Southern Africa",
+        "divisionId": "af",
+        "subDivisionId": "afs",
         "timeZones": [
             "UTC+02:00"
         ]

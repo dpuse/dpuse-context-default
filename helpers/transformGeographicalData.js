@@ -3,7 +3,7 @@ import geoDivisions from './data/geoDivisions.json' with { type: 'json' };
 import geoSubDivisions from './data/geoSubDivisions.json' with { type: 'json' };
 import languages from './data/retrievals/language-codes-full.json' with { type: 'json' };
 
-async function buildDimensions() {
+async function transformCountryData() {
     const countryDataIndependent = await fs.readFile('./helpers/data/retrievals/countryDataFromCountryRestIndependent.json', 'utf-8');
     const countriesIndependent = JSON.parse(countryDataIndependent);
     const countryDataDependent = await fs.readFile('./helpers/data/retrievals/countryDataFromCountryRestDependent.json', 'utf-8');
@@ -18,7 +18,6 @@ async function buildDimensions() {
 
     const geoCountries = [];
     // const currencies = {};
-    // const timeZones = {};
     for (const country of countries) {
         const label = { en: country.name.common };
         const labelOfficial = { en: country.name.official };
@@ -35,7 +34,6 @@ async function buildDimensions() {
         const geoSubDivision = geoSubDivisions.find((geoSubDivision) => geoSubDivision.label.en === country.subregion);
 
         // for (const [key, currency] of Object.entries(country.currencies || {})) currencies[key] = (currencies[key] || 0) + 1;
-        // for (const timezone of country.timezones) timeZones[timezone] = (timeZones[timezone] || 0) + 1;
 
         for (const [key, translation] of Object.entries(country.translations)) {
             const localeCode = lookupLocaleCode(key);
@@ -53,19 +51,16 @@ async function buildDimensions() {
             currencies: country.currencies,
             independent: country.independent,
             divisionId: geoDivision.id,
-            subDivisionId: geoSubDivision?.id,
-            timeZones: country.timezones
+            subDivisionId: geoSubDivision?.id
         });
-        if (country.continents.length > 1) console.log('MULTIPLE CONTINENTS:', country.name.common, ',', country.continents);
         if (country.capital?.length > 1) console.log('MULTIPLE CAPITALS__:', country.name.common, ',', country.capital);
+        if (country.continents.length > 1) console.log('MULTIPLE CONTINENTS:', country.name.common, ',', country.continents);
+        if (Object.keys(country.currencies ?? {}).length > 1) console.log('MULTIPLE CURRENCIES:', country.name.common, ',', country.currencies);
     }
     await fs.writeFile('./helpers/data/geoCountries.json', JSON.stringify(geoCountries, null, 4), 'utf-8');
 
     // const sortedCurrencies = Object.fromEntries(Object.entries(currencies).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
     // console.log('CURRENCIES_________:', sortedCurrencies);
-
-    // const sortedTimeZones = Object.fromEntries(Object.entries(timeZones).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
-    // console.log('TIME_ZONES_________:', sortedTimeZones);
 }
 
 function lookupLocaleCode(key) {
@@ -79,4 +74,11 @@ function lookupLocaleCode(key) {
     return undefined;
 }
 
-buildDimensions();
+async function transformTimeZoneData() {
+    const timeZones = Intl.supportedValuesOf('timeZone').map((timeZoneName) => ({ name: timeZoneName }));
+    timeZones.sort((left, right) => left.name.localeCompare(right.name));
+    await fs.writeFile('./helpers/data/geoTimeZones.json', JSON.stringify(timeZones, null, 4), 'utf-8');
+}
+
+transformCountryData();
+transformTimeZoneData();

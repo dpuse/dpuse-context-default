@@ -73,10 +73,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eus",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eus"
     },
     {
         "id": "ae",
@@ -152,10 +149,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+04:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "af",
@@ -231,10 +225,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ass",
-        "timeZones": [
-            "UTC+04:30"
-        ]
+        "subDivisionId": "ass"
     },
     {
         "id": "ag",
@@ -310,10 +301,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "ai",
@@ -389,10 +377,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "al",
@@ -468,10 +453,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euse",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euse"
     },
     {
         "id": "am",
@@ -547,10 +529,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+04:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "ao",
@@ -626,10 +605,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afm",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afm"
     },
     {
         "id": "aq",
@@ -695,17 +671,7 @@
             "Antarctica"
         ],
         "independent": false,
-        "divisionId": "an",
-        "timeZones": [
-            "UTC-03:00",
-            "UTC+03:00",
-            "UTC+05:00",
-            "UTC+06:00",
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+10:00",
-            "UTC+12:00"
-        ]
+        "divisionId": "an"
     },
     {
         "id": "ar",
@@ -781,10 +747,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-03:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "as",
@@ -860,10 +823,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocpl",
-        "timeZones": [
-            "UTC-11:00"
-        ]
+        "subDivisionId": "ocpl"
     },
     {
         "id": "at",
@@ -939,10 +899,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euc",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euc"
     },
     {
         "id": "au",
@@ -1018,17 +975,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocanz",
-        "timeZones": [
-            "UTC+05:00",
-            "UTC+06:30",
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+09:30",
-            "UTC+10:00",
-            "UTC+10:30",
-            "UTC+11:30"
-        ]
+        "subDivisionId": "ocanz"
     },
     {
         "id": "aw",
@@ -1104,10 +1051,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "ax",
@@ -1183,10 +1127,7 @@
         },
         "independent": false,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "az",
@@ -1263,10 +1204,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+04:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "ba",
@@ -1342,10 +1280,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euse",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euse"
     },
     {
         "id": "bb",
@@ -1421,10 +1356,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "bd",
@@ -1500,10 +1432,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ass",
-        "timeZones": [
-            "UTC+06:00"
-        ]
+        "subDivisionId": "ass"
     },
     {
         "id": "be",
@@ -1579,10 +1508,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euw",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euw"
     },
     {
         "id": "bf",
@@ -1658,10 +1584,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "bg",
@@ -1737,10 +1660,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euse",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "euse"
     },
     {
         "id": "bh",
@@ -1816,10 +1736,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "bi",
@@ -1895,10 +1812,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "bj",
@@ -1974,10 +1888,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "bl",
@@ -2053,10 +1964,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "bm",
@@ -2132,10 +2040,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amna",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amna"
     },
     {
         "id": "bn",
@@ -2215,10 +2120,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asse",
-        "timeZones": [
-            "UTC+08:00"
-        ]
+        "subDivisionId": "asse"
     },
     {
         "id": "bo",
@@ -2294,10 +2196,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "bq",
@@ -2373,10 +2272,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "br",
@@ -2452,13 +2348,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-02:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "bs",
@@ -2538,10 +2428,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-05:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "bt",
@@ -2621,10 +2508,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ass",
-        "timeZones": [
-            "UTC+06:00"
-        ]
+        "subDivisionId": "ass"
     },
     {
         "id": "bv",
@@ -2690,10 +2574,7 @@
             "Antarctica"
         ],
         "independent": false,
-        "divisionId": "an",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "divisionId": "an"
     },
     {
         "id": "bw",
@@ -2769,10 +2650,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afs",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afs"
     },
     {
         "id": "by",
@@ -2848,10 +2726,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eue",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "eue"
     },
     {
         "id": "bz",
@@ -2927,10 +2802,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amca",
-        "timeZones": [
-            "UTC-06:00"
-        ]
+        "subDivisionId": "amca"
     },
     {
         "id": "ca",
@@ -3006,15 +2878,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amna",
-        "timeZones": [
-            "UTC-08:00",
-            "UTC-07:00",
-            "UTC-06:00",
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC-03:30"
-        ]
+        "subDivisionId": "amna"
     },
     {
         "id": "cc",
@@ -3090,10 +2954,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocanz",
-        "timeZones": [
-            "UTC+06:30"
-        ]
+        "subDivisionId": "ocanz"
     },
     {
         "id": "cd",
@@ -3169,11 +3030,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afm",
-        "timeZones": [
-            "UTC+01:00",
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afm"
     },
     {
         "id": "cf",
@@ -3249,10 +3106,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afm",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afm"
     },
     {
         "id": "cg",
@@ -3328,10 +3182,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afm",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afm"
     },
     {
         "id": "ch",
@@ -3407,10 +3258,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euw",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euw"
     },
     {
         "id": "ci",
@@ -3486,10 +3334,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "ck",
@@ -3569,10 +3414,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocpl",
-        "timeZones": [
-            "UTC-10:00"
-        ]
+        "subDivisionId": "ocpl"
     },
     {
         "id": "cl",
@@ -3648,11 +3490,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-06:00",
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "cm",
@@ -3728,10 +3566,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afm",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afm"
     },
     {
         "id": "cn",
@@ -3805,10 +3640,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ase",
-        "timeZones": [
-            "UTC+08:00"
-        ]
+        "subDivisionId": "ase"
     },
     {
         "id": "co",
@@ -3884,10 +3716,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-05:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "cr",
@@ -3963,10 +3792,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amca",
-        "timeZones": [
-            "UTC-06:00"
-        ]
+        "subDivisionId": "amca"
     },
     {
         "id": "cu",
@@ -4046,10 +3872,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-05:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "cv",
@@ -4125,10 +3948,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC-01:00"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "cw",
@@ -4200,10 +4020,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "cx",
@@ -4279,10 +4096,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocanz",
-        "timeZones": [
-            "UTC+07:00"
-        ]
+        "subDivisionId": "ocanz"
     },
     {
         "id": "cy",
@@ -4358,10 +4172,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eus",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "eus"
     },
     {
         "id": "cz",
@@ -4437,10 +4248,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euc",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euc"
     },
     {
         "id": "de",
@@ -4516,10 +4324,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euw",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euw"
     },
     {
         "id": "dj",
@@ -4595,10 +4400,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "dk",
@@ -4674,14 +4476,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-01:00",
-            "UTC",
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "dm",
@@ -4757,10 +4552,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "do",
@@ -4836,10 +4628,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "dz",
@@ -4915,10 +4704,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afn",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afn"
     },
     {
         "id": "ec",
@@ -4994,11 +4780,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-06:00",
-            "UTC-05:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "ee",
@@ -5074,10 +4856,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "eg",
@@ -5153,10 +4932,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afn",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afn"
     },
     {
         "id": "eh",
@@ -5240,10 +5016,7 @@
         },
         "independent": false,
         "divisionId": "af",
-        "subDivisionId": "afn",
-        "timeZones": [
-            "UTC+00:00"
-        ]
+        "subDivisionId": "afn"
     },
     {
         "id": "er",
@@ -5319,10 +5092,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "es",
@@ -5398,11 +5168,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eus",
-        "timeZones": [
-            "UTC",
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eus"
     },
     {
         "id": "et",
@@ -5478,10 +5244,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "fi",
@@ -5557,10 +5320,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "fj",
@@ -5636,10 +5396,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocml",
-        "timeZones": [
-            "UTC+12:00"
-        ]
+        "subDivisionId": "ocml"
     },
     {
         "id": "fk",
@@ -5715,10 +5472,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "fm",
@@ -5794,11 +5548,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocmc",
-        "timeZones": [
-            "UTC+10:00",
-            "UTC+11:00"
-        ]
+        "subDivisionId": "ocmc"
     },
     {
         "id": "fo",
@@ -5878,10 +5628,7 @@
         },
         "independent": false,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+00:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "fr",
@@ -5957,23 +5704,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euw",
-        "timeZones": [
-            "UTC-10:00",
-            "UTC-09:30",
-            "UTC-09:00",
-            "UTC-08:00",
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC+01:00",
-            "UTC+02:00",
-            "UTC+03:00",
-            "UTC+04:00",
-            "UTC+05:00",
-            "UTC+10:00",
-            "UTC+11:00",
-            "UTC+12:00"
-        ]
+        "subDivisionId": "euw"
     },
     {
         "id": "ga",
@@ -6049,10 +5780,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afm",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afm"
     },
     {
         "id": "gb",
@@ -6128,18 +5856,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC-08:00",
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-02:00",
-            "UTC",
-            "UTC+01:00",
-            "UTC+02:00",
-            "UTC+06:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "gd",
@@ -6215,10 +5932,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "ge",
@@ -6294,10 +6008,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+04:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "gf",
@@ -6373,10 +6084,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-03:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "gg",
@@ -6456,10 +6164,7 @@
         },
         "independent": false,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+00:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "gh",
@@ -6535,10 +6240,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "gi",
@@ -6614,10 +6316,7 @@
         },
         "independent": false,
         "divisionId": "eu",
-        "subDivisionId": "eus",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eus"
     },
     {
         "id": "gl",
@@ -6693,13 +6392,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amna",
-        "timeZones": [
-            "UTC-04:00",
-            "UTC-03:00",
-            "UTC-01:00",
-            "UTC+00:00"
-        ]
+        "subDivisionId": "amna"
     },
     {
         "id": "gm",
@@ -6775,10 +6468,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC+00:00"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "gn",
@@ -6854,10 +6544,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "gp",
@@ -6933,10 +6620,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "gq",
@@ -7012,10 +6696,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afm",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afm"
     },
     {
         "id": "gr",
@@ -7091,10 +6772,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eus",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "eus"
     },
     {
         "id": "gs",
@@ -7169,10 +6847,7 @@
             }
         },
         "independent": false,
-        "divisionId": "an",
-        "timeZones": [
-            "UTC-02:00"
-        ]
+        "divisionId": "an"
     },
     {
         "id": "gt",
@@ -7248,10 +6923,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amca",
-        "timeZones": [
-            "UTC-06:00"
-        ]
+        "subDivisionId": "amca"
     },
     {
         "id": "gu",
@@ -7327,10 +6999,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocmc",
-        "timeZones": [
-            "UTC+10:00"
-        ]
+        "subDivisionId": "ocmc"
     },
     {
         "id": "gw",
@@ -7406,10 +7075,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "gy",
@@ -7485,10 +7151,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "hk",
@@ -7562,10 +7225,7 @@
         },
         "independent": false,
         "divisionId": "as",
-        "subDivisionId": "ase",
-        "timeZones": [
-            "UTC+08:00"
-        ]
+        "subDivisionId": "ase"
     },
     {
         "id": "hm",
@@ -7631,10 +7291,7 @@
             "Antarctica"
         ],
         "independent": false,
-        "divisionId": "an",
-        "timeZones": [
-            "UTC+05:00"
-        ]
+        "divisionId": "an"
     },
     {
         "id": "hn",
@@ -7710,10 +7367,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amca",
-        "timeZones": [
-            "UTC-06:00"
-        ]
+        "subDivisionId": "amca"
     },
     {
         "id": "hr",
@@ -7789,10 +7443,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euse",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euse"
     },
     {
         "id": "ht",
@@ -7868,10 +7519,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-05:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "hu",
@@ -7947,10 +7595,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euc",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euc"
     },
     {
         "id": "id",
@@ -8026,12 +7671,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asse",
-        "timeZones": [
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+09:00"
-        ]
+        "subDivisionId": "asse"
     },
     {
         "id": "ie",
@@ -8107,10 +7747,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "il",
@@ -8184,10 +7821,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "im",
@@ -8267,10 +7901,7 @@
         },
         "independent": false,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+00:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "in",
@@ -8346,10 +7977,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ass",
-        "timeZones": [
-            "UTC+05:30"
-        ]
+        "subDivisionId": "ass"
     },
     {
         "id": "io",
@@ -8425,10 +8053,7 @@
         },
         "independent": false,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+06:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "iq",
@@ -8504,10 +8129,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "ir",
@@ -8581,10 +8203,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ass",
-        "timeZones": [
-            "UTC+03:30"
-        ]
+        "subDivisionId": "ass"
     },
     {
         "id": "is",
@@ -8660,10 +8279,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "it",
@@ -8739,10 +8355,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eus",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eus"
     },
     {
         "id": "je",
@@ -8822,10 +8435,7 @@
         },
         "independent": false,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "jm",
@@ -8901,10 +8511,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-05:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "jo",
@@ -8980,10 +8587,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "jp",
@@ -9059,10 +8663,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ase",
-        "timeZones": [
-            "UTC+09:00"
-        ]
+        "subDivisionId": "ase"
     },
     {
         "id": "ke",
@@ -9138,10 +8739,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "kg",
@@ -9217,10 +8815,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ascb",
-        "timeZones": [
-            "UTC+06:00"
-        ]
+        "subDivisionId": "ascb"
     },
     {
         "id": "kh",
@@ -9300,10 +8895,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asse",
-        "timeZones": [
-            "UTC+07:00"
-        ]
+        "subDivisionId": "asse"
     },
     {
         "id": "ki",
@@ -9383,12 +8975,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocmc",
-        "timeZones": [
-            "UTC+12:00",
-            "UTC+13:00",
-            "UTC+14:00"
-        ]
+        "subDivisionId": "ocmc"
     },
     {
         "id": "km",
@@ -9464,10 +9051,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "kn",
@@ -9543,10 +9127,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "kp",
@@ -9622,10 +9203,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ase",
-        "timeZones": [
-            "UTC+09:00"
-        ]
+        "subDivisionId": "ase"
     },
     {
         "id": "kr",
@@ -9701,10 +9279,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ase",
-        "timeZones": [
-            "UTC+09:00"
-        ]
+        "subDivisionId": "ase"
     },
     {
         "id": "kw",
@@ -9780,10 +9355,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "ky",
@@ -9859,10 +9431,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-05:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "kz",
@@ -9938,11 +9507,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ascb",
-        "timeZones": [
-            "UTC+05:00",
-            "UTC+06:00"
-        ]
+        "subDivisionId": "ascb"
     },
     {
         "id": "la",
@@ -10018,10 +9583,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asse",
-        "timeZones": [
-            "UTC+07:00"
-        ]
+        "subDivisionId": "asse"
     },
     {
         "id": "lb",
@@ -10097,10 +9659,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "lc",
@@ -10176,10 +9735,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "li",
@@ -10255,10 +9811,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euw",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euw"
     },
     {
         "id": "lk",
@@ -10334,10 +9887,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ass",
-        "timeZones": [
-            "UTC+05:30"
-        ]
+        "subDivisionId": "ass"
     },
     {
         "id": "lr",
@@ -10413,10 +9963,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "ls",
@@ -10496,10 +10043,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afs",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afs"
     },
     {
         "id": "lt",
@@ -10575,10 +10119,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "lu",
@@ -10654,10 +10195,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euw",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euw"
     },
     {
         "id": "lv",
@@ -10733,10 +10271,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "ly",
@@ -10812,10 +10347,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afn",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afn"
     },
     {
         "id": "ma",
@@ -10891,10 +10423,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afn",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afn"
     },
     {
         "id": "mc",
@@ -10970,10 +10499,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euw",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euw"
     },
     {
         "id": "md",
@@ -11049,10 +10575,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eue",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "eue"
     },
     {
         "id": "me",
@@ -11128,10 +10651,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euse",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euse"
     },
     {
         "id": "mf",
@@ -11207,10 +10727,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "mg",
@@ -11286,10 +10803,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "mh",
@@ -11365,10 +10879,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocmc",
-        "timeZones": [
-            "UTC+12:00"
-        ]
+        "subDivisionId": "ocmc"
     },
     {
         "id": "mk",
@@ -11444,10 +10955,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euse",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euse"
     },
     {
         "id": "ml",
@@ -11523,10 +11031,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "mm",
@@ -11602,10 +11107,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asse",
-        "timeZones": [
-            "UTC+06:30"
-        ]
+        "subDivisionId": "asse"
     },
     {
         "id": "mn",
@@ -11681,11 +11183,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ase",
-        "timeZones": [
-            "UTC+07:00",
-            "UTC+08:00"
-        ]
+        "subDivisionId": "ase"
     },
     {
         "id": "mo",
@@ -11756,10 +11254,7 @@
         },
         "independent": false,
         "divisionId": "as",
-        "subDivisionId": "ase",
-        "timeZones": [
-            "UTC+08:00"
-        ]
+        "subDivisionId": "ase"
     },
     {
         "id": "mp",
@@ -11835,10 +11330,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocmc",
-        "timeZones": [
-            "UTC+10:00"
-        ]
+        "subDivisionId": "ocmc"
     },
     {
         "id": "mq",
@@ -11914,10 +11406,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "mr",
@@ -11993,10 +11482,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "ms",
@@ -12072,10 +11558,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "mt",
@@ -12151,10 +11634,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eus",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eus"
     },
     {
         "id": "mu",
@@ -12230,10 +11710,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+04:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "mv",
@@ -12309,10 +11786,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ass",
-        "timeZones": [
-            "UTC+05:00"
-        ]
+        "subDivisionId": "ass"
     },
     {
         "id": "mw",
@@ -12388,10 +11862,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "mx",
@@ -12467,12 +11938,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amna",
-        "timeZones": [
-            "UTC-08:00",
-            "UTC-07:00",
-            "UTC-06:00"
-        ]
+        "subDivisionId": "amna"
     },
     {
         "id": "my",
@@ -12548,10 +12014,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asse",
-        "timeZones": [
-            "UTC+08:00"
-        ]
+        "subDivisionId": "asse"
     },
     {
         "id": "mz",
@@ -12627,10 +12090,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "na",
@@ -12710,10 +12170,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afs",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afs"
     },
     {
         "id": "nc",
@@ -12789,10 +12246,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocml",
-        "timeZones": [
-            "UTC+11:00"
-        ]
+        "subDivisionId": "ocml"
     },
     {
         "id": "ne",
@@ -12868,10 +12322,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "nf",
@@ -12947,10 +12398,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocanz",
-        "timeZones": [
-            "UTC+11:30"
-        ]
+        "subDivisionId": "ocanz"
     },
     {
         "id": "ng",
@@ -13026,10 +12474,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "ni",
@@ -13105,10 +12550,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amca",
-        "timeZones": [
-            "UTC-06:00"
-        ]
+        "subDivisionId": "amca"
     },
     {
         "id": "nl",
@@ -13184,10 +12626,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euw",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euw"
     },
     {
         "id": "no",
@@ -13263,10 +12702,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "np",
@@ -13342,10 +12778,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ass",
-        "timeZones": [
-            "UTC+05:45"
-        ]
+        "subDivisionId": "ass"
     },
     {
         "id": "nr",
@@ -13421,10 +12854,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocmc",
-        "timeZones": [
-            "UTC+12:00"
-        ]
+        "subDivisionId": "ocmc"
     },
     {
         "id": "nu",
@@ -13500,10 +12930,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocpl",
-        "timeZones": [
-            "UTC-11:00"
-        ]
+        "subDivisionId": "ocpl"
     },
     {
         "id": "nz",
@@ -13579,14 +13006,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocanz",
-        "timeZones": [
-            "UTC-11:00",
-            "UTC-10:00",
-            "UTC+12:00",
-            "UTC+12:45",
-            "UTC+13:00"
-        ]
+        "subDivisionId": "ocanz"
     },
     {
         "id": "om",
@@ -13662,10 +13082,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+04:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "pa",
@@ -13745,10 +13162,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amca",
-        "timeZones": [
-            "UTC-05:00"
-        ]
+        "subDivisionId": "amca"
     },
     {
         "id": "pe",
@@ -13824,10 +13238,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-05:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "pf",
@@ -13903,12 +13314,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocpl",
-        "timeZones": [
-            "UTC-10:00",
-            "UTC-09:30",
-            "UTC-09:00"
-        ]
+        "subDivisionId": "ocpl"
     },
     {
         "id": "pg",
@@ -13984,10 +13390,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocml",
-        "timeZones": [
-            "UTC+10:00"
-        ]
+        "subDivisionId": "ocml"
     },
     {
         "id": "ph",
@@ -14063,10 +13466,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asse",
-        "timeZones": [
-            "UTC+08:00"
-        ]
+        "subDivisionId": "asse"
     },
     {
         "id": "pk",
@@ -14142,10 +13542,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ass",
-        "timeZones": [
-            "UTC+05:00"
-        ]
+        "subDivisionId": "ass"
     },
     {
         "id": "pl",
@@ -14221,10 +13618,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euc",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euc"
     },
     {
         "id": "pm",
@@ -14300,10 +13694,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amna",
-        "timeZones": [
-            "UTC-03:00"
-        ]
+        "subDivisionId": "amna"
     },
     {
         "id": "pn",
@@ -14379,10 +13770,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocpl",
-        "timeZones": [
-            "UTC-08:00"
-        ]
+        "subDivisionId": "ocpl"
     },
     {
         "id": "pr",
@@ -14458,10 +13846,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "ps",
@@ -14546,10 +13931,7 @@
         },
         "independent": false,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "pt",
@@ -14625,11 +14007,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eus",
-        "timeZones": [
-            "UTC-01:00",
-            "UTC"
-        ]
+        "subDivisionId": "eus"
     },
     {
         "id": "pw",
@@ -14705,10 +14083,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocmc",
-        "timeZones": [
-            "UTC+09:00"
-        ]
+        "subDivisionId": "ocmc"
     },
     {
         "id": "py",
@@ -14784,10 +14159,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "qa",
@@ -14863,10 +14235,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "re",
@@ -14942,10 +14311,7 @@
         },
         "independent": false,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+04:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "ro",
@@ -15021,10 +14387,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euse",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "euse"
     },
     {
         "id": "rs",
@@ -15100,10 +14463,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euse",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euse"
     },
     {
         "id": "ru",
@@ -15180,18 +14540,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eue",
-        "timeZones": [
-            "UTC+03:00",
-            "UTC+04:00",
-            "UTC+06:00",
-            "UTC+07:00",
-            "UTC+08:00",
-            "UTC+09:00",
-            "UTC+10:00",
-            "UTC+11:00",
-            "UTC+12:00"
-        ]
+        "subDivisionId": "eue"
     },
     {
         "id": "rw",
@@ -15267,10 +14616,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "sa",
@@ -15346,10 +14692,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "sb",
@@ -15425,10 +14768,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocml",
-        "timeZones": [
-            "UTC+11:00"
-        ]
+        "subDivisionId": "ocml"
     },
     {
         "id": "sc",
@@ -15504,10 +14844,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+04:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "sd",
@@ -15583,10 +14920,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afn",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afn"
     },
     {
         "id": "se",
@@ -15662,10 +14996,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "sg",
@@ -15739,10 +15070,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asse",
-        "timeZones": [
-            "UTC+08:00"
-        ]
+        "subDivisionId": "asse"
     },
     {
         "id": "sh",
@@ -15822,10 +15150,7 @@
         },
         "independent": false,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC+00:00"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "si",
@@ -15901,10 +15226,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euc",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euc"
     },
     {
         "id": "sj",
@@ -15980,10 +15302,7 @@
         },
         "independent": false,
         "divisionId": "eu",
-        "subDivisionId": "eun",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eun"
     },
     {
         "id": "sk",
@@ -16059,10 +15378,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euc",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euc"
     },
     {
         "id": "sl",
@@ -16138,10 +15454,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "sm",
@@ -16217,10 +15530,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eus",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eus"
     },
     {
         "id": "sn",
@@ -16296,10 +15606,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "so",
@@ -16375,10 +15682,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "sr",
@@ -16454,10 +15758,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-03:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "ss",
@@ -16533,10 +15834,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afm",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afm"
     },
     {
         "id": "st",
@@ -16612,10 +15910,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afm",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afm"
     },
     {
         "id": "sv",
@@ -16691,10 +15986,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amca",
-        "timeZones": [
-            "UTC-06:00"
-        ]
+        "subDivisionId": "amca"
     },
     {
         "id": "sx",
@@ -16770,10 +16062,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "sy",
@@ -16849,10 +16138,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "sz",
@@ -16932,10 +16218,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afs",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afs"
     },
     {
         "id": "tc",
@@ -17011,10 +16294,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "td",
@@ -17090,10 +16370,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afm",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afm"
     },
     {
         "id": "tf",
@@ -17168,10 +16445,7 @@
             }
         },
         "independent": false,
-        "divisionId": "an",
-        "timeZones": [
-            "UTC+05:00"
-        ]
+        "divisionId": "an"
     },
     {
         "id": "tg",
@@ -17247,10 +16521,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afw",
-        "timeZones": [
-            "UTC"
-        ]
+        "subDivisionId": "afw"
     },
     {
         "id": "th",
@@ -17326,10 +16597,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asse",
-        "timeZones": [
-            "UTC+07:00"
-        ]
+        "subDivisionId": "asse"
     },
     {
         "id": "tj",
@@ -17405,10 +16673,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ascb",
-        "timeZones": [
-            "UTC+05:00"
-        ]
+        "subDivisionId": "ascb"
     },
     {
         "id": "tk",
@@ -17484,10 +16749,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocpl",
-        "timeZones": [
-            "UTC+13:00"
-        ]
+        "subDivisionId": "ocpl"
     },
     {
         "id": "tl",
@@ -17563,10 +16825,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asse",
-        "timeZones": [
-            "UTC+09:00"
-        ]
+        "subDivisionId": "asse"
     },
     {
         "id": "tm",
@@ -17642,10 +16901,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ascb",
-        "timeZones": [
-            "UTC+05:00"
-        ]
+        "subDivisionId": "ascb"
     },
     {
         "id": "tn",
@@ -17721,10 +16977,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afn",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "afn"
     },
     {
         "id": "to",
@@ -17800,10 +17053,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocpl",
-        "timeZones": [
-            "UTC+13:00"
-        ]
+        "subDivisionId": "ocpl"
     },
     {
         "id": "tr",
@@ -17880,10 +17130,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "tt",
@@ -17959,10 +17206,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "tv",
@@ -18042,10 +17286,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocpl",
-        "timeZones": [
-            "UTC+12:00"
-        ]
+        "subDivisionId": "ocpl"
     },
     {
         "id": "tw",
@@ -18119,10 +17360,7 @@
         },
         "independent": false,
         "divisionId": "as",
-        "subDivisionId": "ase",
-        "timeZones": [
-            "UTC+08:00"
-        ]
+        "subDivisionId": "ase"
     },
     {
         "id": "tz",
@@ -18198,10 +17436,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "ua",
@@ -18277,10 +17512,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eue",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "eue"
     },
     {
         "id": "ug",
@@ -18356,10 +17588,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "um",
@@ -18435,12 +17664,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amna",
-        "timeZones": [
-            "UTC-11:00",
-            "UTC-10:00",
-            "UTC+12:00"
-        ]
+        "subDivisionId": "amna"
     },
     {
         "id": "us",
@@ -18516,20 +17740,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amna",
-        "timeZones": [
-            "UTC-12:00",
-            "UTC-11:00",
-            "UTC-10:00",
-            "UTC-09:00",
-            "UTC-08:00",
-            "UTC-07:00",
-            "UTC-06:00",
-            "UTC-05:00",
-            "UTC-04:00",
-            "UTC+10:00",
-            "UTC+12:00"
-        ]
+        "subDivisionId": "amna"
     },
     {
         "id": "uy",
@@ -18605,10 +17816,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-03:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "uz",
@@ -18684,10 +17892,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "ascb",
-        "timeZones": [
-            "UTC+05:00"
-        ]
+        "subDivisionId": "ascb"
     },
     {
         "id": "va",
@@ -18763,10 +17968,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "eus",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "eus"
     },
     {
         "id": "vc",
@@ -18842,10 +18044,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "ve",
@@ -18921,10 +18120,7 @@
         },
         "independent": true,
         "divisionId": "am",
-        "subDivisionId": "amsa",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amsa"
     },
     {
         "id": "vg",
@@ -19000,10 +18196,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "vi",
@@ -19079,10 +18272,7 @@
         },
         "independent": false,
         "divisionId": "am",
-        "subDivisionId": "amc",
-        "timeZones": [
-            "UTC-04:00"
-        ]
+        "subDivisionId": "amc"
     },
     {
         "id": "vn",
@@ -19158,10 +18348,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asse",
-        "timeZones": [
-            "UTC+07:00"
-        ]
+        "subDivisionId": "asse"
     },
     {
         "id": "vu",
@@ -19237,10 +18424,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocml",
-        "timeZones": [
-            "UTC+11:00"
-        ]
+        "subDivisionId": "ocml"
     },
     {
         "id": "wf",
@@ -19316,10 +18500,7 @@
         },
         "independent": false,
         "divisionId": "oc",
-        "subDivisionId": "ocpl",
-        "timeZones": [
-            "UTC+12:00"
-        ]
+        "subDivisionId": "ocpl"
     },
     {
         "id": "ws",
@@ -19395,10 +18576,7 @@
         },
         "independent": true,
         "divisionId": "oc",
-        "subDivisionId": "ocpl",
-        "timeZones": [
-            "UTC+13:00"
-        ]
+        "subDivisionId": "ocpl"
     },
     {
         "id": "xk",
@@ -19472,10 +18650,7 @@
         },
         "independent": true,
         "divisionId": "eu",
-        "subDivisionId": "euse",
-        "timeZones": [
-            "UTC+01:00"
-        ]
+        "subDivisionId": "euse"
     },
     {
         "id": "ye",
@@ -19551,10 +18726,7 @@
         },
         "independent": true,
         "divisionId": "as",
-        "subDivisionId": "asw",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "asw"
     },
     {
         "id": "yt",
@@ -19630,10 +18802,7 @@
         },
         "independent": false,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+03:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "za",
@@ -19711,10 +18880,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afs",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afs"
     },
     {
         "id": "zm",
@@ -19790,10 +18956,7 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afe",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afe"
     },
     {
         "id": "zw",
@@ -19869,9 +19032,6 @@
         },
         "independent": true,
         "divisionId": "af",
-        "subDivisionId": "afs",
-        "timeZones": [
-            "UTC+02:00"
-        ]
+        "subDivisionId": "afs"
     }
 ]

@@ -10,11 +10,7 @@
     },
     "hierarchies": [
         {
-            "id": "def",
-            "label": { "en-gb": "Default" },
-            "description": { "en-gb": "..." },
-            "type": null,
-            "levels": [],
+            "levels": [{ "id": "gdrs", "label": { "en-gb": "Genders" } }],
             "children": [
                 { "id": "f", "label": { "en-gb": "Female" } },
                 { "id": "m", "label": { "en-gb": "Male" } },

@@ -5,42 +5,42 @@
     "diagramURL": "",
     "dimensionGroups": [
         {
-            "id": "bio",
-            "label": { "en-gb": "Biographical" },
-            "description": { "en-gb": "..." },
-            "dimensions": [
-                { "id": "bioAge", "label": { "en-gb": "Age" } },
-                { "id": "bioCtryBth", "label": { "en-gb": "Country of Birth" } },
-                { "id": "bioEduLvl", "label": { "en-gb": "Education Level" } },
-                { "id": "bioEthGrp", "label": { "en-gb": "Ethnic Group" } },
-                { "id": "bioGdr", "label": { "en-gb": "Gender" } },
-                { "id": "bioGen", "label": { "en-gb": "Generation" } },
-                { "id": "bioHomeLoc", "label": { "en-gb": "Home Location" } },
-                { "id": "bioLangPref", "label": { "en-gb": "Language (Preferred)" } },
-                { "id": "bioLang", "label": { "en-gb": "Language" } },
-                { "id": "bioMarSts", "label": { "en-gb": "Marital Status" } },
-                { "id": "bioMin", "label": { "en-gb": "Minority" } },
-                { "id": "bioNat", "label": { "en-gb": "Nationality" } },
-                { "id": "bioPhysAb", "label": { "en-gb": "Physical Ability" } },
-                { "id": "bioResLoc", "label": { "en-gb": "Residential Location" } },
-                { "id": "bioResNat", "label": { "en-gb": "Residential Nationality" } },
-                { "id": "bioSexOri", "label": { "en-gb": "Sexual Orientation" } },
-                { "id": "bioVetSts", "label": { "en-gb": "Veteran Status" } }
-            ]
-        },
-        {
-            "id": "org",
+            "id": "organisation",
             "label": { "en-gb": "Organisation" },
-            "description": { "en-gb": "..." },
+            "description": { "en-gb": "Organisation information..." },
             "dimensions": [
                 { "id": "orgTyp", "label": { "en-gb": "Organisation Type" } },
                 { "id": "orgUnitTyp", "label": { "en-gb": "Organisational Unit Type" } }
+            ]
+        },
+        {
+            "id": "person",
+            "label": { "en-gb": "Person" },
+            "description": { "en-gb": "Demographic..." },
+            "dimensions": [
+                { "id": "perAge", "label": { "en-gb": "Age" } },
+                { "id": "perCtryBth", "label": { "en-gb": "Country of Birth" } },
+                { "id": "perEduLvl", "label": { "en-gb": "Education Level" } },
+                { "id": "perEthGrp", "label": { "en-gb": "Ethnic Group" } },
+                { "id": "perGdr", "label": { "en-gb": "Gender" } },
+                { "id": "perGen", "label": { "en-gb": "Generation" } },
+                { "id": "perHomeLoc", "label": { "en-gb": "Home Location" } },
+                { "id": "perLangPref", "label": { "en-gb": "Language (Preferred)" } },
+                { "id": "perLang", "label": { "en-gb": "Language" } },
+                { "id": "perMarSts", "label": { "en-gb": "Marital Status" } },
+                { "id": "perMin", "label": { "en-gb": "Minority" } },
+                { "id": "perNat", "label": { "en-gb": "Nationality" } },
+                { "id": "perPhysAb", "label": { "en-gb": "Physical Ability" } },
+                { "id": "perResLoc", "label": { "en-gb": "Residential Location" } },
+                { "id": "perResNat", "label": { "en-gb": "Residential Nationality" } },
+                { "id": "perSexOri", "label": { "en-gb": "Sexual Orientation" } },
+                { "id": "perVetSts", "label": { "en-gb": "Veteran Status" } }
             ]
         }
     ],
     "entityGroups": [
         {
-            "id": "org",
+            "id": "organisation",
             "label": { "en-gb": "Organisation" },
             "description": { "en-gb": "..." },
             "entities": [
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "id": "per",
+            "id": "person",
             "label": { "en-gb": "Person" },
             "description": { "en-gb": "..." },
             "entities": [

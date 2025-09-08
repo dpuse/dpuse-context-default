@@ -72,8 +72,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eus"
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "ae",
@@ -148,8 +148,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "af",
@@ -224,8 +224,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ass"
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "ag",
@@ -300,8 +300,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "ai",
@@ -376,8 +376,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "al",
@@ -452,8 +452,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euse"
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "am",
@@ -528,8 +528,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "ao",
@@ -604,8 +604,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afm"
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "aq",
@@ -671,7 +671,7 @@
             "Antarctica"
         ],
         "independent": false,
-        "divisionId": "an"
+        "regionId": "an"
     },
     {
         "id": "ar",
@@ -746,8 +746,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "as",
@@ -822,8 +822,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocpl"
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "at",
@@ -898,8 +898,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euc"
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "au",
@@ -974,8 +974,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocanz"
+        "regionId": "oc",
+        "subregionId": "ocanz"
     },
     {
         "id": "aw",
@@ -1050,8 +1050,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "ax",
@@ -1126,8 +1126,8 @@
             }
         },
         "independent": false,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "az",
@@ -1203,8 +1203,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "ba",
@@ -1279,8 +1279,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euse"
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "bb",
@@ -1355,8 +1355,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "bd",
@@ -1431,8 +1431,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ass"
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "be",
@@ -1507,8 +1507,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euw"
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "bf",
@@ -1583,8 +1583,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "bg",
@@ -1659,8 +1659,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euse"
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "bh",
@@ -1735,8 +1735,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "bi",
@@ -1811,8 +1811,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "bj",
@@ -1887,8 +1887,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "bl",
@@ -1963,8 +1963,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "bm",
@@ -2039,8 +2039,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amna"
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "bn",
@@ -2119,8 +2119,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asse"
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "bo",
@@ -2195,8 +2195,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "bq",
@@ -2271,8 +2271,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "br",
@@ -2347,8 +2347,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "bs",
@@ -2427,8 +2427,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "bt",
@@ -2507,8 +2507,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ass"
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "bv",
@@ -2574,7 +2574,7 @@
             "Antarctica"
         ],
         "independent": false,
-        "divisionId": "an"
+        "regionId": "an"
     },
     {
         "id": "bw",
@@ -2649,8 +2649,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afs"
+        "regionId": "af",
+        "subregionId": "afs"
     },
     {
         "id": "by",
@@ -2725,8 +2725,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eue"
+        "regionId": "eu",
+        "subregionId": "eue"
     },
     {
         "id": "bz",
@@ -2801,8 +2801,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amca"
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "ca",
@@ -2877,8 +2877,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amna"
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "cc",
@@ -2953,8 +2953,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocanz"
+        "regionId": "oc",
+        "subregionId": "ocanz"
     },
     {
         "id": "cd",
@@ -3029,8 +3029,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afm"
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "cf",
@@ -3105,8 +3105,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afm"
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "cg",
@@ -3181,8 +3181,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afm"
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "ch",
@@ -3257,8 +3257,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euw"
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "ci",
@@ -3333,8 +3333,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "ck",
@@ -3413,8 +3413,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocpl"
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "cl",
@@ -3489,8 +3489,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "cm",
@@ -3565,8 +3565,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afm"
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "cn",
@@ -3639,8 +3639,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ase"
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "co",
@@ -3715,8 +3715,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "cr",
@@ -3791,8 +3791,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amca"
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "cu",
@@ -3871,8 +3871,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "cv",
@@ -3947,8 +3947,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "cw",
@@ -4019,8 +4019,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "cx",
@@ -4095,8 +4095,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocanz"
+        "regionId": "oc",
+        "subregionId": "ocanz"
     },
     {
         "id": "cy",
@@ -4171,8 +4171,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eus"
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "cz",
@@ -4247,8 +4247,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euc"
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "de",
@@ -4323,8 +4323,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euw"
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "dj",
@@ -4399,8 +4399,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "dk",
@@ -4475,8 +4475,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "dm",
@@ -4551,8 +4551,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "do",
@@ -4627,8 +4627,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "dz",
@@ -4703,8 +4703,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afn"
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "ec",
@@ -4779,8 +4779,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "ee",
@@ -4855,8 +4855,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "eg",
@@ -4931,8 +4931,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afn"
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "eh",
@@ -5015,8 +5015,8 @@
             }
         },
         "independent": false,
-        "divisionId": "af",
-        "subDivisionId": "afn"
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "er",
@@ -5091,8 +5091,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "es",
@@ -5167,8 +5167,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eus"
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "et",
@@ -5243,8 +5243,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "fi",
@@ -5319,8 +5319,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "fj",
@@ -5395,8 +5395,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocml"
+        "regionId": "oc",
+        "subregionId": "ocml"
     },
     {
         "id": "fk",
@@ -5471,8 +5471,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "fm",
@@ -5547,8 +5547,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocmc"
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "fo",
@@ -5627,8 +5627,8 @@
             }
         },
         "independent": false,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "fr",
@@ -5703,8 +5703,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euw"
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "ga",
@@ -5779,8 +5779,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afm"
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "gb",
@@ -5855,8 +5855,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "gd",
@@ -5931,8 +5931,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "ge",
@@ -6007,8 +6007,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "gf",
@@ -6083,8 +6083,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "gg",
@@ -6163,8 +6163,8 @@
             }
         },
         "independent": false,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "gh",
@@ -6239,8 +6239,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "gi",
@@ -6315,8 +6315,8 @@
             }
         },
         "independent": false,
-        "divisionId": "eu",
-        "subDivisionId": "eus"
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "gl",
@@ -6391,8 +6391,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amna"
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "gm",
@@ -6467,8 +6467,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "gn",
@@ -6543,8 +6543,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "gp",
@@ -6619,8 +6619,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "gq",
@@ -6695,8 +6695,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afm"
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "gr",
@@ -6771,8 +6771,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eus"
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "gs",
@@ -6847,7 +6847,7 @@
             }
         },
         "independent": false,
-        "divisionId": "an"
+        "regionId": "an"
     },
     {
         "id": "gt",
@@ -6922,8 +6922,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amca"
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "gu",
@@ -6998,8 +6998,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocmc"
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "gw",
@@ -7074,8 +7074,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "gy",
@@ -7150,8 +7150,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "hk",
@@ -7224,8 +7224,8 @@
             }
         },
         "independent": false,
-        "divisionId": "as",
-        "subDivisionId": "ase"
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "hm",
@@ -7291,7 +7291,7 @@
             "Antarctica"
         ],
         "independent": false,
-        "divisionId": "an"
+        "regionId": "an"
     },
     {
         "id": "hn",
@@ -7366,8 +7366,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amca"
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "hr",
@@ -7442,8 +7442,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euse"
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "ht",
@@ -7518,8 +7518,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "hu",
@@ -7594,8 +7594,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euc"
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "id",
@@ -7670,8 +7670,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asse"
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "ie",
@@ -7746,8 +7746,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "il",
@@ -7820,8 +7820,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "im",
@@ -7900,8 +7900,8 @@
             }
         },
         "independent": false,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "in",
@@ -7976,8 +7976,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ass"
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "io",
@@ -8052,8 +8052,8 @@
             }
         },
         "independent": false,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "iq",
@@ -8128,8 +8128,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "ir",
@@ -8202,8 +8202,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ass"
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "is",
@@ -8278,8 +8278,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "it",
@@ -8354,8 +8354,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eus"
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "je",
@@ -8434,8 +8434,8 @@
             }
         },
         "independent": false,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "jm",
@@ -8510,8 +8510,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "jo",
@@ -8586,8 +8586,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "jp",
@@ -8662,8 +8662,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ase"
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "ke",
@@ -8738,8 +8738,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "kg",
@@ -8814,8 +8814,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ascb"
+        "regionId": "as",
+        "subregionId": "ascb"
     },
     {
         "id": "kh",
@@ -8894,8 +8894,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asse"
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "ki",
@@ -8974,8 +8974,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocmc"
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "km",
@@ -9050,8 +9050,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "kn",
@@ -9126,8 +9126,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "kp",
@@ -9202,8 +9202,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ase"
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "kr",
@@ -9278,8 +9278,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ase"
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "kw",
@@ -9354,8 +9354,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "ky",
@@ -9430,8 +9430,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "kz",
@@ -9506,8 +9506,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ascb"
+        "regionId": "as",
+        "subregionId": "ascb"
     },
     {
         "id": "la",
@@ -9582,8 +9582,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asse"
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "lb",
@@ -9658,8 +9658,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "lc",
@@ -9734,8 +9734,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "li",
@@ -9810,8 +9810,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euw"
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "lk",
@@ -9886,8 +9886,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ass"
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "lr",
@@ -9962,8 +9962,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "ls",
@@ -10042,8 +10042,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afs"
+        "regionId": "af",
+        "subregionId": "afs"
     },
     {
         "id": "lt",
@@ -10118,8 +10118,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "lu",
@@ -10194,8 +10194,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euw"
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "lv",
@@ -10270,8 +10270,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "ly",
@@ -10346,8 +10346,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afn"
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "ma",
@@ -10422,8 +10422,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afn"
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "mc",
@@ -10498,8 +10498,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euw"
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "md",
@@ -10574,8 +10574,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eue"
+        "regionId": "eu",
+        "subregionId": "eue"
     },
     {
         "id": "me",
@@ -10650,8 +10650,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euse"
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "mf",
@@ -10726,8 +10726,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "mg",
@@ -10802,8 +10802,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "mh",
@@ -10878,8 +10878,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocmc"
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "mk",
@@ -10954,8 +10954,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euse"
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "ml",
@@ -11030,8 +11030,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "mm",
@@ -11106,8 +11106,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asse"
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "mn",
@@ -11182,8 +11182,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ase"
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "mo",
@@ -11253,8 +11253,8 @@
             }
         },
         "independent": false,
-        "divisionId": "as",
-        "subDivisionId": "ase"
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "mp",
@@ -11329,8 +11329,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocmc"
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "mq",
@@ -11405,8 +11405,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "mr",
@@ -11481,8 +11481,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "ms",
@@ -11557,8 +11557,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "mt",
@@ -11633,8 +11633,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eus"
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "mu",
@@ -11709,8 +11709,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "mv",
@@ -11785,8 +11785,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ass"
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "mw",
@@ -11861,8 +11861,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "mx",
@@ -11937,8 +11937,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amna"
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "my",
@@ -12013,8 +12013,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asse"
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "mz",
@@ -12089,8 +12089,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "na",
@@ -12169,8 +12169,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afs"
+        "regionId": "af",
+        "subregionId": "afs"
     },
     {
         "id": "nc",
@@ -12245,8 +12245,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocml"
+        "regionId": "oc",
+        "subregionId": "ocml"
     },
     {
         "id": "ne",
@@ -12321,8 +12321,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "nf",
@@ -12397,8 +12397,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocanz"
+        "regionId": "oc",
+        "subregionId": "ocanz"
     },
     {
         "id": "ng",
@@ -12473,8 +12473,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "ni",
@@ -12549,8 +12549,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amca"
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "nl",
@@ -12625,8 +12625,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euw"
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "no",
@@ -12701,8 +12701,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "np",
@@ -12777,8 +12777,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ass"
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "nr",
@@ -12853,8 +12853,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocmc"
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "nu",
@@ -12929,8 +12929,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocpl"
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "nz",
@@ -13005,8 +13005,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocanz"
+        "regionId": "oc",
+        "subregionId": "ocanz"
     },
     {
         "id": "om",
@@ -13081,8 +13081,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "pa",
@@ -13161,8 +13161,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amca"
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "pe",
@@ -13237,8 +13237,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "pf",
@@ -13313,8 +13313,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocpl"
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "pg",
@@ -13389,8 +13389,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocml"
+        "regionId": "oc",
+        "subregionId": "ocml"
     },
     {
         "id": "ph",
@@ -13465,8 +13465,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asse"
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "pk",
@@ -13541,8 +13541,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ass"
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "pl",
@@ -13617,8 +13617,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euc"
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "pm",
@@ -13693,8 +13693,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amna"
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "pn",
@@ -13769,8 +13769,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocpl"
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "pr",
@@ -13845,8 +13845,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "ps",
@@ -13930,8 +13930,8 @@
             }
         },
         "independent": false,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "pt",
@@ -14006,8 +14006,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eus"
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "pw",
@@ -14082,8 +14082,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocmc"
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "py",
@@ -14158,8 +14158,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "qa",
@@ -14234,8 +14234,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "re",
@@ -14310,8 +14310,8 @@
             }
         },
         "independent": false,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "ro",
@@ -14386,8 +14386,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euse"
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "rs",
@@ -14462,8 +14462,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euse"
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "ru",
@@ -14539,8 +14539,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eue"
+        "regionId": "eu",
+        "subregionId": "eue"
     },
     {
         "id": "rw",
@@ -14615,8 +14615,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "sa",
@@ -14691,8 +14691,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "sb",
@@ -14767,8 +14767,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocml"
+        "regionId": "oc",
+        "subregionId": "ocml"
     },
     {
         "id": "sc",
@@ -14843,8 +14843,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "sd",
@@ -14919,8 +14919,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afn"
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "se",
@@ -14995,8 +14995,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "sg",
@@ -15069,8 +15069,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asse"
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "sh",
@@ -15149,8 +15149,8 @@
             }
         },
         "independent": false,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "si",
@@ -15225,8 +15225,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euc"
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "sj",
@@ -15301,8 +15301,8 @@
             }
         },
         "independent": false,
-        "divisionId": "eu",
-        "subDivisionId": "eun"
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "sk",
@@ -15377,8 +15377,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euc"
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "sl",
@@ -15453,8 +15453,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "sm",
@@ -15529,8 +15529,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eus"
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "sn",
@@ -15605,8 +15605,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "so",
@@ -15681,8 +15681,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "sr",
@@ -15757,8 +15757,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "ss",
@@ -15833,8 +15833,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afm"
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "st",
@@ -15909,8 +15909,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afm"
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "sv",
@@ -15985,8 +15985,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amca"
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "sx",
@@ -16061,8 +16061,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "sy",
@@ -16137,8 +16137,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "sz",
@@ -16217,8 +16217,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afs"
+        "regionId": "af",
+        "subregionId": "afs"
     },
     {
         "id": "tc",
@@ -16293,8 +16293,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "td",
@@ -16369,8 +16369,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afm"
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "tf",
@@ -16445,7 +16445,7 @@
             }
         },
         "independent": false,
-        "divisionId": "an"
+        "regionId": "an"
     },
     {
         "id": "tg",
@@ -16520,8 +16520,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afw"
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "th",
@@ -16596,8 +16596,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asse"
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "tj",
@@ -16672,8 +16672,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ascb"
+        "regionId": "as",
+        "subregionId": "ascb"
     },
     {
         "id": "tk",
@@ -16748,8 +16748,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocpl"
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "tl",
@@ -16824,8 +16824,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asse"
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "tm",
@@ -16900,8 +16900,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ascb"
+        "regionId": "as",
+        "subregionId": "ascb"
     },
     {
         "id": "tn",
@@ -16976,8 +16976,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afn"
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "to",
@@ -17052,8 +17052,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocpl"
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "tr",
@@ -17129,8 +17129,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "tt",
@@ -17205,8 +17205,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "tv",
@@ -17285,8 +17285,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocpl"
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "tw",
@@ -17359,8 +17359,8 @@
             }
         },
         "independent": false,
-        "divisionId": "as",
-        "subDivisionId": "ase"
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "tz",
@@ -17435,8 +17435,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "ua",
@@ -17511,8 +17511,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eue"
+        "regionId": "eu",
+        "subregionId": "eue"
     },
     {
         "id": "ug",
@@ -17587,8 +17587,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "um",
@@ -17663,8 +17663,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amna"
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "us",
@@ -17739,8 +17739,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amna"
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "uy",
@@ -17815,8 +17815,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "uz",
@@ -17891,8 +17891,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "ascb"
+        "regionId": "as",
+        "subregionId": "ascb"
     },
     {
         "id": "va",
@@ -17967,8 +17967,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "eus"
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "vc",
@@ -18043,8 +18043,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "ve",
@@ -18119,8 +18119,8 @@
             }
         },
         "independent": true,
-        "divisionId": "am",
-        "subDivisionId": "amsa"
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "vg",
@@ -18195,8 +18195,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "vi",
@@ -18271,8 +18271,8 @@
             }
         },
         "independent": false,
-        "divisionId": "am",
-        "subDivisionId": "amc"
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "vn",
@@ -18347,8 +18347,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asse"
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "vu",
@@ -18423,8 +18423,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocml"
+        "regionId": "oc",
+        "subregionId": "ocml"
     },
     {
         "id": "wf",
@@ -18499,8 +18499,8 @@
             }
         },
         "independent": false,
-        "divisionId": "oc",
-        "subDivisionId": "ocpl"
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "ws",
@@ -18575,8 +18575,8 @@
             }
         },
         "independent": true,
-        "divisionId": "oc",
-        "subDivisionId": "ocpl"
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "xk",
@@ -18649,8 +18649,8 @@
             }
         },
         "independent": true,
-        "divisionId": "eu",
-        "subDivisionId": "euse"
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "ye",
@@ -18725,8 +18725,8 @@
             }
         },
         "independent": true,
-        "divisionId": "as",
-        "subDivisionId": "asw"
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "yt",
@@ -18801,8 +18801,8 @@
             }
         },
         "independent": false,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "za",
@@ -18879,8 +18879,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afs"
+        "regionId": "af",
+        "subregionId": "afs"
     },
     {
         "id": "zm",
@@ -18955,8 +18955,8 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afe"
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "zw",
@@ -19031,7 +19031,7 @@
             }
         },
         "independent": true,
-        "divisionId": "af",
-        "subDivisionId": "afs"
+        "regionId": "af",
+        "subregionId": "afs"
     }
 ]

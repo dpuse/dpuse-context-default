@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
-import geoDivisions from './data/geoDivisions.json' with { type: 'json' };
-import geoSubDivisions from './data/geoSubDivisions.json' with { type: 'json' };
+import geoRegions from './data/geoRegions.json' with { type: 'json' };
+import geoSubregions from './data/geoSubregions.json' with { type: 'json' };
 import languages from './data/retrievals/language-codes-full.json' with { type: 'json' };
 
 async function transformCountryData() {
@@ -30,8 +30,8 @@ async function transformCountryData() {
         const sortedLabel = Object.fromEntries(Object.entries(label).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
         const sortedLabelOfficial = Object.fromEntries(Object.entries(labelOfficial).sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
 
-        const geoDivision = geoDivisions.find((geoDivision) => geoDivision.label.en === country.region);
-        const geoSubDivision = geoSubDivisions.find((geoSubDivision) => geoSubDivision.label.en === country.subregion);
+        const geoRegion = geoRegions.find((geoRegion) => geoRegion.label.en === country.region);
+        const geoSubregion = geoSubregions.find((geoSubregion) => geoSubregion.label.en === country.subregion);
 
         // for (const [key, currency] of Object.entries(country.currencies || {})) currencies[key] = (currencies[key] || 0) + 1;
 
@@ -50,8 +50,8 @@ async function transformCountryData() {
             continents: country.continents,
             currencies: country.currencies,
             independent: country.independent,
-            divisionId: geoDivision.id,
-            subDivisionId: geoSubDivision?.id
+            regionId: geoRegion.id,
+            subregionId: geoSubregion?.id
         });
         if (country.capital?.length > 1) console.log('MULTIPLE CAPITALS__:', country.name.common, ',', country.capital);
         if (country.continents.length > 1) console.log('MULTIPLE CONTINENTS:', country.name.common, ',', country.continents);

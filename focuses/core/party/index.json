@@ -24,15 +24,13 @@
                 { "id": "perEthGrp", "label": { "en-gb": "Ethnic Group" } },
                 { "id": "perGdr", "label": { "en-gb": "Gender" } },
                 { "id": "perGen", "label": { "en-gb": "Generation" } },
-                { "id": "perHomeLoc", "label": { "en-gb": "Home Location" } },
-                { "id": "perLangPref", "label": { "en-gb": "Language (Preferred)" } },
+                { "id": "???perHomeLoc", "label": { "en-gb": "Home Location" } },
                 { "id": "perLang", "label": { "en-gb": "Language" } },
                 { "id": "perMarSts", "label": { "en-gb": "Marital Status" } },
                 { "id": "perMin", "label": { "en-gb": "Minority" } },
                 { "id": "perNat", "label": { "en-gb": "Nationality" } },
                 { "id": "perPhysAb", "label": { "en-gb": "Physical Ability" } },
-                { "id": "perResLoc", "label": { "en-gb": "Residential Location" } },
-                { "id": "perResNat", "label": { "en-gb": "Residential Nationality" } },
+                { "id": "???perResLoc", "label": { "en-gb": "Residential Location" } },
                 { "id": "perSexOri", "label": { "en-gb": "Sexual Orientation" } },
                 { "id": "perVetSts", "label": { "en-gb": "Veteran Status" } }
             ]

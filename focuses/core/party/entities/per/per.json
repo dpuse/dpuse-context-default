@@ -4,17 +4,17 @@
     "labelPlural": { "en-gb": "People" },
     "description": { "en-gb": "..." },
     "dataItems": [
-        { "id": "entId", "label": { "en-gb": "Entity Id" }, "type": "string", "description": { "en-gb": "The unique identifier assigned to the person." } },
+        { "id": "entId", "label": { "en-gb": "Entity Id" }, "description": { "en-gb": "The unique identifier assigned to the person." } },
         {
             "id": "evtMom",
             "label": { "en-gb": "Event Moment" },
-            "type": "moment",
+            "content": "moment",
             "description": { "en-gb": "The effective moment of the event. See the events for an explanation of how the effective moment is interpreted for each event." }
         },
         {
             "id": "evtSeq",
             "label": { "en-gb": "Event Sequence" },
-            "type": "number",
+            "content": "number",
             "description": {
                 "en-gb": "The sequence of the event within the moment. If multiple events occur at the same moment, then we can use this data item to define the sequence."
             }
@@ -22,29 +22,28 @@
         {
             "id": "evtId",
             "label": { "en-gb": "Event Id" },
-            "type": "string",
             "description": { "en-gb": "The event identifier. See the events for a list of acceptable identifiers." }
         },
-        { "id": "perId", "label": { "en-gb": "Personal Id" }, "type": "string", "description": { "en-gb": "The person's personal or national identifier." } },
-        { "id": "famNames", "label": { "en-gb": "Family Names" }, "type": "string", "description": { "en-gb": "The person's family names." } },
-        { "id": "givNames", "label": { "en-gb": "Given Names" }, "type": "string", "description": { "en-gb": "The person's given names." } },
-        { "id": "bthDate", "label": { "en-gb": "Date of Birth" }, "type": "day(first('brn'))" },
-        { "id": "dthDate", "label": { "en-gb": "Date of Death" }, "type": "day(first('dec'))" },
-        { "id": "age", "type": "lookup('perAge', ageYear(bthDate))" },
-        { "id": "ctryBth", "type": "lookup('core.geographic.geoCountry')" },
-        { "id": "eduLvl", "type": "lookup('perEduLvl')" },
-        { "id": "ethGrp", "type": "lookup('perEthGrp')" },
-        { "id": "gen", "type": "lookup('perGen', year(bthDate))" },
-        { "id": "gdr", "type": "lookup('perGdr')" },
-        { "id": "homeLoc", "label": { "en-gb": "Home Location" }, "type": "lookup('core.geographic.geoCity')" },
-        { "id": "langPref", "label": { "en-gb": "Language (Preferred)" }, "type": "lookup('perLang')" },
-        { "id": "marSts", "type": "lookup('perMarSts')" },
-        { "id": "min", "type": "lookup('perMin')" },
-        { "id": "physAb", "type": "lookup('perPhyAb')" },
-        { "id": "resLoc", "label": { "en-gb": "Residential Location" }, "type": "lookup('core.geographic.geoCity')" },
-        { "id": "resNat", "label": { "en-gb": "Residential Nationality" }, "type": "lookup('perNat')" },
-        { "id": "sexOri", "type": "lookup('perSexOri')" },
-        { "id": "vetSts", "type": "lookup('perVetSts')" }
+        { "id": "perId", "label": { "en-gb": "Personal Id" }, "description": { "en-gb": "The person's personal or national identifier." } },
+        { "id": "famNames", "label": { "en-gb": "Family Names" }, "description": { "en-gb": "The person's family names." } },
+        { "id": "givNames", "label": { "en-gb": "Given Names" }, "description": { "en-gb": "The person's given names." } },
+        { "id": "bthDate", "label": { "en-gb": "Date of Birth" }, "content": "day(first('brn'))" },
+        { "id": "dthDate", "label": { "en-gb": "Date of Death" }, "content": "day(first('dec'))" },
+        { "id": "age", "content": "ageYears(bthDate)", "lookup": "perAge" },
+        { "id": "ctryBth", "lookup": "core.geographic.geoCountry" },
+        { "id": "eduLvl", "lookup": "perEduLvl" },
+        { "id": "ethGrp", "lookup": "perEthGrp" },
+        { "id": "gen", "content": "year(bthDate)", "lookup": "perGen" },
+        { "id": "gdr", "lookup": "perGdr" },
+        { "id": "homeLoc", "label": { "en-gb": "Home Location" }, "lookup": "core.geographic.geoCity" },
+        { "id": "langPref", "label": { "en-gb": "Language (Preferred)" }, "lookup": "perLang" },
+        { "id": "marSts", "lookup": "perMarSts" },
+        { "id": "min", "lookup": "perMin" },
+        { "id": "physAb", "lookup": "perPhyAb" },
+        { "id": "resLoc", "label": { "en-gb": "Residential Location" }, "lookup": "core.geographic.geoCity" },
+        { "id": "resNat", "label": { "en-gb": "Residential Nationality" }, "lookup": "perNat" },
+        { "id": "sexOri", "lookup": "perSexOri" },
+        { "id": "vetSts", "lookup": "perVetSts" }
     ],
     "events": [
         { "id": "brn", "label": { "en-gb": "Born" }, "type": "activation", "description": { "en-gb": "The moment the person was born." } },

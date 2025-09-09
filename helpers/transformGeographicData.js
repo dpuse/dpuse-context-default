@@ -14,30 +14,23 @@ async function transformCountryData() {
     console.log('Country count (Independent):', countriesIndependent.length);
     console.log('Country count (Dependent)__:', countriesDependent.length);
     console.log('Country count______________:', countries.length);
-    // console.log('\nFirst country______________:', countries[0]);
+    console.log('\nFirst country______________:', countries[0]);
     console.log('\n');
 
+    // const currencies = {};
+    const geoCountries = [];
     const nationalities = {};
     const translations = {};
-
-    const geoCountries = [];
-    // const currencies = {};
     for (const country of countries) {
+        // Country label.
         const label = { en: country.name.common };
         const sortedLabel = Object.fromEntries(Object.entries(label).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
 
+        // Country official label.
         const labelOfficial = { en: country.name.official };
         const sortedLabelOfficial = Object.fromEntries(Object.entries(labelOfficial).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
 
-        const geoRegion = geoRegions.find((geoRegion) => geoRegion.label.en === country.region);
-        const geoSubregion = geoSubregions.find((geoSubregion) => geoSubregion.label.en === country.subregion);
-
-        // for (const [key, currency] of Object.entries(country.currencies || {})) currencies[key] = (currencies[key] || 0) + 1;
-
-        for (const value of Object.values(country.demonyms.eng || {})) {
-            if (value) nationalities[country.cca2] = { label: { en: value } };
-        }
-
+        // Country label and official label translations.
         for (const key of Object.keys(country.translations || {})) translations[key] = { c: (translations[key]?.c || 0) + 1 };
         for (const [key, translation] of Object.entries(country.translations)) {
             const locale = lookupLanguageUsingAlpha3(key);
@@ -46,19 +39,31 @@ async function transformCountryData() {
             labelOfficial[locale.alpha2] = translation.official;
         }
 
+        // Country region and subregion.
+        const geoRegion = geoRegions.find((geoRegion) => geoRegion.label.en === country.region);
+        const geoSubregion = geoSubregions.find((geoSubregion) => geoSubregion.label.en === country.subregion);
+
+        // for (const [key, currency] of Object.entries(country.currencies || {})) currencies[key] = (currencies[key] || 0) + 1;
+
+        // Nationalities.
+        for (const value of Object.values(country.demonyms.eng || {})) {
+            if (value) nationalities[country.cca2] = { label: { en: value } };
+        }
+
         geoCountries.push({
             id: String(country.cca2).toLocaleLowerCase('en'),
-            id3: String(country.cca3).toLocaleLowerCase('en'),
-            idCIOC: String(country.cioc).toLocaleLowerCase('en'),
-            idNum: String(country.ccn3),
+            // id3: String(country.cca3).toLocaleLowerCase('en'),
+            // idCIOC: String(country.cioc).toLocaleLowerCase('en'),
+            // idNum: String(country.ccn3),
             label: sortedLabel,
             labelOfficial: sortedLabelOfficial,
-            capitals: country.capital,
-            continents: country.continents,
-            currencies: country.currencies,
+            // capitals: country.capital,
+            // continents: country.continents,
+            // currencies: country.currencies,
             independent: country.independent,
             regionId: geoRegion.id,
-            subregionId: geoSubregion?.id
+            subregionId: geoSubregion?.id,
+            unMember: country.unMember
         });
 
         if (country.capital?.length > 1) console.log('! Multiple capitals________:', country.name.common, '-', country.capital);

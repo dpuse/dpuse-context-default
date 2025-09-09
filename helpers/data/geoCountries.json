@@ -1,6807 +1,3247 @@
 [
     {
         "id": "ad",
-        "id3": "and",
-        "idCIOC": "and",
-        "idNum": "020",
         "label": {
             "en": "Andorra"
         },
         "labelOfficial": {
             "en": "Principality of Andorra"
         },
-        "capitals": [
-            "Andorra la Vella"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eus"
+        "subregionId": "eus",
+        "unMember": true
     },
     {
         "id": "ae",
-        "id3": "are",
-        "idCIOC": "uae",
-        "idNum": "784",
         "label": {
             "en": "United Arab Emirates"
         },
         "labelOfficial": {
             "en": "United Arab Emirates"
         },
-        "capitals": [
-            "Abu Dhabi"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "AED": {
-                "symbol": "د.إ",
-                "name": "United Arab Emirates dirham"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "af",
-        "id3": "afg",
-        "idCIOC": "afg",
-        "idNum": "004",
         "label": {
             "en": "Afghanistan"
         },
         "labelOfficial": {
             "en": "Islamic Republic of Afghanistan"
         },
-        "capitals": [
-            "Kabul"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "AFN": {
-                "symbol": "؋",
-                "name": "Afghan afghani"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ass"
+        "subregionId": "ass",
+        "unMember": true
     },
     {
         "id": "ag",
-        "id3": "atg",
-        "idCIOC": "ant",
-        "idNum": "028",
         "label": {
             "en": "Antigua and Barbuda"
         },
         "labelOfficial": {
             "en": "Antigua and Barbuda"
-        },
-        "capitals": [
-            "Saint John's"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "XCD": {
-                "symbol": "$",
-                "name": "Eastern Caribbean dollar"
-            }
         },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "ai",
-        "id3": "aia",
-        "idCIOC": "undefined",
-        "idNum": "660",
         "label": {
             "en": "Anguilla"
         },
         "labelOfficial": {
             "en": "Anguilla"
         },
-        "capitals": [
-            "The Valley"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "XCD": {
-                "symbol": "$",
-                "name": "Eastern Caribbean dollar"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "al",
-        "id3": "alb",
-        "idCIOC": "alb",
-        "idNum": "008",
         "label": {
             "en": "Albania"
         },
         "labelOfficial": {
             "en": "Republic of Albania"
         },
-        "capitals": [
-            "Tirana"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "ALL": {
-                "symbol": "L",
-                "name": "Albanian lek"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euse"
+        "subregionId": "euse",
+        "unMember": true
     },
     {
         "id": "am",
-        "id3": "arm",
-        "idCIOC": "arm",
-        "idNum": "051",
         "label": {
             "en": "Armenia"
         },
         "labelOfficial": {
             "en": "Republic of Armenia"
         },
-        "capitals": [
-            "Yerevan"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "AMD": {
-                "symbol": "֏",
-                "name": "Armenian dram"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "ao",
-        "id3": "ago",
-        "idCIOC": "ang",
-        "idNum": "024",
         "label": {
             "en": "Angola"
         },
         "labelOfficial": {
             "en": "Republic of Angola"
         },
-        "capitals": [
-            "Luanda"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "AOA": {
-                "symbol": "Kz",
-                "name": "Angolan kwanza"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afm"
+        "subregionId": "afm",
+        "unMember": true
     },
     {
         "id": "aq",
-        "id3": "ata",
-        "idCIOC": "undefined",
-        "idNum": "010",
         "label": {
             "en": "Antarctica"
         },
         "labelOfficial": {
             "en": "Antarctica"
         },
-        "continents": [
-            "Antarctica"
-        ],
         "independent": false,
-        "regionId": "an"
+        "regionId": "an",
+        "unMember": false
     },
     {
         "id": "ar",
-        "id3": "arg",
-        "idCIOC": "arg",
-        "idNum": "032",
         "label": {
             "en": "Argentina"
         },
         "labelOfficial": {
             "en": "Argentine Republic"
         },
-        "capitals": [
-            "Buenos Aires"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "ARS": {
-                "symbol": "$",
-                "name": "Argentine peso"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "as",
-        "id3": "asm",
-        "idCIOC": "asa",
-        "idNum": "016",
         "label": {
             "en": "American Samoa"
         },
         "labelOfficial": {
             "en": "American Samoa"
         },
-        "capitals": [
-            "Pago Pago"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocpl"
+        "subregionId": "ocpl",
+        "unMember": false
     },
     {
         "id": "at",
-        "id3": "aut",
-        "idCIOC": "aut",
-        "idNum": "040",
         "label": {
             "en": "Austria"
         },
         "labelOfficial": {
             "en": "Republic of Austria"
         },
-        "capitals": [
-            "Vienna"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euc"
+        "subregionId": "euc",
+        "unMember": true
     },
     {
         "id": "au",
-        "id3": "aus",
-        "idCIOC": "aus",
-        "idNum": "036",
         "label": {
             "en": "Australia"
         },
         "labelOfficial": {
             "en": "Commonwealth of Australia"
         },
-        "capitals": [
-            "Canberra"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "AUD": {
-                "symbol": "$",
-                "name": "Australian dollar"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocanz"
+        "subregionId": "ocanz",
+        "unMember": true
     },
     {
         "id": "aw",
-        "id3": "abw",
-        "idCIOC": "aru",
-        "idNum": "533",
         "label": {
             "en": "Aruba"
         },
         "labelOfficial": {
             "en": "Aruba"
-        },
-        "capitals": [
-            "Oranjestad"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "AWG": {
-                "symbol": "ƒ",
-                "name": "Aruban florin"
-            }
         },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "ax",
-        "id3": "ala",
-        "idCIOC": "undefined",
-        "idNum": "248",
         "label": {
             "en": "Åland Islands"
         },
         "labelOfficial": {
             "en": "Åland Islands"
         },
-        "capitals": [
-            "Mariehamn"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": false,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": false
     },
     {
         "id": "az",
-        "id3": "aze",
-        "idCIOC": "aze",
-        "idNum": "031",
         "label": {
             "en": "Azerbaijan"
         },
         "labelOfficial": {
             "en": "Republic of Azerbaijan"
         },
-        "capitals": [
-            "Baku"
-        ],
-        "continents": [
-            "Europe",
-            "Asia"
-        ],
-        "currencies": {
-            "AZN": {
-                "symbol": "₼",
-                "name": "Azerbaijani manat"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "ba",
-        "id3": "bih",
-        "idCIOC": "bih",
-        "idNum": "070",
         "label": {
             "en": "Bosnia and Herzegovina"
         },
         "labelOfficial": {
             "en": "Bosnia and Herzegovina"
-        },
-        "capitals": [
-            "Sarajevo"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "BAM": {
-                "symbol": "KM",
-                "name": "Bosnia and Herzegovina convertible mark"
-            }
         },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euse"
+        "subregionId": "euse",
+        "unMember": true
     },
     {
         "id": "bb",
-        "id3": "brb",
-        "idCIOC": "bar",
-        "idNum": "052",
         "label": {
             "en": "Barbados"
         },
         "labelOfficial": {
             "en": "Barbados"
         },
-        "capitals": [
-            "Bridgetown"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "BBD": {
-                "symbol": "$",
-                "name": "Barbadian dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "bd",
-        "id3": "bgd",
-        "idCIOC": "ban",
-        "idNum": "050",
         "label": {
             "en": "Bangladesh"
         },
         "labelOfficial": {
             "en": "People's Republic of Bangladesh"
         },
-        "capitals": [
-            "Dhaka"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "BDT": {
-                "symbol": "৳",
-                "name": "Bangladeshi taka"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ass"
+        "subregionId": "ass",
+        "unMember": true
     },
     {
         "id": "be",
-        "id3": "bel",
-        "idCIOC": "bel",
-        "idNum": "056",
         "label": {
             "en": "Belgium"
         },
         "labelOfficial": {
             "en": "Kingdom of Belgium"
         },
-        "capitals": [
-            "Brussels"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euw"
+        "subregionId": "euw",
+        "unMember": true
     },
     {
         "id": "bf",
-        "id3": "bfa",
-        "idCIOC": "bur",
-        "idNum": "854",
         "label": {
             "en": "Burkina Faso"
         },
         "labelOfficial": {
             "en": "Burkina Faso"
         },
-        "capitals": [
-            "Ouagadougou"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XOF": {
-                "symbol": "Fr",
-                "name": "West African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "bg",
-        "id3": "bgr",
-        "idCIOC": "bul",
-        "idNum": "100",
         "label": {
             "en": "Bulgaria"
         },
         "labelOfficial": {
             "en": "Republic of Bulgaria"
         },
-        "capitals": [
-            "Sofia"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "BGN": {
-                "symbol": "лв",
-                "name": "Bulgarian lev"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euse"
+        "subregionId": "euse",
+        "unMember": true
     },
     {
         "id": "bh",
-        "id3": "bhr",
-        "idCIOC": "bhr",
-        "idNum": "048",
         "label": {
             "en": "Bahrain"
         },
         "labelOfficial": {
             "en": "Kingdom of Bahrain"
         },
-        "capitals": [
-            "Manama"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "BHD": {
-                "symbol": ".د.ب",
-                "name": "Bahraini dinar"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "bi",
-        "id3": "bdi",
-        "idCIOC": "bdi",
-        "idNum": "108",
         "label": {
             "en": "Burundi"
         },
         "labelOfficial": {
             "en": "Republic of Burundi"
         },
-        "capitals": [
-            "Gitega"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "BIF": {
-                "symbol": "Fr",
-                "name": "Burundian franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "bj",
-        "id3": "ben",
-        "idCIOC": "ben",
-        "idNum": "204",
         "label": {
             "en": "Benin"
         },
         "labelOfficial": {
             "en": "Republic of Benin"
         },
-        "capitals": [
-            "Porto-Novo"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XOF": {
-                "symbol": "Fr",
-                "name": "West African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "bl",
-        "id3": "blm",
-        "idCIOC": "undefined",
-        "idNum": "652",
         "label": {
             "en": "Saint Barthélemy"
         },
         "labelOfficial": {
             "en": "Collectivity of Saint Barthélemy"
         },
-        "capitals": [
-            "Gustavia"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "bm",
-        "id3": "bmu",
-        "idCIOC": "ber",
-        "idNum": "060",
         "label": {
             "en": "Bermuda"
         },
         "labelOfficial": {
             "en": "Bermuda"
         },
-        "capitals": [
-            "Hamilton"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "BMD": {
-                "symbol": "$",
-                "name": "Bermudian dollar"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amna"
+        "subregionId": "amna",
+        "unMember": false
     },
     {
         "id": "bn",
-        "id3": "brn",
-        "idCIOC": "bru",
-        "idNum": "096",
         "label": {
             "en": "Brunei"
         },
         "labelOfficial": {
             "en": "Nation of Brunei, Abode of Peace"
         },
-        "capitals": [
-            "Bandar Seri Begawan"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "BND": {
-                "symbol": "$",
-                "name": "Brunei dollar"
-            },
-            "SGD": {
-                "symbol": "$",
-                "name": "Singapore dollar"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asse"
+        "subregionId": "asse",
+        "unMember": true
     },
     {
         "id": "bo",
-        "id3": "bol",
-        "idCIOC": "bol",
-        "idNum": "068",
         "label": {
             "en": "Bolivia"
         },
         "labelOfficial": {
             "en": "Plurinational State of Bolivia"
         },
-        "capitals": [
-            "Sucre"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "BOB": {
-                "symbol": "Bs.",
-                "name": "Bolivian boliviano"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "bq",
-        "id3": "bes",
-        "idCIOC": "undefined",
-        "idNum": "535",
         "label": {
             "en": "Caribbean Netherlands"
         },
         "labelOfficial": {
             "en": "Bonaire, Sint Eustatius and Saba"
         },
-        "capitals": [
-            "Kralendijk"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "br",
-        "id3": "bra",
-        "idCIOC": "bra",
-        "idNum": "076",
         "label": {
             "en": "Brazil"
         },
         "labelOfficial": {
             "en": "Federative Republic of Brazil"
         },
-        "capitals": [
-            "Brasília"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "BRL": {
-                "symbol": "R$",
-                "name": "Brazilian real"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "bs",
-        "id3": "bhs",
-        "idCIOC": "bah",
-        "idNum": "044",
         "label": {
             "en": "Bahamas"
         },
         "labelOfficial": {
             "en": "Commonwealth of the Bahamas"
         },
-        "capitals": [
-            "Nassau"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "BSD": {
-                "symbol": "$",
-                "name": "Bahamian dollar"
-            },
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "bt",
-        "id3": "btn",
-        "idCIOC": "bhu",
-        "idNum": "064",
         "label": {
             "en": "Bhutan"
         },
         "labelOfficial": {
             "en": "Kingdom of Bhutan"
         },
-        "capitals": [
-            "Thimphu"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "BTN": {
-                "symbol": "Nu.",
-                "name": "Bhutanese ngultrum"
-            },
-            "INR": {
-                "symbol": "₹",
-                "name": "Indian rupee"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ass"
+        "subregionId": "ass",
+        "unMember": true
     },
     {
         "id": "bv",
-        "id3": "bvt",
-        "idCIOC": "undefined",
-        "idNum": "074",
         "label": {
             "en": "Bouvet Island"
         },
         "labelOfficial": {
             "en": "Bouvet Island"
         },
-        "continents": [
-            "Antarctica"
-        ],
         "independent": false,
-        "regionId": "an"
+        "regionId": "an",
+        "unMember": false
     },
     {
         "id": "bw",
-        "id3": "bwa",
-        "idCIOC": "bot",
-        "idNum": "072",
         "label": {
             "en": "Botswana"
         },
         "labelOfficial": {
             "en": "Republic of Botswana"
         },
-        "capitals": [
-            "Gaborone"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "BWP": {
-                "symbol": "P",
-                "name": "Botswana pula"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afs"
+        "subregionId": "afs",
+        "unMember": true
     },
     {
         "id": "by",
-        "id3": "blr",
-        "idCIOC": "blr",
-        "idNum": "112",
         "label": {
             "en": "Belarus"
         },
         "labelOfficial": {
             "en": "Republic of Belarus"
         },
-        "capitals": [
-            "Minsk"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "BYN": {
-                "symbol": "Br",
-                "name": "Belarusian ruble"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eue"
+        "subregionId": "eue",
+        "unMember": true
     },
     {
         "id": "bz",
-        "id3": "blz",
-        "idCIOC": "biz",
-        "idNum": "084",
         "label": {
             "en": "Belize"
         },
         "labelOfficial": {
             "en": "Belize"
         },
-        "capitals": [
-            "Belmopan"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "BZD": {
-                "symbol": "$",
-                "name": "Belize dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amca"
+        "subregionId": "amca",
+        "unMember": true
     },
     {
         "id": "ca",
-        "id3": "can",
-        "idCIOC": "can",
-        "idNum": "124",
         "label": {
             "en": "Canada"
         },
         "labelOfficial": {
             "en": "Canada"
         },
-        "capitals": [
-            "Ottawa"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "CAD": {
-                "symbol": "$",
-                "name": "Canadian dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amna"
+        "subregionId": "amna",
+        "unMember": true
     },
     {
         "id": "cc",
-        "id3": "cck",
-        "idCIOC": "undefined",
-        "idNum": "166",
         "label": {
             "en": "Cocos (Keeling) Islands"
         },
         "labelOfficial": {
             "en": "Territory of the Cocos (Keeling) Islands"
         },
-        "capitals": [
-            "West Island"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "AUD": {
-                "symbol": "$",
-                "name": "Australian dollar"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocanz"
+        "subregionId": "ocanz",
+        "unMember": false
     },
     {
         "id": "cd",
-        "id3": "cod",
-        "idCIOC": "cod",
-        "idNum": "180",
         "label": {
             "en": "DR Congo"
         },
         "labelOfficial": {
             "en": "Democratic Republic of the Congo"
         },
-        "capitals": [
-            "Kinshasa"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "CDF": {
-                "symbol": "FC",
-                "name": "Congolese franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afm"
+        "subregionId": "afm",
+        "unMember": true
     },
     {
         "id": "cf",
-        "id3": "caf",
-        "idCIOC": "caf",
-        "idNum": "140",
         "label": {
             "en": "Central African Republic"
         },
         "labelOfficial": {
             "en": "Central African Republic"
         },
-        "capitals": [
-            "Bangui"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XAF": {
-                "symbol": "Fr",
-                "name": "Central African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afm"
+        "subregionId": "afm",
+        "unMember": true
     },
     {
         "id": "cg",
-        "id3": "cog",
-        "idCIOC": "cgo",
-        "idNum": "178",
         "label": {
             "en": "Republic of the Congo"
         },
         "labelOfficial": {
             "en": "Republic of the Congo"
         },
-        "capitals": [
-            "Brazzaville"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XAF": {
-                "symbol": "Fr",
-                "name": "Central African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afm"
+        "subregionId": "afm",
+        "unMember": true
     },
     {
         "id": "ch",
-        "id3": "che",
-        "idCIOC": "sui",
-        "idNum": "756",
         "label": {
             "en": "Switzerland"
         },
         "labelOfficial": {
             "en": "Swiss Confederation"
         },
-        "capitals": [
-            "Bern"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "CHF": {
-                "symbol": "Fr.",
-                "name": "Swiss franc"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euw"
+        "subregionId": "euw",
+        "unMember": true
     },
     {
         "id": "ci",
-        "id3": "civ",
-        "idCIOC": "civ",
-        "idNum": "384",
         "label": {
             "en": "Ivory Coast"
         },
         "labelOfficial": {
             "en": "Republic of Côte d'Ivoire"
         },
-        "capitals": [
-            "Yamoussoukro"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XOF": {
-                "symbol": "Fr",
-                "name": "West African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "ck",
-        "id3": "cok",
-        "idCIOC": "cok",
-        "idNum": "184",
         "label": {
             "en": "Cook Islands"
         },
         "labelOfficial": {
             "en": "Cook Islands"
         },
-        "capitals": [
-            "Avarua"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "CKD": {
-                "symbol": "$",
-                "name": "Cook Islands dollar"
-            },
-            "NZD": {
-                "symbol": "$",
-                "name": "New Zealand dollar"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocpl"
+        "subregionId": "ocpl",
+        "unMember": false
     },
     {
         "id": "cl",
-        "id3": "chl",
-        "idCIOC": "chi",
-        "idNum": "152",
         "label": {
             "en": "Chile"
         },
         "labelOfficial": {
             "en": "Republic of Chile"
         },
-        "capitals": [
-            "Santiago"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "CLP": {
-                "symbol": "$",
-                "name": "Chilean peso"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "cm",
-        "id3": "cmr",
-        "idCIOC": "cmr",
-        "idNum": "120",
         "label": {
             "en": "Cameroon"
         },
         "labelOfficial": {
             "en": "Republic of Cameroon"
         },
-        "capitals": [
-            "Yaoundé"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XAF": {
-                "symbol": "Fr",
-                "name": "Central African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afm"
+        "subregionId": "afm",
+        "unMember": true
     },
     {
         "id": "cn",
-        "id3": "chn",
-        "idCIOC": "chn",
-        "idNum": "156",
         "label": {
             "en": "China"
         },
         "labelOfficial": {
             "en": "People's Republic of China"
         },
-        "capitals": [
-            "Beijing"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "CNY": {
-                "symbol": "¥",
-                "name": "Chinese yuan"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ase"
+        "subregionId": "ase",
+        "unMember": true
     },
     {
         "id": "co",
-        "id3": "col",
-        "idCIOC": "col",
-        "idNum": "170",
         "label": {
             "en": "Colombia"
         },
         "labelOfficial": {
             "en": "Republic of Colombia"
         },
-        "capitals": [
-            "Bogotá"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "COP": {
-                "symbol": "$",
-                "name": "Colombian peso"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "cr",
-        "id3": "cri",
-        "idCIOC": "crc",
-        "idNum": "188",
         "label": {
             "en": "Costa Rica"
         },
         "labelOfficial": {
             "en": "Republic of Costa Rica"
         },
-        "capitals": [
-            "San José"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "CRC": {
-                "symbol": "₡",
-                "name": "Costa Rican colón"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amca"
+        "subregionId": "amca",
+        "unMember": true
     },
     {
         "id": "cu",
-        "id3": "cub",
-        "idCIOC": "cub",
-        "idNum": "192",
         "label": {
             "en": "Cuba"
         },
         "labelOfficial": {
             "en": "Republic of Cuba"
         },
-        "capitals": [
-            "Havana"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "CUC": {
-                "symbol": "$",
-                "name": "Cuban convertible peso"
-            },
-            "CUP": {
-                "symbol": "$",
-                "name": "Cuban peso"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "cv",
-        "id3": "cpv",
-        "idCIOC": "cpv",
-        "idNum": "132",
         "label": {
             "en": "Cape Verde"
         },
         "labelOfficial": {
             "en": "Republic of Cabo Verde"
         },
-        "capitals": [
-            "Praia"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "CVE": {
-                "symbol": "Esc",
-                "name": "Cape Verdean escudo"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "cw",
-        "id3": "cuw",
-        "idCIOC": "undefined",
-        "idNum": "531",
         "label": {
             "en": "Curaçao"
         },
         "labelOfficial": {
             "en": "Country of Curaçao"
         },
-        "capitals": [
-            "Willemstad"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "ANG": {
-                "symbol": "ƒ",
-                "name": "Netherlands Antillean guilder"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "cx",
-        "id3": "cxr",
-        "idCIOC": "undefined",
-        "idNum": "162",
         "label": {
             "en": "Christmas Island"
         },
         "labelOfficial": {
             "en": "Territory of Christmas Island"
         },
-        "capitals": [
-            "Flying Fish Cove"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "AUD": {
-                "symbol": "$",
-                "name": "Australian dollar"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocanz"
+        "subregionId": "ocanz",
+        "unMember": false
     },
     {
         "id": "cy",
-        "id3": "cyp",
-        "idCIOC": "cyp",
-        "idNum": "196",
         "label": {
             "en": "Cyprus"
         },
         "labelOfficial": {
             "en": "Republic of Cyprus"
         },
-        "capitals": [
-            "Nicosia"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eus"
+        "subregionId": "eus",
+        "unMember": true
     },
     {
         "id": "cz",
-        "id3": "cze",
-        "idCIOC": "cze",
-        "idNum": "203",
         "label": {
             "en": "Czechia"
         },
         "labelOfficial": {
             "en": "Czech Republic"
         },
-        "capitals": [
-            "Prague"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "CZK": {
-                "symbol": "Kč",
-                "name": "Czech koruna"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euc"
+        "subregionId": "euc",
+        "unMember": true
     },
     {
         "id": "de",
-        "id3": "deu",
-        "idCIOC": "ger",
-        "idNum": "276",
         "label": {
             "en": "Germany"
         },
         "labelOfficial": {
             "en": "Federal Republic of Germany"
         },
-        "capitals": [
-            "Berlin"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euw"
+        "subregionId": "euw",
+        "unMember": true
     },
     {
         "id": "dj",
-        "id3": "dji",
-        "idCIOC": "dji",
-        "idNum": "262",
         "label": {
             "en": "Djibouti"
         },
         "labelOfficial": {
             "en": "Republic of Djibouti"
         },
-        "capitals": [
-            "Djibouti"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "DJF": {
-                "symbol": "Fr",
-                "name": "Djiboutian franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "dk",
-        "id3": "dnk",
-        "idCIOC": "den",
-        "idNum": "208",
         "label": {
             "en": "Denmark"
         },
         "labelOfficial": {
             "en": "Kingdom of Denmark"
         },
-        "capitals": [
-            "Copenhagen"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "DKK": {
-                "symbol": "kr",
-                "name": "Danish krone"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": true
     },
     {
         "id": "dm",
-        "id3": "dma",
-        "idCIOC": "dma",
-        "idNum": "212",
         "label": {
             "en": "Dominica"
         },
         "labelOfficial": {
             "en": "Commonwealth of Dominica"
         },
-        "capitals": [
-            "Roseau"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "XCD": {
-                "symbol": "$",
-                "name": "Eastern Caribbean dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "do",
-        "id3": "dom",
-        "idCIOC": "dom",
-        "idNum": "214",
         "label": {
             "en": "Dominican Republic"
         },
         "labelOfficial": {
             "en": "Dominican Republic"
         },
-        "capitals": [
-            "Santo Domingo"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "DOP": {
-                "symbol": "$",
-                "name": "Dominican peso"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "dz",
-        "id3": "dza",
-        "idCIOC": "alg",
-        "idNum": "012",
         "label": {
             "en": "Algeria"
         },
         "labelOfficial": {
             "en": "People's Democratic Republic of Algeria"
         },
-        "capitals": [
-            "Algiers"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "DZD": {
-                "symbol": "د.ج",
-                "name": "Algerian dinar"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afn"
+        "subregionId": "afn",
+        "unMember": true
     },
     {
         "id": "ec",
-        "id3": "ecu",
-        "idCIOC": "ecu",
-        "idNum": "218",
         "label": {
             "en": "Ecuador"
         },
         "labelOfficial": {
             "en": "Republic of Ecuador"
         },
-        "capitals": [
-            "Quito"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "ee",
-        "id3": "est",
-        "idCIOC": "est",
-        "idNum": "233",
         "label": {
             "en": "Estonia"
         },
         "labelOfficial": {
             "en": "Republic of Estonia"
         },
-        "capitals": [
-            "Tallinn"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": true
     },
     {
         "id": "eg",
-        "id3": "egy",
-        "idCIOC": "egy",
-        "idNum": "818",
         "label": {
             "en": "Egypt"
         },
         "labelOfficial": {
             "en": "Arab Republic of Egypt"
         },
-        "capitals": [
-            "Cairo"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "EGP": {
-                "symbol": "£",
-                "name": "Egyptian pound"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afn"
+        "subregionId": "afn",
+        "unMember": true
     },
     {
         "id": "eh",
-        "id3": "esh",
-        "idCIOC": "undefined",
-        "idNum": "732",
         "label": {
             "en": "Western Sahara"
         },
         "labelOfficial": {
             "en": "Sahrawi Arab Democratic Republic"
         },
-        "capitals": [
-            "El Aaiún"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "DZD": {
-                "symbol": "دج",
-                "name": "Algerian dinar"
-            },
-            "MAD": {
-                "symbol": "DH",
-                "name": "Moroccan dirham"
-            },
-            "MRU": {
-                "symbol": "UM",
-                "name": "Mauritanian ouguiya"
-            }
-        },
         "independent": false,
         "regionId": "af",
-        "subregionId": "afn"
+        "subregionId": "afn",
+        "unMember": false
     },
     {
         "id": "er",
-        "id3": "eri",
-        "idCIOC": "eri",
-        "idNum": "232",
         "label": {
             "en": "Eritrea"
         },
         "labelOfficial": {
             "en": "State of Eritrea"
         },
-        "capitals": [
-            "Asmara"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "ERN": {
-                "symbol": "Nfk",
-                "name": "Eritrean nakfa"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "es",
-        "id3": "esp",
-        "idCIOC": "esp",
-        "idNum": "724",
         "label": {
             "en": "Spain"
         },
         "labelOfficial": {
             "en": "Kingdom of Spain"
         },
-        "capitals": [
-            "Madrid"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eus"
+        "subregionId": "eus",
+        "unMember": true
     },
     {
         "id": "et",
-        "id3": "eth",
-        "idCIOC": "eth",
-        "idNum": "231",
         "label": {
             "en": "Ethiopia"
         },
         "labelOfficial": {
             "en": "Federal Democratic Republic of Ethiopia"
         },
-        "capitals": [
-            "Addis Ababa"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "ETB": {
-                "symbol": "Br",
-                "name": "Ethiopian birr"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "fi",
-        "id3": "fin",
-        "idCIOC": "fin",
-        "idNum": "246",
         "label": {
             "en": "Finland"
         },
         "labelOfficial": {
             "en": "Republic of Finland"
         },
-        "capitals": [
-            "Helsinki"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": true
     },
     {
         "id": "fj",
-        "id3": "fji",
-        "idCIOC": "fij",
-        "idNum": "242",
         "label": {
             "en": "Fiji"
         },
         "labelOfficial": {
             "en": "Republic of Fiji"
         },
-        "capitals": [
-            "Suva"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "FJD": {
-                "symbol": "$",
-                "name": "Fijian dollar"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocml"
+        "subregionId": "ocml",
+        "unMember": true
     },
     {
         "id": "fk",
-        "id3": "flk",
-        "idCIOC": "undefined",
-        "idNum": "238",
         "label": {
             "en": "Falkland Islands"
         },
         "labelOfficial": {
             "en": "Falkland Islands"
         },
-        "capitals": [
-            "Stanley"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "FKP": {
-                "symbol": "£",
-                "name": "Falkland Islands pound"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": false
     },
     {
         "id": "fm",
-        "id3": "fsm",
-        "idCIOC": "fsm",
-        "idNum": "583",
         "label": {
             "en": "Micronesia"
         },
         "labelOfficial": {
             "en": "Federated States of Micronesia"
         },
-        "capitals": [
-            "Palikir"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocmc"
+        "subregionId": "ocmc",
+        "unMember": true
     },
     {
         "id": "fo",
-        "id3": "fro",
-        "idCIOC": "undefined",
-        "idNum": "234",
         "label": {
             "en": "Faroe Islands"
         },
         "labelOfficial": {
             "en": "Faroe Islands"
         },
-        "capitals": [
-            "Tórshavn"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "DKK": {
-                "symbol": "kr",
-                "name": "Danish krone"
-            },
-            "FOK": {
-                "symbol": "kr",
-                "name": "Faroese króna"
-            }
-        },
         "independent": false,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": false
     },
     {
         "id": "fr",
-        "id3": "fra",
-        "idCIOC": "fra",
-        "idNum": "250",
         "label": {
             "en": "France"
         },
         "labelOfficial": {
             "en": "French Republic"
         },
-        "capitals": [
-            "Paris"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euw"
+        "subregionId": "euw",
+        "unMember": true
     },
     {
         "id": "ga",
-        "id3": "gab",
-        "idCIOC": "gab",
-        "idNum": "266",
         "label": {
             "en": "Gabon"
         },
         "labelOfficial": {
             "en": "Gabonese Republic"
         },
-        "capitals": [
-            "Libreville"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XAF": {
-                "symbol": "Fr",
-                "name": "Central African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afm"
+        "subregionId": "afm",
+        "unMember": true
     },
     {
         "id": "gb",
-        "id3": "gbr",
-        "idCIOC": "gbr",
-        "idNum": "826",
         "label": {
             "en": "United Kingdom"
         },
         "labelOfficial": {
             "en": "United Kingdom of Great Britain and Northern Ireland"
         },
-        "capitals": [
-            "London"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "GBP": {
-                "symbol": "£",
-                "name": "British pound"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": true
     },
     {
         "id": "gd",
-        "id3": "grd",
-        "idCIOC": "grn",
-        "idNum": "308",
         "label": {
             "en": "Grenada"
         },
         "labelOfficial": {
             "en": "Grenada"
-        },
-        "capitals": [
-            "St. George's"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "XCD": {
-                "symbol": "$",
-                "name": "Eastern Caribbean dollar"
-            }
         },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "ge",
-        "id3": "geo",
-        "idCIOC": "geo",
-        "idNum": "268",
         "label": {
             "en": "Georgia"
         },
         "labelOfficial": {
             "en": "Georgia"
         },
-        "capitals": [
-            "Tbilisi"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "GEL": {
-                "symbol": "₾",
-                "name": "lari"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "gf",
-        "id3": "guf",
-        "idCIOC": "undefined",
-        "idNum": "254",
         "label": {
             "en": "French Guiana"
         },
         "labelOfficial": {
             "en": "Guiana"
         },
-        "capitals": [
-            "Cayenne"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": false
     },
     {
         "id": "gg",
-        "id3": "ggy",
-        "idCIOC": "undefined",
-        "idNum": "831",
         "label": {
             "en": "Guernsey"
         },
         "labelOfficial": {
             "en": "Bailiwick of Guernsey"
         },
-        "capitals": [
-            "St. Peter Port"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "GBP": {
-                "symbol": "£",
-                "name": "British pound"
-            },
-            "GGP": {
-                "symbol": "£",
-                "name": "Guernsey pound"
-            }
-        },
         "independent": false,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": false
     },
     {
         "id": "gh",
-        "id3": "gha",
-        "idCIOC": "gha",
-        "idNum": "288",
         "label": {
             "en": "Ghana"
         },
         "labelOfficial": {
             "en": "Republic of Ghana"
         },
-        "capitals": [
-            "Accra"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "GHS": {
-                "symbol": "₵",
-                "name": "Ghanaian cedi"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "gi",
-        "id3": "gib",
-        "idCIOC": "undefined",
-        "idNum": "292",
         "label": {
             "en": "Gibraltar"
         },
         "labelOfficial": {
             "en": "Gibraltar"
-        },
-        "capitals": [
-            "Gibraltar"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "GIP": {
-                "symbol": "£",
-                "name": "Gibraltar pound"
-            }
         },
         "independent": false,
         "regionId": "eu",
-        "subregionId": "eus"
+        "subregionId": "eus",
+        "unMember": false
     },
     {
         "id": "gl",
-        "id3": "grl",
-        "idCIOC": "undefined",
-        "idNum": "304",
         "label": {
             "en": "Greenland"
         },
         "labelOfficial": {
             "en": "Greenland"
         },
-        "capitals": [
-            "Nuuk"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "DKK": {
-                "symbol": "kr.",
-                "name": "krone"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amna"
+        "subregionId": "amna",
+        "unMember": false
     },
     {
         "id": "gm",
-        "id3": "gmb",
-        "idCIOC": "gam",
-        "idNum": "270",
         "label": {
             "en": "Gambia"
         },
         "labelOfficial": {
             "en": "Republic of the Gambia"
         },
-        "capitals": [
-            "Banjul"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "GMD": {
-                "symbol": "D",
-                "name": "dalasi"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "gn",
-        "id3": "gin",
-        "idCIOC": "gui",
-        "idNum": "324",
         "label": {
             "en": "Guinea"
         },
         "labelOfficial": {
             "en": "Republic of Guinea"
         },
-        "capitals": [
-            "Conakry"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "GNF": {
-                "symbol": "Fr",
-                "name": "Guinean franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "gp",
-        "id3": "glp",
-        "idCIOC": "undefined",
-        "idNum": "312",
         "label": {
             "en": "Guadeloupe"
         },
         "labelOfficial": {
             "en": "Guadeloupe"
         },
-        "capitals": [
-            "Basse-Terre"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "gq",
-        "id3": "gnq",
-        "idCIOC": "geq",
-        "idNum": "226",
         "label": {
             "en": "Equatorial Guinea"
         },
         "labelOfficial": {
             "en": "Republic of Equatorial Guinea"
         },
-        "capitals": [
-            "Malabo"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XAF": {
-                "symbol": "Fr",
-                "name": "Central African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afm"
+        "subregionId": "afm",
+        "unMember": true
     },
     {
         "id": "gr",
-        "id3": "grc",
-        "idCIOC": "gre",
-        "idNum": "300",
         "label": {
             "en": "Greece"
         },
         "labelOfficial": {
             "en": "Hellenic Republic"
         },
-        "capitals": [
-            "Athens"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eus"
+        "subregionId": "eus",
+        "unMember": true
     },
     {
         "id": "gs",
-        "id3": "sgs",
-        "idCIOC": "undefined",
-        "idNum": "239",
         "label": {
             "en": "South Georgia"
         },
         "labelOfficial": {
             "en": "South Georgia and the South Sandwich Islands"
         },
-        "capitals": [
-            "King Edward Point"
-        ],
-        "continents": [
-            "Antarctica"
-        ],
-        "currencies": {
-            "GBP": {
-                "symbol": "£",
-                "name": "British pound"
-            }
-        },
         "independent": false,
-        "regionId": "an"
+        "regionId": "an",
+        "unMember": false
     },
     {
         "id": "gt",
-        "id3": "gtm",
-        "idCIOC": "gua",
-        "idNum": "320",
         "label": {
             "en": "Guatemala"
         },
         "labelOfficial": {
             "en": "Republic of Guatemala"
         },
-        "capitals": [
-            "Guatemala City"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "GTQ": {
-                "symbol": "Q",
-                "name": "Guatemalan quetzal"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amca"
+        "subregionId": "amca",
+        "unMember": true
     },
     {
         "id": "gu",
-        "id3": "gum",
-        "idCIOC": "gum",
-        "idNum": "316",
         "label": {
             "en": "Guam"
         },
         "labelOfficial": {
             "en": "Guam"
         },
-        "capitals": [
-            "Hagåtña"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocmc"
+        "subregionId": "ocmc",
+        "unMember": false
     },
     {
         "id": "gw",
-        "id3": "gnb",
-        "idCIOC": "gbs",
-        "idNum": "624",
         "label": {
             "en": "Guinea-Bissau"
         },
         "labelOfficial": {
             "en": "Republic of Guinea-Bissau"
         },
-        "capitals": [
-            "Bissau"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XOF": {
-                "symbol": "Fr",
-                "name": "West African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": false
     },
     {
         "id": "gy",
-        "id3": "guy",
-        "idCIOC": "guy",
-        "idNum": "328",
         "label": {
             "en": "Guyana"
         },
         "labelOfficial": {
             "en": "Co-operative Republic of Guyana"
         },
-        "capitals": [
-            "Georgetown"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "GYD": {
-                "symbol": "$",
-                "name": "Guyanese dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "hk",
-        "id3": "hkg",
-        "idCIOC": "hkg",
-        "idNum": "344",
         "label": {
             "en": "Hong Kong"
         },
         "labelOfficial": {
             "en": "Hong Kong Special Administrative Region of the People's Republic of China"
         },
-        "capitals": [
-            "City of Victoria"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "HKD": {
-                "symbol": "$",
-                "name": "Hong Kong dollar"
-            }
-        },
         "independent": false,
         "regionId": "as",
-        "subregionId": "ase"
+        "subregionId": "ase",
+        "unMember": false
     },
     {
         "id": "hm",
-        "id3": "hmd",
-        "idCIOC": "undefined",
-        "idNum": "334",
         "label": {
             "en": "Heard Island and McDonald Islands"
         },
         "labelOfficial": {
             "en": "Heard Island and McDonald Islands"
         },
-        "continents": [
-            "Antarctica"
-        ],
         "independent": false,
-        "regionId": "an"
+        "regionId": "an",
+        "unMember": false
     },
     {
         "id": "hn",
-        "id3": "hnd",
-        "idCIOC": "hon",
-        "idNum": "340",
         "label": {
             "en": "Honduras"
         },
         "labelOfficial": {
             "en": "Republic of Honduras"
         },
-        "capitals": [
-            "Tegucigalpa"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "HNL": {
-                "symbol": "L",
-                "name": "Honduran lempira"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amca"
+        "subregionId": "amca",
+        "unMember": true
     },
     {
         "id": "hr",
-        "id3": "hrv",
-        "idCIOC": "cro",
-        "idNum": "191",
         "label": {
             "en": "Croatia"
         },
         "labelOfficial": {
             "en": "Republic of Croatia"
         },
-        "capitals": [
-            "Zagreb"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euse"
+        "subregionId": "euse",
+        "unMember": true
     },
     {
         "id": "ht",
-        "id3": "hti",
-        "idCIOC": "hai",
-        "idNum": "332",
         "label": {
             "en": "Haiti"
         },
         "labelOfficial": {
             "en": "Republic of Haiti"
         },
-        "capitals": [
-            "Port-au-Prince"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "HTG": {
-                "symbol": "G",
-                "name": "Haitian gourde"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "hu",
-        "id3": "hun",
-        "idCIOC": "hun",
-        "idNum": "348",
         "label": {
             "en": "Hungary"
         },
         "labelOfficial": {
             "en": "Hungary"
         },
-        "capitals": [
-            "Budapest"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "HUF": {
-                "symbol": "Ft",
-                "name": "Hungarian forint"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euc"
+        "subregionId": "euc",
+        "unMember": true
     },
     {
         "id": "id",
-        "id3": "idn",
-        "idCIOC": "ina",
-        "idNum": "360",
         "label": {
             "en": "Indonesia"
         },
         "labelOfficial": {
             "en": "Republic of Indonesia"
         },
-        "capitals": [
-            "Jakarta"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "IDR": {
-                "symbol": "Rp",
-                "name": "Indonesian rupiah"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asse"
+        "subregionId": "asse",
+        "unMember": true
     },
     {
         "id": "ie",
-        "id3": "irl",
-        "idCIOC": "irl",
-        "idNum": "372",
         "label": {
             "en": "Ireland"
         },
         "labelOfficial": {
             "en": "Republic of Ireland"
         },
-        "capitals": [
-            "Dublin"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": true
     },
     {
         "id": "il",
-        "id3": "isr",
-        "idCIOC": "isr",
-        "idNum": "376",
         "label": {
             "en": "Israel"
         },
         "labelOfficial": {
             "en": "State of Israel"
         },
-        "capitals": [
-            "Jerusalem"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "ILS": {
-                "symbol": "₪",
-                "name": "Israeli new shekel"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "im",
-        "id3": "imn",
-        "idCIOC": "undefined",
-        "idNum": "833",
         "label": {
             "en": "Isle of Man"
         },
         "labelOfficial": {
             "en": "Isle of Man"
         },
-        "capitals": [
-            "Douglas"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "GBP": {
-                "symbol": "£",
-                "name": "British pound"
-            },
-            "IMP": {
-                "symbol": "£",
-                "name": "Manx pound"
-            }
-        },
         "independent": false,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": false
     },
     {
         "id": "in",
-        "id3": "ind",
-        "idCIOC": "ind",
-        "idNum": "356",
         "label": {
             "en": "India"
         },
         "labelOfficial": {
             "en": "Republic of India"
         },
-        "capitals": [
-            "New Delhi"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "INR": {
-                "symbol": "₹",
-                "name": "Indian rupee"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ass"
+        "subregionId": "ass",
+        "unMember": true
     },
     {
         "id": "io",
-        "id3": "iot",
-        "idCIOC": "undefined",
-        "idNum": "086",
         "label": {
             "en": "British Indian Ocean Territory"
         },
         "labelOfficial": {
             "en": "British Indian Ocean Territory"
         },
-        "capitals": [
-            "Diego Garcia"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": false,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": false
     },
     {
         "id": "iq",
-        "id3": "irq",
-        "idCIOC": "irq",
-        "idNum": "368",
         "label": {
             "en": "Iraq"
         },
         "labelOfficial": {
             "en": "Republic of Iraq"
         },
-        "capitals": [
-            "Baghdad"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "IQD": {
-                "symbol": "ع.د",
-                "name": "Iraqi dinar"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "ir",
-        "id3": "irn",
-        "idCIOC": "iri",
-        "idNum": "364",
         "label": {
             "en": "Iran"
         },
         "labelOfficial": {
             "en": "Islamic Republic of Iran"
         },
-        "capitals": [
-            "Tehran"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "IRR": {
-                "symbol": "﷼",
-                "name": "Iranian rial"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ass"
+        "subregionId": "ass",
+        "unMember": true
     },
     {
         "id": "is",
-        "id3": "isl",
-        "idCIOC": "isl",
-        "idNum": "352",
         "label": {
             "en": "Iceland"
         },
         "labelOfficial": {
             "en": "Iceland"
         },
-        "capitals": [
-            "Reykjavik"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "ISK": {
-                "symbol": "kr",
-                "name": "Icelandic króna"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": true
     },
     {
         "id": "it",
-        "id3": "ita",
-        "idCIOC": "ita",
-        "idNum": "380",
         "label": {
             "en": "Italy"
         },
         "labelOfficial": {
             "en": "Italian Republic"
         },
-        "capitals": [
-            "Rome"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eus"
+        "subregionId": "eus",
+        "unMember": true
     },
     {
         "id": "je",
-        "id3": "jey",
-        "idCIOC": "undefined",
-        "idNum": "832",
         "label": {
             "en": "Jersey"
         },
         "labelOfficial": {
             "en": "Bailiwick of Jersey"
         },
-        "capitals": [
-            "Saint Helier"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "GBP": {
-                "symbol": "£",
-                "name": "British pound"
-            },
-            "JEP": {
-                "symbol": "£",
-                "name": "Jersey pound"
-            }
-        },
         "independent": false,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": false
     },
     {
         "id": "jm",
-        "id3": "jam",
-        "idCIOC": "jam",
-        "idNum": "388",
         "label": {
             "en": "Jamaica"
         },
         "labelOfficial": {
             "en": "Jamaica"
         },
-        "capitals": [
-            "Kingston"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "JMD": {
-                "symbol": "$",
-                "name": "Jamaican dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "jo",
-        "id3": "jor",
-        "idCIOC": "jor",
-        "idNum": "400",
         "label": {
             "en": "Jordan"
         },
         "labelOfficial": {
             "en": "Hashemite Kingdom of Jordan"
         },
-        "capitals": [
-            "Amman"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "JOD": {
-                "symbol": "د.ا",
-                "name": "Jordanian dinar"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "jp",
-        "id3": "jpn",
-        "idCIOC": "jpn",
-        "idNum": "392",
         "label": {
             "en": "Japan"
         },
         "labelOfficial": {
             "en": "Japan"
         },
-        "capitals": [
-            "Tokyo"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "JPY": {
-                "symbol": "¥",
-                "name": "Japanese yen"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ase"
+        "subregionId": "ase",
+        "unMember": true
     },
     {
         "id": "ke",
-        "id3": "ken",
-        "idCIOC": "ken",
-        "idNum": "404",
         "label": {
             "en": "Kenya"
         },
         "labelOfficial": {
             "en": "Republic of Kenya"
         },
-        "capitals": [
-            "Nairobi"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "KES": {
-                "symbol": "Sh",
-                "name": "Kenyan shilling"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "kg",
-        "id3": "kgz",
-        "idCIOC": "kgz",
-        "idNum": "417",
         "label": {
             "en": "Kyrgyzstan"
         },
         "labelOfficial": {
             "en": "Kyrgyz Republic"
         },
-        "capitals": [
-            "Bishkek"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "KGS": {
-                "symbol": "с",
-                "name": "Kyrgyzstani som"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ascb"
+        "subregionId": "ascb",
+        "unMember": true
     },
     {
         "id": "kh",
-        "id3": "khm",
-        "idCIOC": "cam",
-        "idNum": "116",
         "label": {
             "en": "Cambodia"
         },
         "labelOfficial": {
             "en": "Kingdom of Cambodia"
         },
-        "capitals": [
-            "Phnom Penh"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "KHR": {
-                "symbol": "៛",
-                "name": "Cambodian riel"
-            },
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asse"
+        "subregionId": "asse",
+        "unMember": true
     },
     {
         "id": "ki",
-        "id3": "kir",
-        "idCIOC": "kir",
-        "idNum": "296",
         "label": {
             "en": "Kiribati"
         },
         "labelOfficial": {
             "en": "Independent and Sovereign Republic of Kiribati"
         },
-        "capitals": [
-            "South Tarawa"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "AUD": {
-                "symbol": "$",
-                "name": "Australian dollar"
-            },
-            "KID": {
-                "symbol": "$",
-                "name": "Kiribati dollar"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocmc"
+        "subregionId": "ocmc",
+        "unMember": true
     },
     {
         "id": "km",
-        "id3": "com",
-        "idCIOC": "com",
-        "idNum": "174",
         "label": {
             "en": "Comoros"
         },
         "labelOfficial": {
             "en": "Union of the Comoros"
         },
-        "capitals": [
-            "Moroni"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "KMF": {
-                "symbol": "Fr",
-                "name": "Comorian franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "kn",
-        "id3": "kna",
-        "idCIOC": "skn",
-        "idNum": "659",
         "label": {
             "en": "Saint Kitts and Nevis"
         },
         "labelOfficial": {
             "en": "Federation of Saint Christopher and Nevis"
         },
-        "capitals": [
-            "Basseterre"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "XCD": {
-                "symbol": "$",
-                "name": "Eastern Caribbean dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "kp",
-        "id3": "prk",
-        "idCIOC": "prk",
-        "idNum": "408",
         "label": {
             "en": "North Korea"
         },
         "labelOfficial": {
             "en": "Democratic People's Republic of Korea"
         },
-        "capitals": [
-            "Pyongyang"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "KPW": {
-                "symbol": "₩",
-                "name": "North Korean won"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ase"
+        "subregionId": "ase",
+        "unMember": true
     },
     {
         "id": "kr",
-        "id3": "kor",
-        "idCIOC": "kor",
-        "idNum": "410",
         "label": {
             "en": "South Korea"
         },
         "labelOfficial": {
             "en": "Republic of Korea"
         },
-        "capitals": [
-            "Seoul"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "KRW": {
-                "symbol": "₩",
-                "name": "South Korean won"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ase"
+        "subregionId": "ase",
+        "unMember": true
     },
     {
         "id": "kw",
-        "id3": "kwt",
-        "idCIOC": "kuw",
-        "idNum": "414",
         "label": {
             "en": "Kuwait"
         },
         "labelOfficial": {
             "en": "State of Kuwait"
         },
-        "capitals": [
-            "Kuwait City"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "KWD": {
-                "symbol": "د.ك",
-                "name": "Kuwaiti dinar"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "ky",
-        "id3": "cym",
-        "idCIOC": "cay",
-        "idNum": "136",
         "label": {
             "en": "Cayman Islands"
         },
         "labelOfficial": {
             "en": "Cayman Islands"
         },
-        "capitals": [
-            "George Town"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "KYD": {
-                "symbol": "$",
-                "name": "Cayman Islands dollar"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "kz",
-        "id3": "kaz",
-        "idCIOC": "kaz",
-        "idNum": "398",
         "label": {
             "en": "Kazakhstan"
         },
         "labelOfficial": {
             "en": "Republic of Kazakhstan"
         },
-        "capitals": [
-            "Astana"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "KZT": {
-                "symbol": "₸",
-                "name": "Kazakhstani tenge"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ascb"
+        "subregionId": "ascb",
+        "unMember": true
     },
     {
         "id": "la",
-        "id3": "lao",
-        "idCIOC": "lao",
-        "idNum": "418",
         "label": {
             "en": "Laos"
         },
         "labelOfficial": {
             "en": "Lao People's Democratic Republic"
         },
-        "capitals": [
-            "Vientiane"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "LAK": {
-                "symbol": "₭",
-                "name": "Lao kip"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asse"
+        "subregionId": "asse",
+        "unMember": true
     },
     {
         "id": "lb",
-        "id3": "lbn",
-        "idCIOC": "lbn",
-        "idNum": "422",
         "label": {
             "en": "Lebanon"
         },
         "labelOfficial": {
             "en": "Lebanese Republic"
         },
-        "capitals": [
-            "Beirut"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "LBP": {
-                "symbol": "ل.ل",
-                "name": "Lebanese pound"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "lc",
-        "id3": "lca",
-        "idCIOC": "lca",
-        "idNum": "662",
         "label": {
             "en": "Saint Lucia"
         },
         "labelOfficial": {
             "en": "Saint Lucia"
         },
-        "capitals": [
-            "Castries"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "XCD": {
-                "symbol": "$",
-                "name": "Eastern Caribbean dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "li",
-        "id3": "lie",
-        "idCIOC": "lie",
-        "idNum": "438",
         "label": {
             "en": "Liechtenstein"
         },
         "labelOfficial": {
             "en": "Principality of Liechtenstein"
         },
-        "capitals": [
-            "Vaduz"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "CHF": {
-                "symbol": "Fr",
-                "name": "Swiss franc"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euw"
+        "subregionId": "euw",
+        "unMember": true
     },
     {
         "id": "lk",
-        "id3": "lka",
-        "idCIOC": "sri",
-        "idNum": "144",
         "label": {
             "en": "Sri Lanka"
         },
         "labelOfficial": {
             "en": "Democratic Socialist Republic of Sri Lanka"
         },
-        "capitals": [
-            "Sri Jayawardenepura Kotte"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "LKR": {
-                "symbol": "Rs  රු",
-                "name": "Sri Lankan rupee"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ass"
+        "subregionId": "ass",
+        "unMember": true
     },
     {
         "id": "lr",
-        "id3": "lbr",
-        "idCIOC": "lbr",
-        "idNum": "430",
         "label": {
             "en": "Liberia"
         },
         "labelOfficial": {
             "en": "Republic of Liberia"
         },
-        "capitals": [
-            "Monrovia"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "LRD": {
-                "symbol": "$",
-                "name": "Liberian dollar"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "ls",
-        "id3": "lso",
-        "idCIOC": "les",
-        "idNum": "426",
         "label": {
             "en": "Lesotho"
         },
         "labelOfficial": {
             "en": "Kingdom of Lesotho"
         },
-        "capitals": [
-            "Maseru"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "LSL": {
-                "symbol": "L",
-                "name": "Lesotho loti"
-            },
-            "ZAR": {
-                "symbol": "R",
-                "name": "South African rand"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afs"
+        "subregionId": "afs",
+        "unMember": true
     },
     {
         "id": "lt",
-        "id3": "ltu",
-        "idCIOC": "ltu",
-        "idNum": "440",
         "label": {
             "en": "Lithuania"
         },
         "labelOfficial": {
             "en": "Republic of Lithuania"
         },
-        "capitals": [
-            "Vilnius"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": true
     },
     {
         "id": "lu",
-        "id3": "lux",
-        "idCIOC": "lux",
-        "idNum": "442",
         "label": {
             "en": "Luxembourg"
         },
         "labelOfficial": {
             "en": "Grand Duchy of Luxembourg"
         },
-        "capitals": [
-            "Luxembourg"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euw"
+        "subregionId": "euw",
+        "unMember": true
     },
     {
         "id": "lv",
-        "id3": "lva",
-        "idCIOC": "lat",
-        "idNum": "428",
         "label": {
             "en": "Latvia"
         },
         "labelOfficial": {
             "en": "Republic of Latvia"
         },
-        "capitals": [
-            "Riga"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": true
     },
     {
         "id": "ly",
-        "id3": "lby",
-        "idCIOC": "lba",
-        "idNum": "434",
         "label": {
             "en": "Libya"
         },
         "labelOfficial": {
             "en": "State of Libya"
         },
-        "capitals": [
-            "Tripoli"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "LYD": {
-                "symbol": "ل.د",
-                "name": "Libyan dinar"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afn"
+        "subregionId": "afn",
+        "unMember": true
     },
     {
         "id": "ma",
-        "id3": "mar",
-        "idCIOC": "mar",
-        "idNum": "504",
         "label": {
             "en": "Morocco"
         },
         "labelOfficial": {
             "en": "Kingdom of Morocco"
         },
-        "capitals": [
-            "Rabat"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "MAD": {
-                "symbol": "د.م.",
-                "name": "Moroccan dirham"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afn"
+        "subregionId": "afn",
+        "unMember": true
     },
     {
         "id": "mc",
-        "id3": "mco",
-        "idCIOC": "mon",
-        "idNum": "492",
         "label": {
             "en": "Monaco"
         },
         "labelOfficial": {
             "en": "Principality of Monaco"
         },
-        "capitals": [
-            "Monaco"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euw"
+        "subregionId": "euw",
+        "unMember": true
     },
     {
         "id": "md",
-        "id3": "mda",
-        "idCIOC": "mda",
-        "idNum": "498",
         "label": {
             "en": "Moldova"
         },
         "labelOfficial": {
             "en": "Republic of Moldova"
         },
-        "capitals": [
-            "Chișinău"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "MDL": {
-                "symbol": "L",
-                "name": "Moldovan leu"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eue"
+        "subregionId": "eue",
+        "unMember": true
     },
     {
         "id": "me",
-        "id3": "mne",
-        "idCIOC": "mne",
-        "idNum": "499",
         "label": {
             "en": "Montenegro"
         },
         "labelOfficial": {
             "en": "Montenegro"
-        },
-        "capitals": [
-            "Podgorica"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
         },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euse"
+        "subregionId": "euse",
+        "unMember": true
     },
     {
         "id": "mf",
-        "id3": "maf",
-        "idCIOC": "undefined",
-        "idNum": "663",
         "label": {
             "en": "Saint Martin"
         },
         "labelOfficial": {
             "en": "Saint Martin"
         },
-        "capitals": [
-            "Marigot"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "mg",
-        "id3": "mdg",
-        "idCIOC": "mad",
-        "idNum": "450",
         "label": {
             "en": "Madagascar"
         },
         "labelOfficial": {
             "en": "Republic of Madagascar"
         },
-        "capitals": [
-            "Antananarivo"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "MGA": {
-                "symbol": "Ar",
-                "name": "Malagasy ariary"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "mh",
-        "id3": "mhl",
-        "idCIOC": "mhl",
-        "idNum": "584",
         "label": {
             "en": "Marshall Islands"
         },
         "labelOfficial": {
             "en": "Republic of the Marshall Islands"
         },
-        "capitals": [
-            "Majuro"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocmc"
+        "subregionId": "ocmc",
+        "unMember": true
     },
     {
         "id": "mk",
-        "id3": "mkd",
-        "idCIOC": "mkd",
-        "idNum": "807",
         "label": {
             "en": "North Macedonia"
         },
         "labelOfficial": {
             "en": "Republic of North Macedonia"
         },
-        "capitals": [
-            "Skopje"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "MKD": {
-                "symbol": "den",
-                "name": "denar"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euse"
+        "subregionId": "euse",
+        "unMember": true
     },
     {
         "id": "ml",
-        "id3": "mli",
-        "idCIOC": "mli",
-        "idNum": "466",
         "label": {
             "en": "Mali"
         },
         "labelOfficial": {
             "en": "Republic of Mali"
         },
-        "capitals": [
-            "Bamako"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XOF": {
-                "symbol": "Fr",
-                "name": "West African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "mm",
-        "id3": "mmr",
-        "idCIOC": "mya",
-        "idNum": "104",
         "label": {
             "en": "Myanmar"
         },
         "labelOfficial": {
             "en": "Republic of the Union of Myanmar"
         },
-        "capitals": [
-            "Naypyidaw"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "MMK": {
-                "symbol": "Ks",
-                "name": "Burmese kyat"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asse"
+        "subregionId": "asse",
+        "unMember": true
     },
     {
         "id": "mn",
-        "id3": "mng",
-        "idCIOC": "mgl",
-        "idNum": "496",
         "label": {
             "en": "Mongolia"
         },
         "labelOfficial": {
             "en": "Mongolia"
         },
-        "capitals": [
-            "Ulan Bator"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "MNT": {
-                "symbol": "₮",
-                "name": "Mongolian tögrög"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ase"
+        "subregionId": "ase",
+        "unMember": true
     },
     {
         "id": "mo",
-        "id3": "mac",
-        "idCIOC": "undefined",
-        "idNum": "446",
         "label": {
             "en": "Macau"
         },
         "labelOfficial": {
             "en": "Macao Special Administrative Region of the People's Republic of China"
         },
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "MOP": {
-                "symbol": "P",
-                "name": "Macanese pataca"
-            }
-        },
         "independent": false,
         "regionId": "as",
-        "subregionId": "ase"
+        "subregionId": "ase",
+        "unMember": false
     },
     {
         "id": "mp",
-        "id3": "mnp",
-        "idCIOC": "undefined",
-        "idNum": "580",
         "label": {
             "en": "Northern Mariana Islands"
         },
         "labelOfficial": {
             "en": "Commonwealth of the Northern Mariana Islands"
         },
-        "capitals": [
-            "Saipan"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocmc"
+        "subregionId": "ocmc",
+        "unMember": false
     },
     {
         "id": "mq",
-        "id3": "mtq",
-        "idCIOC": "undefined",
-        "idNum": "474",
         "label": {
             "en": "Martinique"
         },
         "labelOfficial": {
             "en": "Martinique"
         },
-        "capitals": [
-            "Fort-de-France"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "mr",
-        "id3": "mrt",
-        "idCIOC": "mtn",
-        "idNum": "478",
         "label": {
             "en": "Mauritania"
         },
         "labelOfficial": {
             "en": "Islamic Republic of Mauritania"
         },
-        "capitals": [
-            "Nouakchott"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "MRU": {
-                "symbol": "UM",
-                "name": "Mauritanian ouguiya"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "ms",
-        "id3": "msr",
-        "idCIOC": "undefined",
-        "idNum": "500",
         "label": {
             "en": "Montserrat"
         },
         "labelOfficial": {
             "en": "Montserrat"
         },
-        "capitals": [
-            "Plymouth"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "XCD": {
-                "symbol": "$",
-                "name": "Eastern Caribbean dollar"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "mt",
-        "id3": "mlt",
-        "idCIOC": "mlt",
-        "idNum": "470",
         "label": {
             "en": "Malta"
         },
         "labelOfficial": {
             "en": "Republic of Malta"
         },
-        "capitals": [
-            "Valletta"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eus"
+        "subregionId": "eus",
+        "unMember": true
     },
     {
         "id": "mu",
-        "id3": "mus",
-        "idCIOC": "mri",
-        "idNum": "480",
         "label": {
             "en": "Mauritius"
         },
         "labelOfficial": {
             "en": "Republic of Mauritius"
         },
-        "capitals": [
-            "Port Louis"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "MUR": {
-                "symbol": "₨",
-                "name": "Mauritian rupee"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "mv",
-        "id3": "mdv",
-        "idCIOC": "mdv",
-        "idNum": "462",
         "label": {
             "en": "Maldives"
         },
         "labelOfficial": {
             "en": "Republic of the Maldives"
         },
-        "capitals": [
-            "Malé"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "MVR": {
-                "symbol": ".ރ",
-                "name": "Maldivian rufiyaa"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ass"
+        "subregionId": "ass",
+        "unMember": true
     },
     {
         "id": "mw",
-        "id3": "mwi",
-        "idCIOC": "maw",
-        "idNum": "454",
         "label": {
             "en": "Malawi"
         },
         "labelOfficial": {
             "en": "Republic of Malawi"
         },
-        "capitals": [
-            "Lilongwe"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "MWK": {
-                "symbol": "MK",
-                "name": "Malawian kwacha"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "mx",
-        "id3": "mex",
-        "idCIOC": "mex",
-        "idNum": "484",
         "label": {
             "en": "Mexico"
         },
         "labelOfficial": {
             "en": "United Mexican States"
         },
-        "capitals": [
-            "Mexico City"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "MXN": {
-                "symbol": "$",
-                "name": "Mexican peso"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amna"
+        "subregionId": "amna",
+        "unMember": true
     },
     {
         "id": "my",
-        "id3": "mys",
-        "idCIOC": "mas",
-        "idNum": "458",
         "label": {
             "en": "Malaysia"
         },
         "labelOfficial": {
             "en": "Malaysia"
         },
-        "capitals": [
-            "Kuala Lumpur"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "MYR": {
-                "symbol": "RM",
-                "name": "Malaysian ringgit"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asse"
+        "subregionId": "asse",
+        "unMember": true
     },
     {
         "id": "mz",
-        "id3": "moz",
-        "idCIOC": "moz",
-        "idNum": "508",
         "label": {
             "en": "Mozambique"
         },
         "labelOfficial": {
             "en": "Republic of Mozambique"
         },
-        "capitals": [
-            "Maputo"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "MZN": {
-                "symbol": "MT",
-                "name": "Mozambican metical"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "na",
-        "id3": "nam",
-        "idCIOC": "nam",
-        "idNum": "516",
         "label": {
             "en": "Namibia"
         },
         "labelOfficial": {
             "en": "Republic of Namibia"
         },
-        "capitals": [
-            "Windhoek"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "NAD": {
-                "symbol": "$",
-                "name": "Namibian dollar"
-            },
-            "ZAR": {
-                "symbol": "R",
-                "name": "South African rand"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afs"
+        "subregionId": "afs",
+        "unMember": true
     },
     {
         "id": "nc",
-        "id3": "ncl",
-        "idCIOC": "undefined",
-        "idNum": "540",
         "label": {
             "en": "New Caledonia"
         },
         "labelOfficial": {
             "en": "New Caledonia"
         },
-        "capitals": [
-            "Nouméa"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "XPF": {
-                "symbol": "₣",
-                "name": "CFP franc"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocml"
+        "subregionId": "ocml",
+        "unMember": false
     },
     {
         "id": "ne",
-        "id3": "ner",
-        "idCIOC": "nig",
-        "idNum": "562",
         "label": {
             "en": "Niger"
         },
         "labelOfficial": {
             "en": "Republic of Niger"
         },
-        "capitals": [
-            "Niamey"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XOF": {
-                "symbol": "Fr",
-                "name": "West African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "nf",
-        "id3": "nfk",
-        "idCIOC": "undefined",
-        "idNum": "574",
         "label": {
             "en": "Norfolk Island"
         },
         "labelOfficial": {
             "en": "Territory of Norfolk Island"
         },
-        "capitals": [
-            "Kingston"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "AUD": {
-                "symbol": "$",
-                "name": "Australian dollar"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocanz"
+        "subregionId": "ocanz",
+        "unMember": false
     },
     {
         "id": "ng",
-        "id3": "nga",
-        "idCIOC": "ngr",
-        "idNum": "566",
         "label": {
             "en": "Nigeria"
         },
         "labelOfficial": {
             "en": "Federal Republic of Nigeria"
         },
-        "capitals": [
-            "Abuja"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "NGN": {
-                "symbol": "₦",
-                "name": "Nigerian naira"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "ni",
-        "id3": "nic",
-        "idCIOC": "nca",
-        "idNum": "558",
         "label": {
             "en": "Nicaragua"
         },
         "labelOfficial": {
             "en": "Republic of Nicaragua"
         },
-        "capitals": [
-            "Managua"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "NIO": {
-                "symbol": "C$",
-                "name": "Nicaraguan córdoba"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amca"
+        "subregionId": "amca",
+        "unMember": true
     },
     {
         "id": "nl",
-        "id3": "nld",
-        "idCIOC": "ned",
-        "idNum": "528",
         "label": {
             "en": "Netherlands"
         },
         "labelOfficial": {
             "en": "Kingdom of the Netherlands"
         },
-        "capitals": [
-            "Amsterdam"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euw"
+        "subregionId": "euw",
+        "unMember": true
     },
     {
         "id": "no",
-        "id3": "nor",
-        "idCIOC": "nor",
-        "idNum": "578",
         "label": {
             "en": "Norway"
         },
         "labelOfficial": {
             "en": "Kingdom of Norway"
         },
-        "capitals": [
-            "Oslo"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "NOK": {
-                "symbol": "kr",
-                "name": "Norwegian krone"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": true
     },
     {
         "id": "np",
-        "id3": "npl",
-        "idCIOC": "nep",
-        "idNum": "524",
         "label": {
             "en": "Nepal"
         },
         "labelOfficial": {
             "en": "Federal Democratic Republic of Nepal"
         },
-        "capitals": [
-            "Kathmandu"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "NPR": {
-                "symbol": "₨",
-                "name": "Nepalese rupee"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ass"
+        "subregionId": "ass",
+        "unMember": true
     },
     {
         "id": "nr",
-        "id3": "nru",
-        "idCIOC": "nru",
-        "idNum": "520",
         "label": {
             "en": "Nauru"
         },
         "labelOfficial": {
             "en": "Republic of Nauru"
         },
-        "capitals": [
-            "Yaren"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "AUD": {
-                "symbol": "$",
-                "name": "Australian dollar"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocmc"
+        "subregionId": "ocmc",
+        "unMember": true
     },
     {
         "id": "nu",
-        "id3": "niu",
-        "idCIOC": "undefined",
-        "idNum": "570",
         "label": {
             "en": "Niue"
         },
         "labelOfficial": {
             "en": "Niue"
-        },
-        "capitals": [
-            "Alofi"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "NZD": {
-                "symbol": "$",
-                "name": "New Zealand dollar"
-            }
         },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocpl"
+        "subregionId": "ocpl",
+        "unMember": false
     },
     {
         "id": "nz",
-        "id3": "nzl",
-        "idCIOC": "nzl",
-        "idNum": "554",
         "label": {
             "en": "New Zealand"
         },
         "labelOfficial": {
             "en": "New Zealand"
         },
-        "capitals": [
-            "Wellington"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "NZD": {
-                "symbol": "$",
-                "name": "New Zealand dollar"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocanz"
+        "subregionId": "ocanz",
+        "unMember": true
     },
     {
         "id": "om",
-        "id3": "omn",
-        "idCIOC": "oma",
-        "idNum": "512",
         "label": {
             "en": "Oman"
         },
         "labelOfficial": {
             "en": "Sultanate of Oman"
         },
-        "capitals": [
-            "Muscat"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "OMR": {
-                "symbol": "ر.ع.",
-                "name": "Omani rial"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "pa",
-        "id3": "pan",
-        "idCIOC": "pan",
-        "idNum": "591",
         "label": {
             "en": "Panama"
         },
         "labelOfficial": {
             "en": "Republic of Panama"
         },
-        "capitals": [
-            "Panama City"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "PAB": {
-                "symbol": "B/.",
-                "name": "Panamanian balboa"
-            },
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amca"
+        "subregionId": "amca",
+        "unMember": true
     },
     {
         "id": "pe",
-        "id3": "per",
-        "idCIOC": "per",
-        "idNum": "604",
         "label": {
             "en": "Peru"
         },
         "labelOfficial": {
             "en": "Republic of Peru"
         },
-        "capitals": [
-            "Lima"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "PEN": {
-                "symbol": "S/ ",
-                "name": "Peruvian sol"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "pf",
-        "id3": "pyf",
-        "idCIOC": "undefined",
-        "idNum": "258",
         "label": {
             "en": "French Polynesia"
         },
         "labelOfficial": {
             "en": "French Polynesia"
         },
-        "capitals": [
-            "Papeetē"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "XPF": {
-                "symbol": "₣",
-                "name": "CFP franc"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocpl"
+        "subregionId": "ocpl",
+        "unMember": false
     },
     {
         "id": "pg",
-        "id3": "png",
-        "idCIOC": "png",
-        "idNum": "598",
         "label": {
             "en": "Papua New Guinea"
         },
         "labelOfficial": {
             "en": "Independent State of Papua New Guinea"
         },
-        "capitals": [
-            "Port Moresby"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "PGK": {
-                "symbol": "K",
-                "name": "Papua New Guinean kina"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocml"
+        "subregionId": "ocml",
+        "unMember": true
     },
     {
         "id": "ph",
-        "id3": "phl",
-        "idCIOC": "phi",
-        "idNum": "608",
         "label": {
             "en": "Philippines"
         },
         "labelOfficial": {
             "en": "Republic of the Philippines"
         },
-        "capitals": [
-            "Manila"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "PHP": {
-                "symbol": "₱",
-                "name": "Philippine peso"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asse"
+        "subregionId": "asse",
+        "unMember": true
     },
     {
         "id": "pk",
-        "id3": "pak",
-        "idCIOC": "pak",
-        "idNum": "586",
         "label": {
             "en": "Pakistan"
         },
         "labelOfficial": {
             "en": "Islamic Republic of Pakistan"
         },
-        "capitals": [
-            "Islamabad"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "PKR": {
-                "symbol": "₨",
-                "name": "Pakistani rupee"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ass"
+        "subregionId": "ass",
+        "unMember": true
     },
     {
         "id": "pl",
-        "id3": "pol",
-        "idCIOC": "pol",
-        "idNum": "616",
         "label": {
             "en": "Poland"
         },
         "labelOfficial": {
             "en": "Republic of Poland"
         },
-        "capitals": [
-            "Warsaw"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "PLN": {
-                "symbol": "zł",
-                "name": "Polish złoty"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euc"
+        "subregionId": "euc",
+        "unMember": true
     },
     {
         "id": "pm",
-        "id3": "spm",
-        "idCIOC": "undefined",
-        "idNum": "666",
         "label": {
             "en": "Saint Pierre and Miquelon"
         },
         "labelOfficial": {
             "en": "Saint Pierre and Miquelon"
         },
-        "capitals": [
-            "Saint-Pierre"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amna"
+        "subregionId": "amna",
+        "unMember": false
     },
     {
         "id": "pn",
-        "id3": "pcn",
-        "idCIOC": "undefined",
-        "idNum": "612",
         "label": {
             "en": "Pitcairn Islands"
         },
         "labelOfficial": {
             "en": "Pitcairn Group of Islands"
         },
-        "capitals": [
-            "Adamstown"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "NZD": {
-                "symbol": "$",
-                "name": "New Zealand dollar"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocpl"
+        "subregionId": "ocpl",
+        "unMember": false
     },
     {
         "id": "pr",
-        "id3": "pri",
-        "idCIOC": "pur",
-        "idNum": "630",
         "label": {
             "en": "Puerto Rico"
         },
         "labelOfficial": {
             "en": "Commonwealth of Puerto Rico"
         },
-        "capitals": [
-            "San Juan"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "ps",
-        "id3": "pse",
-        "idCIOC": "ple",
-        "idNum": "275",
         "label": {
             "en": "Palestine"
         },
         "labelOfficial": {
             "en": "State of Palestine"
         },
-        "capitals": [
-            "Ramallah",
-            "Jerusalem"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "EGP": {
-                "symbol": "E£",
-                "name": "Egyptian pound"
-            },
-            "ILS": {
-                "symbol": "₪",
-                "name": "Israeli new shekel"
-            },
-            "JOD": {
-                "symbol": "JD",
-                "name": "Jordanian dinar"
-            }
-        },
         "independent": false,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": false
     },
     {
         "id": "pt",
-        "id3": "prt",
-        "idCIOC": "por",
-        "idNum": "620",
         "label": {
             "en": "Portugal"
         },
         "labelOfficial": {
             "en": "Portuguese Republic"
         },
-        "capitals": [
-            "Lisbon"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eus"
+        "subregionId": "eus",
+        "unMember": true
     },
     {
         "id": "pw",
-        "id3": "plw",
-        "idCIOC": "plw",
-        "idNum": "585",
         "label": {
             "en": "Palau"
         },
         "labelOfficial": {
             "en": "Republic of Palau"
         },
-        "capitals": [
-            "Ngerulmud"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocmc"
+        "subregionId": "ocmc",
+        "unMember": true
     },
     {
         "id": "py",
-        "id3": "pry",
-        "idCIOC": "par",
-        "idNum": "600",
         "label": {
             "en": "Paraguay"
         },
         "labelOfficial": {
             "en": "Republic of Paraguay"
         },
-        "capitals": [
-            "Asunción"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "PYG": {
-                "symbol": "₲",
-                "name": "Paraguayan guaraní"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "qa",
-        "id3": "qat",
-        "idCIOC": "qat",
-        "idNum": "634",
         "label": {
             "en": "Qatar"
         },
         "labelOfficial": {
             "en": "State of Qatar"
         },
-        "capitals": [
-            "Doha"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "QAR": {
-                "symbol": "ر.ق",
-                "name": "Qatari riyal"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "re",
-        "id3": "reu",
-        "idCIOC": "undefined",
-        "idNum": "638",
         "label": {
             "en": "Réunion"
         },
         "labelOfficial": {
             "en": "Réunion Island"
         },
-        "capitals": [
-            "Saint-Denis"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": false,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": false
     },
     {
         "id": "ro",
-        "id3": "rou",
-        "idCIOC": "rou",
-        "idNum": "642",
         "label": {
             "en": "Romania"
         },
         "labelOfficial": {
             "en": "Romania"
         },
-        "capitals": [
-            "Bucharest"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "RON": {
-                "symbol": "lei",
-                "name": "Romanian leu"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euse"
+        "subregionId": "euse",
+        "unMember": true
     },
     {
         "id": "rs",
-        "id3": "srb",
-        "idCIOC": "srb",
-        "idNum": "688",
         "label": {
             "en": "Serbia"
         },
         "labelOfficial": {
             "en": "Republic of Serbia"
         },
-        "capitals": [
-            "Belgrade"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "RSD": {
-                "symbol": "дин.",
-                "name": "Serbian dinar"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euse"
+        "subregionId": "euse",
+        "unMember": true
     },
     {
         "id": "ru",
-        "id3": "rus",
-        "idCIOC": "rus",
-        "idNum": "643",
         "label": {
             "en": "Russia"
         },
         "labelOfficial": {
             "en": "Russian Federation"
         },
-        "capitals": [
-            "Moscow"
-        ],
-        "continents": [
-            "Europe",
-            "Asia"
-        ],
-        "currencies": {
-            "RUB": {
-                "symbol": "₽",
-                "name": "Russian ruble"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eue"
+        "subregionId": "eue",
+        "unMember": true
     },
     {
         "id": "rw",
-        "id3": "rwa",
-        "idCIOC": "rwa",
-        "idNum": "646",
         "label": {
             "en": "Rwanda"
         },
         "labelOfficial": {
             "en": "Republic of Rwanda"
         },
-        "capitals": [
-            "Kigali"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "RWF": {
-                "symbol": "Fr",
-                "name": "Rwandan franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "sa",
-        "id3": "sau",
-        "idCIOC": "ksa",
-        "idNum": "682",
         "label": {
             "en": "Saudi Arabia"
         },
         "labelOfficial": {
             "en": "Kingdom of Saudi Arabia"
         },
-        "capitals": [
-            "Riyadh"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "SAR": {
-                "symbol": "ر.س",
-                "name": "Saudi riyal"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "sb",
-        "id3": "slb",
-        "idCIOC": "sol",
-        "idNum": "090",
         "label": {
             "en": "Solomon Islands"
         },
         "labelOfficial": {
             "en": "Solomon Islands"
         },
-        "capitals": [
-            "Honiara"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "SBD": {
-                "symbol": "$",
-                "name": "Solomon Islands dollar"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocml"
+        "subregionId": "ocml",
+        "unMember": true
     },
     {
         "id": "sc",
-        "id3": "syc",
-        "idCIOC": "sey",
-        "idNum": "690",
         "label": {
             "en": "Seychelles"
         },
         "labelOfficial": {
             "en": "Republic of Seychelles"
         },
-        "capitals": [
-            "Victoria"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "SCR": {
-                "symbol": "₨",
-                "name": "Seychellois rupee"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "sd",
-        "id3": "sdn",
-        "idCIOC": "sud",
-        "idNum": "729",
         "label": {
             "en": "Sudan"
         },
         "labelOfficial": {
             "en": "Republic of the Sudan"
         },
-        "capitals": [
-            "Khartoum"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "SDG": {
-                "symbol": "ج.س",
-                "name": "Sudanese pound"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afn"
+        "subregionId": "afn",
+        "unMember": true
     },
     {
         "id": "se",
-        "id3": "swe",
-        "idCIOC": "swe",
-        "idNum": "752",
         "label": {
             "en": "Sweden"
         },
         "labelOfficial": {
             "en": "Kingdom of Sweden"
         },
-        "capitals": [
-            "Stockholm"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "SEK": {
-                "symbol": "kr",
-                "name": "Swedish krona"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": true
     },
     {
         "id": "sg",
-        "id3": "sgp",
-        "idCIOC": "sgp",
-        "idNum": "702",
         "label": {
             "en": "Singapore"
         },
         "labelOfficial": {
             "en": "Republic of Singapore"
         },
-        "capitals": [
-            "Singapore"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "SGD": {
-                "symbol": "$",
-                "name": "Singapore dollar"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asse"
+        "subregionId": "asse",
+        "unMember": true
     },
     {
         "id": "sh",
-        "id3": "shn",
-        "idCIOC": "undefined",
-        "idNum": "654",
         "label": {
             "en": "Saint Helena, Ascension and Tristan da Cunha"
         },
         "labelOfficial": {
             "en": "Saint Helena, Ascension and Tristan da Cunha"
         },
-        "capitals": [
-            "Jamestown"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "GBP": {
-                "symbol": "£",
-                "name": "Pound sterling"
-            },
-            "SHP": {
-                "symbol": "£",
-                "name": "Saint Helena pound"
-            }
-        },
         "independent": false,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": false
     },
     {
         "id": "si",
-        "id3": "svn",
-        "idCIOC": "slo",
-        "idNum": "705",
         "label": {
             "en": "Slovenia"
         },
         "labelOfficial": {
             "en": "Republic of Slovenia"
         },
-        "capitals": [
-            "Ljubljana"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euc"
+        "subregionId": "euc",
+        "unMember": true
     },
     {
         "id": "sj",
-        "id3": "sjm",
-        "idCIOC": "undefined",
-        "idNum": "744",
         "label": {
             "en": "Svalbard and Jan Mayen"
         },
         "labelOfficial": {
             "en": "Svalbard og Jan Mayen"
         },
-        "capitals": [
-            "Longyearbyen"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "NOK": {
-                "symbol": "kr",
-                "name": "krone"
-            }
-        },
         "independent": false,
         "regionId": "eu",
-        "subregionId": "eun"
+        "subregionId": "eun",
+        "unMember": false
     },
     {
         "id": "sk",
-        "id3": "svk",
-        "idCIOC": "svk",
-        "idNum": "703",
         "label": {
             "en": "Slovakia"
         },
         "labelOfficial": {
             "en": "Slovak Republic"
         },
-        "capitals": [
-            "Bratislava"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euc"
+        "subregionId": "euc",
+        "unMember": true
     },
     {
         "id": "sl",
-        "id3": "sle",
-        "idCIOC": "sle",
-        "idNum": "694",
         "label": {
             "en": "Sierra Leone"
         },
         "labelOfficial": {
             "en": "Republic of Sierra Leone"
         },
-        "capitals": [
-            "Freetown"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "SLE": {
-                "symbol": "Le",
-                "name": "Leone"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "sm",
-        "id3": "smr",
-        "idCIOC": "smr",
-        "idNum": "674",
         "label": {
             "en": "San Marino"
         },
         "labelOfficial": {
             "en": "Republic of San Marino"
         },
-        "capitals": [
-            "City of San Marino"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eus"
+        "subregionId": "eus",
+        "unMember": true
     },
     {
         "id": "sn",
-        "id3": "sen",
-        "idCIOC": "sen",
-        "idNum": "686",
         "label": {
             "en": "Senegal"
         },
         "labelOfficial": {
             "en": "Republic of Senegal"
         },
-        "capitals": [
-            "Dakar"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XOF": {
-                "symbol": "Fr",
-                "name": "West African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "so",
-        "id3": "som",
-        "idCIOC": "som",
-        "idNum": "706",
         "label": {
             "en": "Somalia"
         },
         "labelOfficial": {
             "en": "Federal Republic of Somalia"
         },
-        "capitals": [
-            "Mogadishu"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "SOS": {
-                "symbol": "Sh",
-                "name": "Somali shilling"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "sr",
-        "id3": "sur",
-        "idCIOC": "sur",
-        "idNum": "740",
         "label": {
             "en": "Suriname"
         },
         "labelOfficial": {
             "en": "Republic of Suriname"
         },
-        "capitals": [
-            "Paramaribo"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "SRD": {
-                "symbol": "$",
-                "name": "Surinamese dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "ss",
-        "id3": "ssd",
-        "idCIOC": "ssd",
-        "idNum": "728",
         "label": {
             "en": "South Sudan"
         },
         "labelOfficial": {
             "en": "Republic of South Sudan"
         },
-        "capitals": [
-            "Juba"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "SSP": {
-                "symbol": "£",
-                "name": "South Sudanese pound"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afm"
+        "subregionId": "afm",
+        "unMember": true
     },
     {
         "id": "st",
-        "id3": "stp",
-        "idCIOC": "stp",
-        "idNum": "678",
         "label": {
             "en": "São Tomé and Príncipe"
         },
         "labelOfficial": {
             "en": "Democratic Republic of São Tomé and Príncipe"
         },
-        "capitals": [
-            "São Tomé"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "STN": {
-                "symbol": "Db",
-                "name": "São Tomé and Príncipe dobra"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afm"
+        "subregionId": "afm",
+        "unMember": true
     },
     {
         "id": "sv",
-        "id3": "slv",
-        "idCIOC": "esa",
-        "idNum": "222",
         "label": {
             "en": "El Salvador"
         },
         "labelOfficial": {
             "en": "Republic of El Salvador"
         },
-        "capitals": [
-            "San Salvador"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amca"
+        "subregionId": "amca",
+        "unMember": true
     },
     {
         "id": "sx",
-        "id3": "sxm",
-        "idCIOC": "undefined",
-        "idNum": "534",
         "label": {
             "en": "Sint Maarten"
         },
         "labelOfficial": {
             "en": "Sint Maarten"
         },
-        "capitals": [
-            "Philipsburg"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "ANG": {
-                "symbol": "ƒ",
-                "name": "Netherlands Antillean guilder"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "sy",
-        "id3": "syr",
-        "idCIOC": "syr",
-        "idNum": "760",
         "label": {
             "en": "Syria"
         },
         "labelOfficial": {
             "en": "Syrian Arab Republic"
         },
-        "capitals": [
-            "Damascus"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "SYP": {
-                "symbol": "£",
-                "name": "Syrian pound"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "sz",
-        "id3": "swz",
-        "idCIOC": "swz",
-        "idNum": "748",
         "label": {
             "en": "Eswatini"
         },
         "labelOfficial": {
             "en": "Kingdom of Eswatini"
         },
-        "capitals": [
-            "Mbabane"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "SZL": {
-                "symbol": "L",
-                "name": "Swazi lilangeni"
-            },
-            "ZAR": {
-                "symbol": "R",
-                "name": "South African rand"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afs"
+        "subregionId": "afs",
+        "unMember": true
     },
     {
         "id": "tc",
-        "id3": "tca",
-        "idCIOC": "undefined",
-        "idNum": "796",
         "label": {
             "en": "Turks and Caicos Islands"
         },
         "labelOfficial": {
             "en": "Turks and Caicos Islands"
         },
-        "capitals": [
-            "Cockburn Town"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "td",
-        "id3": "tcd",
-        "idCIOC": "cha",
-        "idNum": "148",
         "label": {
             "en": "Chad"
         },
         "labelOfficial": {
             "en": "Republic of Chad"
         },
-        "capitals": [
-            "N'Djamena"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XAF": {
-                "symbol": "Fr",
-                "name": "Central African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afm"
+        "subregionId": "afm",
+        "unMember": true
     },
     {
         "id": "tf",
-        "id3": "atf",
-        "idCIOC": "undefined",
-        "idNum": "260",
         "label": {
             "en": "French Southern and Antarctic Lands"
         },
         "labelOfficial": {
             "en": "Territory of the French Southern and Antarctic Lands"
         },
-        "capitals": [
-            "Port-aux-Français"
-        ],
-        "continents": [
-            "Antarctica"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": false,
-        "regionId": "an"
+        "regionId": "an",
+        "unMember": false
     },
     {
         "id": "tg",
-        "id3": "tgo",
-        "idCIOC": "tog",
-        "idNum": "768",
         "label": {
             "en": "Togo"
         },
         "labelOfficial": {
             "en": "Togolese Republic"
         },
-        "capitals": [
-            "Lomé"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "XOF": {
-                "symbol": "Fr",
-                "name": "West African CFA franc"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afw"
+        "subregionId": "afw",
+        "unMember": true
     },
     {
         "id": "th",
-        "id3": "tha",
-        "idCIOC": "tha",
-        "idNum": "764",
         "label": {
             "en": "Thailand"
         },
         "labelOfficial": {
             "en": "Kingdom of Thailand"
         },
-        "capitals": [
-            "Bangkok"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "THB": {
-                "symbol": "฿",
-                "name": "Thai baht"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asse"
+        "subregionId": "asse",
+        "unMember": true
     },
     {
         "id": "tj",
-        "id3": "tjk",
-        "idCIOC": "tjk",
-        "idNum": "762",
         "label": {
             "en": "Tajikistan"
         },
         "labelOfficial": {
             "en": "Republic of Tajikistan"
         },
-        "capitals": [
-            "Dushanbe"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "TJS": {
-                "symbol": "ЅМ",
-                "name": "Tajikistani somoni"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ascb"
+        "subregionId": "ascb",
+        "unMember": true
     },
     {
         "id": "tk",
-        "id3": "tkl",
-        "idCIOC": "undefined",
-        "idNum": "772",
         "label": {
             "en": "Tokelau"
         },
         "labelOfficial": {
             "en": "Tokelau"
         },
-        "capitals": [
-            "Fakaofo"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "NZD": {
-                "symbol": "$",
-                "name": "New Zealand dollar"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocpl"
+        "subregionId": "ocpl",
+        "unMember": false
     },
     {
         "id": "tl",
-        "id3": "tls",
-        "idCIOC": "tls",
-        "idNum": "626",
         "label": {
             "en": "Timor-Leste"
         },
         "labelOfficial": {
             "en": "Democratic Republic of Timor-Leste"
         },
-        "capitals": [
-            "Dili"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asse"
+        "subregionId": "asse",
+        "unMember": true
     },
     {
         "id": "tm",
-        "id3": "tkm",
-        "idCIOC": "tkm",
-        "idNum": "795",
         "label": {
             "en": "Turkmenistan"
         },
         "labelOfficial": {
             "en": "Turkmenistan"
         },
-        "capitals": [
-            "Ashgabat"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "TMT": {
-                "symbol": "m",
-                "name": "Turkmenistan manat"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ascb"
+        "subregionId": "ascb",
+        "unMember": true
     },
     {
         "id": "tn",
-        "id3": "tun",
-        "idCIOC": "tun",
-        "idNum": "788",
         "label": {
             "en": "Tunisia"
         },
         "labelOfficial": {
             "en": "Tunisian Republic"
         },
-        "capitals": [
-            "Tunis"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "TND": {
-                "symbol": "د.ت",
-                "name": "Tunisian dinar"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afn"
+        "subregionId": "afn",
+        "unMember": true
     },
     {
         "id": "to",
-        "id3": "ton",
-        "idCIOC": "tga",
-        "idNum": "776",
         "label": {
             "en": "Tonga"
         },
         "labelOfficial": {
             "en": "Kingdom of Tonga"
         },
-        "capitals": [
-            "Nuku'alofa"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "TOP": {
-                "symbol": "T$",
-                "name": "Tongan paʻanga"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocpl"
+        "subregionId": "ocpl",
+        "unMember": true
     },
     {
         "id": "tr",
-        "id3": "tur",
-        "idCIOC": "tur",
-        "idNum": "792",
         "label": {
             "en": "Turkey"
         },
         "labelOfficial": {
             "en": "Republic of Turkey"
         },
-        "capitals": [
-            "Ankara"
-        ],
-        "continents": [
-            "Europe",
-            "Asia"
-        ],
-        "currencies": {
-            "TRY": {
-                "symbol": "₺",
-                "name": "Turkish lira"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "tt",
-        "id3": "tto",
-        "idCIOC": "tto",
-        "idNum": "780",
         "label": {
             "en": "Trinidad and Tobago"
         },
         "labelOfficial": {
             "en": "Republic of Trinidad and Tobago"
         },
-        "capitals": [
-            "Port of Spain"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "TTD": {
-                "symbol": "$",
-                "name": "Trinidad and Tobago dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "tv",
-        "id3": "tuv",
-        "idCIOC": "tuv",
-        "idNum": "798",
         "label": {
             "en": "Tuvalu"
         },
         "labelOfficial": {
             "en": "Tuvalu"
         },
-        "capitals": [
-            "Funafuti"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "AUD": {
-                "symbol": "$",
-                "name": "Australian dollar"
-            },
-            "TVD": {
-                "symbol": "$",
-                "name": "Tuvaluan dollar"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocpl"
+        "subregionId": "ocpl",
+        "unMember": true
     },
     {
         "id": "tw",
-        "id3": "twn",
-        "idCIOC": "tpe",
-        "idNum": "158",
         "label": {
             "en": "Taiwan"
         },
         "labelOfficial": {
             "en": "Republic of China (Taiwan)"
         },
-        "capitals": [
-            "Taipei"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "TWD": {
-                "symbol": "$",
-                "name": "New Taiwan dollar"
-            }
-        },
         "independent": false,
         "regionId": "as",
-        "subregionId": "ase"
+        "subregionId": "ase",
+        "unMember": false
     },
     {
         "id": "tz",
-        "id3": "tza",
-        "idCIOC": "tan",
-        "idNum": "834",
         "label": {
             "en": "Tanzania"
         },
         "labelOfficial": {
             "en": "United Republic of Tanzania"
         },
-        "capitals": [
-            "Dodoma"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "TZS": {
-                "symbol": "Sh",
-                "name": "Tanzanian shilling"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "ua",
-        "id3": "ukr",
-        "idCIOC": "ukr",
-        "idNum": "804",
         "label": {
             "en": "Ukraine"
         },
         "labelOfficial": {
             "en": "Ukraine"
         },
-        "capitals": [
-            "Kyiv"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "UAH": {
-                "symbol": "₴",
-                "name": "Ukrainian hryvnia"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eue"
+        "subregionId": "eue",
+        "unMember": true
     },
     {
         "id": "ug",
-        "id3": "uga",
-        "idCIOC": "uga",
-        "idNum": "800",
         "label": {
             "en": "Uganda"
         },
         "labelOfficial": {
             "en": "Republic of Uganda"
         },
-        "capitals": [
-            "Kampala"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "UGX": {
-                "symbol": "Sh",
-                "name": "Ugandan shilling"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "um",
-        "id3": "umi",
-        "idCIOC": "undefined",
-        "idNum": "581",
         "label": {
             "en": "United States Minor Outlying Islands"
         },
         "labelOfficial": {
             "en": "United States Minor Outlying Islands"
         },
-        "capitals": [
-            "Washington DC"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amna"
+        "subregionId": "amna",
+        "unMember": false
     },
     {
         "id": "us",
-        "id3": "usa",
-        "idCIOC": "usa",
-        "idNum": "840",
         "label": {
             "en": "United States"
         },
         "labelOfficial": {
             "en": "United States of America"
         },
-        "capitals": [
-            "Washington, D.C."
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amna"
+        "subregionId": "amna",
+        "unMember": true
     },
     {
         "id": "uy",
-        "id3": "ury",
-        "idCIOC": "uru",
-        "idNum": "858",
         "label": {
             "en": "Uruguay"
         },
         "labelOfficial": {
             "en": "Oriental Republic of Uruguay"
         },
-        "capitals": [
-            "Montevideo"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "UYU": {
-                "symbol": "$",
-                "name": "Uruguayan peso"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "uz",
-        "id3": "uzb",
-        "idCIOC": "uzb",
-        "idNum": "860",
         "label": {
             "en": "Uzbekistan"
         },
         "labelOfficial": {
             "en": "Republic of Uzbekistan"
         },
-        "capitals": [
-            "Tashkent"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "UZS": {
-                "symbol": "so'm",
-                "name": "Uzbekistani soʻm"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "ascb"
+        "subregionId": "ascb",
+        "unMember": true
     },
     {
         "id": "va",
-        "id3": "vat",
-        "idCIOC": "undefined",
-        "idNum": "336",
         "label": {
             "en": "Vatican City"
         },
         "labelOfficial": {
             "en": "Vatican City State"
         },
-        "capitals": [
-            "Vatican City"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "eus"
+        "subregionId": "eus",
+        "unMember": false
     },
     {
         "id": "vc",
-        "id3": "vct",
-        "idCIOC": "vin",
-        "idNum": "670",
         "label": {
             "en": "Saint Vincent and the Grenadines"
         },
         "labelOfficial": {
             "en": "Saint Vincent and the Grenadines"
         },
-        "capitals": [
-            "Kingstown"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "XCD": {
-                "symbol": "$",
-                "name": "Eastern Caribbean dollar"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": true
     },
     {
         "id": "ve",
-        "id3": "ven",
-        "idCIOC": "ven",
-        "idNum": "862",
         "label": {
             "en": "Venezuela"
         },
         "labelOfficial": {
             "en": "Bolivarian Republic of Venezuela"
         },
-        "capitals": [
-            "Caracas"
-        ],
-        "continents": [
-            "South America"
-        ],
-        "currencies": {
-            "VES": {
-                "symbol": "Bs.S.",
-                "name": "Venezuelan bolívar soberano"
-            }
-        },
         "independent": true,
         "regionId": "am",
-        "subregionId": "amsa"
+        "subregionId": "amsa",
+        "unMember": true
     },
     {
         "id": "vg",
-        "id3": "vgb",
-        "idCIOC": "ivb",
-        "idNum": "092",
         "label": {
             "en": "British Virgin Islands"
         },
         "labelOfficial": {
             "en": "Virgin Islands"
         },
-        "capitals": [
-            "Road Town"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "vi",
-        "id3": "vir",
-        "idCIOC": "isv",
-        "idNum": "850",
         "label": {
             "en": "United States Virgin Islands"
         },
         "labelOfficial": {
             "en": "Virgin Islands of the United States"
         },
-        "capitals": [
-            "Charlotte Amalie"
-        ],
-        "continents": [
-            "North America"
-        ],
-        "currencies": {
-            "USD": {
-                "symbol": "$",
-                "name": "United States dollar"
-            }
-        },
         "independent": false,
         "regionId": "am",
-        "subregionId": "amc"
+        "subregionId": "amc",
+        "unMember": false
     },
     {
         "id": "vn",
-        "id3": "vnm",
-        "idCIOC": "vie",
-        "idNum": "704",
         "label": {
             "en": "Vietnam"
         },
         "labelOfficial": {
             "en": "Socialist Republic of Vietnam"
         },
-        "capitals": [
-            "Hanoi"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "VND": {
-                "symbol": "₫",
-                "name": "Vietnamese đồng"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asse"
+        "subregionId": "asse",
+        "unMember": true
     },
     {
         "id": "vu",
-        "id3": "vut",
-        "idCIOC": "van",
-        "idNum": "548",
         "label": {
             "en": "Vanuatu"
         },
         "labelOfficial": {
             "en": "Republic of Vanuatu"
         },
-        "capitals": [
-            "Port Vila"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "VUV": {
-                "symbol": "Vt",
-                "name": "Vanuatu vatu"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocml"
+        "subregionId": "ocml",
+        "unMember": true
     },
     {
         "id": "wf",
-        "id3": "wlf",
-        "idCIOC": "undefined",
-        "idNum": "876",
         "label": {
             "en": "Wallis and Futuna"
         },
         "labelOfficial": {
             "en": "Territory of the Wallis and Futuna Islands"
         },
-        "capitals": [
-            "Mata-Utu"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "XPF": {
-                "symbol": "₣",
-                "name": "CFP franc"
-            }
-        },
         "independent": false,
         "regionId": "oc",
-        "subregionId": "ocpl"
+        "subregionId": "ocpl",
+        "unMember": false
     },
     {
         "id": "ws",
-        "id3": "wsm",
-        "idCIOC": "sam",
-        "idNum": "882",
         "label": {
             "en": "Samoa"
         },
         "labelOfficial": {
             "en": "Independent State of Samoa"
         },
-        "capitals": [
-            "Apia"
-        ],
-        "continents": [
-            "Oceania"
-        ],
-        "currencies": {
-            "WST": {
-                "symbol": "T",
-                "name": "Samoan tālā"
-            }
-        },
         "independent": true,
         "regionId": "oc",
-        "subregionId": "ocpl"
+        "subregionId": "ocpl",
+        "unMember": true
     },
     {
         "id": "xk",
-        "id3": "unk",
-        "idCIOC": "kos",
-        "idNum": "undefined",
         "label": {
             "en": "Kosovo"
         },
         "labelOfficial": {
             "en": "Republic of Kosovo"
         },
-        "capitals": [
-            "Pristina"
-        ],
-        "continents": [
-            "Europe"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": true,
         "regionId": "eu",
-        "subregionId": "euse"
+        "subregionId": "euse",
+        "unMember": false
     },
     {
         "id": "ye",
-        "id3": "yem",
-        "idCIOC": "yem",
-        "idNum": "887",
         "label": {
             "en": "Yemen"
         },
         "labelOfficial": {
             "en": "Republic of Yemen"
         },
-        "capitals": [
-            "Sana'a"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "currencies": {
-            "YER": {
-                "symbol": "﷼",
-                "name": "Yemeni rial"
-            }
-        },
         "independent": true,
         "regionId": "as",
-        "subregionId": "asw"
+        "subregionId": "asw",
+        "unMember": true
     },
     {
         "id": "yt",
-        "id3": "myt",
-        "idCIOC": "undefined",
-        "idNum": "175",
         "label": {
             "en": "Mayotte"
         },
         "labelOfficial": {
             "en": "Department of Mayotte"
         },
-        "capitals": [
-            "Mamoudzou"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "EUR": {
-                "symbol": "€",
-                "name": "Euro"
-            }
-        },
         "independent": false,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": false
     },
     {
         "id": "za",
-        "id3": "zaf",
-        "idCIOC": "rsa",
-        "idNum": "710",
         "label": {
             "en": "South Africa"
         },
         "labelOfficial": {
             "en": "Republic of South Africa"
         },
-        "capitals": [
-            "Pretoria",
-            "Bloemfontein",
-            "Cape Town"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "ZAR": {
-                "symbol": "R",
-                "name": "South African rand"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afs"
+        "subregionId": "afs",
+        "unMember": true
     },
     {
         "id": "zm",
-        "id3": "zmb",
-        "idCIOC": "zam",
-        "idNum": "894",
         "label": {
             "en": "Zambia"
         },
         "labelOfficial": {
             "en": "Republic of Zambia"
         },
-        "capitals": [
-            "Lusaka"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "ZMW": {
-                "symbol": "ZK",
-                "name": "Zambian kwacha"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afe"
+        "subregionId": "afe",
+        "unMember": true
     },
     {
         "id": "zw",
-        "id3": "zwe",
-        "idCIOC": "zim",
-        "idNum": "716",
         "label": {
             "en": "Zimbabwe"
         },
         "labelOfficial": {
             "en": "Republic of Zimbabwe"
         },
-        "capitals": [
-            "Harare"
-        ],
-        "continents": [
-            "Africa"
-        ],
-        "currencies": {
-            "ZWL": {
-                "symbol": "$",
-                "name": "Zimbabwean dollar"
-            }
-        },
         "independent": true,
         "regionId": "af",
-        "subregionId": "afs"
+        "subregionId": "afs",
+        "unMember": true
     }
 ]

@@ -14,10 +14,10 @@ async function transformCountryData() {
     console.log('Country count (Independent):', countriesIndependent.length);
     console.log('Country count (Dependent)__:', countriesDependent.length);
     console.log('Country count______________:', countries.length);
-    console.log('\nFirst country______________:', countries[0]);
+    // console.log('\nFirst country______________:', countries[0]);
     console.log('\n');
 
-    // const currencies = {};
+    const currencies = {};
     const geoCountries = [];
     const nationalities = {};
     const translations = {};
@@ -43,13 +43,26 @@ async function transformCountryData() {
         const geoRegion = geoRegions.find((geoRegion) => geoRegion.label.en === country.region);
         const geoSubregion = geoSubregions.find((geoSubregion) => geoSubregion.label.en === country.subregion);
 
-        // for (const [key, currency] of Object.entries(country.currencies || {})) currencies[key] = (currencies[key] || 0) + 1;
+        // Currencies.
+        for (const [key, value] of Object.entries(country.currencies || {})) {
+            if (currencies[key]) {
+                const currency = currencies[key];
+                if (currency.value.symbol !== value.symbol)
+                    console.log('! Different currency symbol:', key, '/', currency.country, 'v', country.name.common, '-', `'${currency.value.symbol}'`, 'v', `'${value.symbol}'`);
+                if (currency.value.name !== value.name)
+                    console.log('! Different currency name__:', key, '/', currency.country, 'v', country.name.common, '-', `'${currency.value.name}'`, 'v', `'${value.name}'`);
+                currency.c += 1;
+            } else {
+                currencies[key] = { c: 1, country: country.name.common, value };
+            }
+        }
 
         // Nationalities.
         for (const value of Object.values(country.demonyms.eng || {})) {
-            if (value) nationalities[country.cca2] = { label: { en: value } };
+            if (value) nationalities[country.cca2] = value;
         }
 
+        // Country.
         geoCountries.push({
             id: String(country.cca2).toLocaleLowerCase('en'),
             // id3: String(country.cca3).toLocaleLowerCase('en'),
@@ -66,23 +79,13 @@ async function transformCountryData() {
             unMember: country.unMember
         });
 
+        // Informational messages.
         if (country.capital?.length > 1) console.log('! Multiple capitals________:', country.name.common, '-', country.capital);
         if (country.continents.length > 1) console.log('! Multiple continents______:', country.name.common, '-', country.continents);
         if (Object.keys(country.currencies ?? {}).length > 1) console.log('! Multiple currencies______:', country.name.common);
     }
 
-    await fs.writeFile('./helpers/data/geoCountries.json', JSON.stringify(geoCountries, null, 4), 'utf-8');
-
-    // const sortedCurrencies = Object.fromEntries(Object.entries(currencies).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
-    // console.log('CURRENCIES_________:', sortedCurrencies);
-
-    console.log('\nNationalities______________:', nationalities);
-
-    const geoLanguages = [];
-    for (const language of languages) {
-        geoLanguages.push({ id: language['alpha3-b'], idT: language['alpha3-t'] || undefined, id2: language.alpha2 || undefined, label: { en: language.English } });
-    }
-
+    // Label translations.
     for (const [key, value] of Object.entries(translations || {})) {
         value.id2 = lookupLanguageUsingAlpha3(key)?.alpha2 || null;
         value.idB = lookupLanguageUsingAlpha3(key)?.['alpha3-b'] || null;
@@ -90,9 +93,32 @@ async function transformCountryData() {
         value.l = lookupLanguageUsingAlpha3(key)?.English || null;
     }
     const sortedTranslations = Object.fromEntries(Object.entries(translations).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
-    console.log('\nTranslations_______________:', sortedTranslations);
+    console.log('! Label Translations_______:', sortedTranslations);
 
+    // Countries.
+    await fs.writeFile('./helpers/data/geoCountries.json', JSON.stringify(geoCountries, null, 4), 'utf-8');
+
+    // Currencies.
+    const finCurrencies = [];
+    const sortedCurrencies = Object.fromEntries(Object.entries(currencies).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
+    for (const [key, value] of Object.entries(sortedCurrencies)) {
+        finCurrencies.push({ id: key.toLocaleLowerCase(), name: value.value.name, symbol: value.value.symbol });
+    }
+    await fs.writeFile('./helpers/data/finCurrencies.json', JSON.stringify(finCurrencies, null, 4), 'utf-8');
+
+    // Languages.
+    const geoLanguages = [];
+    for (const language of languages) {
+        geoLanguages.push({ id: language['alpha3-b'], idT: language['alpha3-t'] || undefined, id2: language.alpha2 || undefined, label: { en: language.English } });
+    }
     await fs.writeFile('./helpers/data/geoLanguages.json', JSON.stringify(geoLanguages, null, 4), 'utf-8');
+
+    // Nationalities.
+    const geoNationalities = [];
+    for (const [key, value] of Object.entries(nationalities)) {
+        geoNationalities.push({ id: key.toLocaleLowerCase(), label: { en: value } });
+    }
+    await fs.writeFile('./helpers/data/geoNationalities.json', JSON.stringify(geoNationalities, null, 4), 'utf-8');
 }
 
 function lookupLanguageUsingAlpha3(code) {

@@ -88,14 +88,14 @@ async function transformCountryData() {
     await fs.writeFile('./helpers/data/geoLanguages.json', JSON.stringify(geoLanguages, null, 4), 'utf-8');
 }
 
-function lookupLanguageUsingAlpha3(alpha3Code) {
-    const alpha3BMatch = languages.find((item) => item['alpha3-b'] === alpha3Code);
+function lookupLanguageUsingAlpha3(code) {
+    const alpha3BMatch = languages.find((item) => item['alpha3-b'] === code);
     if (alpha3BMatch) return alpha3BMatch;
 
-    const alpha3TMatch = languages.find((item) => item['alpha3-t'] === alpha3Code);
+    const alpha3TMatch = languages.find((item) => item['alpha3-t'] === code);
     if (alpha3TMatch) return alpha3TMatch;
 
-    console.log('! Missing Locale___________:', alpha3Code);
+    console.log('! Missing Locale___________:', code);
     return undefined;
 }
 

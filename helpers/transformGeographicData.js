@@ -73,18 +73,20 @@ async function transformCountryData() {
 
     console.log('\nNationalities______________:', nationalities);
 
-    for (const [key, value] of Object.entries(translations || {})) {
-        value.id2 = lookupLanguageUsingAlpha3(key)?.alpha2 || undefined;
-        value.id3B = lookupLanguageUsingAlpha3(key)?.['alpha3-b'] || undefined;
-        value.id3T = lookupLanguageUsingAlpha3(key)?.['alpha3-t'] || undefined;
-        value.label = { en: lookupLanguageUsingAlpha3(key)?.English || undefined };
-    }
-    // const sortedTranslations = Object.fromEntries(Object.entries(translations).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
-    // console.log('\nTranslations_______________:', sortedTranslations);
     const geoLanguages = [];
     for (const language of languages) {
         geoLanguages.push({ id: language['alpha3-b'], idT: language['alpha3-t'] || undefined, id2: language.alpha2 || undefined, label: { en: language.English } });
     }
+
+    for (const [key, value] of Object.entries(translations || {})) {
+        value.id2 = lookupLanguageUsingAlpha3(key)?.alpha2 || undefined;
+        value.id3B = lookupLanguageUsingAlpha3(key)?.['alpha3-b'] || undefined;
+        value.id3T = lookupLanguageUsingAlpha3(key)?.['alpha3-t'] || undefined;
+        value.label = lookupLanguageUsingAlpha3(key)?.English || undefined;
+    }
+    const sortedTranslations = Object.fromEntries(Object.entries(translations).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
+    console.log('\nTranslations_______________:', sortedTranslations);
+
     await fs.writeFile('./helpers/data/geoLanguages.json', JSON.stringify(geoLanguages, null, 4), 'utf-8');
 }
 

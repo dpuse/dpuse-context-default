@@ -38,7 +38,7 @@ async function transformCountryData() {
             if (value) nationalities[country.cca2] = { label: { en: value } };
         }
 
-        for (const key of Object.keys(country.translations || {})) translations[key] = { count: (translations[key]?.count || 0) + 1 };
+        for (const key of Object.keys(country.translations || {})) translations[key] = { c: (translations[key]?.c || 0) + 1 };
         for (const [key, translation] of Object.entries(country.translations)) {
             const locale = lookupLanguageUsingAlpha3(key);
             if (!locale) continue;
@@ -79,10 +79,10 @@ async function transformCountryData() {
     }
 
     for (const [key, value] of Object.entries(translations || {})) {
-        value.id2 = lookupLanguageUsingAlpha3(key)?.alpha2 || undefined;
-        value.id3B = lookupLanguageUsingAlpha3(key)?.['alpha3-b'] || undefined;
-        value.id3T = lookupLanguageUsingAlpha3(key)?.['alpha3-t'] || undefined;
-        value.label = lookupLanguageUsingAlpha3(key)?.English || undefined;
+        value.id2 = lookupLanguageUsingAlpha3(key)?.alpha2 || null;
+        value.idB = lookupLanguageUsingAlpha3(key)?.['alpha3-b'] || null;
+        value.idT = lookupLanguageUsingAlpha3(key)?.['alpha3-t'] || '';
+        value.l = lookupLanguageUsingAlpha3(key)?.English || null;
     }
     const sortedTranslations = Object.fromEntries(Object.entries(translations).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
     console.log('\nTranslations_______________:', sortedTranslations);

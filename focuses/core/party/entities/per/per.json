@@ -46,31 +46,43 @@
         { "id": "vetSts", "lookup": "perVetSts" }
     ],
     "events": [
-        { "id": "brn", "label": { "en-gb": "Born" }, "type": "activation", "description": { "en-gb": "The moment the person was born." } },
-        { "id": "rec", "label": { "en-gb": "Recognised" }, "type": "recognition", "description": { "en-gb": "The moment the person was recognised." } },
-        { "id": "upd", "label": { "en-gb": "Updated" }, "type": "modification", "description": { "en-gb": "The moment from which the modification applied." } },
-        { "id": "der", "label": { "en-gb": "Derecognised" }, "type": "derecognition", "description": { "en-gb": "The moment from which the person was no longer recognised." } },
-        { "id": "dec", "label": { "en-gb": "Deceased" }, "type": "closing", "description": { "en-gb": "The moment from which the person was no longer alive." } },
-        { "id": "del", "label": { "en-gb": "Deleted" }, "type": "deletion", "description": { "en-gb": "The moment from which the person entity was deleted." } }
+        { "mapTo": "activation", "id": "brn", "label": { "en-gb": "Born" }, "description": { "en-gb": "The moment the person was born." } },
+        { "mapTo": "recognition", "id": "rec", "label": { "en-gb": "Recognised" }, "description": { "en-gb": "The moment the person was recognised." } },
+        { "mapTo": "modification", "id": "upd", "label": { "en-gb": "Updated" }, "description": { "en-gb": "The moment from which the modification applied." } },
+        { "mapTo": "derecognition", "id": "der", "label": { "en-gb": "Derecognised" }, "description": { "en-gb": "The moment from which the person was no longer recognised." } },
+        { "mapTo": "closing", "id": "dec", "label": { "en-gb": "Deceased" }, "description": { "en-gb": "The moment from which the person was no longer alive." } },
+        { "mapTo": "deletion", "id": "del", "label": { "en-gb": "Deleted" }, "description": { "en-gb": "The moment from which the person entity was deleted." } }
     ],
     "primaryMeasures": [
-        { "id": "opnCnt", "label": { "en-gb": "Person Opening Count" }, "description": { "en-gb": "The number of people present at the opening moment of a reporting period." } },
-        { "id": "strCnt", "label": { "en-gb": "Person Starting Count" }, "description": { "en-gb": "The number of people present at the start of a reporting period." } },
         {
-            "id": "strInCnt",
+            "mapTo": "openCount",
+            "label": { "en-gb": "Person Opening Count" },
+            "description": { "en-gb": "The number of people present at the opening moment of a reporting period." }
+        },
+        { "mapTo": "startCount", "label": { "en-gb": "Person Starting Count" }, "description": { "en-gb": "The number of people present at the start of a reporting period." } },
+        {
+            "mapTo": "startInCount",
             "label": { "en-gb": "Person Starting In Count" },
             "description": { "en-gb": "The number of people recognised at the first moment of a reporting period." }
         },
-        { "id": "durInCnt", "label": { "en-gb": "Person During In Count" }, "description": { "en-gb": "The number of people recognised during a reporting period." } },
-        { "id": "durCnt", "label": { "en-gb": "Person During Count" }, "description": { "en-gb": "The number of people present at any moment within the reporting period." } },
-        { "id": "wtdCnt", "label": { "en-gb": "Person Weighted Count" }, "description": { "en-gb": "The weighted number of people present within a reporting period." } },
-        { "id": "durOutCnt", "label": { "en-gb": "Person During Out Count" }, "description": { "en-gb": "The number of people derecognised during a reporting period." } },
+        { "mapTo": "duringInCount", "label": { "en-gb": "Person During In Count" }, "description": { "en-gb": "The number of people recognised during a reporting period." } },
         {
-            "id": "endOutCnt",
+            "mapTo": "duringCount",
+            "label": { "en-gb": "Person During Count" },
+            "description": { "en-gb": "The number of people present at any moment within the reporting period." }
+        },
+        { "mapTo": "weightedCount", "label": { "en-gb": "Person Weighted Count" }, "description": { "en-gb": "The weighted number of people present within a reporting period." } },
+        { "mapTo": "duringOutCount", "label": { "en-gb": "Person During Out Count" }, "description": { "en-gb": "The number of people derecognised during a reporting period." } },
+        {
+            "mapTo": "endOutCount",
             "label": { "en-gb": "Person Ending Out Count" },
             "description": { "en-gb": "The number of people derecognised at the last moment of a reporting period." }
         },
-        { "id": "endCnt", "label": { "en-gb": "Person Ending Count" }, "description": { "en-gb": "The number of people present at the end of a reporting period." } },
-        { "id": "clsCnt", "label": { "en-gb": "Person Closing Count" }, "description": { "en-gb": "The number of people present at the closing moment of a reporting period." } }
+        { "mapTo": "endCount", "label": { "en-gb": "Person Ending Count" }, "description": { "en-gb": "The number of people present at the end of a reporting period." } },
+        {
+            "mapTo": "closeCount",
+            "label": { "en-gb": "Person Closing Count" },
+            "description": { "en-gb": "The number of people present at the closing moment of a reporting period." }
+        }
     ]
 }

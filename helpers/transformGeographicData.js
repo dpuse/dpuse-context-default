@@ -66,6 +66,9 @@ async function transformCountryData() {
             if (value) nationalities[country.cca2] = { name: value, regionId: geoRegion.id, subregionId: geoSubregion?.id };
         }
 
+        const postalCodeInfo = countriesGeoNames.find((countryGeoNames) => country.cca2 === countryGeoNames.countryCode);
+        console.log(1111, postalCodeInfo);
+
         // Country.
         geoCountries.push({
             id: String(country.cca2).toLocaleLowerCase('en'),
@@ -78,6 +81,9 @@ async function transformCountryData() {
             // continents: country.continents,
             // currencies: country.currencies,
             independent: country.independent,
+            maxPostalCode: postalCodeInfo?.maxPostalCode,
+            minPostalCode: postalCodeInfo?.minPostalCode,
+            numPostalCodes: postalCodeInfo?.numPostalCodes ?? 0,
             regionId: geoRegion.id,
             subregionId: geoSubregion?.id,
             unMember: country.unMember

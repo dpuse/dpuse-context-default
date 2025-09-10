@@ -8,6 +8,9 @@
             "en": "Principality of Andorra"
         },
         "independent": true,
+        "maxPostalCode": "AD700",
+        "minPostalCode": "AD100",
+        "numPostalCodes": 7,
         "regionId": "eu",
         "subregionId": "eus",
         "unMember": true
@@ -21,6 +24,9 @@
             "en": "United Arab Emirates"
         },
         "independent": true,
+        "maxPostalCode": "99998 62369",
+        "minPostalCode": "00004 62392",
+        "numPostalCodes": 178171,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -34,6 +40,7 @@
             "en": "Islamic Republic of Afghanistan"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ass",
         "unMember": true
@@ -47,6 +54,7 @@
             "en": "Antigua and Barbuda"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -60,6 +68,9 @@
             "en": "Anguilla"
         },
         "independent": false,
+        "maxPostalCode": "AI-2640",
+        "minPostalCode": "AI-2640",
+        "numPostalCodes": 1,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -73,6 +84,9 @@
             "en": "Republic of Albania"
         },
         "independent": true,
+        "maxPostalCode": "9721",
+        "minPostalCode": "1001",
+        "numPostalCodes": 494,
         "regionId": "eu",
         "subregionId": "euse",
         "unMember": true
@@ -86,6 +100,7 @@
             "en": "Republic of Armenia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -99,6 +114,7 @@
             "en": "Republic of Angola"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afm",
         "unMember": true
@@ -112,6 +128,7 @@
             "en": "Antarctica"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "an",
         "unMember": false
     },
@@ -124,6 +141,9 @@
             "en": "Argentine Republic"
         },
         "independent": true,
+        "maxPostalCode": "9431",
+        "minPostalCode": "1601",
+        "numPostalCodes": 20260,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -137,6 +157,9 @@
             "en": "American Samoa"
         },
         "independent": false,
+        "maxPostalCode": "96799",
+        "minPostalCode": "96799",
+        "numPostalCodes": 1,
         "regionId": "oc",
         "subregionId": "ocpl",
         "unMember": false
@@ -150,6 +173,9 @@
             "en": "Republic of Austria"
         },
         "independent": true,
+        "maxPostalCode": "9992",
+        "minPostalCode": "1010",
+        "numPostalCodes": 18957,
         "regionId": "eu",
         "subregionId": "euc",
         "unMember": true
@@ -163,6 +189,9 @@
             "en": "Commonwealth of Australia"
         },
         "independent": true,
+        "maxPostalCode": "9015",
+        "minPostalCode": "0800",
+        "numPostalCodes": 18521,
         "regionId": "oc",
         "subregionId": "ocanz",
         "unMember": true
@@ -176,6 +205,7 @@
             "en": "Aruba"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -189,6 +219,9 @@
             "en": "Åland Islands"
         },
         "independent": false,
+        "maxPostalCode": "22950",
+        "minPostalCode": "22100",
+        "numPostalCodes": 37,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": false
@@ -202,6 +235,9 @@
             "en": "Republic of Azerbaijan"
         },
         "independent": true,
+        "maxPostalCode": "AZ 8011",
+        "minPostalCode": "AZ 0100",
+        "numPostalCodes": 1186,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -215,6 +251,7 @@
             "en": "Bosnia and Herzegovina"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "eu",
         "subregionId": "euse",
         "unMember": true
@@ -228,6 +265,7 @@
             "en": "Barbados"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -241,6 +279,9 @@
             "en": "People's Republic of Bangladesh"
         },
         "independent": true,
+        "maxPostalCode": "9461",
+        "minPostalCode": "1000",
+        "numPostalCodes": 1349,
         "regionId": "as",
         "subregionId": "ass",
         "unMember": true
@@ -254,6 +295,9 @@
             "en": "Kingdom of Belgium"
         },
         "independent": true,
+        "maxPostalCode": "9992",
+        "minPostalCode": "1000",
+        "numPostalCodes": 2781,
         "regionId": "eu",
         "subregionId": "euw",
         "unMember": true
@@ -267,6 +311,7 @@
             "en": "Burkina Faso"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -280,6 +325,9 @@
             "en": "Republic of Bulgaria"
         },
         "independent": true,
+        "maxPostalCode": "9974",
+        "minPostalCode": "1000",
+        "numPostalCodes": 5304,
         "regionId": "eu",
         "subregionId": "euse",
         "unMember": true
@@ -293,6 +341,7 @@
             "en": "Kingdom of Bahrain"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -306,6 +355,7 @@
             "en": "Republic of Burundi"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -319,6 +369,7 @@
             "en": "Republic of Benin"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -332,6 +383,7 @@
             "en": "Collectivity of Saint Barthélemy"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -345,6 +397,9 @@
             "en": "Bermuda"
         },
         "independent": false,
+        "maxPostalCode": "WK 10",
+        "minPostalCode": "CR 01",
+        "numPostalCodes": 112,
         "regionId": "am",
         "subregionId": "amna",
         "unMember": false
@@ -358,6 +413,7 @@
             "en": "Nation of Brunei, Abode of Peace"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asse",
         "unMember": true
@@ -371,6 +427,7 @@
             "en": "Plurinational State of Bolivia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -384,6 +441,7 @@
             "en": "Bonaire, Sint Eustatius and Saba"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -397,6 +455,9 @@
             "en": "Federative Republic of Brazil"
         },
         "independent": true,
+        "maxPostalCode": "99990-000",
+        "minPostalCode": "01000-000",
+        "numPostalCodes": 5525,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -410,6 +471,7 @@
             "en": "Commonwealth of the Bahamas"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -423,6 +485,7 @@
             "en": "Kingdom of Bhutan"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ass",
         "unMember": true
@@ -436,6 +499,7 @@
             "en": "Bouvet Island"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "an",
         "unMember": false
     },
@@ -448,6 +512,7 @@
             "en": "Republic of Botswana"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afs",
         "unMember": true
@@ -461,6 +526,9 @@
             "en": "Republic of Belarus"
         },
         "independent": true,
+        "maxPostalCode": "247995",
+        "minPostalCode": "210000",
+        "numPostalCodes": 3133,
         "regionId": "eu",
         "subregionId": "eue",
         "unMember": true
@@ -474,6 +542,7 @@
             "en": "Belize"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amca",
         "unMember": true
@@ -487,6 +556,9 @@
             "en": "Canada"
         },
         "independent": true,
+        "maxPostalCode": "Y1A 7A4",
+        "minPostalCode": "A0A",
+        "numPostalCodes": 902333,
         "regionId": "am",
         "subregionId": "amna",
         "unMember": true
@@ -500,6 +572,9 @@
             "en": "Territory of the Cocos (Keeling) Islands"
         },
         "independent": false,
+        "maxPostalCode": "6799",
+        "minPostalCode": "6799",
+        "numPostalCodes": 1,
         "regionId": "oc",
         "subregionId": "ocanz",
         "unMember": false
@@ -513,6 +588,7 @@
             "en": "Democratic Republic of the Congo"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afm",
         "unMember": true
@@ -526,6 +602,7 @@
             "en": "Central African Republic"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afm",
         "unMember": true
@@ -539,6 +616,7 @@
             "en": "Republic of the Congo"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afm",
         "unMember": true
@@ -552,6 +630,9 @@
             "en": "Swiss Confederation"
         },
         "independent": true,
+        "maxPostalCode": "9658",
+        "minPostalCode": "1000",
+        "numPostalCodes": 4520,
         "regionId": "eu",
         "subregionId": "euw",
         "unMember": true
@@ -565,6 +646,7 @@
             "en": "Republic of Côte d'Ivoire"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -578,6 +660,7 @@
             "en": "Cook Islands"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "oc",
         "subregionId": "ocpl",
         "unMember": false
@@ -591,6 +674,9 @@
             "en": "Republic of Chile"
         },
         "independent": true,
+        "maxPostalCode": "9810000",
+        "minPostalCode": "1000000",
+        "numPostalCodes": 346,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -604,6 +690,7 @@
             "en": "Republic of Cameroon"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afm",
         "unMember": true
@@ -617,6 +704,9 @@
             "en": "People's Republic of China"
         },
         "independent": true,
+        "maxPostalCode": "860700",
+        "minPostalCode": "010000",
+        "numPostalCodes": 2352,
         "regionId": "as",
         "subregionId": "ase",
         "unMember": true
@@ -630,6 +720,9 @@
             "en": "Republic of Colombia"
         },
         "independent": true,
+        "maxPostalCode": "995009",
+        "minPostalCode": "050001",
+        "numPostalCodes": 3681,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -643,6 +736,9 @@
             "en": "Republic of Costa Rica"
         },
         "independent": true,
+        "maxPostalCode": "70605",
+        "minPostalCode": "10101",
+        "numPostalCodes": 473,
         "regionId": "am",
         "subregionId": "amca",
         "unMember": true
@@ -656,6 +752,7 @@
             "en": "Republic of Cuba"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -669,6 +766,7 @@
             "en": "Republic of Cabo Verde"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -682,6 +780,7 @@
             "en": "Country of Curaçao"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -695,6 +794,9 @@
             "en": "Territory of Christmas Island"
         },
         "independent": false,
+        "maxPostalCode": "6798",
+        "minPostalCode": "6798",
+        "numPostalCodes": 1,
         "regionId": "oc",
         "subregionId": "ocanz",
         "unMember": false
@@ -708,6 +810,9 @@
             "en": "Republic of Cyprus"
         },
         "independent": true,
+        "maxPostalCode": "9639",
+        "minPostalCode": "1010",
+        "numPostalCodes": 1127,
         "regionId": "eu",
         "subregionId": "eus",
         "unMember": true
@@ -721,6 +826,9 @@
             "en": "Czech Republic"
         },
         "independent": true,
+        "maxPostalCode": "798 62",
+        "minPostalCode": "100 00",
+        "numPostalCodes": 15507,
         "regionId": "eu",
         "subregionId": "euc",
         "unMember": true
@@ -734,6 +842,9 @@
             "en": "Federal Republic of Germany"
         },
         "independent": true,
+        "maxPostalCode": "99998",
+        "minPostalCode": "01053",
+        "numPostalCodes": 23297,
         "regionId": "eu",
         "subregionId": "euw",
         "unMember": true
@@ -747,6 +858,7 @@
             "en": "Republic of Djibouti"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -760,6 +872,9 @@
             "en": "Kingdom of Denmark"
         },
         "independent": true,
+        "maxPostalCode": "9990",
+        "minPostalCode": "0800",
+        "numPostalCodes": 1159,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": true
@@ -773,6 +888,7 @@
             "en": "Commonwealth of Dominica"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -786,6 +902,9 @@
             "en": "Dominican Republic"
         },
         "independent": true,
+        "maxPostalCode": "11906",
+        "minPostalCode": "10101",
+        "numPostalCodes": 544,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -799,6 +918,9 @@
             "en": "People's Democratic Republic of Algeria"
         },
         "independent": true,
+        "maxPostalCode": "48073",
+        "minPostalCode": "01000",
+        "numPostalCodes": 15951,
         "regionId": "af",
         "subregionId": "afn",
         "unMember": true
@@ -812,6 +934,9 @@
             "en": "Republic of Ecuador"
         },
         "independent": true,
+        "maxPostalCode": "900004",
+        "minPostalCode": "010101",
+        "numPostalCodes": 1225,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -825,6 +950,9 @@
             "en": "Republic of Estonia"
         },
         "independent": true,
+        "maxPostalCode": "94766",
+        "minPostalCode": "10001",
+        "numPostalCodes": 5398,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": true
@@ -838,6 +966,7 @@
             "en": "Arab Republic of Egypt"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afn",
         "unMember": true
@@ -851,6 +980,7 @@
             "en": "Sahrawi Arab Democratic Republic"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afn",
         "unMember": false
@@ -864,6 +994,7 @@
             "en": "State of Eritrea"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -877,6 +1008,9 @@
             "en": "Kingdom of Spain"
         },
         "independent": true,
+        "maxPostalCode": "52080",
+        "minPostalCode": "01001",
+        "numPostalCodes": 37867,
         "regionId": "eu",
         "subregionId": "eus",
         "unMember": true
@@ -890,6 +1024,7 @@
             "en": "Federal Democratic Republic of Ethiopia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -903,6 +1038,9 @@
             "en": "Republic of Finland"
         },
         "independent": true,
+        "maxPostalCode": "99999",
+        "minPostalCode": "00002",
+        "numPostalCodes": 3576,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": true
@@ -916,6 +1054,7 @@
             "en": "Republic of Fiji"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "oc",
         "subregionId": "ocml",
         "unMember": true
@@ -929,6 +1068,9 @@
             "en": "Falkland Islands"
         },
         "independent": false,
+        "maxPostalCode": "FIQQ 1ZZ",
+        "minPostalCode": "FIQQ 1ZZ",
+        "numPostalCodes": 1,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": false
@@ -942,6 +1084,9 @@
             "en": "Federated States of Micronesia"
         },
         "independent": true,
+        "maxPostalCode": "96944",
+        "minPostalCode": "96941",
+        "numPostalCodes": 4,
         "regionId": "oc",
         "subregionId": "ocmc",
         "unMember": true
@@ -955,6 +1100,9 @@
             "en": "Faroe Islands"
         },
         "independent": false,
+        "maxPostalCode": "970",
+        "minPostalCode": "100",
+        "numPostalCodes": 130,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": false
@@ -968,6 +1116,9 @@
             "en": "French Republic"
         },
         "independent": true,
+        "maxPostalCode": "98799",
+        "minPostalCode": "01000",
+        "numPostalCodes": 51611,
         "regionId": "eu",
         "subregionId": "euw",
         "unMember": true
@@ -981,6 +1132,7 @@
             "en": "Gabonese Republic"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afm",
         "unMember": true
@@ -994,6 +1146,9 @@
             "en": "United Kingdom of Great Britain and Northern Ireland"
         },
         "independent": true,
+        "maxPostalCode": "ZE3 9JZ",
+        "minPostalCode": "AB10",
+        "numPostalCodes": 1845218,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": true
@@ -1007,6 +1162,7 @@
             "en": "Grenada"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -1020,6 +1176,7 @@
             "en": "Georgia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -1033,6 +1190,9 @@
             "en": "Guiana"
         },
         "independent": false,
+        "maxPostalCode": "97399 CEDEX",
+        "minPostalCode": "97300",
+        "numPostalCodes": 77,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": false
@@ -1046,6 +1206,9 @@
             "en": "Bailiwick of Guernsey"
         },
         "independent": false,
+        "maxPostalCode": "GY9",
+        "minPostalCode": "GY1",
+        "numPostalCodes": 14,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": false
@@ -1059,6 +1222,7 @@
             "en": "Republic of Ghana"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -1072,6 +1236,9 @@
             "en": "Gibraltar"
         },
         "independent": false,
+        "maxPostalCode": "GX11 1AA",
+        "minPostalCode": "GX11 1AA",
+        "numPostalCodes": 1,
         "regionId": "eu",
         "subregionId": "eus",
         "unMember": false
@@ -1085,6 +1252,9 @@
             "en": "Greenland"
         },
         "independent": false,
+        "maxPostalCode": "3992",
+        "minPostalCode": "2412",
+        "numPostalCodes": 33,
         "regionId": "am",
         "subregionId": "amna",
         "unMember": false
@@ -1098,6 +1268,7 @@
             "en": "Republic of the Gambia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -1111,6 +1282,7 @@
             "en": "Republic of Guinea"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -1124,6 +1296,9 @@
             "en": "Guadeloupe"
         },
         "independent": false,
+        "maxPostalCode": "97199 CEDEX",
+        "minPostalCode": "97001 CEDEX",
+        "numPostalCodes": 105,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -1137,6 +1312,7 @@
             "en": "Republic of Equatorial Guinea"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afm",
         "unMember": true
@@ -1150,6 +1326,9 @@
             "en": "Hellenic Republic"
         },
         "independent": true,
+        "maxPostalCode": "859 00",
+        "minPostalCode": "104 31",
+        "numPostalCodes": 865,
         "regionId": "eu",
         "subregionId": "eus",
         "unMember": true
@@ -1163,6 +1342,9 @@
             "en": "South Georgia and the South Sandwich Islands"
         },
         "independent": false,
+        "maxPostalCode": "SIQQ 1ZZ",
+        "minPostalCode": "SIQQ 1ZZ",
+        "numPostalCodes": 1,
         "regionId": "an",
         "unMember": false
     },
@@ -1175,6 +1357,9 @@
             "en": "Republic of Guatemala"
         },
         "independent": true,
+        "maxPostalCode": "22027",
+        "minPostalCode": "01001",
+        "numPostalCodes": 548,
         "regionId": "am",
         "subregionId": "amca",
         "unMember": true
@@ -1188,6 +1373,9 @@
             "en": "Guam"
         },
         "independent": false,
+        "maxPostalCode": "96932",
+        "minPostalCode": "96910",
+        "numPostalCodes": 21,
         "regionId": "oc",
         "subregionId": "ocmc",
         "unMember": false
@@ -1201,6 +1389,7 @@
             "en": "Republic of Guinea-Bissau"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": false
@@ -1214,6 +1403,7 @@
             "en": "Co-operative Republic of Guyana"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -1227,6 +1417,9 @@
             "en": "Hong Kong Special Administrative Region of the People's Republic of China"
         },
         "independent": false,
+        "maxPostalCode": "999077",
+        "minPostalCode": "999077",
+        "numPostalCodes": 1,
         "regionId": "as",
         "subregionId": "ase",
         "unMember": false
@@ -1240,6 +1433,9 @@
             "en": "Heard Island and McDonald Islands"
         },
         "independent": false,
+        "maxPostalCode": "7151",
+        "minPostalCode": "7151",
+        "numPostalCodes": 1,
         "regionId": "an",
         "unMember": false
     },
@@ -1252,6 +1448,9 @@
             "en": "Republic of Honduras"
         },
         "independent": true,
+        "maxPostalCode": "52102",
+        "minPostalCode": "11101",
+        "numPostalCodes": 38,
         "regionId": "am",
         "subregionId": "amca",
         "unMember": true
@@ -1265,6 +1464,9 @@
             "en": "Republic of Croatia"
         },
         "independent": true,
+        "maxPostalCode": "53291",
+        "minPostalCode": "10000",
+        "numPostalCodes": 6774,
         "regionId": "eu",
         "subregionId": "euse",
         "unMember": true
@@ -1278,6 +1480,9 @@
             "en": "Republic of Haiti"
         },
         "independent": true,
+        "maxPostalCode": "HT9341",
+        "minPostalCode": "HT1110",
+        "numPostalCodes": 236,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -1291,6 +1496,9 @@
             "en": "Hungary"
         },
         "independent": true,
+        "maxPostalCode": "9985",
+        "minPostalCode": "1007",
+        "numPostalCodes": 3571,
         "regionId": "eu",
         "subregionId": "euc",
         "unMember": true
@@ -1304,6 +1512,9 @@
             "en": "Republic of Indonesia"
         },
         "independent": true,
+        "maxPostalCode": "99974",
+        "minPostalCode": "10110",
+        "numPostalCodes": 81058,
         "regionId": "as",
         "subregionId": "asse",
         "unMember": true
@@ -1317,6 +1528,9 @@
             "en": "Republic of Ireland"
         },
         "independent": true,
+        "maxPostalCode": "Y35",
+        "minPostalCode": "A41",
+        "numPostalCodes": 139,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": true
@@ -1330,6 +1544,7 @@
             "en": "State of Israel"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -1343,6 +1558,9 @@
             "en": "Isle of Man"
         },
         "independent": false,
+        "maxPostalCode": "IM9",
+        "minPostalCode": "IM1",
+        "numPostalCodes": 87,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": false
@@ -1356,6 +1574,9 @@
             "en": "Republic of India"
         },
         "independent": true,
+        "maxPostalCode": "855117",
+        "minPostalCode": "110001",
+        "numPostalCodes": 155570,
         "regionId": "as",
         "subregionId": "ass",
         "unMember": true
@@ -1369,6 +1590,9 @@
             "en": "British Indian Ocean Territory"
         },
         "independent": false,
+        "maxPostalCode": "BBND 1ZZ",
+        "minPostalCode": "BBND 1ZZ",
+        "numPostalCodes": 1,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": false
@@ -1382,6 +1606,7 @@
             "en": "Republic of Iraq"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -1395,6 +1620,7 @@
             "en": "Islamic Republic of Iran"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ass",
         "unMember": true
@@ -1408,6 +1634,9 @@
             "en": "Iceland"
         },
         "independent": true,
+        "maxPostalCode": "902",
+        "minPostalCode": "101",
+        "numPostalCodes": 195,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": true
@@ -1421,6 +1650,9 @@
             "en": "Italian Republic"
         },
         "independent": true,
+        "maxPostalCode": "98168",
+        "minPostalCode": "00010",
+        "numPostalCodes": 18415,
         "regionId": "eu",
         "subregionId": "eus",
         "unMember": true
@@ -1434,6 +1666,9 @@
             "en": "Bailiwick of Jersey"
         },
         "independent": false,
+        "maxPostalCode": "JE4",
+        "minPostalCode": "JE1",
+        "numPostalCodes": 5,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": false
@@ -1447,6 +1682,7 @@
             "en": "Jamaica"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -1460,6 +1696,7 @@
             "en": "Hashemite Kingdom of Jordan"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -1473,6 +1710,9 @@
             "en": "Japan"
         },
         "independent": true,
+        "maxPostalCode": "999-8531",
+        "minPostalCode": "001-0000",
+        "numPostalCodes": 146883,
         "regionId": "as",
         "subregionId": "ase",
         "unMember": true
@@ -1486,6 +1726,9 @@
             "en": "Republic of Kenya"
         },
         "independent": true,
+        "maxPostalCode": "90408",
+        "minPostalCode": "00100",
+        "numPostalCodes": 890,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -1499,6 +1742,7 @@
             "en": "Kyrgyz Republic"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ascb",
         "unMember": true
@@ -1512,6 +1756,7 @@
             "en": "Kingdom of Cambodia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asse",
         "unMember": true
@@ -1525,6 +1770,7 @@
             "en": "Independent and Sovereign Republic of Kiribati"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "oc",
         "subregionId": "ocmc",
         "unMember": true
@@ -1538,6 +1784,7 @@
             "en": "Union of the Comoros"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -1551,6 +1798,7 @@
             "en": "Federation of Saint Christopher and Nevis"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -1564,6 +1812,7 @@
             "en": "Democratic People's Republic of Korea"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ase",
         "unMember": true
@@ -1577,6 +1826,9 @@
             "en": "Republic of Korea"
         },
         "independent": true,
+        "maxPostalCode": "63644",
+        "minPostalCode": "01000",
+        "numPostalCodes": 35583,
         "regionId": "as",
         "subregionId": "ase",
         "unMember": true
@@ -1590,6 +1842,7 @@
             "en": "State of Kuwait"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -1603,6 +1856,7 @@
             "en": "Cayman Islands"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -1616,6 +1870,7 @@
             "en": "Republic of Kazakhstan"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ascb",
         "unMember": true
@@ -1629,6 +1884,7 @@
             "en": "Lao People's Democratic Republic"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asse",
         "unMember": true
@@ -1642,6 +1898,7 @@
             "en": "Lebanese Republic"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -1655,6 +1912,7 @@
             "en": "Saint Lucia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -1668,6 +1926,9 @@
             "en": "Principality of Liechtenstein"
         },
         "independent": true,
+        "maxPostalCode": "9498",
+        "minPostalCode": "9485",
+        "numPostalCodes": 13,
         "regionId": "eu",
         "subregionId": "euw",
         "unMember": true
@@ -1681,6 +1942,9 @@
             "en": "Democratic Socialist Republic of Sri Lanka"
         },
         "independent": true,
+        "maxPostalCode": "96167",
+        "minPostalCode": "00100",
+        "numPostalCodes": 1837,
         "regionId": "as",
         "subregionId": "ass",
         "unMember": true
@@ -1694,6 +1958,7 @@
             "en": "Republic of Liberia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -1707,6 +1972,7 @@
             "en": "Kingdom of Lesotho"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afs",
         "unMember": true
@@ -1720,6 +1986,9 @@
             "en": "Republic of Lithuania"
         },
         "independent": true,
+        "maxPostalCode": "99069",
+        "minPostalCode": "00001",
+        "numPostalCodes": 21870,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": true
@@ -1733,6 +2002,9 @@
             "en": "Grand Duchy of Luxembourg"
         },
         "independent": true,
+        "maxPostalCode": "L-9999",
+        "minPostalCode": "L-1111",
+        "numPostalCodes": 4519,
         "regionId": "eu",
         "subregionId": "euw",
         "unMember": true
@@ -1746,6 +2018,9 @@
             "en": "Republic of Latvia"
         },
         "independent": true,
+        "maxPostalCode": "LV-5752",
+        "minPostalCode": "LV-1001",
+        "numPostalCodes": 6101,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": true
@@ -1759,6 +2034,7 @@
             "en": "State of Libya"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afn",
         "unMember": true
@@ -1772,6 +2048,9 @@
             "en": "Kingdom of Morocco"
         },
         "independent": true,
+        "maxPostalCode": "94152",
+        "minPostalCode": "11022",
+        "numPostalCodes": 1325,
         "regionId": "af",
         "subregionId": "afn",
         "unMember": true
@@ -1785,6 +2064,9 @@
             "en": "Principality of Monaco"
         },
         "independent": true,
+        "maxPostalCode": "98000",
+        "minPostalCode": "98000",
+        "numPostalCodes": 29,
         "regionId": "eu",
         "subregionId": "euw",
         "unMember": true
@@ -1798,6 +2080,9 @@
             "en": "Republic of Moldova"
         },
         "independent": true,
+        "maxPostalCode": "MD-7731",
+        "minPostalCode": "MD-2000",
+        "numPostalCodes": 1753,
         "regionId": "eu",
         "subregionId": "eue",
         "unMember": true
@@ -1811,6 +2096,7 @@
             "en": "Montenegro"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "eu",
         "subregionId": "euse",
         "unMember": true
@@ -1824,6 +2110,7 @@
             "en": "Saint Martin"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -1837,6 +2124,7 @@
             "en": "Republic of Madagascar"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -1850,6 +2138,9 @@
             "en": "Republic of the Marshall Islands"
         },
         "independent": true,
+        "maxPostalCode": "96970",
+        "minPostalCode": "96960",
+        "numPostalCodes": 2,
         "regionId": "oc",
         "subregionId": "ocmc",
         "unMember": true
@@ -1863,6 +2154,9 @@
             "en": "Republic of North Macedonia"
         },
         "independent": true,
+        "maxPostalCode": "7550",
+        "minPostalCode": "1000",
+        "numPostalCodes": 220,
         "regionId": "eu",
         "subregionId": "euse",
         "unMember": true
@@ -1876,6 +2170,7 @@
             "en": "Republic of Mali"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -1889,6 +2184,7 @@
             "en": "Republic of the Union of Myanmar"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asse",
         "unMember": true
@@ -1902,6 +2198,7 @@
             "en": "Mongolia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ase",
         "unMember": true
@@ -1915,6 +2212,9 @@
             "en": "Macao Special Administrative Region of the People's Republic of China"
         },
         "independent": false,
+        "maxPostalCode": "999078",
+        "minPostalCode": "999078",
+        "numPostalCodes": 1,
         "regionId": "as",
         "subregionId": "ase",
         "unMember": false
@@ -1928,6 +2228,9 @@
             "en": "Commonwealth of the Northern Mariana Islands"
         },
         "independent": false,
+        "maxPostalCode": "96952",
+        "minPostalCode": "96950",
+        "numPostalCodes": 3,
         "regionId": "oc",
         "subregionId": "ocmc",
         "unMember": false
@@ -1941,6 +2244,9 @@
             "en": "Martinique"
         },
         "independent": false,
+        "maxPostalCode": "97299 CEDEX",
+        "minPostalCode": "97200",
+        "numPostalCodes": 100,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -1954,6 +2260,7 @@
             "en": "Islamic Republic of Mauritania"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -1967,6 +2274,7 @@
             "en": "Montserrat"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -1980,6 +2288,9 @@
             "en": "Republic of Malta"
         },
         "independent": true,
+        "maxPostalCode": "ZTN",
+        "minPostalCode": "ATD",
+        "numPostalCodes": 73,
         "regionId": "eu",
         "subregionId": "eus",
         "unMember": true
@@ -1993,6 +2304,7 @@
             "en": "Republic of Mauritius"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -2006,6 +2318,7 @@
             "en": "Republic of the Maldives"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ass",
         "unMember": true
@@ -2019,6 +2332,9 @@
             "en": "Republic of Malawi"
         },
         "independent": true,
+        "maxPostalCode": "316111",
+        "minPostalCode": "101100",
+        "numPostalCodes": 491,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -2032,6 +2348,9 @@
             "en": "United Mexican States"
         },
         "independent": true,
+        "maxPostalCode": "99998",
+        "minPostalCode": "01000",
+        "numPostalCodes": 144655,
         "regionId": "am",
         "subregionId": "amna",
         "unMember": true
@@ -2045,6 +2364,9 @@
             "en": "Malaysia"
         },
         "independent": true,
+        "maxPostalCode": "98859",
+        "minPostalCode": "01000",
+        "numPostalCodes": 2818,
         "regionId": "as",
         "subregionId": "asse",
         "unMember": true
@@ -2058,6 +2380,7 @@
             "en": "Republic of Mozambique"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -2071,6 +2394,7 @@
             "en": "Republic of Namibia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afs",
         "unMember": true
@@ -2084,6 +2408,9 @@
             "en": "New Caledonia"
         },
         "independent": false,
+        "maxPostalCode": "98890",
+        "minPostalCode": "98800",
+        "numPostalCodes": 52,
         "regionId": "oc",
         "subregionId": "ocml",
         "unMember": false
@@ -2097,6 +2424,7 @@
             "en": "Republic of Niger"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -2110,6 +2438,9 @@
             "en": "Territory of Norfolk Island"
         },
         "independent": false,
+        "maxPostalCode": "2899",
+        "minPostalCode": "2899",
+        "numPostalCodes": 1,
         "regionId": "oc",
         "subregionId": "ocanz",
         "unMember": false
@@ -2123,6 +2454,7 @@
             "en": "Federal Republic of Nigeria"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -2136,6 +2468,7 @@
             "en": "Republic of Nicaragua"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amca",
         "unMember": true
@@ -2149,6 +2482,9 @@
             "en": "Kingdom of the Netherlands"
         },
         "independent": true,
+        "maxPostalCode": "9999 ZZ",
+        "minPostalCode": "1011",
+        "numPostalCodes": 473143,
         "regionId": "eu",
         "subregionId": "euw",
         "unMember": true
@@ -2162,6 +2498,9 @@
             "en": "Kingdom of Norway"
         },
         "independent": true,
+        "maxPostalCode": "9991",
+        "minPostalCode": "0001",
+        "numPostalCodes": 5132,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": true
@@ -2175,6 +2514,7 @@
             "en": "Federal Democratic Republic of Nepal"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ass",
         "unMember": true
@@ -2188,6 +2528,9 @@
             "en": "Republic of Nauru"
         },
         "independent": true,
+        "maxPostalCode": "NRU68",
+        "minPostalCode": "NRU68",
+        "numPostalCodes": 1,
         "regionId": "oc",
         "subregionId": "ocmc",
         "unMember": true
@@ -2201,6 +2544,9 @@
             "en": "Niue"
         },
         "independent": false,
+        "maxPostalCode": "9974",
+        "minPostalCode": "9974",
+        "numPostalCodes": 1,
         "regionId": "oc",
         "subregionId": "ocpl",
         "unMember": false
@@ -2214,6 +2560,9 @@
             "en": "New Zealand"
         },
         "independent": true,
+        "maxPostalCode": "9893",
+        "minPostalCode": "0110",
+        "numPostalCodes": 1738,
         "regionId": "oc",
         "subregionId": "ocanz",
         "unMember": true
@@ -2227,6 +2576,7 @@
             "en": "Sultanate of Oman"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -2240,6 +2590,9 @@
             "en": "Republic of Panama"
         },
         "independent": true,
+        "maxPostalCode": "12029",
+        "minPostalCode": "01001",
+        "numPostalCodes": 729,
         "regionId": "am",
         "subregionId": "amca",
         "unMember": true
@@ -2253,6 +2606,9 @@
             "en": "Republic of Peru"
         },
         "independent": true,
+        "maxPostalCode": "25701",
+        "minPostalCode": "01000",
+        "numPostalCodes": 96943,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -2266,6 +2622,9 @@
             "en": "French Polynesia"
         },
         "independent": false,
+        "maxPostalCode": "98796",
+        "minPostalCode": "98701",
+        "numPostalCodes": 207,
         "regionId": "oc",
         "subregionId": "ocpl",
         "unMember": false
@@ -2279,6 +2638,7 @@
             "en": "Independent State of Papua New Guinea"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "oc",
         "subregionId": "ocml",
         "unMember": true
@@ -2292,6 +2652,9 @@
             "en": "Republic of the Philippines"
         },
         "independent": true,
+        "maxPostalCode": "9811",
+        "minPostalCode": "0400",
+        "numPostalCodes": 2317,
         "regionId": "as",
         "subregionId": "asse",
         "unMember": true
@@ -2305,6 +2668,9 @@
             "en": "Islamic Republic of Pakistan"
         },
         "independent": true,
+        "maxPostalCode": "96100",
+        "minPostalCode": "10010",
+        "numPostalCodes": 2563,
         "regionId": "as",
         "subregionId": "ass",
         "unMember": true
@@ -2318,6 +2684,9 @@
             "en": "Republic of Poland"
         },
         "independent": true,
+        "maxPostalCode": "99-440",
+        "minPostalCode": "00-002",
+        "numPostalCodes": 72900,
         "regionId": "eu",
         "subregionId": "euc",
         "unMember": true
@@ -2331,6 +2700,9 @@
             "en": "Saint Pierre and Miquelon"
         },
         "independent": false,
+        "maxPostalCode": "97500",
+        "minPostalCode": "97500",
+        "numPostalCodes": 2,
         "regionId": "am",
         "subregionId": "amna",
         "unMember": false
@@ -2344,6 +2716,9 @@
             "en": "Pitcairn Group of Islands"
         },
         "independent": false,
+        "maxPostalCode": "PCRN 1ZZ",
+        "minPostalCode": "PCRN 1ZZ",
+        "numPostalCodes": 1,
         "regionId": "oc",
         "subregionId": "ocpl",
         "unMember": false
@@ -2357,6 +2732,9 @@
             "en": "Commonwealth of Puerto Rico"
         },
         "independent": false,
+        "maxPostalCode": "00988",
+        "minPostalCode": "00601",
+        "numPostalCodes": 177,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -2370,6 +2748,7 @@
             "en": "State of Palestine"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": false
@@ -2383,6 +2762,9 @@
             "en": "Portuguese Republic"
         },
         "independent": true,
+        "maxPostalCode": "9980-999",
+        "minPostalCode": "1000-001",
+        "numPostalCodes": 206942,
         "regionId": "eu",
         "subregionId": "eus",
         "unMember": true
@@ -2396,6 +2778,9 @@
             "en": "Republic of Palau"
         },
         "independent": true,
+        "maxPostalCode": "96940",
+        "minPostalCode": "96940",
+        "numPostalCodes": 1,
         "regionId": "oc",
         "subregionId": "ocmc",
         "unMember": true
@@ -2409,6 +2794,7 @@
             "en": "Republic of Paraguay"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -2422,6 +2808,7 @@
             "en": "State of Qatar"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -2435,6 +2822,9 @@
             "en": "Réunion Island"
         },
         "independent": false,
+        "maxPostalCode": "97899 CEDEX",
+        "minPostalCode": "97400",
+        "numPostalCodes": 152,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": false
@@ -2448,6 +2838,9 @@
             "en": "Romania"
         },
         "independent": true,
+        "maxPostalCode": "927250",
+        "minPostalCode": "010011",
+        "numPostalCodes": 37915,
         "regionId": "eu",
         "subregionId": "euse",
         "unMember": true
@@ -2461,6 +2854,9 @@
             "en": "Republic of Serbia"
         },
         "independent": true,
+        "maxPostalCode": "37282",
+        "minPostalCode": "11000",
+        "numPostalCodes": 1155,
         "regionId": "eu",
         "subregionId": "euse",
         "unMember": true
@@ -2474,6 +2870,9 @@
             "en": "Russian Federation"
         },
         "independent": true,
+        "maxPostalCode": "901993",
+        "minPostalCode": "101000",
+        "numPostalCodes": 43538,
         "regionId": "eu",
         "subregionId": "eue",
         "unMember": true
@@ -2487,6 +2886,7 @@
             "en": "Republic of Rwanda"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -2500,6 +2900,7 @@
             "en": "Kingdom of Saudi Arabia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -2513,6 +2914,7 @@
             "en": "Solomon Islands"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "oc",
         "subregionId": "ocml",
         "unMember": true
@@ -2526,6 +2928,7 @@
             "en": "Republic of Seychelles"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -2539,6 +2942,7 @@
             "en": "Republic of the Sudan"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afn",
         "unMember": true
@@ -2552,6 +2956,9 @@
             "en": "Kingdom of Sweden"
         },
         "independent": true,
+        "maxPostalCode": "986 31",
+        "minPostalCode": "100 04",
+        "numPostalCodes": 18846,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": true
@@ -2565,6 +2972,9 @@
             "en": "Republic of Singapore"
         },
         "independent": true,
+        "maxPostalCode": "918146",
+        "minPostalCode": "018906",
+        "numPostalCodes": 121154,
         "regionId": "as",
         "subregionId": "asse",
         "unMember": true
@@ -2578,6 +2988,7 @@
             "en": "Saint Helena, Ascension and Tristan da Cunha"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": false
@@ -2591,6 +3002,9 @@
             "en": "Republic of Slovenia"
         },
         "independent": true,
+        "maxPostalCode": "9600",
+        "minPostalCode": "1000",
+        "numPostalCodes": 556,
         "regionId": "eu",
         "subregionId": "euc",
         "unMember": true
@@ -2604,6 +3018,9 @@
             "en": "Svalbard og Jan Mayen"
         },
         "independent": false,
+        "maxPostalCode": "9178",
+        "minPostalCode": "8099",
+        "numPostalCodes": 8,
         "regionId": "eu",
         "subregionId": "eun",
         "unMember": false
@@ -2617,6 +3034,9 @@
             "en": "Slovak Republic"
         },
         "independent": true,
+        "maxPostalCode": "992 14",
+        "minPostalCode": "010 01",
+        "numPostalCodes": 5233,
         "regionId": "eu",
         "subregionId": "euc",
         "unMember": true
@@ -2630,6 +3050,7 @@
             "en": "Republic of Sierra Leone"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -2643,6 +3064,9 @@
             "en": "Republic of San Marino"
         },
         "independent": true,
+        "maxPostalCode": "47899",
+        "minPostalCode": "47890",
+        "numPostalCodes": 26,
         "regionId": "eu",
         "subregionId": "eus",
         "unMember": true
@@ -2656,6 +3080,7 @@
             "en": "Republic of Senegal"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -2669,6 +3094,7 @@
             "en": "Federal Republic of Somalia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -2682,6 +3108,7 @@
             "en": "Republic of Suriname"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -2695,6 +3122,7 @@
             "en": "Republic of South Sudan"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afm",
         "unMember": true
@@ -2708,6 +3136,7 @@
             "en": "Democratic Republic of São Tomé and Príncipe"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afm",
         "unMember": true
@@ -2721,6 +3150,7 @@
             "en": "Republic of El Salvador"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amca",
         "unMember": true
@@ -2734,6 +3164,7 @@
             "en": "Sint Maarten"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -2747,6 +3178,7 @@
             "en": "Syrian Arab Republic"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -2760,6 +3192,7 @@
             "en": "Kingdom of Eswatini"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afs",
         "unMember": true
@@ -2773,6 +3206,9 @@
             "en": "Turks and Caicos Islands"
         },
         "independent": false,
+        "maxPostalCode": "TKCA 1ZZ",
+        "minPostalCode": "TKCA 1ZZ",
+        "numPostalCodes": 1,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -2786,6 +3222,7 @@
             "en": "Republic of Chad"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afm",
         "unMember": true
@@ -2799,6 +3236,7 @@
             "en": "Territory of the French Southern and Antarctic Lands"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "an",
         "unMember": false
     },
@@ -2811,6 +3249,7 @@
             "en": "Togolese Republic"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afw",
         "unMember": true
@@ -2824,6 +3263,9 @@
             "en": "Kingdom of Thailand"
         },
         "independent": true,
+        "maxPostalCode": "96220",
+        "minPostalCode": "10100",
+        "numPostalCodes": 903,
         "regionId": "as",
         "subregionId": "asse",
         "unMember": true
@@ -2837,6 +3279,7 @@
             "en": "Republic of Tajikistan"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ascb",
         "unMember": true
@@ -2850,6 +3293,7 @@
             "en": "Tokelau"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "oc",
         "subregionId": "ocpl",
         "unMember": false
@@ -2863,6 +3307,7 @@
             "en": "Democratic Republic of Timor-Leste"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asse",
         "unMember": true
@@ -2876,6 +3321,7 @@
             "en": "Turkmenistan"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ascb",
         "unMember": true
@@ -2889,6 +3335,7 @@
             "en": "Tunisian Republic"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afn",
         "unMember": true
@@ -2902,6 +3349,7 @@
             "en": "Kingdom of Tonga"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "oc",
         "subregionId": "ocpl",
         "unMember": true
@@ -2915,6 +3363,9 @@
             "en": "Republic of Turkey"
         },
         "independent": true,
+        "maxPostalCode": "99970",
+        "minPostalCode": "01010",
+        "numPostalCodes": 36307,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -2928,6 +3379,7 @@
             "en": "Republic of Trinidad and Tobago"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -2941,6 +3393,7 @@
             "en": "Tuvalu"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "oc",
         "subregionId": "ocpl",
         "unMember": true
@@ -2954,6 +3407,7 @@
             "en": "Republic of China (Taiwan)"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ase",
         "unMember": false
@@ -2967,6 +3421,7 @@
             "en": "United Republic of Tanzania"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -2980,6 +3435,9 @@
             "en": "Ukraine"
         },
         "independent": true,
+        "maxPostalCode": "93891",
+        "minPostalCode": "01001",
+        "numPostalCodes": 29571,
         "regionId": "eu",
         "subregionId": "eue",
         "unMember": true
@@ -2993,6 +3451,7 @@
             "en": "Republic of Uganda"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -3006,6 +3465,7 @@
             "en": "United States Minor Outlying Islands"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amna",
         "unMember": false
@@ -3019,6 +3479,9 @@
             "en": "United States of America"
         },
         "independent": true,
+        "maxPostalCode": "99950",
+        "minPostalCode": "00501",
+        "numPostalCodes": 41489,
         "regionId": "am",
         "subregionId": "amna",
         "unMember": true
@@ -3032,6 +3495,9 @@
             "en": "Oriental Republic of Uruguay"
         },
         "independent": true,
+        "maxPostalCode": "98000",
+        "minPostalCode": "11000",
+        "numPostalCodes": 1964,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -3045,6 +3511,7 @@
             "en": "Republic of Uzbekistan"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "ascb",
         "unMember": true
@@ -3058,6 +3525,9 @@
             "en": "Vatican City State"
         },
         "independent": true,
+        "maxPostalCode": "00120",
+        "minPostalCode": "00120",
+        "numPostalCodes": 1,
         "regionId": "eu",
         "subregionId": "eus",
         "unMember": false
@@ -3071,6 +3541,7 @@
             "en": "Saint Vincent and the Grenadines"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": true
@@ -3084,6 +3555,7 @@
             "en": "Bolivarian Republic of Venezuela"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amsa",
         "unMember": true
@@ -3097,6 +3569,7 @@
             "en": "Virgin Islands"
         },
         "independent": false,
+        "numPostalCodes": 0,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -3110,6 +3583,9 @@
             "en": "Virgin Islands of the United States"
         },
         "independent": false,
+        "maxPostalCode": "00851",
+        "minPostalCode": "00801",
+        "numPostalCodes": 16,
         "regionId": "am",
         "subregionId": "amc",
         "unMember": false
@@ -3123,6 +3599,7 @@
             "en": "Socialist Republic of Vietnam"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asse",
         "unMember": true
@@ -3136,6 +3613,7 @@
             "en": "Republic of Vanuatu"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "oc",
         "subregionId": "ocml",
         "unMember": true
@@ -3149,6 +3627,9 @@
             "en": "Territory of the Wallis and Futuna Islands"
         },
         "independent": false,
+        "maxPostalCode": "98620",
+        "minPostalCode": "98600",
+        "numPostalCodes": 3,
         "regionId": "oc",
         "subregionId": "ocpl",
         "unMember": false
@@ -3162,6 +3643,9 @@
             "en": "Independent State of Samoa"
         },
         "independent": true,
+        "maxPostalCode": "AS 96799",
+        "minPostalCode": "AS 96799",
+        "numPostalCodes": 1,
         "regionId": "oc",
         "subregionId": "ocpl",
         "unMember": true
@@ -3175,6 +3659,7 @@
             "en": "Republic of Kosovo"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "eu",
         "subregionId": "euse",
         "unMember": false
@@ -3188,6 +3673,7 @@
             "en": "Republic of Yemen"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "as",
         "subregionId": "asw",
         "unMember": true
@@ -3201,6 +3687,9 @@
             "en": "Department of Mayotte"
         },
         "independent": false,
+        "maxPostalCode": "97680",
+        "minPostalCode": "97600",
+        "numPostalCodes": 21,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": false
@@ -3214,6 +3703,9 @@
             "en": "Republic of South Africa"
         },
         "independent": true,
+        "maxPostalCode": "9992",
+        "minPostalCode": "0002",
+        "numPostalCodes": 3920,
         "regionId": "af",
         "subregionId": "afs",
         "unMember": true
@@ -3227,6 +3719,7 @@
             "en": "Republic of Zambia"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afe",
         "unMember": true
@@ -3240,6 +3733,7 @@
             "en": "Republic of Zimbabwe"
         },
         "independent": true,
+        "numPostalCodes": 0,
         "regionId": "af",
         "subregionId": "afs",
         "unMember": true

@@ -1,7 +1,6 @@
 import fs from 'fs/promises';
 import geoRegions from './data/geoRegions.json' with { type: 'json' };
 import geoSubregions from './data/geoSubregions.json' with { type: 'json' };
-import languages from './data/retrievals/language-codes-full.json' with { type: 'json' };
 
 async function transformCountryData() {
     const countryDataRestCountriesIndependent = await fs.readFile('./helpers/data/retrievals/countriesFromRestCountriesIndependent.json', 'utf-8');
@@ -17,8 +16,17 @@ async function transformCountryData() {
     console.log('Country count (Rest Countries Independent):', countriesRestCountriesIndependent.length);
     console.log('Country count (Rest Countries Dependent)__:', countriesRestCountriesDependent.length);
     console.log('Country count (Rest Countries Total)______:', countries.length);
+    // console.log('\nFirst country (Rest Countries)____________:', countries[0]);
+
     console.log('\nCountry count (GeoNames Postal Code Info)_:', countriesGeoNames.length);
-    // console.log('\nFirst country______________:', countries[0]);
+
+    const languageData = await fs.readFile('./helpers/data/geoLanguages.json', 'utf8');
+    const languages = JSON.parse(languageData);
+
+    console.log('\nLanguage count (ISO 639-3)________________:', languages.length);
+    console.log('Language count (ISO 639-2)________________:', languages.filter((l) => !!l.idB).length);
+    console.log('Language count (ISO 639-1)________________:', languages.filter((l) => !!l.id2).length);
+
     console.log('\n');
 
     const currencies = {};
@@ -66,8 +74,8 @@ async function transformCountryData() {
             if (value) nationalities[country.cca2] = { name: value, regionId: geoRegion.id, subregionId: geoSubregion?.id };
         }
 
+        // Postal code count/range.
         const postalCodeInfo = countriesGeoNames.find((countryGeoNames) => country.cca2 === countryGeoNames.countryCode);
-        console.log(1111, postalCodeInfo);
 
         // Country.
         geoCountries.push({
@@ -118,12 +126,18 @@ async function transformCountryData() {
     }
     await fs.writeFile('./helpers/data/finCurrencies.json', JSON.stringify(finCurrencies, null, 4), 'utf-8');
 
-    // Languages.
-    const geoLanguages = [];
-    for (const language of languages) {
-        geoLanguages.push({ id: language['alpha3-b'], idT: language['alpha3-t'] || undefined, id2: language.alpha2 || undefined, label: { en: language.English } });
-    }
-    await fs.writeFile('./helpers/data/geoLanguages.json', JSON.stringify(geoLanguages, null, 4), 'utf-8');
+    // // Languages.
+    // const geoLanguages = [];
+    // for (const language of languages) {
+    //     let lang2 = languages2.find((lang2) => lang2.id === language['alpha3-t']);
+    //     if (!lang2) lang2 = languages2.find((lang2) => lang2.id === language['alpha3-b']);
+    //     if (!lang2) {
+    //         console.log('? Ignoring language________:', language['alpha3-b'], language['alpha3-t'], language.English);
+    //         continue;
+    //     }
+    //     geoLanguages.push({ id: language['alpha3-t'], idB: language['alpha3-b'] || undefined, id2: language.alpha2 || undefined, label: { en: language.English } });
+    // }
+    // await fs.writeFile('./helpers/data/geoLanguages.json', JSON.stringify(geoLanguages, null, 4), 'utf-8');
 
     // Nationalities.
     const geoNationalities = [];
@@ -131,24 +145,82 @@ async function transformCountryData() {
         geoNationalities.push({ id: key.toLocaleLowerCase(), label: { en: value.name }, regionId: value.regionId, subregionId: value.subregionId });
     }
     await fs.writeFile('./helpers/data/geoNationalities.json', JSON.stringify(geoNationalities, null, 4), 'utf-8');
+
+    // Utilities
+    function lookupLanguageUsingAlpha3(code) {
+        const alpha3BMatch = languages.find((item) => item.id === code);
+        if (alpha3BMatch) return alpha3BMatch;
+
+        const alpha3TMatch = languages.find((item) => item.idB === code);
+        if (alpha3TMatch) return alpha3TMatch;
+
+        console.log('! Missing Locale___________:', code);
+        return undefined;
+    }
 }
 
-function lookupLanguageUsingAlpha3(code) {
-    const alpha3BMatch = languages.find((item) => item['alpha3-b'] === code);
-    if (alpha3BMatch) return alpha3BMatch;
-
-    const alpha3TMatch = languages.find((item) => item['alpha3-t'] === code);
-    if (alpha3TMatch) return alpha3TMatch;
-
-    console.log('! Missing Locale___________:', code);
-    return undefined;
+async function transformLanguageData() {
+    const fileContent = await fs.readFile('./helpers/data/downloads/geoNamesLanguages.tsv', 'utf8');
+    const jsonData = tabToJson(fileContent);
+    const languages = [];
+    for (const rec of jsonData) {
+        if (!rec['ISO 639-3']) {
+            console.log('! Ignore blank ISO 639-3________:', rec['ISO 639-2'], rec['ISO 639-1'], rec['Language Name']);
+            continue;
+        }
+        const matches = rec['ISO 639-2'].match(/^(.+?)\s*\/\s*(.+?)\s*\*.*$/);
+        if (matches) {
+            languages.push({
+                id: rec['ISO 639-3'], // Terminological code.
+                idB: matches[2] || undefined, // Bibliographic code.
+                id2: rec['ISO 639-1'] || undefined,
+                label: { en: rec['Language Name'] }
+            });
+        } else {
+            languages.push({
+                id: rec['ISO 639-3'], // Terminological code.
+                idB: rec['ISO 639-2'] || undefined, // Bibliographic code.
+                id2: rec['ISO 639-1'] || undefined,
+                label: { en: rec['Language Name'] }
+            });
+        }
+    }
+    await fs.writeFile('./helpers/data/geoLanguages.json', JSON.stringify(languages, null, 4), 'utf-8');
 }
 
-async function transformTimeZoneData() {
+async function transformTimeZoneData1() {
     const timeZones = Intl.supportedValuesOf('timeZone').map((timeZoneName) => ({ name: timeZoneName }));
     timeZones.sort((left, right) => left.name.localeCompare(right.name));
-    await fs.writeFile('./helpers/data/geoTimeZones.json', JSON.stringify(timeZones, null, 4), 'utf-8');
+    await fs.writeFile('./helpers/data/geoTimeZones1.json', JSON.stringify(timeZones, null, 4), 'utf-8');
 }
 
-transformCountryData();
-transformTimeZoneData();
+async function transformTimeZoneData2() {
+    const fileContent = await fs.readFile('./helpers/data/downloads/geoNamesTimeZones.tsv', 'utf8');
+    const jsonData = tabToJson(fileContent);
+    await fs.writeFile('./helpers/data/geoTimeZones2.json', JSON.stringify(jsonData, null, 4), 'utf-8');
+}
+
+function tabToJson(tabDelimitedText) {
+    const lines = tabDelimitedText.trim().split('\n');
+    const headers = lines[0].split('\t').map((header) => header.trim());
+    const jsonObjects = lines.slice(1).map((line, index) => {
+        const values = line.split('\t');
+        if (values.length !== headers.length) {
+            console.warn(`Row ${index + 2} has ${values.length} columns, expected ${headers.length}`);
+        }
+        const obj = {};
+        headers.forEach((header, i) => {
+            obj[header] = values[i] ? values[i].trim() : '';
+        });
+        return obj;
+    });
+
+    return jsonObjects;
+}
+
+await transformLanguageData();
+
+await transformCountryData();
+
+await transformTimeZoneData1();
+await transformTimeZoneData2();

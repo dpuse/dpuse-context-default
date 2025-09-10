@@ -4,16 +4,20 @@ import geoSubregions from './data/geoSubregions.json' with { type: 'json' };
 import languages from './data/retrievals/language-codes-full.json' with { type: 'json' };
 
 async function transformCountryData() {
-    const countryDataIndependent = await fs.readFile('./helpers/data/retrievals/countryDataFromCountryRestIndependent.json', 'utf-8');
-    const countriesIndependent = JSON.parse(countryDataIndependent);
-    const countryDataDependent = await fs.readFile('./helpers/data/retrievals/countryDataFromCountryRestDependent.json', 'utf-8');
-    const countriesDependent = JSON.parse(countryDataDependent);
-    const countries = [...countriesIndependent, ...countriesDependent];
+    const countryDataRestCountriesIndependent = await fs.readFile('./helpers/data/retrievals/countriesFromRestCountriesIndependent.json', 'utf-8');
+    const countriesRestCountriesIndependent = JSON.parse(countryDataRestCountriesIndependent);
+    const countryDataRestCountriesDependent = await fs.readFile('./helpers/data/retrievals/countriesFromRestCountriesDependent.json', 'utf-8');
+    const countriesRestCountriesDependent = JSON.parse(countryDataRestCountriesDependent);
+    const countries = [...countriesRestCountriesIndependent, ...countriesRestCountriesDependent];
     countries.sort((left, right) => left.cca2.localeCompare(right.cca2));
 
-    console.log('Country count (Independent):', countriesIndependent.length);
-    console.log('Country count (Dependent)__:', countriesDependent.length);
-    console.log('Country count______________:', countries.length);
+    const countryDataGeoNames = await fs.readFile('./helpers/data/retrievals/countriesFromGeoNamesPostalCodeCountryInfo.json', 'utf-8');
+    const countriesGeoNames = JSON.parse(countryDataGeoNames).geonames;
+
+    console.log('Country count (Rest Countries Independent):', countriesRestCountriesIndependent.length);
+    console.log('Country count (Rest Countries Dependent)__:', countriesRestCountriesDependent.length);
+    console.log('Country count (Rest Countries Total)______:', countries.length);
+    console.log('\nCountry count (GeoNames Postal Code Info)_:', countriesGeoNames.length);
     // console.log('\nFirst country______________:', countries[0]);
     console.log('\n');
 

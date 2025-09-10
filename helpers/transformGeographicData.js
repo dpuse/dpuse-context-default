@@ -59,7 +59,7 @@ async function transformCountryData() {
 
         // Nationalities.
         for (const value of Object.values(country.demonyms.eng || {})) {
-            if (value) nationalities[country.cca2] = value;
+            if (value) nationalities[country.cca2] = { name: value, regionId: geoRegion.id, subregionId: geoSubregion?.id };
         }
 
         // Country.
@@ -95,6 +95,8 @@ async function transformCountryData() {
     const sortedTranslations = Object.fromEntries(Object.entries(translations).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
     console.log('! Label Translations_______:', sortedTranslations);
 
+    // Cities.
+
     // Countries.
     await fs.writeFile('./helpers/data/geoCountries.json', JSON.stringify(geoCountries, null, 4), 'utf-8');
 
@@ -116,7 +118,7 @@ async function transformCountryData() {
     // Nationalities.
     const geoNationalities = [];
     for (const [key, value] of Object.entries(nationalities)) {
-        geoNationalities.push({ id: key.toLocaleLowerCase(), label: { en: value } });
+        geoNationalities.push({ id: key.toLocaleLowerCase(), label: { en: value.name }, regionId: value.regionId, subregionId: value.subregionId });
     }
     await fs.writeFile('./helpers/data/geoNationalities.json', JSON.stringify(geoNationalities, null, 4), 'utf-8');
 }

@@ -3,1494 +3,1988 @@
         "id": "ad",
         "label": {
             "en": "Andorran"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "ae",
         "label": {
             "en": "Emirati"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "af",
         "label": {
             "en": "Afghan"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "ag",
         "label": {
             "en": "Antiguan, Barbudan"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "ai",
         "label": {
             "en": "Anguillian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "al",
         "label": {
             "en": "Albanian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "am",
         "label": {
             "en": "Armenian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "ao",
         "label": {
             "en": "Angolan"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "aq",
         "label": {
             "en": "Antarctican"
-        }
+        },
+        "regionId": "an"
     },
     {
         "id": "ar",
         "label": {
             "en": "Argentine"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "as",
         "label": {
             "en": "American Samoan"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "at",
         "label": {
             "en": "Austrian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "au",
         "label": {
             "en": "Australian"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocanz"
     },
     {
         "id": "aw",
         "label": {
             "en": "Aruban"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "ax",
         "label": {
             "en": "Ålandish"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "az",
         "label": {
             "en": "Azerbaijani"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "ba",
         "label": {
             "en": "Bosnian, Herzegovinian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "bb",
         "label": {
             "en": "Barbadian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "bd",
         "label": {
             "en": "Bangladeshi"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "be",
         "label": {
             "en": "Belgian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "bf",
         "label": {
             "en": "Burkinabe"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "bg",
         "label": {
             "en": "Bulgarian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "bh",
         "label": {
             "en": "Bahraini"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "bi",
         "label": {
             "en": "Burundian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "bj",
         "label": {
             "en": "Beninese"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "bl",
         "label": {
             "en": "Saint Barthélemy Islander"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "bm",
         "label": {
             "en": "Bermudian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "bn",
         "label": {
             "en": "Bruneian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "bo",
         "label": {
             "en": "Bolivian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "bq",
         "label": {
             "en": "Dutch"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "br",
         "label": {
             "en": "Brazilian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "bs",
         "label": {
             "en": "Bahamian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "bt",
         "label": {
             "en": "Bhutanese"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "bw",
         "label": {
             "en": "Motswana"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afs"
     },
     {
         "id": "by",
         "label": {
             "en": "Belarusian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eue"
     },
     {
         "id": "bz",
         "label": {
             "en": "Belizean"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "ca",
         "label": {
             "en": "Canadian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "cc",
         "label": {
             "en": "Cocos Islander"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocanz"
     },
     {
         "id": "cd",
         "label": {
             "en": "Congolese"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "cf",
         "label": {
             "en": "Central African"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "cg",
         "label": {
             "en": "Congolese"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "ch",
         "label": {
             "en": "Swiss"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "ci",
         "label": {
             "en": "Ivorian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "ck",
         "label": {
             "en": "Cook Islander"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "cl",
         "label": {
             "en": "Chilean"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "cm",
         "label": {
             "en": "Cameroonian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "cn",
         "label": {
             "en": "Chinese"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "co",
         "label": {
             "en": "Colombian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "cr",
         "label": {
             "en": "Costa Rican"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "cu",
         "label": {
             "en": "Cuban"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "cv",
         "label": {
             "en": "Cape Verdian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "cw",
         "label": {
             "en": "Curaçaoan"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "cx",
         "label": {
             "en": "Christmas Islander"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocanz"
     },
     {
         "id": "cy",
         "label": {
             "en": "Cypriot"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "cz",
         "label": {
             "en": "Czech"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "de",
         "label": {
             "en": "German"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "dj",
         "label": {
             "en": "Djibouti"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "dk",
         "label": {
             "en": "Danish"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "dm",
         "label": {
             "en": "Dominican"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "do",
         "label": {
             "en": "Dominican"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "dz",
         "label": {
             "en": "Algerian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "ec",
         "label": {
             "en": "Ecuadorean"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "ee",
         "label": {
             "en": "Estonian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "eg",
         "label": {
             "en": "Egyptian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "eh",
         "label": {
             "en": "Sahrawi"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "er",
         "label": {
             "en": "Eritrean"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "es",
         "label": {
             "en": "Spanish"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "et",
         "label": {
             "en": "Ethiopian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "fi",
         "label": {
             "en": "Finnish"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "fj",
         "label": {
             "en": "Fijian"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocml"
     },
     {
         "id": "fk",
         "label": {
             "en": "Falkland Islander"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "fm",
         "label": {
             "en": "Micronesian"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "fo",
         "label": {
             "en": "Faroese"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "fr",
         "label": {
             "en": "French"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "ga",
         "label": {
             "en": "Gabonese"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "gb",
         "label": {
             "en": "British"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "gd",
         "label": {
             "en": "Grenadian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "ge",
         "label": {
             "en": "Georgian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "gf",
         "label": {
             "en": "Guianan"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "gg",
         "label": {
             "en": "Channel Islander"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "gh",
         "label": {
             "en": "Ghanaian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "gi",
         "label": {
             "en": "Gibraltar"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "gl",
         "label": {
             "en": "Greenlandic"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "gm",
         "label": {
             "en": "Gambian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "gn",
         "label": {
             "en": "Guinean"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "gp",
         "label": {
             "en": "Guadeloupian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "gq",
         "label": {
             "en": "Equatorial Guinean"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "gr",
         "label": {
             "en": "Greek"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "gs",
         "label": {
             "en": "South Georgian South Sandwich Islander"
-        }
+        },
+        "regionId": "an"
     },
     {
         "id": "gt",
         "label": {
             "en": "Guatemalan"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "gu",
         "label": {
             "en": "Guamanian"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "gw",
         "label": {
             "en": "Guinea-Bissauan"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "gy",
         "label": {
             "en": "Guyanese"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "hk",
         "label": {
             "en": "Hong Konger"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "hm",
         "label": {
             "en": "Heard and McDonald Islander"
-        }
+        },
+        "regionId": "an"
     },
     {
         "id": "hn",
         "label": {
             "en": "Honduran"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "hr",
         "label": {
             "en": "Croatian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "ht",
         "label": {
             "en": "Haitian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "hu",
         "label": {
             "en": "Hungarian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "id",
         "label": {
             "en": "Indonesian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "ie",
         "label": {
             "en": "Irish"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "il",
         "label": {
             "en": "Israeli"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "im",
         "label": {
             "en": "Manx"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "in",
         "label": {
             "en": "Indian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "io",
         "label": {
             "en": "Indian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "iq",
         "label": {
             "en": "Iraqi"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "ir",
         "label": {
             "en": "Iranian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "is",
         "label": {
             "en": "Icelander"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "it",
         "label": {
             "en": "Italian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "je",
         "label": {
             "en": "Channel Islander"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "jm",
         "label": {
             "en": "Jamaican"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "jo",
         "label": {
             "en": "Jordanian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "jp",
         "label": {
             "en": "Japanese"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "ke",
         "label": {
             "en": "Kenyan"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "kg",
         "label": {
             "en": "Kirghiz"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ascb"
     },
     {
         "id": "kh",
         "label": {
             "en": "Cambodian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "ki",
         "label": {
             "en": "I-Kiribati"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "km",
         "label": {
             "en": "Comoran"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "kn",
         "label": {
             "en": "Kittitian or Nevisian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "kp",
         "label": {
             "en": "North Korean"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "kr",
         "label": {
             "en": "South Korean"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "kw",
         "label": {
             "en": "Kuwaiti"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "ky",
         "label": {
             "en": "Caymanian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "kz",
         "label": {
             "en": "Kazakhstani"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ascb"
     },
     {
         "id": "la",
         "label": {
             "en": "Laotian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "lb",
         "label": {
             "en": "Lebanese"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "lc",
         "label": {
             "en": "Saint Lucian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "li",
         "label": {
             "en": "Liechtensteiner"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "lk",
         "label": {
             "en": "Sri Lankan"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "lr",
         "label": {
             "en": "Liberian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "ls",
         "label": {
             "en": "Mosotho"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afs"
     },
     {
         "id": "lt",
         "label": {
             "en": "Lithuanian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "lu",
         "label": {
             "en": "Luxembourger"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "lv",
         "label": {
             "en": "Latvian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "ly",
         "label": {
             "en": "Libyan"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "ma",
         "label": {
             "en": "Moroccan"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "mc",
         "label": {
             "en": "Monegasque"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "md",
         "label": {
             "en": "Moldovan"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eue"
     },
     {
         "id": "me",
         "label": {
             "en": "Montenegrin"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "mf",
         "label": {
             "en": "Saint Martin Islander"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "mg",
         "label": {
             "en": "Malagasy"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "mh",
         "label": {
             "en": "Marshallese"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "mk",
         "label": {
             "en": "Macedonian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "ml",
         "label": {
             "en": "Malian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "mm",
         "label": {
             "en": "Burmese"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "mn",
         "label": {
             "en": "Mongolian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "mo",
         "label": {
             "en": "Macanese"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "mp",
         "label": {
             "en": "American"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "mq",
         "label": {
             "en": "Martinican"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "mr",
         "label": {
             "en": "Mauritanian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "ms",
         "label": {
             "en": "Montserratian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "mt",
         "label": {
             "en": "Maltese"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "mu",
         "label": {
             "en": "Mauritian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "mv",
         "label": {
             "en": "Maldivan"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "mw",
         "label": {
             "en": "Malawian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "mx",
         "label": {
             "en": "Mexican"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "my",
         "label": {
             "en": "Malaysian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "mz",
         "label": {
             "en": "Mozambican"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "na",
         "label": {
             "en": "Namibian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afs"
     },
     {
         "id": "nc",
         "label": {
             "en": "New Caledonian"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocml"
     },
     {
         "id": "ne",
         "label": {
             "en": "Nigerien"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "nf",
         "label": {
             "en": "Norfolk Islander"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocanz"
     },
     {
         "id": "ng",
         "label": {
             "en": "Nigerian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "ni",
         "label": {
             "en": "Nicaraguan"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "nl",
         "label": {
             "en": "Dutch"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euw"
     },
     {
         "id": "no",
         "label": {
             "en": "Norwegian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "np",
         "label": {
             "en": "Nepalese"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "nr",
         "label": {
             "en": "Nauruan"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "nu",
         "label": {
             "en": "Niuean"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "nz",
         "label": {
             "en": "New Zealander"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocanz"
     },
     {
         "id": "om",
         "label": {
             "en": "Omani"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "pa",
         "label": {
             "en": "Panamanian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "pe",
         "label": {
             "en": "Peruvian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "pf",
         "label": {
             "en": "French Polynesian"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "pg",
         "label": {
             "en": "Papua New Guinean"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocml"
     },
     {
         "id": "ph",
         "label": {
             "en": "Filipino"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "pk",
         "label": {
             "en": "Pakistani"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ass"
     },
     {
         "id": "pl",
         "label": {
             "en": "Polish"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "pm",
         "label": {
             "en": "Saint-Pierrais, Miquelonnais"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "pn",
         "label": {
             "en": "Pitcairn Islander"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "pr",
         "label": {
             "en": "Puerto Rican"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "ps",
         "label": {
             "en": "Palestinian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "pt",
         "label": {
             "en": "Portuguese"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "pw",
         "label": {
             "en": "Palauan"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocmc"
     },
     {
         "id": "py",
         "label": {
             "en": "Paraguayan"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "qa",
         "label": {
             "en": "Qatari"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "re",
         "label": {
             "en": "Réunionese"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "ro",
         "label": {
             "en": "Romanian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "rs",
         "label": {
             "en": "Serbian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "ru",
         "label": {
             "en": "Russian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eue"
     },
     {
         "id": "rw",
         "label": {
             "en": "Rwandan"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "sa",
         "label": {
             "en": "Saudi Arabian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "sb",
         "label": {
             "en": "Solomon Islander"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocml"
     },
     {
         "id": "sc",
         "label": {
             "en": "Seychellois"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "sd",
         "label": {
             "en": "Sudanese"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "se",
         "label": {
             "en": "Swedish"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "sg",
         "label": {
             "en": "Singaporean"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "sh",
         "label": {
             "en": "Saint Helenian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "si",
         "label": {
             "en": "Slovene"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "sj",
         "label": {
             "en": "Norwegian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eun"
     },
     {
         "id": "sk",
         "label": {
             "en": "Slovak"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euc"
     },
     {
         "id": "sl",
         "label": {
             "en": "Sierra Leonean"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "sm",
         "label": {
             "en": "Sammarinese"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "sn",
         "label": {
             "en": "Senegalese"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "so",
         "label": {
             "en": "Somali"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "sr",
         "label": {
             "en": "Surinamer"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "ss",
         "label": {
             "en": "South Sudanese"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "st",
         "label": {
             "en": "Sao Tomean"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "sv",
         "label": {
             "en": "Salvadoran"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amca"
     },
     {
         "id": "sx",
         "label": {
             "en": "St. Maartener"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "sy",
         "label": {
             "en": "Syrian"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "sz",
         "label": {
             "en": "Swazi"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afs"
     },
     {
         "id": "tc",
         "label": {
             "en": "Turks and Caicos Islander"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "td",
         "label": {
             "en": "Chadian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afm"
     },
     {
         "id": "tf",
         "label": {
             "en": "French"
-        }
+        },
+        "regionId": "an"
     },
     {
         "id": "tg",
         "label": {
             "en": "Togolese"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afw"
     },
     {
         "id": "th",
         "label": {
             "en": "Thai"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "tj",
         "label": {
             "en": "Tadzhik"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ascb"
     },
     {
         "id": "tk",
         "label": {
             "en": "Tokelauan"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "tl",
         "label": {
             "en": "East Timorese"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "tm",
         "label": {
             "en": "Turkmen"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ascb"
     },
     {
         "id": "tn",
         "label": {
             "en": "Tunisian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afn"
     },
     {
         "id": "to",
         "label": {
             "en": "Tongan"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "tr",
         "label": {
             "en": "Turkish"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "tt",
         "label": {
             "en": "Trinidadian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "tv",
         "label": {
             "en": "Tuvaluan"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "tw",
         "label": {
             "en": "Taiwanese"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ase"
     },
     {
         "id": "tz",
         "label": {
             "en": "Tanzanian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "ua",
         "label": {
             "en": "Ukrainian"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eue"
     },
     {
         "id": "ug",
         "label": {
             "en": "Ugandan"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "um",
         "label": {
             "en": "American Islander"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "us",
         "label": {
             "en": "American"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amna"
     },
     {
         "id": "uy",
         "label": {
             "en": "Uruguayan"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "uz",
         "label": {
             "en": "Uzbekistani"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "ascb"
     },
     {
         "id": "va",
         "label": {
             "en": "Vatican"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "eus"
     },
     {
         "id": "vc",
         "label": {
             "en": "Saint Vincentian"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "ve",
         "label": {
             "en": "Venezuelan"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amsa"
     },
     {
         "id": "vg",
         "label": {
             "en": "Virgin Islander"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "vi",
         "label": {
             "en": "Virgin Islander"
-        }
+        },
+        "regionId": "am",
+        "subregionId": "amc"
     },
     {
         "id": "vn",
         "label": {
             "en": "Vietnamese"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asse"
     },
     {
         "id": "vu",
         "label": {
             "en": "Ni-Vanuatu"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocml"
     },
     {
         "id": "wf",
         "label": {
             "en": "Wallis and Futuna Islander"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "ws",
         "label": {
             "en": "Samoan"
-        }
+        },
+        "regionId": "oc",
+        "subregionId": "ocpl"
     },
     {
         "id": "xk",
         "label": {
             "en": "Kosovar"
-        }
+        },
+        "regionId": "eu",
+        "subregionId": "euse"
     },
     {
         "id": "ye",
         "label": {
             "en": "Yemeni"
-        }
+        },
+        "regionId": "as",
+        "subregionId": "asw"
     },
     {
         "id": "yt",
         "label": {
             "en": "Mahoran"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "za",
         "label": {
             "en": "South African"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afs"
     },
     {
         "id": "zm",
         "label": {
             "en": "Zambian"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afe"
     },
     {
         "id": "zw",
         "label": {
             "en": "Zimbabwean"
-        }
+        },
+        "regionId": "af",
+        "subregionId": "afs"
     }
 ]

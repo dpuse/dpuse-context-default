@@ -10,7 +10,7 @@ async function retrieveGeoNamesData() {
     await fs.writeFile('./helpers/data/retrievals/countriesFromGeoNamesPostalCodeCountryInfo.json', JSON.stringify(geoNamesPostalCodeCountryInfos.geonames), 'utf-8');
 
     // Counts.
-    console.log('\nCountry count (GeoNames Postal Code Info)_:', geoNamesPostalCodeCountryInfos.geonames.length);
+    console.log('Country count (GeoNames Postal Code Info)_:', geoNamesPostalCodeCountryInfos.geonames.length);
 }
 
 async function retrieveRestCountriesData() {
@@ -33,8 +33,8 @@ async function retrieveRestCountriesData() {
     console.log('Country count (Rest Countries Combined)___:', restCountries.length);
 }
 
-console.log(`# Retrieving GeoNames data...`);
+console.log(`# Retrieving GeoNames Data...`);
 await retrieveGeoNamesData();
 
-console.log(`\n# Retrieving Rest Countries data...`);
+console.log(`\n# Retrieving Rest Countries Data...`);
 await retrieveRestCountriesData();

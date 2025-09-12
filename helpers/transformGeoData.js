@@ -12,7 +12,7 @@ async function transformCountryData() {
 
     // console.log('\nFirst country (Rest Countries)____________:', countries[0]);
 
-    const languageData = await fs.readFile('./helpers/data/geoLanguages.json', 'utf8');
+    const languageData = await fs.readFile('./helpers/data/perLanguages.json', 'utf8');
     const languages = JSON.parse(languageData);
 
     console.log('\n');
@@ -135,5 +135,5 @@ async function transformTimeZoneData2() {
 
 await transformCountryData();
 
-await transformTimeZoneData1();
-await transformTimeZoneData2();
+// await transformTimeZoneData1();
+// await transformTimeZoneData2();

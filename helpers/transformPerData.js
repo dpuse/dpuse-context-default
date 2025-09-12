@@ -5,7 +5,7 @@ async function transformLanguageData() {
     const languages = [];
 
     const geoNamesLanguageData = await fs.readFile('./helpers/data/downloads/geoNamesLanguages.tsv', 'utf8');
-    const geoNamesLanguages = tabToJson(geoNamesLanguageData);
+    const geoNamesLanguages = tabToJson(geoNamesLanguageData); // TODO: Do this as part of retrieval?
 
     for (const rec of geoNamesLanguages) {
         if (!rec['ISO 639-3']) {

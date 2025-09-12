@@ -33,5 +33,8 @@ async function retrieveRestCountriesData() {
     console.log('Country count (Rest Countries Combined)___:', restCountries.length);
 }
 
+console.log(`# Retrieving GeoNames data...`);
 await retrieveGeoNamesData();
+
+console.log(`\n# Retrieving Rest Countries data...`);
 await retrieveRestCountriesData();

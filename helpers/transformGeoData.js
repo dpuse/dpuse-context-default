@@ -1,6 +1,7 @@
 import fs from 'fs/promises';
 import geoRegions from './data/geoRegions.json' with { type: 'json' };
 import geoSubregions from './data/geoSubregions.json' with { type: 'json' };
+import { tabToJson } from './utilities.js';
 
 async function transformCountryData() {
     const countryDataRestCountriesIndependent = await fs.readFile('./helpers/data/retrievals/countriesFromRestCountriesIndependent.json', 'utf-8');
@@ -23,15 +24,9 @@ async function transformCountryData() {
     const languageData = await fs.readFile('./helpers/data/geoLanguages.json', 'utf8');
     const languages = JSON.parse(languageData);
 
-    console.log('\nLanguage count (ISO 639-3)________________:', languages.length);
-    console.log('Language count (ISO 639-2)________________:', languages.filter((l) => !!l.idB).length);
-    console.log('Language count (ISO 639-1)________________:', languages.filter((l) => !!l.id2).length);
-
     console.log('\n');
 
-    const currencies = {};
     const geoCountries = [];
-    const nationalities = {};
     const translations = {};
     for (const country of countries) {
         // Country label.
@@ -54,25 +49,6 @@ async function transformCountryData() {
         // Country region and subregion.
         const geoRegion = geoRegions.find((geoRegion) => geoRegion.label.en === country.region);
         const geoSubregion = geoSubregions.find((geoSubregion) => geoSubregion.label.en === country.subregion);
-
-        // Currencies.
-        for (const [key, value] of Object.entries(country.currencies || {})) {
-            if (currencies[key]) {
-                const currency = currencies[key];
-                if (currency.value.symbol !== value.symbol)
-                    console.log('! Different currency symbol:', key, '/', currency.country, 'v', country.name.common, '-', `'${currency.value.symbol}'`, 'v', `'${value.symbol}'`);
-                if (currency.value.name !== value.name)
-                    console.log('! Different currency name__:', key, '/', currency.country, 'v', country.name.common, '-', `'${currency.value.name}'`, 'v', `'${value.name}'`);
-                currency.c += 1;
-            } else {
-                currencies[key] = { c: 1, country: country.name.common, value };
-            }
-        }
-
-        // Nationalities.
-        for (const value of Object.values(country.demonyms.eng || {})) {
-            if (value) nationalities[country.cca2] = { name: value, regionId: geoRegion.id, subregionId: geoSubregion?.id };
-        }
 
         // Postal code count/range.
         const postalCodeInfo = countriesGeoNames.find((countryGeoNames) => country.cca2 === countryGeoNames.countryCode);
@@ -100,7 +76,6 @@ async function transformCountryData() {
         // Informational messages.
         if (country.capital?.length > 1) console.log('! Multiple capitals________:', country.name.common, '-', country.capital);
         if (country.continents.length > 1) console.log('! Multiple continents______:', country.name.common, '-', country.continents);
-        if (Object.keys(country.currencies ?? {}).length > 1) console.log('! Multiple currencies______:', country.name.common);
     }
 
     // Label translations.
@@ -118,21 +93,6 @@ async function transformCountryData() {
     // Countries.
     await fs.writeFile('./helpers/data/geoCountries.json', JSON.stringify(geoCountries, null, 4), 'utf-8');
 
-    // Currencies.
-    const finCurrencies = [];
-    const sortedCurrencies = Object.fromEntries(Object.entries(currencies).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
-    for (const [key, value] of Object.entries(sortedCurrencies)) {
-        finCurrencies.push({ id: key.toLocaleLowerCase(), name: value.value.name, symbol: value.value.symbol });
-    }
-    await fs.writeFile('./helpers/data/finCurrencies.json', JSON.stringify(finCurrencies, null, 4), 'utf-8');
-
-    // Nationalities.
-    const geoNationalities = [];
-    for (const [key, value] of Object.entries(nationalities)) {
-        geoNationalities.push({ id: key.toLocaleLowerCase(), label: { en: value.name }, regionId: value.regionId, subregionId: value.subregionId });
-    }
-    await fs.writeFile('./helpers/data/geoNationalities.json', JSON.stringify(geoNationalities, null, 4), 'utf-8');
-
     // Utilities
     function lookupLanguageUsingAlpha3(code) {
         const alpha3BMatch = languages.find((item) => item.id === code);
@@ -144,35 +104,6 @@ async function transformCountryData() {
         console.log('! Missing Locale___________:', code);
         return undefined;
     }
-}
-
-async function transformLanguageData() {
-    const fileContent = await fs.readFile('./helpers/data/downloads/geoNamesLanguages.tsv', 'utf8');
-    const jsonData = tabToJson(fileContent);
-    const languages = [];
-    for (const rec of jsonData) {
-        if (!rec['ISO 639-3']) {
-            console.log('! Ignore blank ISO 639-3________:', rec['ISO 639-2'], rec['ISO 639-1'], rec['Language Name']);
-            continue;
-        }
-        const matches = rec['ISO 639-2'].match(/^(.+?)\s*\/\s*(.+?)\s*\*.*$/);
-        if (matches) {
-            languages.push({
-                id: rec['ISO 639-3'], // Terminological code.
-                idB: matches[2] || undefined, // Bibliographic code.
-                id2: rec['ISO 639-1'] || undefined,
-                label: { en: rec['Language Name'] }
-            });
-        } else {
-            languages.push({
-                id: rec['ISO 639-3'], // Terminological code.
-                idB: rec['ISO 639-2'] || undefined, // Bibliographic code.
-                id2: rec['ISO 639-1'] || undefined,
-                label: { en: rec['Language Name'] }
-            });
-        }
-    }
-    await fs.writeFile('./helpers/data/geoLanguages.json', JSON.stringify(languages, null, 4), 'utf-8');
 }
 
 async function transformTimeZoneData1() {
@@ -210,26 +141,6 @@ async function transformTimeZoneData2() {
 
     await fs.writeFile('./helpers/data/geoTimeZones2.json', JSON.stringify(timeZones, null, 4), 'utf-8');
 }
-
-function tabToJson(tabDelimitedText) {
-    const lines = tabDelimitedText.trim().split('\n');
-    const headers = lines[0].split('\t').map((header) => header.trim());
-    const jsonObjects = lines.slice(1).map((line, index) => {
-        const values = line.split('\t');
-        if (values.length !== headers.length) {
-            console.warn(`Row ${index + 2} has ${values.length} columns, expected ${headers.length}`);
-        }
-        const obj = {};
-        headers.forEach((header, i) => {
-            obj[header] = values[i] ? values[i].trim() : '';
-        });
-        return obj;
-    });
-
-    return jsonObjects;
-}
-
-await transformLanguageData();
 
 await transformCountryData();
 

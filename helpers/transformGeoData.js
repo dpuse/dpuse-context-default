@@ -4,22 +4,13 @@ import geoSubregions from './data/geoSubregions.json' with { type: 'json' };
 import { tabToJson } from './utilities.js';
 
 async function transformCountryData() {
-    const countryDataRestCountriesIndependent = await fs.readFile('./helpers/data/retrievals/countriesFromRestCountriesIndependent.json', 'utf-8');
-    const countriesRestCountriesIndependent = JSON.parse(countryDataRestCountriesIndependent);
-    const countryDataRestCountriesDependent = await fs.readFile('./helpers/data/retrievals/countriesFromRestCountriesDependent.json', 'utf-8');
-    const countriesRestCountriesDependent = JSON.parse(countryDataRestCountriesDependent);
-    const countries = [...countriesRestCountriesIndependent, ...countriesRestCountriesDependent];
-    countries.sort((left, right) => left.cca2.localeCompare(right.cca2));
+    const countriesFromRestCountriesData = await fs.readFile('./helpers/data/retrievals/countriesFromRestCountries.json', 'utf-8');
+    const countries = JSON.parse(countriesFromRestCountriesData);
 
     const countryDataGeoNames = await fs.readFile('./helpers/data/retrievals/countriesFromGeoNamesPostalCodeCountryInfo.json', 'utf-8');
     const countriesGeoNames = JSON.parse(countryDataGeoNames).geonames;
 
-    console.log('Country count (Rest Countries Independent):', countriesRestCountriesIndependent.length);
-    console.log('Country count (Rest Countries Dependent)__:', countriesRestCountriesDependent.length);
-    console.log('Country count (Rest Countries Total)______:', countries.length);
     // console.log('\nFirst country (Rest Countries)____________:', countries[0]);
-
-    console.log('\nCountry count (GeoNames Postal Code Info)_:', countriesGeoNames.length);
 
     const languageData = await fs.readFile('./helpers/data/geoLanguages.json', 'utf8');
     const languages = JSON.parse(languageData);

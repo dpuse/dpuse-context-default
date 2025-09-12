@@ -1,0 +1,20 @@
+{
+    "id": "geoCIties",
+    "label": { "en-gb": "City" },
+    "labelPlural": { "en-gb": "Cities" },
+    "description": { "en-gb": "" },
+    "hierarchies": [
+        {
+            "id": "def",
+            "label": { "en-gb": "Default" },
+            "description": { "en-gb": "..." },
+            "type": null,
+            "levels": [],
+            "children": [
+                { "id": "#", "label": { "en-gb": "Not Applicable" } },
+                { "id": "_", "label": { "en-gb": "Not Provided" } },
+                { "id": "?", "label": { "en-gb": "Unknown" } }
+            ]
+        }
+    ]
+}

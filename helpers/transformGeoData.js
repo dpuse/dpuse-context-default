@@ -126,19 +126,6 @@ async function transformCountryData() {
     }
     await fs.writeFile('./helpers/data/finCurrencies.json', JSON.stringify(finCurrencies, null, 4), 'utf-8');
 
-    // // Languages.
-    // const geoLanguages = [];
-    // for (const language of languages) {
-    //     let lang2 = languages2.find((lang2) => lang2.id === language['alpha3-t']);
-    //     if (!lang2) lang2 = languages2.find((lang2) => lang2.id === language['alpha3-b']);
-    //     if (!lang2) {
-    //         console.log('? Ignoring language________:', language['alpha3-b'], language['alpha3-t'], language.English);
-    //         continue;
-    //     }
-    //     geoLanguages.push({ id: language['alpha3-t'], idB: language['alpha3-b'] || undefined, id2: language.alpha2 || undefined, label: { en: language.English } });
-    // }
-    // await fs.writeFile('./helpers/data/geoLanguages.json', JSON.stringify(geoLanguages, null, 4), 'utf-8');
-
     // Nationalities.
     const geoNationalities = [];
     for (const [key, value] of Object.entries(nationalities)) {
@@ -191,13 +178,37 @@ async function transformLanguageData() {
 async function transformTimeZoneData1() {
     const timeZones = Intl.supportedValuesOf('timeZone').map((timeZoneName) => ({ name: timeZoneName }));
     timeZones.sort((left, right) => left.name.localeCompare(right.name));
+    console.log(111, timeZones.length);
     await fs.writeFile('./helpers/data/geoTimeZones1.json', JSON.stringify(timeZones, null, 4), 'utf-8');
 }
 
 async function transformTimeZoneData2() {
-    const fileContent = await fs.readFile('./helpers/data/downloads/geoNamesTimeZones.tsv', 'utf8');
-    const jsonData = tabToJson(fileContent);
-    await fs.writeFile('./helpers/data/geoTimeZones2.json', JSON.stringify(jsonData, null, 4), 'utf-8');
+    const browserTimeZones = Intl.supportedValuesOf('timeZone').map((timeZoneName) => ({ name: timeZoneName }));
+    browserTimeZones.sort((left, right) => left.name.localeCompare(right.name));
+
+    const geoNamesTimeZoneData = await fs.readFile('./helpers/data/downloads/geoNamesTimeZones.tsv', 'utf8');
+    const geoNamesTimeZones = tabToJson(geoNamesTimeZoneData);
+    console.log(222, geoNamesTimeZones.length);
+    const timeZones = [];
+    for (const timeZone of geoNamesTimeZones) {
+        const tZ = {
+            name: timeZone.TimeZoneId,
+            countryId: timeZone.CountryCode.toLocaleLowerCase(),
+            gmtOffset: Number(timeZone['GMT offset 1. Jan 2025']),
+            dstOffset: Number(timeZone['DST offset 1. Jul 2025']),
+            rawOffset: Number(timeZone['rawOffset (independant of DST)'])
+        };
+        const yyy = browserTimeZones.find((x) => x.name === tZ.name);
+        if (!yyy) console.log('MISSING 1', tZ.name);
+        timeZones.push(tZ);
+    }
+
+    for (const bTZ of browserTimeZones) {
+        const yyy = timeZones.find((x) => x.name === bTZ.name);
+        if (!yyy) console.log('MISSING 2', bTZ.name);
+    }
+
+    await fs.writeFile('./helpers/data/geoTimeZones2.json', JSON.stringify(timeZones, null, 4), 'utf-8');
 }
 
 function tabToJson(tabDelimitedText) {

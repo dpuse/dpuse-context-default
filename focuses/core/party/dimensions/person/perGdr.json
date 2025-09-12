@@ -1,16 +1,14 @@
 {
-    "id": "gdr",
+    "id": "perGdr",
     "label": { "en-gb": "Gender" },
     "labelPlural": { "en-gb": "Genders" },
     "description": {
-        "en-gb": [
-            "This dimension categorises people based on their gender. Depending on the use it may represent biological sexes, gender roles or gender identities. A minimal gender hierarchy is as follows:",
-            "Classifies people by their reported gender. Standard categories are: This dimension categorises people based on their gender. Depending on the use it may represent biological sexes, gender roles or gender identities. A minimal gender hierarchy is as follows:"
-        ]
+        "en-gb": "This dimension categorises people based on their gender. Depending on the use it may represent biological sexes, gender roles or gender identities. A minimal gender hierarchy is as follows:",
+        "en-gb2": "Classifies people by their reported gender. Standard categories are: This dimension categorises people based on their gender. Depending on the use it may represent biological sexes, gender roles or gender identities. A minimal gender hierarchy is as follows:"
     },
     "hierarchies": [
         {
-            "levels": [{ "id": "gdrs", "label": { "en-gb": "Genders" } }],
+            "levels": [{ "label": { "en-gb": "Genders" } }],
             "children": [
                 { "id": "f", "label": { "en-gb": "Female" } },
                 { "id": "m", "label": { "en-gb": "Male" } },

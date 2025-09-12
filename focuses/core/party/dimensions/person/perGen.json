@@ -1,16 +1,13 @@
 {
-    "id": "gen",
+    "id": "perGen",
     "label": { "en-gb": "Generation" },
     "labelPlural": { "en-gb": "Generations" },
     "description": {
-        "en-gb": ["This dimension categorises people based on their membership of a cohort of individuals who were born at the same time."]
+        "en-gb": "This dimension categorises people based on their membership of a cohort of individuals who were born at the same time."
     },
     "hierarchies": [
         {
-            "levels": [
-                { "id": "gens", "label": { "en-gb": "Generations" } },
-                { "id": "bthYrs", "label": { "en-gb": "Birth Years" } }
-            ],
+            "levels": [{ "label": { "en-gb": "Generations" } }, { "label": { "en-gb": "Birth Years" } }],
             "children": [
                 {
                     "id": "1927-",
@@ -141,7 +138,10 @@
                     "id": "2013+",
                     "label": { "en-gb": "Generation Alpha" },
                     "description": { "en-gb": "Current youngest cohort, born fully into mobile/AI world" }
-                }
+                },
+                { "id": "#", "label": { "en-gb": "Not Applicable" } },
+                { "id": "_", "label": { "en-gb": "Not Provided" } },
+                { "id": "?", "label": { "en-gb": "Unknown" } }
             ]
         }
     ]

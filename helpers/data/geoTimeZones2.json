@@ -1,2928 +1,2928 @@
 [
     {
-        "CountryCode": "CI",
-        "TimeZoneId": "Africa/Abidjan",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Abidjan",
+        "countryId": "ci",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "GH",
-        "TimeZoneId": "Africa/Accra",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Accra",
+        "countryId": "gh",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "ET",
-        "TimeZoneId": "Africa/Addis_Ababa",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Africa/Addis_Ababa",
+        "countryId": "et",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "DZ",
-        "TimeZoneId": "Africa/Algiers",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Algiers",
+        "countryId": "dz",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "ER",
-        "TimeZoneId": "Africa/Asmara",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Africa/Asmara",
+        "countryId": "er",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "ML",
-        "TimeZoneId": "Africa/Bamako",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Bamako",
+        "countryId": "ml",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "CF",
-        "TimeZoneId": "Africa/Bangui",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Bangui",
+        "countryId": "cf",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "GM",
-        "TimeZoneId": "Africa/Banjul",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Banjul",
+        "countryId": "gm",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "GW",
-        "TimeZoneId": "Africa/Bissau",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Bissau",
+        "countryId": "gw",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "MW",
-        "TimeZoneId": "Africa/Blantyre",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Blantyre",
+        "countryId": "mw",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "CG",
-        "TimeZoneId": "Africa/Brazzaville",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Brazzaville",
+        "countryId": "cg",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "BI",
-        "TimeZoneId": "Africa/Bujumbura",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Bujumbura",
+        "countryId": "bi",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "EG",
-        "TimeZoneId": "Africa/Cairo",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Cairo",
+        "countryId": "eg",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "MA",
-        "TimeZoneId": "Africa/Casablanca",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Casablanca",
+        "countryId": "ma",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "ES",
-        "TimeZoneId": "Africa/Ceuta",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Ceuta",
+        "countryId": "es",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "GN",
-        "TimeZoneId": "Africa/Conakry",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Conakry",
+        "countryId": "gn",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "SN",
-        "TimeZoneId": "Africa/Dakar",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Dakar",
+        "countryId": "sn",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "TZ",
-        "TimeZoneId": "Africa/Dar_es_Salaam",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Africa/Dar_es_Salaam",
+        "countryId": "tz",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "DJ",
-        "TimeZoneId": "Africa/Djibouti",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Africa/Djibouti",
+        "countryId": "dj",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "CM",
-        "TimeZoneId": "Africa/Douala",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Douala",
+        "countryId": "cm",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "EH",
-        "TimeZoneId": "Africa/El_Aaiun",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/El_Aaiun",
+        "countryId": "eh",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "SL",
-        "TimeZoneId": "Africa/Freetown",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Freetown",
+        "countryId": "sl",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "BW",
-        "TimeZoneId": "Africa/Gaborone",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Gaborone",
+        "countryId": "bw",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "ZW",
-        "TimeZoneId": "Africa/Harare",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Harare",
+        "countryId": "zw",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "ZA",
-        "TimeZoneId": "Africa/Johannesburg",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Johannesburg",
+        "countryId": "za",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "SS",
-        "TimeZoneId": "Africa/Juba",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Juba",
+        "countryId": "ss",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "UG",
-        "TimeZoneId": "Africa/Kampala",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Africa/Kampala",
+        "countryId": "ug",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "SD",
-        "TimeZoneId": "Africa/Khartoum",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Khartoum",
+        "countryId": "sd",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "RW",
-        "TimeZoneId": "Africa/Kigali",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Kigali",
+        "countryId": "rw",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "CD",
-        "TimeZoneId": "Africa/Kinshasa",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Kinshasa",
+        "countryId": "cd",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "NG",
-        "TimeZoneId": "Africa/Lagos",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Lagos",
+        "countryId": "ng",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "GA",
-        "TimeZoneId": "Africa/Libreville",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Libreville",
+        "countryId": "ga",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "TG",
-        "TimeZoneId": "Africa/Lome",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Lome",
+        "countryId": "tg",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "AO",
-        "TimeZoneId": "Africa/Luanda",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Luanda",
+        "countryId": "ao",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "CD",
-        "TimeZoneId": "Africa/Lubumbashi",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Lubumbashi",
+        "countryId": "cd",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "ZM",
-        "TimeZoneId": "Africa/Lusaka",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Lusaka",
+        "countryId": "zm",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "GQ",
-        "TimeZoneId": "Africa/Malabo",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Malabo",
+        "countryId": "gq",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "MZ",
-        "TimeZoneId": "Africa/Maputo",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Maputo",
+        "countryId": "mz",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "LS",
-        "TimeZoneId": "Africa/Maseru",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Maseru",
+        "countryId": "ls",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "SZ",
-        "TimeZoneId": "Africa/Mbabane",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Mbabane",
+        "countryId": "sz",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "SO",
-        "TimeZoneId": "Africa/Mogadishu",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Africa/Mogadishu",
+        "countryId": "so",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "LR",
-        "TimeZoneId": "Africa/Monrovia",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Monrovia",
+        "countryId": "lr",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "KE",
-        "TimeZoneId": "Africa/Nairobi",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Africa/Nairobi",
+        "countryId": "ke",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "TD",
-        "TimeZoneId": "Africa/Ndjamena",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Ndjamena",
+        "countryId": "td",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "NE",
-        "TimeZoneId": "Africa/Niamey",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Niamey",
+        "countryId": "ne",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "MR",
-        "TimeZoneId": "Africa/Nouakchott",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Nouakchott",
+        "countryId": "mr",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "BF",
-        "TimeZoneId": "Africa/Ouagadougou",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Ouagadougou",
+        "countryId": "bf",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "BJ",
-        "TimeZoneId": "Africa/Porto-Novo",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Porto-Novo",
+        "countryId": "bj",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "ST",
-        "TimeZoneId": "Africa/Sao_Tome",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Africa/Sao_Tome",
+        "countryId": "st",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "LY",
-        "TimeZoneId": "Africa/Tripoli",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Africa/Tripoli",
+        "countryId": "ly",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "TN",
-        "TimeZoneId": "Africa/Tunis",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Tunis",
+        "countryId": "tn",
+        "gmtOffset": 1,
+        "dstOffset": 1,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "NA",
-        "TimeZoneId": "Africa/Windhoek",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Africa/Windhoek",
+        "countryId": "na",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Adak",
-        "GMT offset 1. Jan 2025": "-10.0",
-        "DST offset 1. Jul 2025": "-9.0",
-        "rawOffset (independant of DST)": "-10.0"
+        "name": "America/Adak",
+        "countryId": "us",
+        "gmtOffset": -10,
+        "dstOffset": -9,
+        "rawOffset": -10
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Anchorage",
-        "GMT offset 1. Jan 2025": "-9.0",
-        "DST offset 1. Jul 2025": "-8.0",
-        "rawOffset (independant of DST)": "-9.0"
+        "name": "America/Anchorage",
+        "countryId": "us",
+        "gmtOffset": -9,
+        "dstOffset": -8,
+        "rawOffset": -9
     },
     {
-        "CountryCode": "AI",
-        "TimeZoneId": "America/Anguilla",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Anguilla",
+        "countryId": "ai",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "AG",
-        "TimeZoneId": "America/Antigua",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Antigua",
+        "countryId": "ag",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Araguaina",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Araguaina",
+        "countryId": "br",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/Buenos_Aires",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/Buenos_Aires",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/Catamarca",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/Catamarca",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/Cordoba",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/Cordoba",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/Jujuy",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/Jujuy",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/La_Rioja",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/La_Rioja",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/Mendoza",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/Mendoza",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/Rio_Gallegos",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/Rio_Gallegos",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/Salta",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/Salta",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/San_Juan",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/San_Juan",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/San_Luis",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/San_Luis",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/Tucuman",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/Tucuman",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AR",
-        "TimeZoneId": "America/Argentina/Ushuaia",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Argentina/Ushuaia",
+        "countryId": "ar",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AW",
-        "TimeZoneId": "America/Aruba",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Aruba",
+        "countryId": "aw",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "PY",
-        "TimeZoneId": "America/Asuncion",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Asuncion",
+        "countryId": "py",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Atikokan",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Atikokan",
+        "countryId": "ca",
+        "gmtOffset": -5,
+        "dstOffset": -5,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Bahia",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Bahia",
+        "countryId": "br",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Bahia_Banderas",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Bahia_Banderas",
+        "countryId": "mx",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "BB",
-        "TimeZoneId": "America/Barbados",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Barbados",
+        "countryId": "bb",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Belem",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Belem",
+        "countryId": "br",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "BZ",
-        "TimeZoneId": "America/Belize",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Belize",
+        "countryId": "bz",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Blanc-Sablon",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Blanc-Sablon",
+        "countryId": "ca",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Boa_Vista",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Boa_Vista",
+        "countryId": "br",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "CO",
-        "TimeZoneId": "America/Bogota",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Bogota",
+        "countryId": "co",
+        "gmtOffset": -5,
+        "dstOffset": -5,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Boise",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Boise",
+        "countryId": "us",
+        "gmtOffset": -7,
+        "dstOffset": -6,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Cambridge_Bay",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Cambridge_Bay",
+        "countryId": "ca",
+        "gmtOffset": -7,
+        "dstOffset": -6,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Campo_Grande",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Campo_Grande",
+        "countryId": "br",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Cancun",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Cancun",
+        "countryId": "mx",
+        "gmtOffset": -5,
+        "dstOffset": -5,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "VE",
-        "TimeZoneId": "America/Caracas",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Caracas",
+        "countryId": "ve",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "GF",
-        "TimeZoneId": "America/Cayenne",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Cayenne",
+        "countryId": "gf",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "KY",
-        "TimeZoneId": "America/Cayman",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Cayman",
+        "countryId": "ky",
+        "gmtOffset": -5,
+        "dstOffset": -5,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Chicago",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Chicago",
+        "countryId": "us",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Chihuahua",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Chihuahua",
+        "countryId": "mx",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Ciudad_Juarez",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Ciudad_Juarez",
+        "countryId": "mx",
+        "gmtOffset": -7,
+        "dstOffset": -6,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "CR",
-        "TimeZoneId": "America/Costa_Rica",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Costa_Rica",
+        "countryId": "cr",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "CL",
-        "TimeZoneId": "America/Coyhaique",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Coyhaique",
+        "countryId": "cl",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Creston",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-7.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Creston",
+        "countryId": "ca",
+        "gmtOffset": -7,
+        "dstOffset": -7,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Cuiaba",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Cuiaba",
+        "countryId": "br",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "CW",
-        "TimeZoneId": "America/Curacao",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Curacao",
+        "countryId": "cw",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "GL",
-        "TimeZoneId": "America/Danmarkshavn",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "America/Danmarkshavn",
+        "countryId": "gl",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Dawson",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-7.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Dawson",
+        "countryId": "ca",
+        "gmtOffset": -7,
+        "dstOffset": -7,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Dawson_Creek",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-7.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Dawson_Creek",
+        "countryId": "ca",
+        "gmtOffset": -7,
+        "dstOffset": -7,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Denver",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Denver",
+        "countryId": "us",
+        "gmtOffset": -7,
+        "dstOffset": -6,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Detroit",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Detroit",
+        "countryId": "us",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "DM",
-        "TimeZoneId": "America/Dominica",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Dominica",
+        "countryId": "dm",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Edmonton",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Edmonton",
+        "countryId": "ca",
+        "gmtOffset": -7,
+        "dstOffset": -6,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Eirunepe",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Eirunepe",
+        "countryId": "br",
+        "gmtOffset": -5,
+        "dstOffset": -5,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "SV",
-        "TimeZoneId": "America/El_Salvador",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/El_Salvador",
+        "countryId": "sv",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Fort_Nelson",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-7.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Fort_Nelson",
+        "countryId": "ca",
+        "gmtOffset": -7,
+        "dstOffset": -7,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Fortaleza",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Fortaleza",
+        "countryId": "br",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Glace_Bay",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Glace_Bay",
+        "countryId": "ca",
+        "gmtOffset": -4,
+        "dstOffset": -3,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Goose_Bay",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Goose_Bay",
+        "countryId": "ca",
+        "gmtOffset": -4,
+        "dstOffset": -3,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "TC",
-        "TimeZoneId": "America/Grand_Turk",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Grand_Turk",
+        "countryId": "tc",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "GD",
-        "TimeZoneId": "America/Grenada",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Grenada",
+        "countryId": "gd",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "GP",
-        "TimeZoneId": "America/Guadeloupe",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Guadeloupe",
+        "countryId": "gp",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "GT",
-        "TimeZoneId": "America/Guatemala",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Guatemala",
+        "countryId": "gt",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "EC",
-        "TimeZoneId": "America/Guayaquil",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Guayaquil",
+        "countryId": "ec",
+        "gmtOffset": -5,
+        "dstOffset": -5,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "GY",
-        "TimeZoneId": "America/Guyana",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Guyana",
+        "countryId": "gy",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Halifax",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Halifax",
+        "countryId": "ca",
+        "gmtOffset": -4,
+        "dstOffset": -3,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "CU",
-        "TimeZoneId": "America/Havana",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Havana",
+        "countryId": "cu",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Hermosillo",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-7.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Hermosillo",
+        "countryId": "mx",
+        "gmtOffset": -7,
+        "dstOffset": -7,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Indiana/Indianapolis",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Indiana/Indianapolis",
+        "countryId": "us",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Indiana/Knox",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Indiana/Knox",
+        "countryId": "us",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Indiana/Marengo",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Indiana/Marengo",
+        "countryId": "us",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Indiana/Petersburg",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Indiana/Petersburg",
+        "countryId": "us",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Indiana/Tell_City",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Indiana/Tell_City",
+        "countryId": "us",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Indiana/Vevay",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Indiana/Vevay",
+        "countryId": "us",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Indiana/Vincennes",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Indiana/Vincennes",
+        "countryId": "us",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Indiana/Winamac",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Indiana/Winamac",
+        "countryId": "us",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Inuvik",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Inuvik",
+        "countryId": "ca",
+        "gmtOffset": -7,
+        "dstOffset": -6,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Iqaluit",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Iqaluit",
+        "countryId": "ca",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "JM",
-        "TimeZoneId": "America/Jamaica",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Jamaica",
+        "countryId": "jm",
+        "gmtOffset": -5,
+        "dstOffset": -5,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Juneau",
-        "GMT offset 1. Jan 2025": "-9.0",
-        "DST offset 1. Jul 2025": "-8.0",
-        "rawOffset (independant of DST)": "-9.0"
+        "name": "America/Juneau",
+        "countryId": "us",
+        "gmtOffset": -9,
+        "dstOffset": -8,
+        "rawOffset": -9
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Kentucky/Louisville",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Kentucky/Louisville",
+        "countryId": "us",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Kentucky/Monticello",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Kentucky/Monticello",
+        "countryId": "us",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "BQ",
-        "TimeZoneId": "America/Kralendijk",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Kralendijk",
+        "countryId": "bq",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "BO",
-        "TimeZoneId": "America/La_Paz",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/La_Paz",
+        "countryId": "bo",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "PE",
-        "TimeZoneId": "America/Lima",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Lima",
+        "countryId": "pe",
+        "gmtOffset": -5,
+        "dstOffset": -5,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Los_Angeles",
-        "GMT offset 1. Jan 2025": "-8.0",
-        "DST offset 1. Jul 2025": "-7.0",
-        "rawOffset (independant of DST)": "-8.0"
+        "name": "America/Los_Angeles",
+        "countryId": "us",
+        "gmtOffset": -8,
+        "dstOffset": -7,
+        "rawOffset": -8
     },
     {
-        "CountryCode": "SX",
-        "TimeZoneId": "America/Lower_Princes",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Lower_Princes",
+        "countryId": "sx",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Maceio",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Maceio",
+        "countryId": "br",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "NI",
-        "TimeZoneId": "America/Managua",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Managua",
+        "countryId": "ni",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Manaus",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Manaus",
+        "countryId": "br",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "MF",
-        "TimeZoneId": "America/Marigot",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Marigot",
+        "countryId": "mf",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "MQ",
-        "TimeZoneId": "America/Martinique",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Martinique",
+        "countryId": "mq",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Matamoros",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Matamoros",
+        "countryId": "mx",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Mazatlan",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-7.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Mazatlan",
+        "countryId": "mx",
+        "gmtOffset": -7,
+        "dstOffset": -7,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Menominee",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Menominee",
+        "countryId": "us",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Merida",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Merida",
+        "countryId": "mx",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Metlakatla",
-        "GMT offset 1. Jan 2025": "-9.0",
-        "DST offset 1. Jul 2025": "-8.0",
-        "rawOffset (independant of DST)": "-9.0"
+        "name": "America/Metlakatla",
+        "countryId": "us",
+        "gmtOffset": -9,
+        "dstOffset": -8,
+        "rawOffset": -9
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Mexico_City",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Mexico_City",
+        "countryId": "mx",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "PM",
-        "TimeZoneId": "America/Miquelon",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-2.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Miquelon",
+        "countryId": "pm",
+        "gmtOffset": -3,
+        "dstOffset": -2,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Moncton",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Moncton",
+        "countryId": "ca",
+        "gmtOffset": -4,
+        "dstOffset": -3,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Monterrey",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Monterrey",
+        "countryId": "mx",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "UY",
-        "TimeZoneId": "America/Montevideo",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Montevideo",
+        "countryId": "uy",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "MS",
-        "TimeZoneId": "America/Montserrat",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Montserrat",
+        "countryId": "ms",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "BS",
-        "TimeZoneId": "America/Nassau",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Nassau",
+        "countryId": "bs",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/New_York",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/New_York",
+        "countryId": "us",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Nome",
-        "GMT offset 1. Jan 2025": "-9.0",
-        "DST offset 1. Jul 2025": "-8.0",
-        "rawOffset (independant of DST)": "-9.0"
+        "name": "America/Nome",
+        "countryId": "us",
+        "gmtOffset": -9,
+        "dstOffset": -8,
+        "rawOffset": -9
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Noronha",
-        "GMT offset 1. Jan 2025": "-2.0",
-        "DST offset 1. Jul 2025": "-2.0",
-        "rawOffset (independant of DST)": "-2.0"
+        "name": "America/Noronha",
+        "countryId": "br",
+        "gmtOffset": -2,
+        "dstOffset": -2,
+        "rawOffset": -2
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/North_Dakota/Beulah",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/North_Dakota/Beulah",
+        "countryId": "us",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/North_Dakota/Center",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/North_Dakota/Center",
+        "countryId": "us",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/North_Dakota/New_Salem",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/North_Dakota/New_Salem",
+        "countryId": "us",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "GL",
-        "TimeZoneId": "America/Nuuk",
-        "GMT offset 1. Jan 2025": "-2.0",
-        "DST offset 1. Jul 2025": "-1.0",
-        "rawOffset (independant of DST)": "-2.0"
+        "name": "America/Nuuk",
+        "countryId": "gl",
+        "gmtOffset": -2,
+        "dstOffset": -1,
+        "rawOffset": -2
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Ojinaga",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Ojinaga",
+        "countryId": "mx",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "PA",
-        "TimeZoneId": "America/Panama",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Panama",
+        "countryId": "pa",
+        "gmtOffset": -5,
+        "dstOffset": -5,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "SR",
-        "TimeZoneId": "America/Paramaribo",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Paramaribo",
+        "countryId": "sr",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Phoenix",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-7.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Phoenix",
+        "countryId": "us",
+        "gmtOffset": -7,
+        "dstOffset": -7,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "HT",
-        "TimeZoneId": "America/Port-au-Prince",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Port-au-Prince",
+        "countryId": "ht",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "TT",
-        "TimeZoneId": "America/Port_of_Spain",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Port_of_Spain",
+        "countryId": "tt",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Porto_Velho",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Porto_Velho",
+        "countryId": "br",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "PR",
-        "TimeZoneId": "America/Puerto_Rico",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Puerto_Rico",
+        "countryId": "pr",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "CL",
-        "TimeZoneId": "America/Punta_Arenas",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Punta_Arenas",
+        "countryId": "cl",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Rankin_Inlet",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Rankin_Inlet",
+        "countryId": "ca",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Recife",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Recife",
+        "countryId": "br",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Regina",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Regina",
+        "countryId": "ca",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Resolute",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Resolute",
+        "countryId": "ca",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Rio_Branco",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Rio_Branco",
+        "countryId": "br",
+        "gmtOffset": -5,
+        "dstOffset": -5,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Santarem",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Santarem",
+        "countryId": "br",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "CL",
-        "TimeZoneId": "America/Santiago",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Santiago",
+        "countryId": "cl",
+        "gmtOffset": -3,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "DO",
-        "TimeZoneId": "America/Santo_Domingo",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Santo_Domingo",
+        "countryId": "do",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "BR",
-        "TimeZoneId": "America/Sao_Paulo",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "America/Sao_Paulo",
+        "countryId": "br",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "GL",
-        "TimeZoneId": "America/Scoresbysund",
-        "GMT offset 1. Jan 2025": "-2.0",
-        "DST offset 1. Jul 2025": "-1.0",
-        "rawOffset (independant of DST)": "-2.0"
+        "name": "America/Scoresbysund",
+        "countryId": "gl",
+        "gmtOffset": -2,
+        "dstOffset": -1,
+        "rawOffset": -2
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Sitka",
-        "GMT offset 1. Jan 2025": "-9.0",
-        "DST offset 1. Jul 2025": "-8.0",
-        "rawOffset (independant of DST)": "-9.0"
+        "name": "America/Sitka",
+        "countryId": "us",
+        "gmtOffset": -9,
+        "dstOffset": -8,
+        "rawOffset": -9
     },
     {
-        "CountryCode": "BL",
-        "TimeZoneId": "America/St_Barthelemy",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/St_Barthelemy",
+        "countryId": "bl",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/St_Johns",
-        "GMT offset 1. Jan 2025": "-3.5",
-        "DST offset 1. Jul 2025": "-2.5",
-        "rawOffset (independant of DST)": "-3.5"
+        "name": "America/St_Johns",
+        "countryId": "ca",
+        "gmtOffset": -3.5,
+        "dstOffset": -2.5,
+        "rawOffset": -3.5
     },
     {
-        "CountryCode": "KN",
-        "TimeZoneId": "America/St_Kitts",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/St_Kitts",
+        "countryId": "kn",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "LC",
-        "TimeZoneId": "America/St_Lucia",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/St_Lucia",
+        "countryId": "lc",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "VI",
-        "TimeZoneId": "America/St_Thomas",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/St_Thomas",
+        "countryId": "vi",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "VC",
-        "TimeZoneId": "America/St_Vincent",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/St_Vincent",
+        "countryId": "vc",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Swift_Current",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Swift_Current",
+        "countryId": "ca",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "HN",
-        "TimeZoneId": "America/Tegucigalpa",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Tegucigalpa",
+        "countryId": "hn",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "GL",
-        "TimeZoneId": "America/Thule",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Thule",
+        "countryId": "gl",
+        "gmtOffset": -4,
+        "dstOffset": -3,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "MX",
-        "TimeZoneId": "America/Tijuana",
-        "GMT offset 1. Jan 2025": "-8.0",
-        "DST offset 1. Jul 2025": "-7.0",
-        "rawOffset (independant of DST)": "-8.0"
+        "name": "America/Tijuana",
+        "countryId": "mx",
+        "gmtOffset": -8,
+        "dstOffset": -7,
+        "rawOffset": -8
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Toronto",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-5.0"
+        "name": "America/Toronto",
+        "countryId": "ca",
+        "gmtOffset": -5,
+        "dstOffset": -4,
+        "rawOffset": -5
     },
     {
-        "CountryCode": "VG",
-        "TimeZoneId": "America/Tortola",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-4.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "America/Tortola",
+        "countryId": "vg",
+        "gmtOffset": -4,
+        "dstOffset": -4,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Vancouver",
-        "GMT offset 1. Jan 2025": "-8.0",
-        "DST offset 1. Jul 2025": "-7.0",
-        "rawOffset (independant of DST)": "-8.0"
+        "name": "America/Vancouver",
+        "countryId": "ca",
+        "gmtOffset": -8,
+        "dstOffset": -7,
+        "rawOffset": -8
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Whitehorse",
-        "GMT offset 1. Jan 2025": "-7.0",
-        "DST offset 1. Jul 2025": "-7.0",
-        "rawOffset (independant of DST)": "-7.0"
+        "name": "America/Whitehorse",
+        "countryId": "ca",
+        "gmtOffset": -7,
+        "dstOffset": -7,
+        "rawOffset": -7
     },
     {
-        "CountryCode": "CA",
-        "TimeZoneId": "America/Winnipeg",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-5.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "America/Winnipeg",
+        "countryId": "ca",
+        "gmtOffset": -6,
+        "dstOffset": -5,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "America/Yakutat",
-        "GMT offset 1. Jan 2025": "-9.0",
-        "DST offset 1. Jul 2025": "-8.0",
-        "rawOffset (independant of DST)": "-9.0"
+        "name": "America/Yakutat",
+        "countryId": "us",
+        "gmtOffset": -9,
+        "dstOffset": -8,
+        "rawOffset": -9
     },
     {
-        "CountryCode": "AQ",
-        "TimeZoneId": "Antarctica/Casey",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Antarctica/Casey",
+        "countryId": "aq",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "AQ",
-        "TimeZoneId": "Antarctica/Davis",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Antarctica/Davis",
+        "countryId": "aq",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "AQ",
-        "TimeZoneId": "Antarctica/DumontDUrville",
-        "GMT offset 1. Jan 2025": "10.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Antarctica/DumontDUrville",
+        "countryId": "aq",
+        "gmtOffset": 10,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Antarctica/Macquarie",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Antarctica/Macquarie",
+        "countryId": "au",
+        "gmtOffset": 11,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "AQ",
-        "TimeZoneId": "Antarctica/Mawson",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Antarctica/Mawson",
+        "countryId": "aq",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "AQ",
-        "TimeZoneId": "Antarctica/McMurdo",
-        "GMT offset 1. Jan 2025": "13.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Antarctica/McMurdo",
+        "countryId": "aq",
+        "gmtOffset": 13,
+        "dstOffset": 12,
+        "rawOffset": 12
     },
     {
-        "CountryCode": "AQ",
-        "TimeZoneId": "Antarctica/Palmer",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "Antarctica/Palmer",
+        "countryId": "aq",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AQ",
-        "TimeZoneId": "Antarctica/Rothera",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "Antarctica/Rothera",
+        "countryId": "aq",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AQ",
-        "TimeZoneId": "Antarctica/Syowa",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Antarctica/Syowa",
+        "countryId": "aq",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "AQ",
-        "TimeZoneId": "Antarctica/Troll",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Antarctica/Troll",
+        "countryId": "aq",
+        "gmtOffset": 0,
+        "dstOffset": 2,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "AQ",
-        "TimeZoneId": "Antarctica/Vostok",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Antarctica/Vostok",
+        "countryId": "aq",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "SJ",
-        "TimeZoneId": "Arctic/Longyearbyen",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Arctic/Longyearbyen",
+        "countryId": "sj",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "YE",
-        "TimeZoneId": "Asia/Aden",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Asia/Aden",
+        "countryId": "ye",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "KZ",
-        "TimeZoneId": "Asia/Almaty",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Almaty",
+        "countryId": "kz",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "JO",
-        "TimeZoneId": "Asia/Amman",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Asia/Amman",
+        "countryId": "jo",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Anadyr",
-        "GMT offset 1. Jan 2025": "12.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Asia/Anadyr",
+        "countryId": "ru",
+        "gmtOffset": 12,
+        "dstOffset": 12,
+        "rawOffset": 12
     },
     {
-        "CountryCode": "KZ",
-        "TimeZoneId": "Asia/Aqtau",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Aqtau",
+        "countryId": "kz",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "KZ",
-        "TimeZoneId": "Asia/Aqtobe",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Aqtobe",
+        "countryId": "kz",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "TM",
-        "TimeZoneId": "Asia/Ashgabat",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Ashgabat",
+        "countryId": "tm",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "KZ",
-        "TimeZoneId": "Asia/Atyrau",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Atyrau",
+        "countryId": "kz",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "IQ",
-        "TimeZoneId": "Asia/Baghdad",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Asia/Baghdad",
+        "countryId": "iq",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "BH",
-        "TimeZoneId": "Asia/Bahrain",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Asia/Bahrain",
+        "countryId": "bh",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "AZ",
-        "TimeZoneId": "Asia/Baku",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Asia/Baku",
+        "countryId": "az",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "TH",
-        "TimeZoneId": "Asia/Bangkok",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Bangkok",
+        "countryId": "th",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Barnaul",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Barnaul",
+        "countryId": "ru",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "LB",
-        "TimeZoneId": "Asia/Beirut",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Asia/Beirut",
+        "countryId": "lb",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "KG",
-        "TimeZoneId": "Asia/Bishkek",
-        "GMT offset 1. Jan 2025": "6.0",
-        "DST offset 1. Jul 2025": "6.0",
-        "rawOffset (independant of DST)": "6.0"
+        "name": "Asia/Bishkek",
+        "countryId": "kg",
+        "gmtOffset": 6,
+        "dstOffset": 6,
+        "rawOffset": 6
     },
     {
-        "CountryCode": "BN",
-        "TimeZoneId": "Asia/Brunei",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Brunei",
+        "countryId": "bn",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Chita",
-        "GMT offset 1. Jan 2025": "9.0",
-        "DST offset 1. Jul 2025": "9.0",
-        "rawOffset (independant of DST)": "9.0"
+        "name": "Asia/Chita",
+        "countryId": "ru",
+        "gmtOffset": 9,
+        "dstOffset": 9,
+        "rawOffset": 9
     },
     {
-        "CountryCode": "LK",
-        "TimeZoneId": "Asia/Colombo",
-        "GMT offset 1. Jan 2025": "5.5",
-        "DST offset 1. Jul 2025": "5.5",
-        "rawOffset (independant of DST)": "5.5"
+        "name": "Asia/Colombo",
+        "countryId": "lk",
+        "gmtOffset": 5.5,
+        "dstOffset": 5.5,
+        "rawOffset": 5.5
     },
     {
-        "CountryCode": "SY",
-        "TimeZoneId": "Asia/Damascus",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Asia/Damascus",
+        "countryId": "sy",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "BD",
-        "TimeZoneId": "Asia/Dhaka",
-        "GMT offset 1. Jan 2025": "6.0",
-        "DST offset 1. Jul 2025": "6.0",
-        "rawOffset (independant of DST)": "6.0"
+        "name": "Asia/Dhaka",
+        "countryId": "bd",
+        "gmtOffset": 6,
+        "dstOffset": 6,
+        "rawOffset": 6
     },
     {
-        "CountryCode": "TL",
-        "TimeZoneId": "Asia/Dili",
-        "GMT offset 1. Jan 2025": "9.0",
-        "DST offset 1. Jul 2025": "9.0",
-        "rawOffset (independant of DST)": "9.0"
+        "name": "Asia/Dili",
+        "countryId": "tl",
+        "gmtOffset": 9,
+        "dstOffset": 9,
+        "rawOffset": 9
     },
     {
-        "CountryCode": "AE",
-        "TimeZoneId": "Asia/Dubai",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Asia/Dubai",
+        "countryId": "ae",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "TJ",
-        "TimeZoneId": "Asia/Dushanbe",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Dushanbe",
+        "countryId": "tj",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "CY",
-        "TimeZoneId": "Asia/Famagusta",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Asia/Famagusta",
+        "countryId": "cy",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "PS",
-        "TimeZoneId": "Asia/Gaza",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Asia/Gaza",
+        "countryId": "ps",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "PS",
-        "TimeZoneId": "Asia/Hebron",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Asia/Hebron",
+        "countryId": "ps",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "VN",
-        "TimeZoneId": "Asia/Ho_Chi_Minh",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Ho_Chi_Minh",
+        "countryId": "vn",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "HK",
-        "TimeZoneId": "Asia/Hong_Kong",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Hong_Kong",
+        "countryId": "hk",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "MN",
-        "TimeZoneId": "Asia/Hovd",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Hovd",
+        "countryId": "mn",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Irkutsk",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Irkutsk",
+        "countryId": "ru",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "ID",
-        "TimeZoneId": "Asia/Jakarta",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Jakarta",
+        "countryId": "id",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "ID",
-        "TimeZoneId": "Asia/Jayapura",
-        "GMT offset 1. Jan 2025": "9.0",
-        "DST offset 1. Jul 2025": "9.0",
-        "rawOffset (independant of DST)": "9.0"
+        "name": "Asia/Jayapura",
+        "countryId": "id",
+        "gmtOffset": 9,
+        "dstOffset": 9,
+        "rawOffset": 9
     },
     {
-        "CountryCode": "IL",
-        "TimeZoneId": "Asia/Jerusalem",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Asia/Jerusalem",
+        "countryId": "il",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "AF",
-        "TimeZoneId": "Asia/Kabul",
-        "GMT offset 1. Jan 2025": "4.5",
-        "DST offset 1. Jul 2025": "4.5",
-        "rawOffset (independant of DST)": "4.5"
+        "name": "Asia/Kabul",
+        "countryId": "af",
+        "gmtOffset": 4.5,
+        "dstOffset": 4.5,
+        "rawOffset": 4.5
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Kamchatka",
-        "GMT offset 1. Jan 2025": "12.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Asia/Kamchatka",
+        "countryId": "ru",
+        "gmtOffset": 12,
+        "dstOffset": 12,
+        "rawOffset": 12
     },
     {
-        "CountryCode": "PK",
-        "TimeZoneId": "Asia/Karachi",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Karachi",
+        "countryId": "pk",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "NP",
-        "TimeZoneId": "Asia/Kathmandu",
-        "GMT offset 1. Jan 2025": "5.75",
-        "DST offset 1. Jul 2025": "5.75",
-        "rawOffset (independant of DST)": "5.75"
+        "name": "Asia/Kathmandu",
+        "countryId": "np",
+        "gmtOffset": 5.75,
+        "dstOffset": 5.75,
+        "rawOffset": 5.75
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Khandyga",
-        "GMT offset 1. Jan 2025": "9.0",
-        "DST offset 1. Jul 2025": "9.0",
-        "rawOffset (independant of DST)": "9.0"
+        "name": "Asia/Khandyga",
+        "countryId": "ru",
+        "gmtOffset": 9,
+        "dstOffset": 9,
+        "rawOffset": 9
     },
     {
-        "CountryCode": "IN",
-        "TimeZoneId": "Asia/Kolkata",
-        "GMT offset 1. Jan 2025": "5.5",
-        "DST offset 1. Jul 2025": "5.5",
-        "rawOffset (independant of DST)": "5.5"
+        "name": "Asia/Kolkata",
+        "countryId": "in",
+        "gmtOffset": 5.5,
+        "dstOffset": 5.5,
+        "rawOffset": 5.5
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Krasnoyarsk",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Krasnoyarsk",
+        "countryId": "ru",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "MY",
-        "TimeZoneId": "Asia/Kuala_Lumpur",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Kuala_Lumpur",
+        "countryId": "my",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "MY",
-        "TimeZoneId": "Asia/Kuching",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Kuching",
+        "countryId": "my",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "KW",
-        "TimeZoneId": "Asia/Kuwait",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Asia/Kuwait",
+        "countryId": "kw",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "MO",
-        "TimeZoneId": "Asia/Macau",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Macau",
+        "countryId": "mo",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Magadan",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "11.0",
-        "rawOffset (independant of DST)": "11.0"
+        "name": "Asia/Magadan",
+        "countryId": "ru",
+        "gmtOffset": 11,
+        "dstOffset": 11,
+        "rawOffset": 11
     },
     {
-        "CountryCode": "ID",
-        "TimeZoneId": "Asia/Makassar",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Makassar",
+        "countryId": "id",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "PH",
-        "TimeZoneId": "Asia/Manila",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Manila",
+        "countryId": "ph",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "OM",
-        "TimeZoneId": "Asia/Muscat",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Asia/Muscat",
+        "countryId": "om",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "CY",
-        "TimeZoneId": "Asia/Nicosia",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Asia/Nicosia",
+        "countryId": "cy",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Novokuznetsk",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Novokuznetsk",
+        "countryId": "ru",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Novosibirsk",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Novosibirsk",
+        "countryId": "ru",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Omsk",
-        "GMT offset 1. Jan 2025": "6.0",
-        "DST offset 1. Jul 2025": "6.0",
-        "rawOffset (independant of DST)": "6.0"
+        "name": "Asia/Omsk",
+        "countryId": "ru",
+        "gmtOffset": 6,
+        "dstOffset": 6,
+        "rawOffset": 6
     },
     {
-        "CountryCode": "KZ",
-        "TimeZoneId": "Asia/Oral",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Oral",
+        "countryId": "kz",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "KH",
-        "TimeZoneId": "Asia/Phnom_Penh",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Phnom_Penh",
+        "countryId": "kh",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "ID",
-        "TimeZoneId": "Asia/Pontianak",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Pontianak",
+        "countryId": "id",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "KP",
-        "TimeZoneId": "Asia/Pyongyang",
-        "GMT offset 1. Jan 2025": "9.0",
-        "DST offset 1. Jul 2025": "9.0",
-        "rawOffset (independant of DST)": "9.0"
+        "name": "Asia/Pyongyang",
+        "countryId": "kp",
+        "gmtOffset": 9,
+        "dstOffset": 9,
+        "rawOffset": 9
     },
     {
-        "CountryCode": "QA",
-        "TimeZoneId": "Asia/Qatar",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Asia/Qatar",
+        "countryId": "qa",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "KZ",
-        "TimeZoneId": "Asia/Qostanay",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Qostanay",
+        "countryId": "kz",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "KZ",
-        "TimeZoneId": "Asia/Qyzylorda",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Qyzylorda",
+        "countryId": "kz",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "SA",
-        "TimeZoneId": "Asia/Riyadh",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Asia/Riyadh",
+        "countryId": "sa",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Sakhalin",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "11.0",
-        "rawOffset (independant of DST)": "11.0"
+        "name": "Asia/Sakhalin",
+        "countryId": "ru",
+        "gmtOffset": 11,
+        "dstOffset": 11,
+        "rawOffset": 11
     },
     {
-        "CountryCode": "UZ",
-        "TimeZoneId": "Asia/Samarkand",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Samarkand",
+        "countryId": "uz",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "KR",
-        "TimeZoneId": "Asia/Seoul",
-        "GMT offset 1. Jan 2025": "9.0",
-        "DST offset 1. Jul 2025": "9.0",
-        "rawOffset (independant of DST)": "9.0"
+        "name": "Asia/Seoul",
+        "countryId": "kr",
+        "gmtOffset": 9,
+        "dstOffset": 9,
+        "rawOffset": 9
     },
     {
-        "CountryCode": "CN",
-        "TimeZoneId": "Asia/Shanghai",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Shanghai",
+        "countryId": "cn",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "SG",
-        "TimeZoneId": "Asia/Singapore",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Singapore",
+        "countryId": "sg",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Srednekolymsk",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "11.0",
-        "rawOffset (independant of DST)": "11.0"
+        "name": "Asia/Srednekolymsk",
+        "countryId": "ru",
+        "gmtOffset": 11,
+        "dstOffset": 11,
+        "rawOffset": 11
     },
     {
-        "CountryCode": "TW",
-        "TimeZoneId": "Asia/Taipei",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Taipei",
+        "countryId": "tw",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "UZ",
-        "TimeZoneId": "Asia/Tashkent",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Tashkent",
+        "countryId": "uz",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "GE",
-        "TimeZoneId": "Asia/Tbilisi",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Asia/Tbilisi",
+        "countryId": "ge",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "IR",
-        "TimeZoneId": "Asia/Tehran",
-        "GMT offset 1. Jan 2025": "3.5",
-        "DST offset 1. Jul 2025": "3.5",
-        "rawOffset (independant of DST)": "3.5"
+        "name": "Asia/Tehran",
+        "countryId": "ir",
+        "gmtOffset": 3.5,
+        "dstOffset": 3.5,
+        "rawOffset": 3.5
     },
     {
-        "CountryCode": "BT",
-        "TimeZoneId": "Asia/Thimphu",
-        "GMT offset 1. Jan 2025": "6.0",
-        "DST offset 1. Jul 2025": "6.0",
-        "rawOffset (independant of DST)": "6.0"
+        "name": "Asia/Thimphu",
+        "countryId": "bt",
+        "gmtOffset": 6,
+        "dstOffset": 6,
+        "rawOffset": 6
     },
     {
-        "CountryCode": "JP",
-        "TimeZoneId": "Asia/Tokyo",
-        "GMT offset 1. Jan 2025": "9.0",
-        "DST offset 1. Jul 2025": "9.0",
-        "rawOffset (independant of DST)": "9.0"
+        "name": "Asia/Tokyo",
+        "countryId": "jp",
+        "gmtOffset": 9,
+        "dstOffset": 9,
+        "rawOffset": 9
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Tomsk",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Tomsk",
+        "countryId": "ru",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "MN",
-        "TimeZoneId": "Asia/Ulaanbaatar",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Asia/Ulaanbaatar",
+        "countryId": "mn",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "CN",
-        "TimeZoneId": "Asia/Urumqi",
-        "GMT offset 1. Jan 2025": "6.0",
-        "DST offset 1. Jul 2025": "6.0",
-        "rawOffset (independant of DST)": "6.0"
+        "name": "Asia/Urumqi",
+        "countryId": "cn",
+        "gmtOffset": 6,
+        "dstOffset": 6,
+        "rawOffset": 6
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Ust-Nera",
-        "GMT offset 1. Jan 2025": "10.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Asia/Ust-Nera",
+        "countryId": "ru",
+        "gmtOffset": 10,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "LA",
-        "TimeZoneId": "Asia/Vientiane",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Asia/Vientiane",
+        "countryId": "la",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Vladivostok",
-        "GMT offset 1. Jan 2025": "10.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Asia/Vladivostok",
+        "countryId": "ru",
+        "gmtOffset": 10,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Yakutsk",
-        "GMT offset 1. Jan 2025": "9.0",
-        "DST offset 1. Jul 2025": "9.0",
-        "rawOffset (independant of DST)": "9.0"
+        "name": "Asia/Yakutsk",
+        "countryId": "ru",
+        "gmtOffset": 9,
+        "dstOffset": 9,
+        "rawOffset": 9
     },
     {
-        "CountryCode": "MM",
-        "TimeZoneId": "Asia/Yangon",
-        "GMT offset 1. Jan 2025": "6.5",
-        "DST offset 1. Jul 2025": "6.5",
-        "rawOffset (independant of DST)": "6.5"
+        "name": "Asia/Yangon",
+        "countryId": "mm",
+        "gmtOffset": 6.5,
+        "dstOffset": 6.5,
+        "rawOffset": 6.5
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Asia/Yekaterinburg",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Asia/Yekaterinburg",
+        "countryId": "ru",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "AM",
-        "TimeZoneId": "Asia/Yerevan",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Asia/Yerevan",
+        "countryId": "am",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "PT",
-        "TimeZoneId": "Atlantic/Azores",
-        "GMT offset 1. Jan 2025": "-1.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "-1.0"
+        "name": "Atlantic/Azores",
+        "countryId": "pt",
+        "gmtOffset": -1,
+        "dstOffset": 0,
+        "rawOffset": -1
     },
     {
-        "CountryCode": "BM",
-        "TimeZoneId": "Atlantic/Bermuda",
-        "GMT offset 1. Jan 2025": "-4.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-4.0"
+        "name": "Atlantic/Bermuda",
+        "countryId": "bm",
+        "gmtOffset": -4,
+        "dstOffset": -3,
+        "rawOffset": -4
     },
     {
-        "CountryCode": "ES",
-        "TimeZoneId": "Atlantic/Canary",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Atlantic/Canary",
+        "countryId": "es",
+        "gmtOffset": 0,
+        "dstOffset": 1,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "CV",
-        "TimeZoneId": "Atlantic/Cape_Verde",
-        "GMT offset 1. Jan 2025": "-1.0",
-        "DST offset 1. Jul 2025": "-1.0",
-        "rawOffset (independant of DST)": "-1.0"
+        "name": "Atlantic/Cape_Verde",
+        "countryId": "cv",
+        "gmtOffset": -1,
+        "dstOffset": -1,
+        "rawOffset": -1
     },
     {
-        "CountryCode": "FO",
-        "TimeZoneId": "Atlantic/Faroe",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Atlantic/Faroe",
+        "countryId": "fo",
+        "gmtOffset": 0,
+        "dstOffset": 1,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "PT",
-        "TimeZoneId": "Atlantic/Madeira",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Atlantic/Madeira",
+        "countryId": "pt",
+        "gmtOffset": 0,
+        "dstOffset": 1,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "IS",
-        "TimeZoneId": "Atlantic/Reykjavik",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Atlantic/Reykjavik",
+        "countryId": "is",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "GS",
-        "TimeZoneId": "Atlantic/South_Georgia",
-        "GMT offset 1. Jan 2025": "-2.0",
-        "DST offset 1. Jul 2025": "-2.0",
-        "rawOffset (independant of DST)": "-2.0"
+        "name": "Atlantic/South_Georgia",
+        "countryId": "gs",
+        "gmtOffset": -2,
+        "dstOffset": -2,
+        "rawOffset": -2
     },
     {
-        "CountryCode": "SH",
-        "TimeZoneId": "Atlantic/St_Helena",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "0.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Atlantic/St_Helena",
+        "countryId": "sh",
+        "gmtOffset": 0,
+        "dstOffset": 0,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "FK",
-        "TimeZoneId": "Atlantic/Stanley",
-        "GMT offset 1. Jan 2025": "-3.0",
-        "DST offset 1. Jul 2025": "-3.0",
-        "rawOffset (independant of DST)": "-3.0"
+        "name": "Atlantic/Stanley",
+        "countryId": "fk",
+        "gmtOffset": -3,
+        "dstOffset": -3,
+        "rawOffset": -3
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Australia/Adelaide",
-        "GMT offset 1. Jan 2025": "10.5",
-        "DST offset 1. Jul 2025": "9.5",
-        "rawOffset (independant of DST)": "9.5"
+        "name": "Australia/Adelaide",
+        "countryId": "au",
+        "gmtOffset": 10.5,
+        "dstOffset": 9.5,
+        "rawOffset": 9.5
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Australia/Brisbane",
-        "GMT offset 1. Jan 2025": "10.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Australia/Brisbane",
+        "countryId": "au",
+        "gmtOffset": 10,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Australia/Broken_Hill",
-        "GMT offset 1. Jan 2025": "10.5",
-        "DST offset 1. Jul 2025": "9.5",
-        "rawOffset (independant of DST)": "9.5"
+        "name": "Australia/Broken_Hill",
+        "countryId": "au",
+        "gmtOffset": 10.5,
+        "dstOffset": 9.5,
+        "rawOffset": 9.5
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Australia/Darwin",
-        "GMT offset 1. Jan 2025": "9.5",
-        "DST offset 1. Jul 2025": "9.5",
-        "rawOffset (independant of DST)": "9.5"
+        "name": "Australia/Darwin",
+        "countryId": "au",
+        "gmtOffset": 9.5,
+        "dstOffset": 9.5,
+        "rawOffset": 9.5
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Australia/Eucla",
-        "GMT offset 1. Jan 2025": "8.75",
-        "DST offset 1. Jul 2025": "8.75",
-        "rawOffset (independant of DST)": "8.75"
+        "name": "Australia/Eucla",
+        "countryId": "au",
+        "gmtOffset": 8.75,
+        "dstOffset": 8.75,
+        "rawOffset": 8.75
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Australia/Hobart",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Australia/Hobart",
+        "countryId": "au",
+        "gmtOffset": 11,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Australia/Lindeman",
-        "GMT offset 1. Jan 2025": "10.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Australia/Lindeman",
+        "countryId": "au",
+        "gmtOffset": 10,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Australia/Lord_Howe",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "10.5",
-        "rawOffset (independant of DST)": "10.5"
+        "name": "Australia/Lord_Howe",
+        "countryId": "au",
+        "gmtOffset": 11,
+        "dstOffset": 10.5,
+        "rawOffset": 10.5
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Australia/Melbourne",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Australia/Melbourne",
+        "countryId": "au",
+        "gmtOffset": 11,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Australia/Perth",
-        "GMT offset 1. Jan 2025": "8.0",
-        "DST offset 1. Jul 2025": "8.0",
-        "rawOffset (independant of DST)": "8.0"
+        "name": "Australia/Perth",
+        "countryId": "au",
+        "gmtOffset": 8,
+        "dstOffset": 8,
+        "rawOffset": 8
     },
     {
-        "CountryCode": "AU",
-        "TimeZoneId": "Australia/Sydney",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Australia/Sydney",
+        "countryId": "au",
+        "gmtOffset": 11,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "NL",
-        "TimeZoneId": "Europe/Amsterdam",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Amsterdam",
+        "countryId": "nl",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "AD",
-        "TimeZoneId": "Europe/Andorra",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Andorra",
+        "countryId": "ad",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Europe/Astrakhan",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Europe/Astrakhan",
+        "countryId": "ru",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "GR",
-        "TimeZoneId": "Europe/Athens",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Europe/Athens",
+        "countryId": "gr",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "RS",
-        "TimeZoneId": "Europe/Belgrade",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Belgrade",
+        "countryId": "rs",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "DE",
-        "TimeZoneId": "Europe/Berlin",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Berlin",
+        "countryId": "de",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "SK",
-        "TimeZoneId": "Europe/Bratislava",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Bratislava",
+        "countryId": "sk",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "BE",
-        "TimeZoneId": "Europe/Brussels",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Brussels",
+        "countryId": "be",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "RO",
-        "TimeZoneId": "Europe/Bucharest",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Europe/Bucharest",
+        "countryId": "ro",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "HU",
-        "TimeZoneId": "Europe/Budapest",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Budapest",
+        "countryId": "hu",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "DE",
-        "TimeZoneId": "Europe/Busingen",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Busingen",
+        "countryId": "de",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "MD",
-        "TimeZoneId": "Europe/Chisinau",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Europe/Chisinau",
+        "countryId": "md",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "DK",
-        "TimeZoneId": "Europe/Copenhagen",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Copenhagen",
+        "countryId": "dk",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "IE",
-        "TimeZoneId": "Europe/Dublin",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Europe/Dublin",
+        "countryId": "ie",
+        "gmtOffset": 0,
+        "dstOffset": 1,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "GI",
-        "TimeZoneId": "Europe/Gibraltar",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Gibraltar",
+        "countryId": "gi",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "GG",
-        "TimeZoneId": "Europe/Guernsey",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Europe/Guernsey",
+        "countryId": "gg",
+        "gmtOffset": 0,
+        "dstOffset": 1,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "FI",
-        "TimeZoneId": "Europe/Helsinki",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Europe/Helsinki",
+        "countryId": "fi",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "IM",
-        "TimeZoneId": "Europe/Isle_of_Man",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Europe/Isle_of_Man",
+        "countryId": "im",
+        "gmtOffset": 0,
+        "dstOffset": 1,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "TR",
-        "TimeZoneId": "Europe/Istanbul",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Europe/Istanbul",
+        "countryId": "tr",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "JE",
-        "TimeZoneId": "Europe/Jersey",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Europe/Jersey",
+        "countryId": "je",
+        "gmtOffset": 0,
+        "dstOffset": 1,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Europe/Kaliningrad",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Europe/Kaliningrad",
+        "countryId": "ru",
+        "gmtOffset": 2,
+        "dstOffset": 2,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Europe/Kirov",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Europe/Kirov",
+        "countryId": "ru",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "UA",
-        "TimeZoneId": "Europe/Kyiv",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Europe/Kyiv",
+        "countryId": "ua",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "PT",
-        "TimeZoneId": "Europe/Lisbon",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Europe/Lisbon",
+        "countryId": "pt",
+        "gmtOffset": 0,
+        "dstOffset": 1,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "SI",
-        "TimeZoneId": "Europe/Ljubljana",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Ljubljana",
+        "countryId": "si",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "GB",
-        "TimeZoneId": "Europe/London",
-        "GMT offset 1. Jan 2025": "0.0",
-        "DST offset 1. Jul 2025": "1.0",
-        "rawOffset (independant of DST)": "0.0"
+        "name": "Europe/London",
+        "countryId": "gb",
+        "gmtOffset": 0,
+        "dstOffset": 1,
+        "rawOffset": 0
     },
     {
-        "CountryCode": "LU",
-        "TimeZoneId": "Europe/Luxembourg",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Luxembourg",
+        "countryId": "lu",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "ES",
-        "TimeZoneId": "Europe/Madrid",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Madrid",
+        "countryId": "es",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "MT",
-        "TimeZoneId": "Europe/Malta",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Malta",
+        "countryId": "mt",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "AX",
-        "TimeZoneId": "Europe/Mariehamn",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Europe/Mariehamn",
+        "countryId": "ax",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "BY",
-        "TimeZoneId": "Europe/Minsk",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Europe/Minsk",
+        "countryId": "by",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "MC",
-        "TimeZoneId": "Europe/Monaco",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Monaco",
+        "countryId": "mc",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Europe/Moscow",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Europe/Moscow",
+        "countryId": "ru",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "NO",
-        "TimeZoneId": "Europe/Oslo",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Oslo",
+        "countryId": "no",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "FR",
-        "TimeZoneId": "Europe/Paris",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Paris",
+        "countryId": "fr",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "ME",
-        "TimeZoneId": "Europe/Podgorica",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Podgorica",
+        "countryId": "me",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "CZ",
-        "TimeZoneId": "Europe/Prague",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Prague",
+        "countryId": "cz",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "LV",
-        "TimeZoneId": "Europe/Riga",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Europe/Riga",
+        "countryId": "lv",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "IT",
-        "TimeZoneId": "Europe/Rome",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Rome",
+        "countryId": "it",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Europe/Samara",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Europe/Samara",
+        "countryId": "ru",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "SM",
-        "TimeZoneId": "Europe/San_Marino",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/San_Marino",
+        "countryId": "sm",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "BA",
-        "TimeZoneId": "Europe/Sarajevo",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Sarajevo",
+        "countryId": "ba",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Europe/Saratov",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Europe/Saratov",
+        "countryId": "ru",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "UA",
-        "TimeZoneId": "Europe/Simferopol",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Europe/Simferopol",
+        "countryId": "ua",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "MK",
-        "TimeZoneId": "Europe/Skopje",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Skopje",
+        "countryId": "mk",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "BG",
-        "TimeZoneId": "Europe/Sofia",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Europe/Sofia",
+        "countryId": "bg",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "SE",
-        "TimeZoneId": "Europe/Stockholm",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Stockholm",
+        "countryId": "se",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "EE",
-        "TimeZoneId": "Europe/Tallinn",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Europe/Tallinn",
+        "countryId": "ee",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "AL",
-        "TimeZoneId": "Europe/Tirane",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Tirane",
+        "countryId": "al",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Europe/Ulyanovsk",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Europe/Ulyanovsk",
+        "countryId": "ru",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "LI",
-        "TimeZoneId": "Europe/Vaduz",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Vaduz",
+        "countryId": "li",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "VA",
-        "TimeZoneId": "Europe/Vatican",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Vatican",
+        "countryId": "va",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "AT",
-        "TimeZoneId": "Europe/Vienna",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Vienna",
+        "countryId": "at",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "LT",
-        "TimeZoneId": "Europe/Vilnius",
-        "GMT offset 1. Jan 2025": "2.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "2.0"
+        "name": "Europe/Vilnius",
+        "countryId": "lt",
+        "gmtOffset": 2,
+        "dstOffset": 3,
+        "rawOffset": 2
     },
     {
-        "CountryCode": "RU",
-        "TimeZoneId": "Europe/Volgograd",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Europe/Volgograd",
+        "countryId": "ru",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "PL",
-        "TimeZoneId": "Europe/Warsaw",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Warsaw",
+        "countryId": "pl",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "HR",
-        "TimeZoneId": "Europe/Zagreb",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Zagreb",
+        "countryId": "hr",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "CH",
-        "TimeZoneId": "Europe/Zurich",
-        "GMT offset 1. Jan 2025": "1.0",
-        "DST offset 1. Jul 2025": "2.0",
-        "rawOffset (independant of DST)": "1.0"
+        "name": "Europe/Zurich",
+        "countryId": "ch",
+        "gmtOffset": 1,
+        "dstOffset": 2,
+        "rawOffset": 1
     },
     {
-        "CountryCode": "MG",
-        "TimeZoneId": "Indian/Antananarivo",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Indian/Antananarivo",
+        "countryId": "mg",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "IO",
-        "TimeZoneId": "Indian/Chagos",
-        "GMT offset 1. Jan 2025": "6.0",
-        "DST offset 1. Jul 2025": "6.0",
-        "rawOffset (independant of DST)": "6.0"
+        "name": "Indian/Chagos",
+        "countryId": "io",
+        "gmtOffset": 6,
+        "dstOffset": 6,
+        "rawOffset": 6
     },
     {
-        "CountryCode": "CX",
-        "TimeZoneId": "Indian/Christmas",
-        "GMT offset 1. Jan 2025": "7.0",
-        "DST offset 1. Jul 2025": "7.0",
-        "rawOffset (independant of DST)": "7.0"
+        "name": "Indian/Christmas",
+        "countryId": "cx",
+        "gmtOffset": 7,
+        "dstOffset": 7,
+        "rawOffset": 7
     },
     {
-        "CountryCode": "CC",
-        "TimeZoneId": "Indian/Cocos",
-        "GMT offset 1. Jan 2025": "6.5",
-        "DST offset 1. Jul 2025": "6.5",
-        "rawOffset (independant of DST)": "6.5"
+        "name": "Indian/Cocos",
+        "countryId": "cc",
+        "gmtOffset": 6.5,
+        "dstOffset": 6.5,
+        "rawOffset": 6.5
     },
     {
-        "CountryCode": "KM",
-        "TimeZoneId": "Indian/Comoro",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Indian/Comoro",
+        "countryId": "km",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "TF",
-        "TimeZoneId": "Indian/Kerguelen",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Indian/Kerguelen",
+        "countryId": "tf",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "SC",
-        "TimeZoneId": "Indian/Mahe",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Indian/Mahe",
+        "countryId": "sc",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "MV",
-        "TimeZoneId": "Indian/Maldives",
-        "GMT offset 1. Jan 2025": "5.0",
-        "DST offset 1. Jul 2025": "5.0",
-        "rawOffset (independant of DST)": "5.0"
+        "name": "Indian/Maldives",
+        "countryId": "mv",
+        "gmtOffset": 5,
+        "dstOffset": 5,
+        "rawOffset": 5
     },
     {
-        "CountryCode": "MU",
-        "TimeZoneId": "Indian/Mauritius",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Indian/Mauritius",
+        "countryId": "mu",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "YT",
-        "TimeZoneId": "Indian/Mayotte",
-        "GMT offset 1. Jan 2025": "3.0",
-        "DST offset 1. Jul 2025": "3.0",
-        "rawOffset (independant of DST)": "3.0"
+        "name": "Indian/Mayotte",
+        "countryId": "yt",
+        "gmtOffset": 3,
+        "dstOffset": 3,
+        "rawOffset": 3
     },
     {
-        "CountryCode": "RE",
-        "TimeZoneId": "Indian/Reunion",
-        "GMT offset 1. Jan 2025": "4.0",
-        "DST offset 1. Jul 2025": "4.0",
-        "rawOffset (independant of DST)": "4.0"
+        "name": "Indian/Reunion",
+        "countryId": "re",
+        "gmtOffset": 4,
+        "dstOffset": 4,
+        "rawOffset": 4
     },
     {
-        "CountryCode": "WS",
-        "TimeZoneId": "Pacific/Apia",
-        "GMT offset 1. Jan 2025": "13.0",
-        "DST offset 1. Jul 2025": "13.0",
-        "rawOffset (independant of DST)": "13.0"
+        "name": "Pacific/Apia",
+        "countryId": "ws",
+        "gmtOffset": 13,
+        "dstOffset": 13,
+        "rawOffset": 13
     },
     {
-        "CountryCode": "NZ",
-        "TimeZoneId": "Pacific/Auckland",
-        "GMT offset 1. Jan 2025": "13.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Pacific/Auckland",
+        "countryId": "nz",
+        "gmtOffset": 13,
+        "dstOffset": 12,
+        "rawOffset": 12
     },
     {
-        "CountryCode": "PG",
-        "TimeZoneId": "Pacific/Bougainville",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "11.0",
-        "rawOffset (independant of DST)": "11.0"
+        "name": "Pacific/Bougainville",
+        "countryId": "pg",
+        "gmtOffset": 11,
+        "dstOffset": 11,
+        "rawOffset": 11
     },
     {
-        "CountryCode": "NZ",
-        "TimeZoneId": "Pacific/Chatham",
-        "GMT offset 1. Jan 2025": "13.75",
-        "DST offset 1. Jul 2025": "12.75",
-        "rawOffset (independant of DST)": "12.75"
+        "name": "Pacific/Chatham",
+        "countryId": "nz",
+        "gmtOffset": 13.75,
+        "dstOffset": 12.75,
+        "rawOffset": 12.75
     },
     {
-        "CountryCode": "FM",
-        "TimeZoneId": "Pacific/Chuuk",
-        "GMT offset 1. Jan 2025": "10.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Pacific/Chuuk",
+        "countryId": "fm",
+        "gmtOffset": 10,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "CL",
-        "TimeZoneId": "Pacific/Easter",
-        "GMT offset 1. Jan 2025": "-5.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "Pacific/Easter",
+        "countryId": "cl",
+        "gmtOffset": -5,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "VU",
-        "TimeZoneId": "Pacific/Efate",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "11.0",
-        "rawOffset (independant of DST)": "11.0"
+        "name": "Pacific/Efate",
+        "countryId": "vu",
+        "gmtOffset": 11,
+        "dstOffset": 11,
+        "rawOffset": 11
     },
     {
-        "CountryCode": "TK",
-        "TimeZoneId": "Pacific/Fakaofo",
-        "GMT offset 1. Jan 2025": "13.0",
-        "DST offset 1. Jul 2025": "13.0",
-        "rawOffset (independant of DST)": "13.0"
+        "name": "Pacific/Fakaofo",
+        "countryId": "tk",
+        "gmtOffset": 13,
+        "dstOffset": 13,
+        "rawOffset": 13
     },
     {
-        "CountryCode": "FJ",
-        "TimeZoneId": "Pacific/Fiji",
-        "GMT offset 1. Jan 2025": "12.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Pacific/Fiji",
+        "countryId": "fj",
+        "gmtOffset": 12,
+        "dstOffset": 12,
+        "rawOffset": 12
     },
     {
-        "CountryCode": "TV",
-        "TimeZoneId": "Pacific/Funafuti",
-        "GMT offset 1. Jan 2025": "12.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Pacific/Funafuti",
+        "countryId": "tv",
+        "gmtOffset": 12,
+        "dstOffset": 12,
+        "rawOffset": 12
     },
     {
-        "CountryCode": "EC",
-        "TimeZoneId": "Pacific/Galapagos",
-        "GMT offset 1. Jan 2025": "-6.0",
-        "DST offset 1. Jul 2025": "-6.0",
-        "rawOffset (independant of DST)": "-6.0"
+        "name": "Pacific/Galapagos",
+        "countryId": "ec",
+        "gmtOffset": -6,
+        "dstOffset": -6,
+        "rawOffset": -6
     },
     {
-        "CountryCode": "PF",
-        "TimeZoneId": "Pacific/Gambier",
-        "GMT offset 1. Jan 2025": "-9.0",
-        "DST offset 1. Jul 2025": "-9.0",
-        "rawOffset (independant of DST)": "-9.0"
+        "name": "Pacific/Gambier",
+        "countryId": "pf",
+        "gmtOffset": -9,
+        "dstOffset": -9,
+        "rawOffset": -9
     },
     {
-        "CountryCode": "SB",
-        "TimeZoneId": "Pacific/Guadalcanal",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "11.0",
-        "rawOffset (independant of DST)": "11.0"
+        "name": "Pacific/Guadalcanal",
+        "countryId": "sb",
+        "gmtOffset": 11,
+        "dstOffset": 11,
+        "rawOffset": 11
     },
     {
-        "CountryCode": "GU",
-        "TimeZoneId": "Pacific/Guam",
-        "GMT offset 1. Jan 2025": "10.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Pacific/Guam",
+        "countryId": "gu",
+        "gmtOffset": 10,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "US",
-        "TimeZoneId": "Pacific/Honolulu",
-        "GMT offset 1. Jan 2025": "-10.0",
-        "DST offset 1. Jul 2025": "-10.0",
-        "rawOffset (independant of DST)": "-10.0"
+        "name": "Pacific/Honolulu",
+        "countryId": "us",
+        "gmtOffset": -10,
+        "dstOffset": -10,
+        "rawOffset": -10
     },
     {
-        "CountryCode": "KI",
-        "TimeZoneId": "Pacific/Kanton",
-        "GMT offset 1. Jan 2025": "13.0",
-        "DST offset 1. Jul 2025": "13.0",
-        "rawOffset (independant of DST)": "13.0"
+        "name": "Pacific/Kanton",
+        "countryId": "ki",
+        "gmtOffset": 13,
+        "dstOffset": 13,
+        "rawOffset": 13
     },
     {
-        "CountryCode": "KI",
-        "TimeZoneId": "Pacific/Kiritimati",
-        "GMT offset 1. Jan 2025": "14.0",
-        "DST offset 1. Jul 2025": "14.0",
-        "rawOffset (independant of DST)": "14.0"
+        "name": "Pacific/Kiritimati",
+        "countryId": "ki",
+        "gmtOffset": 14,
+        "dstOffset": 14,
+        "rawOffset": 14
     },
     {
-        "CountryCode": "FM",
-        "TimeZoneId": "Pacific/Kosrae",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "11.0",
-        "rawOffset (independant of DST)": "11.0"
+        "name": "Pacific/Kosrae",
+        "countryId": "fm",
+        "gmtOffset": 11,
+        "dstOffset": 11,
+        "rawOffset": 11
     },
     {
-        "CountryCode": "MH",
-        "TimeZoneId": "Pacific/Kwajalein",
-        "GMT offset 1. Jan 2025": "12.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Pacific/Kwajalein",
+        "countryId": "mh",
+        "gmtOffset": 12,
+        "dstOffset": 12,
+        "rawOffset": 12
     },
     {
-        "CountryCode": "MH",
-        "TimeZoneId": "Pacific/Majuro",
-        "GMT offset 1. Jan 2025": "12.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Pacific/Majuro",
+        "countryId": "mh",
+        "gmtOffset": 12,
+        "dstOffset": 12,
+        "rawOffset": 12
     },
     {
-        "CountryCode": "PF",
-        "TimeZoneId": "Pacific/Marquesas",
-        "GMT offset 1. Jan 2025": "-9.5",
-        "DST offset 1. Jul 2025": "-9.5",
-        "rawOffset (independant of DST)": "-9.5"
+        "name": "Pacific/Marquesas",
+        "countryId": "pf",
+        "gmtOffset": -9.5,
+        "dstOffset": -9.5,
+        "rawOffset": -9.5
     },
     {
-        "CountryCode": "UM",
-        "TimeZoneId": "Pacific/Midway",
-        "GMT offset 1. Jan 2025": "-11.0",
-        "DST offset 1. Jul 2025": "-11.0",
-        "rawOffset (independant of DST)": "-11.0"
+        "name": "Pacific/Midway",
+        "countryId": "um",
+        "gmtOffset": -11,
+        "dstOffset": -11,
+        "rawOffset": -11
     },
     {
-        "CountryCode": "NR",
-        "TimeZoneId": "Pacific/Nauru",
-        "GMT offset 1. Jan 2025": "12.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Pacific/Nauru",
+        "countryId": "nr",
+        "gmtOffset": 12,
+        "dstOffset": 12,
+        "rawOffset": 12
     },
     {
-        "CountryCode": "NU",
-        "TimeZoneId": "Pacific/Niue",
-        "GMT offset 1. Jan 2025": "-11.0",
-        "DST offset 1. Jul 2025": "-11.0",
-        "rawOffset (independant of DST)": "-11.0"
+        "name": "Pacific/Niue",
+        "countryId": "nu",
+        "gmtOffset": -11,
+        "dstOffset": -11,
+        "rawOffset": -11
     },
     {
-        "CountryCode": "NF",
-        "TimeZoneId": "Pacific/Norfolk",
-        "GMT offset 1. Jan 2025": "12.0",
-        "DST offset 1. Jul 2025": "11.0",
-        "rawOffset (independant of DST)": "11.0"
+        "name": "Pacific/Norfolk",
+        "countryId": "nf",
+        "gmtOffset": 12,
+        "dstOffset": 11,
+        "rawOffset": 11
     },
     {
-        "CountryCode": "NC",
-        "TimeZoneId": "Pacific/Noumea",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "11.0",
-        "rawOffset (independant of DST)": "11.0"
+        "name": "Pacific/Noumea",
+        "countryId": "nc",
+        "gmtOffset": 11,
+        "dstOffset": 11,
+        "rawOffset": 11
     },
     {
-        "CountryCode": "AS",
-        "TimeZoneId": "Pacific/Pago_Pago",
-        "GMT offset 1. Jan 2025": "-11.0",
-        "DST offset 1. Jul 2025": "-11.0",
-        "rawOffset (independant of DST)": "-11.0"
+        "name": "Pacific/Pago_Pago",
+        "countryId": "as",
+        "gmtOffset": -11,
+        "dstOffset": -11,
+        "rawOffset": -11
     },
     {
-        "CountryCode": "PW",
-        "TimeZoneId": "Pacific/Palau",
-        "GMT offset 1. Jan 2025": "9.0",
-        "DST offset 1. Jul 2025": "9.0",
-        "rawOffset (independant of DST)": "9.0"
+        "name": "Pacific/Palau",
+        "countryId": "pw",
+        "gmtOffset": 9,
+        "dstOffset": 9,
+        "rawOffset": 9
     },
     {
-        "CountryCode": "PN",
-        "TimeZoneId": "Pacific/Pitcairn",
-        "GMT offset 1. Jan 2025": "-8.0",
-        "DST offset 1. Jul 2025": "-8.0",
-        "rawOffset (independant of DST)": "-8.0"
+        "name": "Pacific/Pitcairn",
+        "countryId": "pn",
+        "gmtOffset": -8,
+        "dstOffset": -8,
+        "rawOffset": -8
     },
     {
-        "CountryCode": "FM",
-        "TimeZoneId": "Pacific/Pohnpei",
-        "GMT offset 1. Jan 2025": "11.0",
-        "DST offset 1. Jul 2025": "11.0",
-        "rawOffset (independant of DST)": "11.0"
+        "name": "Pacific/Pohnpei",
+        "countryId": "fm",
+        "gmtOffset": 11,
+        "dstOffset": 11,
+        "rawOffset": 11
     },
     {
-        "CountryCode": "PG",
-        "TimeZoneId": "Pacific/Port_Moresby",
-        "GMT offset 1. Jan 2025": "10.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Pacific/Port_Moresby",
+        "countryId": "pg",
+        "gmtOffset": 10,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "CK",
-        "TimeZoneId": "Pacific/Rarotonga",
-        "GMT offset 1. Jan 2025": "-10.0",
-        "DST offset 1. Jul 2025": "-10.0",
-        "rawOffset (independant of DST)": "-10.0"
+        "name": "Pacific/Rarotonga",
+        "countryId": "ck",
+        "gmtOffset": -10,
+        "dstOffset": -10,
+        "rawOffset": -10
     },
     {
-        "CountryCode": "MP",
-        "TimeZoneId": "Pacific/Saipan",
-        "GMT offset 1. Jan 2025": "10.0",
-        "DST offset 1. Jul 2025": "10.0",
-        "rawOffset (independant of DST)": "10.0"
+        "name": "Pacific/Saipan",
+        "countryId": "mp",
+        "gmtOffset": 10,
+        "dstOffset": 10,
+        "rawOffset": 10
     },
     {
-        "CountryCode": "PF",
-        "TimeZoneId": "Pacific/Tahiti",
-        "GMT offset 1. Jan 2025": "-10.0",
-        "DST offset 1. Jul 2025": "-10.0",
-        "rawOffset (independant of DST)": "-10.0"
+        "name": "Pacific/Tahiti",
+        "countryId": "pf",
+        "gmtOffset": -10,
+        "dstOffset": -10,
+        "rawOffset": -10
     },
     {
-        "CountryCode": "KI",
-        "TimeZoneId": "Pacific/Tarawa",
-        "GMT offset 1. Jan 2025": "12.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Pacific/Tarawa",
+        "countryId": "ki",
+        "gmtOffset": 12,
+        "dstOffset": 12,
+        "rawOffset": 12
     },
     {
-        "CountryCode": "TO",
-        "TimeZoneId": "Pacific/Tongatapu",
-        "GMT offset 1. Jan 2025": "13.0",
-        "DST offset 1. Jul 2025": "13.0",
-        "rawOffset (independant of DST)": "13.0"
+        "name": "Pacific/Tongatapu",
+        "countryId": "to",
+        "gmtOffset": 13,
+        "dstOffset": 13,
+        "rawOffset": 13
     },
     {
-        "CountryCode": "UM",
-        "TimeZoneId": "Pacific/Wake",
-        "GMT offset 1. Jan 2025": "12.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Pacific/Wake",
+        "countryId": "um",
+        "gmtOffset": 12,
+        "dstOffset": 12,
+        "rawOffset": 12
     },
     {
-        "CountryCode": "WF",
-        "TimeZoneId": "Pacific/Wallis",
-        "GMT offset 1. Jan 2025": "12.0",
-        "DST offset 1. Jul 2025": "12.0",
-        "rawOffset (independant of DST)": "12.0"
+        "name": "Pacific/Wallis",
+        "countryId": "wf",
+        "gmtOffset": 12,
+        "dstOffset": 12,
+        "rawOffset": 12
     }
 ]

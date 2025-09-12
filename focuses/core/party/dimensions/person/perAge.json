@@ -1,23 +1,14 @@
 {
-    "id": "age",
+    "id": "perAge",
     "label": { "en-gb": "Age" },
     "labelPlural": { "en-gb": "Ages" },
     "description": {
-        "en-gb": [
-            "This dimension categorises people based on their age. Ages are commonly reported in whole years and grouped into ten and/or five year intervals. A standard age hierarchy is as follow:",
-            "Classifies people by their age groups or specific ages. Calculated based on the Date of Birth of the employee. The dimension is usually represented by three grouping levels: This dimension categorises people based on their age. Ages are commonly reported in whole years and grouped into ten and/or five year intervals. A standard age hierarchy is as follow:"
-        ]
+        "en-gb": "This dimension categorises people based on their age. Ages are commonly reported in whole years and grouped into ten and/or five year intervals. A standard age hierarchy is as follow:",
+        "en-gb2": "Classifies people by their age groups or specific ages. Calculated based on the Date of Birth of the employee. The dimension is usually represented by three grouping levels: This dimension categorises people based on their age. Ages are commonly reported in whole years and grouped into ten and/or five year intervals. A standard age hierarchy is as follow:"
     },
     "hierarchies": [
         {
-            "id": "def",
-            "label": { "en-gb": "Default" },
-            "description": { "en-gb": "..." },
-            "type": null,
-            "levels": [
-                { "id": "10Yr", "label": { "en-gb": "10 Year Intervals" } },
-                { "id": "5Yr", "label": { "en-gb": "5 Year Intervals" } }
-            ],
+            "levels": [{ "label": { "en-gb": "10 Year Intervals" } }, { "label": { "en-gb": "5 Year Intervals" } }],
             "children": [
                 {
                     "id": "0-9",

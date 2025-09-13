@@ -1,4 +1,341 @@
 {
     "id": "datapos-context-default",
-    "version": "0.0.57"
+    "label": {
+        "en-gb": "Default Context"
+    },
+    "description": {
+        "en-gb": "..."
+    },
+    "logo": "<svg viewBox=\"0 0 327.132 351\" xmlns=\"http://www.w3.org/2000/svg\"><path style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(107, 114, 128);\" paint-order=\"stroke\" d=\"M 177.964 68.927 L 177.964 310.886 L 109.043 310.886 C 70.969 310.886 40.119 280.034 40.119 241.962 C 40.119 203.92 70.969 173.07 109.043 173.07 L 116.855 172.822 L 116.855 132.951 L 109.043 132.951 C 48.831 132.951 0 181.75 0 241.962 C 0 302.203 48.831 351.005 109.043 351.005 L 218.083 351.005 L 218.083 218.053 L 225.896 209.943 L 225.896 185.351 L 218.083 177.933 L 218.083 68.927 L 177.964 68.927 Z\" stroke-linecap=\"round\"/><path style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(100, 147, 191);\" paint-order=\"stroke\" d=\"M 218.084 0 L 109.041 0 L 109.041 282.078 L 149.16 282.078 L 149.16 40.119 L 218.084 40.119 C 256.158 40.119 287.007 70.969 287.007 109.043 C 287.007 147.085 256.158 177.932 218.084 177.932 L 218.084 218.054 C 278.293 218.054 327.127 169.252 327.127 109.043 C 327.127 48.802 278.293 0 218.084 0\" stroke-linecap=\"round\"/></svg>",
+    "logoDark": "<svg viewBox=\"0 0 327.132 351\" xmlns=\"http://www.w3.org/2000/svg\"><path style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(107, 114, 128);\" paint-order=\"stroke\" d=\"M 177.964 68.927 L 177.964 310.886 L 109.043 310.886 C 70.969 310.886 40.119 280.034 40.119 241.962 C 40.119 203.92 70.969 173.07 109.043 173.07 L 116.855 172.822 L 116.855 132.951 L 109.043 132.951 C 48.831 132.951 0 181.75 0 241.962 C 0 302.203 48.831 351.005 109.043 351.005 L 218.083 351.005 L 218.083 218.053 L 225.896 209.943 L 225.896 185.351 L 218.083 177.933 L 218.083 68.927 L 177.964 68.927 Z\" stroke-linecap=\"round\"/><path style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(100, 147, 191);\" paint-order=\"stroke\" d=\"M 218.084 0 L 109.041 0 L 109.041 282.078 L 149.16 282.078 L 149.16 40.119 L 218.084 40.119 C 256.158 40.119 287.007 70.969 287.007 109.043 C 287.007 147.085 256.158 177.932 218.084 177.932 L 218.084 218.054 C 278.293 218.054 327.127 169.252 327.127 109.043 C 327.127 48.802 278.293 0 218.084 0\" stroke-linecap=\"round\"/></svg>",
+    "statusId": "alpha",
+    "typeId": "context",
+    "version": "0.0.58",
+    "focuses": [
+        {
+            "id": "core",
+            "label": {
+                "en-gb": "Core"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 1,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "asset",
+                    "label": {
+                        "en-gb": "Asset"
+                    }
+                },
+                {
+                    "id": "location",
+                    "label": {
+                        "en-gb": "Location"
+                    }
+                },
+                {
+                    "id": "party",
+                    "label": {
+                        "en-gb": "Party"
+                    }
+                },
+                {
+                    "id": "product",
+                    "label": {
+                        "en-gb": "Product"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "acctBgt",
+            "label": {
+                "en-gb": "Accounting & Budgeting"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 2,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "acctBgt",
+                    "label": {
+                        "en-gb": "Accounting & Budgeting"
+                    },
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "id": "custSvc",
+            "label": {
+                "en-gb": "Customer Service"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 3,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "custSvc",
+                    "label": {
+                        "en-gb": "Customer Service"
+                    },
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "id": "hr",
+            "label": {
+                "en-gb": "Human Resources"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 4,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "wrkFor",
+                    "label": {
+                        "en-gb": "Workforce"
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "recOnb",
+                    "label": {
+                        "en-gb": "Recruitment & Onboarding"
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "attend",
+                    "label": {
+                        "en-gb": "Attendance"
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "comp",
+                    "label": {
+                        "en-gb": "Compensation"
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "learn",
+                    "label": {
+                        "en-gb": "Learning"
+                    },
+                    "order": 5
+                },
+                {
+                    "id": "talMgmt",
+                    "label": {
+                        "en-gb": "Talent Management"
+                    },
+                    "order": 6
+                }
+            ]
+        },
+        {
+            "id": "infoMgmt",
+            "label": {
+                "en-gb": "Information Management"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 5,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "infoMgmt",
+                    "label": {
+                        "en-gb": "Information Management"
+                    },
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "id": "invMgmt",
+            "label": {
+                "en-gb": "Inventory Management"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 6,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "invMgmt",
+                    "label": {
+                        "en-gb": "Inventory Management"
+                    },
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "id": "ordMgmt",
+            "label": {
+                "en-gb": "Order Management"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 7,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "ordMgmt",
+                    "label": {
+                        "en-gb": "Order Management"
+                    },
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "id": "r&d",
+            "label": {
+                "en-gb": "Research & Development"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 8,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "r&d",
+                    "label": {
+                        "en-gb": "Research & Development"
+                    },
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "id": "salesMgmt",
+            "label": {
+                "en-gb": "Sales Management"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 9,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "salesMgmt",
+                    "label": {
+                        "en-gb": "Sales Management"
+                    },
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "id": "ship",
+            "label": {
+                "en-gb": "Shipping"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 10,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "ship",
+                    "label": {
+                        "en-gb": "Shipping"
+                    },
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "id": "socNet",
+            "label": {
+                "en-gb": "Social Networking"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 11,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "socNet",
+                    "label": {
+                        "en-gb": "Social Networking"
+                    },
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "id": "wrkEff",
+            "label": {
+                "en-gb": "Work Effort"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 12,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "wrkEff",
+                    "label": {
+                        "en-gb": "Work Effort"
+                    },
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "id": "global",
+            "label": {
+                "en-gb": "Global"
+            },
+            "description": {
+                "en-gb": "..."
+            },
+            "order": 13,
+            "statusId": "alpha",
+            "typeId": "focus",
+            "modelRefs": [
+                {
+                    "id": "global",
+                    "label": {
+                        "en-gb": "Global"
+                    },
+                    "order": 1
+                }
+            ]
+        }
+    ]
 }

@@ -1,60 +1,47 @@
+import { lookupLanguage, tabToJson } from './utilities.js';
 import fs from 'fs/promises';
 import geoRegions from './data/geoRegions.json' with { type: 'json' };
 import geoSubregions from './data/geoSubregions.json' with { type: 'json' };
-import { tabToJson } from './utilities.js';
 
 async function transformCountryData() {
     const countriesFromRestCountriesData = await fs.readFile('./helpers/data/retrievals/countriesFromRestCountries.json', 'utf-8');
-    const countries = JSON.parse(countriesFromRestCountriesData);
+    const countriesFromRestCountries = JSON.parse(countriesFromRestCountriesData);
 
     const countryDataGeoNames = await fs.readFile('./helpers/data/retrievals/countriesFromGeoNamesPostalCodeCountryInfo.json', 'utf-8');
-    const countriesGeoNames = JSON.parse(countryDataGeoNames).geonames;
+    const countriesGeoNames = JSON.parse(countryDataGeoNames);
 
-    // console.log('\nFirst country (Rest Countries)____________:', countries[0]);
-
-    const languageData = await fs.readFile('./helpers/data/perLanguages.json', 'utf8');
-    const languages = JSON.parse(languageData);
-
-    console.log('\n');
-
-    const geoCountries = [];
+    const countries = [];
     const translations = {};
-    for (const country of countries) {
-        // Country label.
+    for (const country of countriesFromRestCountries) {
+        // Initialise country label.
         const label = { en: country.name.common };
-        const sortedLabel = Object.fromEntries(Object.entries(label).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
 
-        // Country official label.
+        // Initialise country official label.
         const labelOfficial = { en: country.name.official };
-        const sortedLabelOfficial = Object.fromEntries(Object.entries(labelOfficial).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
 
-        // Country label and official label translations.
+        // Add translations to country label and official label. Sort translations.
         for (const key of Object.keys(country.translations || {})) translations[key] = { c: (translations[key]?.c || 0) + 1 };
         for (const [key, translation] of Object.entries(country.translations)) {
-            const locale = lookupLanguageUsingAlpha3(key);
+            const locale = lookupLanguage(key);
             if (!locale) continue;
             label[locale.alpha2] = translation.common;
             labelOfficial[locale.alpha2] = translation.official;
         }
+        const sortedLabel = Object.fromEntries(Object.entries(label).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
+        const sortedLabelOfficial = Object.fromEntries(Object.entries(labelOfficial).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
 
-        // Country region and subregion.
+        // Lookup country region and subregion.
         const geoRegion = geoRegions.find((geoRegion) => geoRegion.label.en === country.region);
         const geoSubregion = geoSubregions.find((geoSubregion) => geoSubregion.label.en === country.subregion);
 
-        // Postal code count/range.
+        // Lookup postal codes count/range.
         const postalCodeInfo = countriesGeoNames.find((countryGeoNames) => country.cca2 === countryGeoNames.countryCode);
 
-        // Country.
-        geoCountries.push({
+        // Construct country and add to array.
+        countries.push({
             id: String(country.cca2).toLocaleLowerCase('en'),
-            // id3: String(country.cca3).toLocaleLowerCase('en'),
-            // idCIOC: String(country.cioc).toLocaleLowerCase('en'),
-            // idNum: String(country.ccn3),
             label: sortedLabel,
             labelOfficial: sortedLabelOfficial,
-            // capitals: country.capital,
-            // continents: country.continents,
-            // currencies: country.currencies,
             independent: country.independent,
             maxPostalCode: postalCodeInfo?.maxPostalCode,
             minPostalCode: postalCodeInfo?.minPostalCode,
@@ -64,37 +51,25 @@ async function transformCountryData() {
             unMember: country.unMember
         });
 
-        // Informational messages.
+        // Log informational messages.
         if (country.capital?.length > 1) console.log('! Multiple capitals________:', country.name.common, '-', country.capital);
         if (country.continents.length > 1) console.log('! Multiple continents______:', country.name.common, '-', country.continents);
     }
 
-    // Label translations.
+    await fs.writeFile('./helpers/data/geoCountries.json', JSON.stringify(countries, null, 4), 'utf-8');
+
+    // Log label translations.
     for (const [key, value] of Object.entries(translations || {})) {
-        value.id2 = lookupLanguageUsingAlpha3(key)?.alpha2 || null;
-        value.idB = lookupLanguageUsingAlpha3(key)?.['alpha3-b'] || null;
-        value.idT = lookupLanguageUsingAlpha3(key)?.['alpha3-t'] || '';
-        value.l = lookupLanguageUsingAlpha3(key)?.English || null;
+        value.id2 = lookupLanguage(key)?.alpha2 || null;
+        value.idB = lookupLanguage(key)?.['alpha3-b'] || null;
+        value.idT = lookupLanguage(key)?.['alpha3-t'] || '';
+        value.l = lookupLanguage(key)?.English || null;
     }
     const sortedTranslations = Object.fromEntries(Object.entries(translations).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)));
     console.log('! Label Translations_______:', sortedTranslations);
 
-    // Cities.
-
-    // Countries.
-    await fs.writeFile('./helpers/data/geoCountries.json', JSON.stringify(geoCountries, null, 4), 'utf-8');
-
-    // Utilities
-    function lookupLanguageUsingAlpha3(code) {
-        const alpha3BMatch = languages.find((item) => item.id === code);
-        if (alpha3BMatch) return alpha3BMatch;
-
-        const alpha3TMatch = languages.find((item) => item.idB === code);
-        if (alpha3TMatch) return alpha3TMatch;
-
-        console.log('! Missing Locale___________:', code);
-        return undefined;
-    }
+    // Log counts.
+    console.log('∑ Country count:', countries.length);
 }
 
 async function transformTimeZoneData1() {

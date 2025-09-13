@@ -2,10 +2,10 @@ import fs from 'fs/promises';
 
 async function transformCurrencies() {
     const countriesFromRestCountriesData = await fs.readFile('./helpers/data/retrievals/countriesFromRestCountries.json', 'utf-8');
-    const countries = JSON.parse(countriesFromRestCountriesData);
+    const countriesFromRestCountries = JSON.parse(countriesFromRestCountriesData);
 
     const currencyMap = {};
-    for (const country of countries) {
+    for (const country of countriesFromRestCountries) {
         if (Object.keys(country.currencies ?? {}).length > 1) console.log('! Multiple currencies for', `'${country.name.common}'.`);
 
         for (const [key, value] of Object.entries(country.currencies || {})) {
@@ -34,6 +34,8 @@ async function transformCurrencies() {
         currencies.push({ id: key.toLocaleLowerCase(), name: value.value.name, symbol: value.value.symbol });
     }
     await fs.writeFile('./helpers/data/finCurrencies.json', JSON.stringify(currencies, null, 4), 'utf-8');
+
+    console.log('∑ Currency count:', currencies.length);
 }
 
 console.log('# Transforming Currency Data...');

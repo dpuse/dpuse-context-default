@@ -12,6 +12,7 @@ async function transformLanguageData() {
             console.log('! Ignored blank ISO 639-3 code', `for ISO 639-2 code '${rec['ISO 639-2']}', name '${rec['Language Name']}'.`);
             continue;
         }
+
         const matches = rec['ISO 639-2'].match(/^(.+?)\s*\/\s*(.+?)\s*\*.*$/);
         if (matches) {
             console.log('! Unpacked ISO 639-2 code for ISO 639-3 code', `'${rec['ISO 639-3']}', from '${rec['ISO 639-2']}' to '${matches[2]}', name '${rec['Language Name']}'.`);

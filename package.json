@@ -3,7 +3,7 @@
     "license": "MIT",
     "private": true,
     "type": "module",
-    "version": "0.0.50",
+    "version": "0.0.51",
     "peerDependencies": {
         "@datapos/datapos-shared": "^0.3.24",
         "nanoid": "^5.1.5"
@@ -41,6 +41,6 @@
         "updateDevelopment": "npm install --save-dev @datapos/datapos-development@latest",
         "updateShared": "npm install @datapos/datapos-shared@latest",
         "uploadModuleConfig": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleConfig())\"",
-        "uploadModuleToR2": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleToR2('datapos-connector-file-store-emulator.es.js', 'datapos-engine-eu/connectors/datapos-connector-file-store-emulator.es.js'))\""
+        "uploadModuleToR2": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleToR2('datapos-context-default.es.js', 'datapos-engine-eu/contexts/datapos-context-default.es.js'))\""
     }
 }

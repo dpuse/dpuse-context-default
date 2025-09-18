@@ -10,7 +10,7 @@
     "logoDark": "<svg viewBox=\"0 0 327.132 351\" xmlns=\"http://www.w3.org/2000/svg\"><path style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(107, 114, 128);\" paint-order=\"stroke\" d=\"M 177.964 68.927 L 177.964 310.886 L 109.043 310.886 C 70.969 310.886 40.119 280.034 40.119 241.962 C 40.119 203.92 70.969 173.07 109.043 173.07 L 116.855 172.822 L 116.855 132.951 L 109.043 132.951 C 48.831 132.951 0 181.75 0 241.962 C 0 302.203 48.831 351.005 109.043 351.005 L 218.083 351.005 L 218.083 218.053 L 225.896 209.943 L 225.896 185.351 L 218.083 177.933 L 218.083 68.927 L 177.964 68.927 Z\" stroke-linecap=\"round\"/><path style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1; fill: rgb(100, 147, 191);\" paint-order=\"stroke\" d=\"M 218.084 0 L 109.041 0 L 109.041 282.078 L 149.16 282.078 L 149.16 40.119 L 218.084 40.119 C 256.158 40.119 287.007 70.969 287.007 109.043 C 287.007 147.085 256.158 177.932 218.084 177.932 L 218.084 218.054 C 278.293 218.054 327.127 169.252 327.127 109.043 C 327.127 48.802 278.293 0 218.084 0\" stroke-linecap=\"round\"/></svg>",
     "statusId": "alpha",
     "typeId": "context",
-    "version": "0.0.64",
+    "version": "0.0.65",
     "focuses": [
         {
             "id": "core",
@@ -314,7 +314,7 @@
             "description": {
                 "en-gb": "..."
             },
-            "logo": "<svg viewBox=\"0 0 24 24\"><!-- Icon from Ultimate free icons by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\"><path stroke-miterlimit=\"10\" d=\"M1.808 3.37a2.456 2.456 0 1 0 4.912 0a2.456 2.456 0 0 0-4.912 0Z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11.413 9.7h-.008l-4.15.024L4.211 7.27c-.029-.024-.062-.04-.093-.061a2 0 0 0-.147-.1a1.4 1.4 0 0 0-.162-.068c-.037-.01-.071-.028-.109-.042a2 2 0 0 0-.225-.045c-.021 0-.04-.01-.062-.012h-.1a1.48 1.48 0 0 0-1.2.545L2.1 7.5c-.025.03-.042.065-.064.1s-.065.09-.092.14a2 2 0 0 0-.069.165c-.014.037-.031.07-.043.109a1.5 1.5 0 0 0-.043.215c0 .025-.012.047-.014.07v.015l-.708 7.347a1.5 1.5 0 0 0 1.159 1.6l5.321 1.217l.36 3.27a1.5 1.5 0 0 0 1.659 1.33a1.5 1.5 0 0 0 1.327-1.656l-.477-4.33a1.5 1.5 0 0 0-1.157-1.3l-5.08-1.16l.321-3.278L5.788 12.4c.267.215.6.332.942.332h.009l4.683-.027a1.5 1.5 0 0 0-.009-3zm7.558-.137l-.686 4.493l-3.611.028m-2.209 2.657H22.94m-8.058 0l-.413 6.042m6.054-6.042l.413 6.042\"/></g></svg>",
+            "logo": "<svg viewBox=\"0 0 24 24\"><!-- Icon from Ultimate free icons by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\"><path stroke-miterlimit=\"10\" d=\"M1.808 3.37a2.456 2.456 0 1 0 4.912 0a2.456 2.456 0 0 0-4.912 0Z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11.413 9.7h-.008l-4.15.024L4.211 7.27c-.029-.024-.062-.04-.093-.061a2 2 0 0 0-.147-.1 1.4 1.4 0 0 0-.162-.068c-.037-.01-.071-.028-.109-.042a2 2 0 0 0-.225-.045c-.021 0-.04-.01-.062-.012h-.1a1.48 1.48 0 0 0-1.2.545L2.1 7.5c-.025",
             "order": 12,
             "statusId": "alpha",
             "typeId": "focus",

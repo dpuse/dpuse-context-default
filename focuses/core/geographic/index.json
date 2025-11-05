@@ -29,6 +29,5 @@
             "entities": [{ "id": "geo", "label": { "en-gb": "Geographical" } }]
         }
     ],
-    "secondaryMeasureGroups": [],
-    "viewGroups": []
+    "secondaryMeasureGroups": []
 }

@@ -1,11 +1,16 @@
 {
     "compilerOptions": {
         "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
         "declaration": true,
         "module": "ESNext",
         "moduleResolution": "Node",
         "noImplicitAny": true,
         "outDir": "./dist",
+        "paths": {
+            "~/*": ["*"],
+            "@/*": ["src/*"]
+        },
         "resolveJsonModule": true,
         "target": "ESNext"
     },

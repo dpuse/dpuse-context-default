@@ -1,6 +1,10 @@
+/*
+ * Default context class.
+ */
+
 // Dependencies - Framework.
-import type { Context, ContextConfig, ContextFocusConfigListResult, ContextFocusConfigListSettings } from '@datapos/datapos-shared';
-import config from '../config.json';
+import config from '~/config.json';
+import type { Context, ContextConfig, ContextListResult, ContextListSettings } from '@datapos/datapos-shared';
 
 // Classes - Default context.
 export default class DefaultContext implements Context {
@@ -10,26 +14,8 @@ export default class DefaultContext implements Context {
         this.config = config as ContextConfig;
     }
 
-    // Operations - List focuses.
-    async listFocuses(settings?: ContextFocusConfigListSettings): Promise<ContextFocusConfigListResult> {
-        return { focusConfigs: this.config.focuses };
+    // Operations - List.
+    async list(settings?: ContextListSettings): Promise<ContextListResult> {
+        return { models: this.config.models };
     }
-
-    // Operations
-    async listModels() {}
-
-    // Operations
-    async listDimensions() {}
-
-    // Operations
-    async listEntities() {}
-
-    // Operations
-    async retrieveModel() {}
-
-    // Operations
-    async retrieveDimension() {}
-
-    // Operations
-    async retrieveEntity() {}
 }

@@ -35,6 +35,5 @@
             "entities": [{ "id": "perEmp", "label": { "en-gb": "Person Employment" } }]
         }
     ],
-    "secondaryMeasureGroups": [],
-    "viewGroups": []
+    "secondaryMeasureGroups": []
 }

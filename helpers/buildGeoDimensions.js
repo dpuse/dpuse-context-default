@@ -1,7 +1,8 @@
 import fs from 'fs/promises';
 import JSZip from 'jszip';
-import kdTreeModule from 'kd-tree-javascript';
-const kdTree = kdTreeModule.kdTree;
+// import kdTreeModule from 'kd-tree-javascript';
+// const kdTree = kdTreeModule.kdTree;
+import KDBush from 'kdbush';
 
 async function buildGeographicalDimensions() {
     const timeZoneNames = Intl.supportedValuesOf('timeZone');
@@ -52,6 +53,7 @@ class GeoNamesProcessor {
         this.hierarchy = new Map();
         this.postalCodes = new Map();
         this.kdTree = null; // KD-Tree for nearest-place lookup
+        this.indexedPlaces = []; // Array to store place data corresponding to KDBush indices
     }
 
     async downloadAndExtract(urlName, url) {
@@ -115,24 +117,45 @@ class GeoNamesProcessor {
         return count;
     }
 
-    // ===== KD-Tree Build =====
+    // // ===== KD-Tree Build =====
+    // buildKdTree() {
+    //     const points = Array.from(this.places.values()).map((p) => ({
+    //         lat: p.latitude,
+    //         lng: p.longitude,
+    //         geonameId: p.geonameId,
+    //         name: p.name
+    //     }));
+    //     const distance = (a, b) => {
+    //         const R = 6371;
+    //         const dLat = ((b.lat - a.lat) * Math.PI) / 180;
+    //         const dLng = ((b.lng - a.lng) * Math.PI) / 180;
+    //         const aCalc = Math.sin(dLat / 2) ** 2 + Math.cos((a.lat * Math.PI) / 180) * Math.cos((b.lat * Math.PI) / 180) * Math.sin(dLng / 2) ** 2;
+    //         return 2 * R * Math.atan2(Math.sqrt(aCalc), Math.sqrt(1 - aCalc));
+    //     };
+    //     this.kdTree = new kdTree(points, distance, ['lat', 'lng']);
+    // }
+    // Replace buildKdTree() method:
     buildKdTree() {
-        const points = Array.from(this.places.values()).map((p) => ({
-            lat: p.latitude,
-            lng: p.longitude,
-            geonameId: p.geonameId,
-            name: p.name
-        }));
+        // Convert places to array format for KDBush
+        this.indexedPlaces = Array.from(this.places.values());
 
-        const distance = (a, b) => {
-            const R = 6371;
-            const dLat = ((b.lat - a.lat) * Math.PI) / 180;
-            const dLng = ((b.lng - a.lng) * Math.PI) / 180;
-            const aCalc = Math.sin(dLat / 2) ** 2 + Math.cos((a.lat * Math.PI) / 180) * Math.cos((b.lat * Math.PI) / 180) * Math.sin(dLng / 2) ** 2;
-            return 2 * R * Math.atan2(Math.sqrt(aCalc), Math.sqrt(1 - aCalc));
-        };
+        // Extract coordinates for KDBush
+        const lngs = [];
+        const lats = [];
 
-        this.kdTree = new kdTree(points, distance, ['lat', 'lng']);
+        for (const place of this.indexedPlaces) {
+            lngs.push(place.longitude);
+            lats.push(place.latitude);
+        }
+
+        // Build KDBush index (note: KDBush expects lng, lat order)
+        this.kdTree = new KDBush(lngs.length, 64, Uint32Array);
+
+        for (let i = 0; i < lngs.length; i++) {
+            this.kdTree.add(lngs[i], lats[i]);
+        }
+
+        this.kdTree.finish();
     }
 
     parsePostalData(text) {
@@ -160,9 +183,12 @@ class GeoNamesProcessor {
                 longitude: parseFloat(fields[10])
             };
 
-            // ===== KD-Tree nearest place lookup =====
-            const nearest = this.kdTree.nearest({ lat: postal.latitude, lng: postal.longitude }, 1);
-            postal.geonameId = nearest.length ? nearest[0][0].geonameId : null;
+            // // ===== KD-Tree nearest place lookup =====
+            // const nearest = this.kdTree.nearest({ lat: postal.latitude, lng: postal.longitude }, 1);
+            // postal.geonameId = nearest.length ? nearest[0][0].geonameId : null;
+            // New:
+            const nearestIndex = this.findNearest(postal.longitude, postal.latitude);
+            postal.geonameId = nearestIndex !== -1 ? this.indexedPlaces[nearestIndex].geonameId : null;
 
             this.postalCodes.set(postal.postalCode, postal);
             count++;
@@ -170,6 +196,29 @@ class GeoNamesProcessor {
 
         console.log(3333, count);
         return count;
+    }
+
+    // Add this new method to the class:
+    findNearest(lng, lat) {
+        const result = this.kdTree.range(lng - 1, lat - 1, lng + 1, lat + 1);
+
+        if (result.length === 0) return -1;
+
+        // Calculate distances and find nearest
+        let nearestIndex = -1;
+        let nearestDistance = Infinity;
+
+        for (const idx of result) {
+            const place = this.indexedPlaces[idx];
+            const dist = haversineDistance(lat, lng, place.latitude, place.longitude);
+
+            if (dist < nearestDistance) {
+                nearestDistance = dist;
+                nearestIndex = idx;
+            }
+        }
+
+        return nearestIndex;
     }
 
     getHierarchy(postalCode) {
@@ -217,6 +266,15 @@ class GeoNamesProcessor {
 
         return null;
     }
+}
+
+// Add this helper function (outside the class):
+function haversineDistance(lat1, lng1, lat2, lng2) {
+    const R = 6371; // Earth's radius in km
+    const dLat = ((lat2 - lat1) * Math.PI) / 180;
+    const dLng = ((lng2 - lng1) * Math.PI) / 180;
+    const a = Math.sin(dLat / 2) ** 2 + Math.cos((lat1 * Math.PI) / 180) * Math.cos((lat2 * Math.PI) / 180) * Math.sin(dLng / 2) ** 2;
+    return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
 // ===== Usage function =====

@@ -1,10 +1,14 @@
-// Dependencies - Vendor
+/**
+ * Vite configuration.
+ */
+
+// Dependencies - Vendor.
 import config from './config.json';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 import { resolve } from 'path';
 
-// Configuration
+// Exposures - Configuration.
 export default defineConfig({
     build: {
         lib: {

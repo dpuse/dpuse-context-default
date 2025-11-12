@@ -3,7 +3,7 @@
     "license": "MIT",
     "private": true,
     "type": "module",
-    "version": "0.0.94",
+    "version": "0.0.95",
     "devDependencies": {
         "@datapos/datapos-development": "^0.3.84",
         "@datapos/datapos-shared": "^0.3.207",
@@ -36,7 +36,7 @@
         "format": "prettier --write *.ts",
         "lint": "eslint src/**/*.ts",
         "release": "npm run syncWithGitHub && npm run build && npm run uploadModuleToR2 && npm run uploadModuleConfig",
-        "syncWithGitHub": "npm run bumpVersion && npm run buildConfig && node -e \"import('@datapos/datapos-development').then(m => m.syncWithGitHub())\"",
+        "sync:withGitHub": "npm run bumpVersion && npm run buildConfig && node -e \"import('@datapos/datapos-development').then(m => m.syncWithGitHub())\"",
         "test": "echo \"***** TEST SCRIPT NOT IMPLEMENTED. *****\"",
         "updateDependencies": "npm run updateDevelopment && npm run updateShared",
         "updateDevelopment": "npm install --save-dev @datapos/datapos-development@latest",

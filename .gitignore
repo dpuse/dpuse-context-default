@@ -1,4 +1,7 @@
+# Common git ignore configuration for unpublished repositories.
 dist
+dist-scripts
 node_modules
-*.local
+stats
+.env
 **/.DS_Store

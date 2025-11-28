@@ -1,6 +1,6 @@
 {
     "name": "datapos-context-default",
-    "version": "0.0.98",
+    "version": "0.0.99",
     "description": "A TypeScript library that implements the default context.",
     "license": "MIT",
     "author": "Jonathan Terrell <terrell.jm@gmail.com>",
@@ -77,8 +77,8 @@
         "_sync:withGitHub": "node -e \"import('@datapos/datapos-development').then(m => m.syncWithGitHub())\"",
         "_update:developDep": "npm install --save-dev @datapos/datapos-development@latest",
         "_upload": "npm run _upload:moduleToR2 && npm run _upload:moduleConfigToDO",
-        "_upload:moduleToR2": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleToR2('datapos-engine-eu/tools/contexts'))\"",
-        "_upload:moduleConfigToDO": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleConfig())\"",
+        "_upload:moduleConfigToDO": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleConfigToDO())\"",
+        "_upload:moduleToR2": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleToR2('datapos-engine-eu/contexts/micromadefaultrk'))\"",
         "__retrieveGeoData": "node ./helpers/retrieveGeoData.js",
         "__transformFinData": "node ./helpers/transformFinData.js",
         "__transformGeoData": "node ./helpers/transformGeoData.js",

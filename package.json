@@ -1,12 +1,35 @@
 {
     "name": "datapos-context-default",
+    "version": "0.0.97",
+    "description": "A TypeScript library that implements the default context.",
     "license": "MIT",
-    "private": true,
+    "author": "Jonathan Terrell <terrell.jm@gmail.com>",
+    "private": false,
     "type": "module",
-    "version": "0.0.96",
+    "homepage": "https://www.datapos.app",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/data-positioning/datapos-context-default.git"
+    },
+    "bugs": {
+        "url": "https://github.com/data-positioning/datapos-context-default/issues"
+    },
+    "module": "./dist/datapos-context-default.es.js",
+    "types": "./dist/types/src/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/datapos-context-default.es.js",
+            "types": "./dist/types/src/index.d.ts"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@datapos/datapos-shared": "^0.3.252"
+    },
     "devDependencies": {
         "@datapos/datapos-development": "^0.3.84",
-        "@datapos/datapos-shared": "^0.3.207",
         "@types/node": "^24.10.1",
         "@typescript-eslint/eslint-plugin": "^8.46.4",
         "@typescript-eslint/parser": "^8.46.4",
@@ -18,35 +41,48 @@
         "kdbush": "^4.0.2",
         "license-report": "^6.8.1",
         "license-report-check": "^0.1.2",
+        "license-report-recursive": "^6.8.2",
         "nanoid": "^5.1.6",
         "npm-check-updates": "^19.1.2",
+        "owasp-dependency-check": "^1.0.0",
         "prettier": "^3.6.2",
-        "retire": "^5.3.0",
+        "rollup-plugin-visualizer": "^6.0.5",
         "typescript": "^5.9.3",
         "vite": "^7.2.2",
         "vite-plugin-dts": "^4.5.4"
     },
     "scripts": {
-        "audit": "npm audit",
+        "audit": "npm run _audit:vulnerabilities && npm audit",
         "build": "vite build",
-        "buildConfig": "node -e \"import('@datapos/datapos-development').then(m => m.buildConfig())\"",
-        "bumpVersion": "node -e \"import('@datapos/datapos-development').then(m => m.bumpVersion())\"",
-        "check": "npm outdated; npm-check-updates -i && retire",
-        "document": "license-report --only=prod,peer > LICENSES.json && license-report-check --source ./LICENSES.json --allowed 'MIT' --allowed 'n/a' --allowed 'Apache-2.0' --output=table",
+        "check": "npm outdated; npm-check-updates -i",
+        "document": "npm run _document:licenceReportJSON && npm run _document:licenceReportMarkdown && npm run _document:licenceReportCheck && npm run _document:insertLicensesIntoReadme && npm run _document:licenceTree && npm run _document:licenceTreeCheck",
         "format": "prettier --write *.ts",
         "lint": "eslint src/**/*.ts",
-        "release": "npm run syncWithGitHub && npm run build && npm run uploadModuleToR2 && npm run uploadModuleConfig",
-        "sync:withGitHub": "npm run bumpVersion && npm run buildConfig && node -e \"import('@datapos/datapos-development').then(m => m.syncWithGitHub())\"",
-        "test": "echo \"***** TEST SCRIPT NOT IMPLEMENTED. *****\"",
-        "updateDependencies": "npm run updateDevelopment && npm run updateShared",
-        "updateDevelopment": "npm install --save-dev @datapos/datapos-development@latest",
-        "updateShared": "npm install @datapos/datapos-shared@latest",
-        "uploadModuleConfig": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleConfig())\"",
-        "uploadModuleToR2": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleToR2('datapos-context-default.es.js', 'datapos-engine-eu/contexts/datapos-context-default.es.js'))\"",
-        "retrieveGeoData": "node ./helpers/retrieveGeoData.js",
-        "transformFinData": "node ./helpers/transformFinData.js",
-        "transformGeoData": "node ./helpers/transformGeoData.js",
-        "transformPerData": "node ./helpers/transformPerData.js",
-        "buildGeoDimensions": "node ./helpers/buildGeoDimensions.js"
+        "publish:toNPM": "npm publish --access public",
+        "release": "npm run _bump:version && npm run _build:config && npm run build && npm run _sync:withGitHub && npm run _upload && npm run publish:toNPM",
+        "sync": "npm run _bump:version && npm run _sync:withGitHub",
+        "test": "node -e \"import('@datapos/datapos-development').then(m => m.echoScriptNotImplemented('Test'))\"",
+        "update:dataPosDeps": "npm run _update:developDep",
+        "_audit:vulnerabilities": "npm run _audit:owaspDependencyCheck; npm run _audit:owaspBageInsertiions",
+        "_audit:owaspDependencyCheck": "set -a && source .env && set +a && owasp-dependency-check --project \"@datapos/datapos-tool-micromark\" --nvdApiKey \"$NVD_API_KEY\" --nodePackageSkipDevDependencies --enableRetired",
+        "_audit:owaspBageInsertiions": "node -e \"import('@datapos/datapos-development').then(m => m.insertOWASPDependencyCheckBadgeIntoReadme())\"",
+        "_build:config": "node -e \"import('@datapos/datapos-development').then(m => m.buildConfig())\"",
+        "_bump:version": "node -e \"import('@datapos/datapos-development').then(m => m.bumpVersion())\"",
+        "_document:licenceReportJSON": "license-report --only=prod,peer --department.value=n/a --licensePeriod=n/a --material=n/a --relatedTo.value=n/a > licenses.json",
+        "_document:licenceReportMarkdown": "license-report --config license-report-config.json --only=prod,peer --output=markdown > licenses.md",
+        "_document:licenceReportCheck": "license-report-check --source ./licenses.json --allowed 'MIT' --allowed 'CC0-1.0' --output=table",
+        "_document:licenceTree": "license-report-recursive --only=prod,peer --recurse --output=tree > licenseTree.json",
+        "_document:licenceTreeCheck": "license-report-check --source ./licenseTree.json --allowed 'MIT' --allowed 'CC0-1.0' --output=table",
+        "_document:insertLicensesIntoReadme": "node -e \"import('@datapos/datapos-development').then(m => m.insertLicensesIntoReadme())\"",
+        "_sync:withGitHub": "node -e \"import('@datapos/datapos-development').then(m => m.syncWithGitHub())\"",
+        "_update:developDep": "npm install --save-dev @datapos/datapos-development@latest",
+        "_upload": "npm run _upload:moduleToR2 && npm run _upload:moduleConfigToDO",
+        "_upload:moduleToR2": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleToR2('datapos-engine-eu/tools/contexts'))\"",
+        "_upload:moduleConfigToDO": "node -e \"import('@datapos/datapos-development').then(m => m.uploadModuleConfig())\"",
+        "__retrieveGeoData": "node ./helpers/retrieveGeoData.js",
+        "__transformFinData": "node ./helpers/transformFinData.js",
+        "__transformGeoData": "node ./helpers/transformGeoData.js",
+        "__transformPerData": "node ./helpers/transformPerData.js",
+        "__buildGeoDimensions": "node ./helpers/buildGeoDimensions.js"
     }
 }

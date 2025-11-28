@@ -1,6 +1,6 @@
 {
     "name": "datapos-context-default",
-    "version": "0.0.99",
+    "version": "0.0.100",
     "description": "A TypeScript library that implements the default context.",
     "license": "MIT",
     "author": "Jonathan Terrell <terrell.jm@gmail.com>",

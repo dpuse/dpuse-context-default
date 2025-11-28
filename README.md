@@ -1,6 +1,6 @@
 # Data Positioning Default Context
 
-<span><!-- OWASP_BADGE_START -->[![OWASP](https://img.shields.io/badge/OWASP-passed-4CAF50)](https://data-positioning.github.io/datapos-tool-micromark/dependency-check-reports/dependency-check-report.html)<!-- OWASP_BADGE_END --></span>
+<span><!-- OWASP_BADGE_START -->[![OWASP](https://img.shields.io/badge/OWASP-passed-4CAF50)](https://data-positioning.github.io/datapos-context-default/dependency-check-reports/dependency-check-report.html)<!-- OWASP_BADGE_END --></span>
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
 A TypeScript library that implements the default context.
@@ -22,13 +22,9 @@ The OWASP Dependency Check Report identifies known vulnerabilities in project de
 The following table lists top-level production and peer dependencies. All these dependencies (including transitive ones) have been recursively verified to use Apache-2.0, CC0-1.0, or MIT—commercially friendly licenses with minimal restrictions. Developers cloning this repository should independently verify dev and optional dependencies; users of the uploaded library are covered by these checks.
 
 <!-- DEPENDENCY_LICENSES_START -->
-
-| Name                          |  Type   | Installed | Latest | Latest Modified          |
-| :---------------------------- | :-----: | :-------: | :----: | :----------------------- |
-| @speed-highlight/core         | CC0-1.0 |  1.2.12   | 1.2.12 | 2025-11-03T17:41:39.642Z |
-| micromark                     |   MIT   |   4.0.2   | 4.0.2  | 2025-02-27T14:04:03.783Z |
-| micromark-extension-gfm-table |   MIT   |   2.1.1   | 2.1.1  | 2025-01-20T12:24:29.697Z |
-
+| Name                    | Type | Installed | Latest  | Latest Modified          |
+| :---------------------- | :--: | :-------: | :-----: | :----------------------- |
+| @datapos/datapos-shared | MIT  |  0.3.252  | 0.3.252 | 2025-11-25T16:48:28.532Z |
 <!-- DEPENDENCY_LICENSES_END -->
 
 **Installed dependencies are kept up-to-date with latest releases.**

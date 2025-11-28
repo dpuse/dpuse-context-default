@@ -1,6 +1,6 @@
 {
     "name": "datapos-context-default",
-    "version": "0.0.101",
+    "version": "0.0.102",
     "description": "A TypeScript library that implements the default context.",
     "license": "MIT",
     "author": "Jonathan Terrell <terrell.jm@gmail.com>",
@@ -29,10 +29,10 @@
         "@datapos/datapos-shared": "^0.3.252"
     },
     "devDependencies": {
-        "@datapos/datapos-development": "^0.3.84",
+        "@datapos/datapos-development": "^0.3.135",
         "@types/node": "^24.10.1",
-        "@typescript-eslint/eslint-plugin": "^8.46.4",
-        "@typescript-eslint/parser": "^8.46.4",
+        "@typescript-eslint/eslint-plugin": "^8.48.0",
+        "@typescript-eslint/parser": "^8.48.0",
         "dotenv": "^17.2.3",
         "eslint": "^9.39.1",
         "eslint-plugin-import": "^2.32.0",
@@ -45,10 +45,10 @@
         "nanoid": "^5.1.6",
         "npm-check-updates": "^19.1.2",
         "owasp-dependency-check": "^1.0.0",
-        "prettier": "^3.6.2",
+        "prettier": "^3.7.1",
         "rollup-plugin-visualizer": "^6.0.5",
         "typescript": "^5.9.3",
-        "vite": "^7.2.2",
+        "vite": "^7.2.4",
         "vite-plugin-dts": "^4.5.4"
     },
     "scripts": {
@@ -70,9 +70,9 @@
         "_bump:version": "node -e \"import('@datapos/datapos-development').then(m => m.bumpVersion())\"",
         "_document:licenceReportJSON": "license-report --only=prod,peer --department.value=n/a --licensePeriod=n/a --material=n/a --relatedTo.value=n/a > licenses.json",
         "_document:licenceReportMarkdown": "license-report --config license-report-config.json --only=prod,peer --output=markdown > licenses.md",
-        "_document:licenceReportCheck": "license-report-check --source ./licenses.json --allowed 'MIT' --allowed 'CC0-1.0' --output=table",
+        "_document:licenceReportCheck": "license-report-check --source ./licenses.json --allowed 'MIT' --output=table",
         "_document:licenceTree": "license-report-recursive --only=prod,peer --recurse --output=tree > licenseTree.json",
-        "_document:licenceTreeCheck": "license-report-check --source ./licenseTree.json --allowed 'MIT' --allowed 'CC0-1.0' --output=table",
+        "_document:licenceTreeCheck": "license-report-check --source ./licenseTree.json --allowed 'MIT' --output=table",
         "_document:insertLicensesIntoReadme": "node -e \"import('@datapos/datapos-development').then(m => m.insertLicensesIntoReadme())\"",
         "_sync:withGitHub": "node -e \"import('@datapos/datapos-development').then(m => m.syncWithGitHub())\"",
         "_update:developDep": "npm install --save-dev @datapos/datapos-development@latest",

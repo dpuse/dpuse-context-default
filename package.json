@@ -1,6 +1,6 @@
 {
     "name": "@dpuse/dpuse-context-default",
-    "version": "0.0.108",
+    "version": "0.0.117",
     "description": "A TypeScript library that implements the default context.",
     "license": "MIT",
     "author": "Jonathan Terrell <terrell.jm@gmail.com>",

@@ -1,7 +1,9 @@
 # Data Positioning Default Context
 
-<span><!-- OWASP_BADGE_START -->[![OWASP](https://img.shields.io/badge/OWASP-passed-4CAF50)](https://data-positioning.github.io/datapos-context-default/dependency-check-reports/dependency-check-report.html)<!-- OWASP_BADGE_END --></span>
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+<span><!-- OWASP_BADGES_START -->
+[![OWASP](https://img.shields.io/badge/OWASP-passed-4CAF50)](https://dpuse.github.io/dpuse-context-default/dependency-check-reports/dependency-check-report.html)
+<!-- OWASP_BADGES_END --></span>
 
 A TypeScript library that implements the default context.
 
@@ -15,16 +17,17 @@ There’s no need to install this context manually. Once released, it’s upload
 
 The OWASP Dependency Check Report identifies known vulnerabilities in project dependencies. It is generated automatically on each release using the npm package `owasp-dependency-check`. We also rely on GitHub Dependabot to continuously check for vulnerabilities across all dependencies.
 
-[View the OWASP Dependency Check Report](https://data-positioning.github.io/datapos-context-default/dependency-check-reports/dependency-check-report.html)
+[View the OWASP Dependency Check Report](https://data-positioning.github.io/dpuse-context-default/dependency-check-reports/dependency-check-report.html)
 
 ### Dependency Licenses
 
 The following table lists top-level production and peer dependencies. All these dependencies (including transitive ones) have been recursively verified to use Apache-2.0, CC0-1.0, or MIT—commercially friendly licenses with minimal restrictions. Developers cloning this repository should independently verify dev and optional dependencies; users of the uploaded library are covered by these checks.
 
 <!-- DEPENDENCY_LICENSES_START -->
-| Name                    | Type | Installed | Latest  | Latest Modified          |
-| :---------------------- | :--: | :-------: | :-----: | :----------------------- |
-| @datapos/datapos-shared | MIT  |  0.3.252  | 0.3.252 | 2025-11-25T16:48:28.532Z |
+|Name|Type|Installed|Latest|Latest Released|Deps|Document|
+|:-|:-|:-:|:-:|:-|-:|:-|
+|@dpuse/dpuse-shared|MIT|0.3.595|0.3.595|this month: 2026-03-23|0|[LICENSE](https://raw.githubusercontent.com/dpuse/dpuse-shared/main/LICENSE)|
+
 <!-- DEPENDENCY_LICENSES_END -->
 
 **Installed dependencies are kept up-to-date with latest releases.**
@@ -33,7 +36,7 @@ The following table lists top-level production and peer dependencies. All these 
 
 The Bundle Analysis Report provides a detailed breakdown of the bundle's composition and module sizes, helping to identify which modules contribute most to the final build. It is generated automatically on each release using the npm package `rollup-plugin-visualizer`.
 
-[View the Bundle Analysis Report](https://data-positioning.github.io/datapos-context-default/stats/index.html)
+[View the Bundle Analysis Report](https://data-positioning.github.io/dpuse-context-default/stats/index.html)
 
 ## Repository Management Commands
 

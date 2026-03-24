@@ -1,4 +1,4 @@
-import { Context, ContextConfig, ContextListResult, ContextListSettings } from '@datapos/datapos-shared';
+import { Context, ContextConfig, ContextListResult, ContextListSettings } from '@dpuse/dpuse-shared';
 export default class DefaultContext implements Context {
     readonly config: ContextConfig;
     constructor();

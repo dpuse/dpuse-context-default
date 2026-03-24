@@ -4,7 +4,7 @@
 
 // Dependencies - Framework.
 import config from '~/config.json';
-import type { Context, ContextConfig, ContextListResult, ContextListSettings } from '@datapos/datapos-shared';
+import type { Context, ContextConfig, ContextListResult, ContextListSettings } from '@dpuse/dpuse-shared';
 
 // Classes - Default context.
 export default class DefaultContext implements Context {

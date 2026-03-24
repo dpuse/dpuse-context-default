@@ -6,14 +6,14 @@
 import config from './config.json';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
-import { resolve } from 'path';
+import { fileURLToPath, URL } from 'node:url';
 
 // Exposures - Configuration.
 export default defineConfig({
     build: {
         lib: {
-            entry: resolve('src/index.ts'),
-            name: 'DataPosDefaultContext',
+            entry: fileURLToPath(new URL('src/index.ts', import.meta.url)),
+            name: 'DPUseDefaultContext',
             formats: ['es'],
             fileName: (format: string) => `${config.id}.${format}.js`
         },
@@ -24,6 +24,9 @@ export default defineConfig({
     },
     plugins: [dts({ outDir: 'dist/types' })],
     resolve: {
-        alias: { '~': resolve(__dirname, '.'), '@': resolve(__dirname, 'src') }
+        alias: {
+            '~': fileURLToPath(new URL('./', import.meta.url)),
+            '@': fileURLToPath(new URL('src', import.meta.url))
+        }
     }
 });

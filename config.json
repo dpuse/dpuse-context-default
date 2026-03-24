@@ -32,25 +32,33 @@
                     "id": "asset",
                     "label": {
                         "en-gb": "Asset"
-                    }
+                    },
+                    "icon": null,
+                    "iconDark": null
                 },
                 {
                     "id": "location",
                     "label": {
                         "en-gb": "Location"
-                    }
+                    },
+                    "icon": null,
+                    "iconDark": null
                 },
                 {
                     "id": "party",
                     "label": {
                         "en-gb": "Party"
-                    }
+                    },
+                    "icon": null,
+                    "iconDark": null
                 },
                 {
                     "id": "product",
                     "label": {
                         "en-gb": "Product"
-                    }
+                    },
+                    "icon": null,
+                    "iconDark": null
                 }
             ]
         },
@@ -73,6 +81,8 @@
                     "label": {
                         "en-gb": "Global Data"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]
@@ -96,6 +106,8 @@
                     "label": {
                         "en-gb": "Industry Data"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]
@@ -119,6 +131,8 @@
                     "label": {
                         "en-gb": "Accounting & Budgeting"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]
@@ -142,6 +156,8 @@
                     "label": {
                         "en-gb": "Customer Service"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]
@@ -165,6 +181,8 @@
                     "label": {
                         "en-gb": "Workforce"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 },
                 {
@@ -172,6 +190,8 @@
                     "label": {
                         "en-gb": "Recruitment & Onboarding"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 2
                 },
                 {
@@ -179,6 +199,8 @@
                     "label": {
                         "en-gb": "Learning"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 3
                 },
                 {
@@ -186,6 +208,8 @@
                     "label": {
                         "en-gb": "Talent Management (Performance)"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 4
                 },
                 {
@@ -193,6 +217,8 @@
                     "label": {
                         "en-gb": "Attendance"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 5
                 },
                 {
@@ -200,6 +226,8 @@
                     "label": {
                         "en-gb": "Compensation"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 6
                 }
             ]
@@ -223,6 +251,8 @@
                     "label": {
                         "en-gb": "Information Management"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]
@@ -246,6 +276,8 @@
                     "label": {
                         "en-gb": "Inventory Management"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]
@@ -269,6 +301,8 @@
                     "label": {
                         "en-gb": "Order Management"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]
@@ -292,6 +326,8 @@
                     "label": {
                         "en-gb": "Research & Development"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]
@@ -315,6 +351,8 @@
                     "label": {
                         "en-gb": "Sales Management"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]
@@ -338,6 +376,8 @@
                     "label": {
                         "en-gb": "Shipping"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]
@@ -361,6 +401,8 @@
                     "label": {
                         "en-gb": "Social Networking"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]
@@ -384,6 +426,8 @@
                     "label": {
                         "en-gb": "Work Effort"
                     },
+                    "icon": null,
+                    "iconDark": null,
                     "order": 1
                 }
             ]

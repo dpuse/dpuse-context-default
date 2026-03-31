@@ -1,6 +1,6 @@
 {
     "name": "@dpuse/dpuse-context-default",
-    "version": "0.0.118",
+    "version": "0.0.119",
     "description": "A TypeScript library that implements the default context.",
     "license": "MIT",
     "author": "Jonathan Terrell <terrell.jm@gmail.com>",
@@ -26,10 +26,10 @@
         "dist"
     ],
     "dependencies": {
-        "@dpuse/dpuse-shared": "^0.3.595"
+        "@dpuse/dpuse-shared": "^0.3.602"
     },
     "devDependencies": {
-        "@dpuse/dpuse-development": "^0.3.486",
+        "@dpuse/dpuse-development": "^0.3.489",
         "@dpuse/eslint-config-dpuse": "^1.0.55",
         "@types/node": "^25.5.0",
         "@typescript-eslint/eslint-plugin": "^8.57.2",
@@ -49,14 +49,14 @@
         "license-report-check": "^0.1.2",
         "license-report-recursive": "^6.8.3",
         "nanoid": "^5.1.7",
-        "npm-check-updates": "^19.6.5",
+        "npm-check-updates": "^19.6.6",
         "owasp-dependency-check": "^1.0.1",
         "prettier": "^3.8.1",
         "rollup-plugin-visualizer": "^7.0.1",
         "typescript": "^5.9.3",
-        "vite": "^8.0.2",
+        "vite": "^8.0.3",
         "vite-plugin-dts": "^4.5.4",
-        "vitest": "^4.1.1"
+        "vitest": "^4.1.2"
     },
     "scripts": {
         "audit": "op run --env-file=.env -- node -e \"import('@dpuse/dpuse-development').then(m => m.auditDependencies())\"",

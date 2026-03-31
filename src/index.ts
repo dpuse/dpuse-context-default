@@ -1,12 +1,11 @@
-/*
- * Default context class.
- */
-
 // Dependencies - Framework.
-import config from '~/config.json';
-import type { Context, ContextConfig, ContextListResult, ContextListSettings } from '@dpuse/dpuse-shared';
+import type { Context, ContextConfig, ContextListOptions, ContextListResult } from '@dpuse/dpuse-shared';
 
-// Classes - Default context.
+// Context Core
+import config from '~/config.json';
+
+// Default Context Class ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 export default class DefaultContext implements Context {
     readonly config: ContextConfig;
 
@@ -15,7 +14,8 @@ export default class DefaultContext implements Context {
     }
 
     // Operations - List.
-    async list(settings?: ContextListSettings): Promise<ContextListResult> {
+    // eslint-disable-next-line @typescript-eslint/require-await
+    async listContextFocuses(options?: ContextListOptions): Promise<ContextListResult> {
         return { models: this.config.models };
     }
 }

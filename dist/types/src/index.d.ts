@@ -1,6 +1,6 @@
-import { Context, ContextConfig, ContextListResult, ContextListSettings } from '@dpuse/dpuse-shared';
+import { Context, ContextConfig, ContextListOptions, ContextListResult } from '@dpuse/dpuse-shared';
 export default class DefaultContext implements Context {
     readonly config: ContextConfig;
     constructor();
-    list(settings?: ContextListSettings): Promise<ContextListResult>;
+    listContextFocuses(options?: ContextListOptions): Promise<ContextListResult>;
 }

@@ -388,7 +388,7 @@ var e = {
 	constructor() {
 		this.config = e;
 	}
-	async list(e) {
+	async listContextFocuses(e) {
 		return { models: this.config.models };
 	}
 };

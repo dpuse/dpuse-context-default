@@ -1,6 +1,6 @@
-import { Context, ContextConfig, ContextListOptions, ContextListResult } from '@dpuse/dpuse-shared';
-export default class DefaultContext implements Context {
+import { ContextConfig, ContextInterface, ListContextOptions, ListContextResult } from '@dpuse/dpuse-shared/component/module/context';
+export default class DefaultContext implements ContextInterface {
     readonly config: ContextConfig;
     constructor();
-    listContextFocuses(options?: ContextListOptions): Promise<ContextListResult>;
+    listContextFocuses(context: ContextInterface, options?: ListContextOptions): Promise<ListContextResult>;
 }

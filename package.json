@@ -1,6 +1,6 @@
 {
     "name": "@dpuse/dpuse-context-default",
-    "version": "0.0.123",
+    "version": "0.0.127",
     "description": "A TypeScript library that implements the default context.",
     "license": "MIT",
     "author": "Jonathan Terrell <terrell.jm@gmail.com>",
@@ -26,14 +26,14 @@
         "dist"
     ],
     "dependencies": {
-        "@dpuse/dpuse-shared": "^0.3.637"
+        "@dpuse/dpuse-shared": "^0.3.639"
     },
     "devDependencies": {
-        "@dpuse/dpuse-development": "^0.3.491",
+        "@dpuse/dpuse-development": "^0.3.495",
         "@dpuse/eslint-config-dpuse": "^1.0.55",
         "@types/node": "^25.6.0",
-        "@typescript-eslint/eslint-plugin": "^8.58.2",
-        "@typescript-eslint/parser": "^8.58.2",
+        "@typescript-eslint/eslint-plugin": "^8.59.0",
+        "@typescript-eslint/parser": "^8.59.0",
         "dotenv": "^17.4.2",
         "eslint": "^9.39.4",
         "eslint-import-resolver-typescript": "^4.4.4",
@@ -49,7 +49,7 @@
         "license-report-check": "^1.0.0",
         "license-report-recursive": "^6.8.4",
         "nanoid": "^5.1.9",
-        "npm-check-updates": "^21.0.2",
+        "npm-check-updates": "^21.0.3",
         "owasp-dependency-check": "^1.0.1",
         "prettier": "^3.8.3",
         "rollup-plugin-visualizer": "^7.0.1",

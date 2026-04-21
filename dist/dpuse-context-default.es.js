@@ -10,7 +10,7 @@ var e = {
 	status: null,
 	statusId: "alpha",
 	typeId: "context",
-	version: "0.0.123",
+	version: "0.0.127",
 	models: [
 		{
 			id: "core",
